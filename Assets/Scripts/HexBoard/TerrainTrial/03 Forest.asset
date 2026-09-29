@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0070659dd850054c80fcb8147e7365f, type: 3}
+  m_Name: 03 Forest
+  m_EditorClassIdentifier: Assembly-CSharp::Dungeon.HexBoard.HexTerrainDefinition
+  surfaceMaterial: {fileID: 2100000, guid: cc58fff428a373341a2af26cbfd3886a, type: 2}
+  decoration: {fileID: 21300000, guid: 55dd9dfd7a4a645459ea3d581850ff00, type: 3}
+  decorationCount: 3
+  decorationScale: 1
