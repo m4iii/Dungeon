@@ -159,7 +159,7 @@ namespace Dungeon.Core
                     if (room.Count == size) break;
                 }
                 if (best == null || best.Count < Math.Min(settings.MinRoomSize, target - selected.Count))
-                    throw new ArgumentException("范围内无法容纳更多分支房间。请扩大宽高、减少最低格数或减小房间最小尺寸。");
+                    throw new MapLayoutCapacityException($"房间布局卡住：已放 {selected.Count}/{target} 格，当前最大候选房间 {best?.Count ?? 0} 格，要求至少 {Math.Min(settings.MinRoomSize, target - selected.Count)} 格。");
                 gateways.Add(best[0]);
                 foreach (var position in best) { selected.Add(position); rooms.Add(position, roomId); }
                 roomId++;

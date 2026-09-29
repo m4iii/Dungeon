@@ -15,8 +15,6 @@ MonoBehaviour:
   theme: {fileID: 11400000, guid: c3d103c6d296dca40aa4d0193b9c47eb, type: 2}
   mapId: debug-map
   grid: 0
-  width: 24
-  height: 20
   entrance: {x: 12, y: 2}
   irregularShape: 1
   cellCount: 60

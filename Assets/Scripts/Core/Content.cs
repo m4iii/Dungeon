@@ -57,14 +57,16 @@ namespace Dungeon.Core
         public MapShapeDefinition Shape { get; }
         public TerrainGenerationDefinition Terrain { get; }
         public RoadRoomDefinition RoadRooms { get; }
+        public bool AutomaticArea { get; }
         public MapGenerationDefinition(string id, IEnumerable<CellPosition> positions, CellPosition entrance, IEnumerable<CellDefinition> fixedCells,
             WeightedPool<CellTemplate> pool, bool bossGate = true, double restRatio = 1, MapShapeDefinition shape = null, TerrainGenerationDefinition terrain = null,
-            RoadRoomDefinition roadRooms = null)
+            RoadRoomDefinition roadRooms = null, bool automaticArea = false)
         {
             Id = Data.Id(id); Positions = Data.List(positions); Entrance = entrance; FixedCells = Data.List(fixedCells); Pool = pool ?? throw new ArgumentNullException(nameof(pool)); BossGate = bossGate;
             Shape = shape;
             Terrain = terrain;
             RoadRooms = roadRooms;
+            AutomaticArea = automaticArea;
             if (roadRooms != null && shape == null) throw new ArgumentException("主路房间模式需要形状配置。");
             if (Data.Finite(restRatio) < 0 || restRatio > 1) throw new ArgumentOutOfRangeException(nameof(restRatio)); RestRatio = restRatio;
             if (Positions.Count == 0 || Positions.Distinct().Count() != Positions.Count || !Positions.Contains(entrance) ||
@@ -75,6 +77,23 @@ namespace Dungeon.Core
     {
         public static MapDefinition Generate(MapGenerationDefinition definition, IMapTopology topology, IRandomSource random)
         {
+            if (definition.AutomaticArea && definition.Shape != null)
+            {
+                // Retry only spatial exhaustion, with the same local seed and unchanged authored requirements.
+                uint seed = (uint)random.Next(int.MaxValue) + 1;
+                string failure = "";
+                for (int expansion = 0; expansion < 3; expansion++)
+                {
+                    var positions = expansion == 0 ? definition.Positions : AutomaticMapArea.Create(
+                        definition.Shape.CellCount, definition.Entrance, definition.FixedCells, definition.RoadRooms, expansion);
+                    var attempt = new MapGenerationDefinition(definition.Id, positions, definition.Entrance,
+                        definition.FixedCells, definition.Pool, definition.BossGate, definition.RestRatio,
+                        definition.Shape, definition.Terrain, definition.RoadRooms);
+                    try { return Generate(attempt, topology, new SeededRandom(seed)); }
+                    catch (MapLayoutCapacityException exception) { failure = exception.Message; }
+                }
+                throw new ArgumentException("自动扩展空间后仍未找到合法布局。" + failure + " 请检查房间尺寸、固定障碍及入口配置。");
+            }
             if (definition.Shape != null)
             {
                 var shaped = definition.RoadRooms == null ? ConnectedMapGenerator.Generate(definition, topology, random) : RoadRoomMapGenerator.Generate(definition, topology, random);

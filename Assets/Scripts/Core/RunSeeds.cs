@@ -5,7 +5,7 @@ namespace Dungeon.Core
     /// <summary>Stable seed derivation. Never read a clock or consume the gameplay random stream here.</summary>
     public static class RunSeeds
     {
-        public const int MapGenerationVersion = 3;
+        public const int MapGenerationVersion = 4;
         public static MapDefinition GenerateRegion(uint runSeed, MapGenerationDefinition definition, int regionIndex, IMapTopology topology)
         {
             if (definition == null) throw new ArgumentNullException(nameof(definition));

@@ -77,15 +77,14 @@ namespace Dungeon.MapDebug
     public sealed class MapDebugPreset : ScriptableObject
     {
         [InspectorName("地图主题")] public MapTheme theme;
-        [Header("可探索区域范围（外围阻挡圈可超出一格；六边形使用 q/r）")]
+        [Header("地图设置（空间根据格数自动分配；六边形使用 q/r）")]
         public string mapId = "debug-map";
         public DebugGrid grid = DebugGrid.Hex;
-        [Range(2, 64)] public int width = 24;
-        [Range(2, 64)] public int height = 20;
         public Vector2Int entrance = new Vector2Int(12, 2);
         [Header("随机形状")]
         [InspectorName("不规则连通地图")] public bool irregularShape = true;
-        [Min(2), InspectorName("可通行格数（房间模式为最低值）")] public int cellCount = 60;
+        [Min(2), InspectorName("地图格数（房间模式为最低可通行数）"), Tooltip("生成空间自动分配。房间模式为最低可通行数；旧扩展模式为可通行数；完整网格模式为总格数。外围阻挡圈另计。")]
+        public int cellCount = 60;
         [Range(0, 1), InspectorName("紧凑度（旧扩展模式）"), Tooltip("仅用于关闭主路房间模式后的连通扩展。")]
         public float compactness = .2f;
         [Range(0, 1), InspectorName("分支倾向"), Tooltip("房间模式：低值优先沿主路开房间，高值也从已有房间扩展分支。")]
@@ -111,7 +110,7 @@ namespace Dungeon.MapDebug
         [Min(0)] public int forestWeight = 3;
         [Tooltip("可选的地形图片覆盖；留空时使用 Assets/Arts 中的同系列样包。图片使用原包的 256×384 布局。")]
         public DebugTerrainVisual[] terrainVisuals = Array.Empty<DebugTerrainVisual>();
-        [Tooltip("房间模式先确定主路出口；旧扩展模式选择最远格；完整网格选择右上角。自定义出口时关闭此项。")]
+        [Tooltip("房间模式先确定主路出口；其他模式选择远端格子。自定义出口时关闭此项。")]
         public bool placeExit = true;
         public bool requireBossForExit;
         [Range(0, 1)] public float restRatio = 1;
@@ -135,20 +134,12 @@ namespace Dungeon.MapDebug
         public MapGenerationDefinition ToCore()
         {
             if (!Enum.IsDefined(typeof(DebugGrid), grid)) throw new ArgumentException("未知网格类型。");
-            if (width < 2 || height < 2 || width > 64 || height > 64) throw new ArgumentException("宽和高必须在 2～64 之间。");
-            var positions = new List<CellPosition>(width * height);
-            for (int r = 0; r < height; r++) for (int q = 0; q < width; q++) positions.Add(new CellPosition(q, r));
+            if (cellCount < 2) throw new ArgumentException("地图格数至少为 2。");
             var fixedDefinitions = new List<CellDefinition>();
             foreach (var cell in fixedCells ?? Array.Empty<DebugFixedCell>())
             {
                 if (cell?.content == null) throw new ArgumentException("固定地块不能留空。");
                 fixedDefinitions.Add(cell.content.ToCore().At(new CellPosition(cell.position.x, cell.position.y)));
-            }
-            if (placeExit && !irregularShape)
-            {
-                var exit = new CellPosition(width - 1, height - 1);
-                if (fixedDefinitions.Any(x => x.Position.Equals(exit))) throw new ArgumentException("自动出口与固定地块位置重复，请关闭自动出口或调整固定地块。");
-                fixedDefinitions.Add(new CellDefinition(exit, CellKind.Exit));
             }
             var weighted = new List<WeightedEntry<CellTemplate>>();
             foreach (var entry in pool ?? Array.Empty<DebugWeightedCell>())
@@ -190,11 +181,23 @@ namespace Dungeon.MapDebug
                     if (entry.content == null) throw new ArgumentException("必放内容缺少地块配置。");
                     required.Add(new RequiredMapContent(entry.content.ToCore(), entry.count));
                 }
-            return new MapGenerationDefinition(mapId, positions, new CellPosition(entrance.x, entrance.y), fixedDefinitions,
+            var origin = new CellPosition(entrance.x, entrance.y);
+            var rooms = irregularShape && roadRoomLayout ? new RoadRoomDefinition(mainRoadLength, exitCount, minRoomSize, maxRoomSize, emptyRatio, required) : null;
+            var positions = irregularShape ? AutomaticMapArea.Create(cellCount, origin, fixedDefinitions, rooms)
+                : AutomaticMapArea.Compact(cellCount, origin, fixedDefinitions, CreateTopology());
+            if (placeExit && !irregularShape)
+            {
+                var occupied = new HashSet<CellPosition>(fixedDefinitions.Select(c => c.Position)) { origin };
+                var available = positions.Where(p => !occupied.Contains(p)).ToList();
+                if (available.Count == 0) throw new ArgumentException("没有空位放置自动出口，请增加格数或减少固定地块。");
+                var exit = available.OrderByDescending(p => Math.Abs((long)p.X-origin.X) + Math.Abs((long)p.Y-origin.Y)).First();
+                fixedDefinitions.Add(new CellDefinition(exit, CellKind.Exit));
+            }
+            return new MapGenerationDefinition(mapId, positions, origin, fixedDefinitions,
                 new WeightedPool<CellTemplate>(weighted), requireBossForExit, restRatio,
                 irregularShape ? new MapShapeDefinition(cellCount, compactness, branchChance, placeExit) : null,
                 theme != null ? theme.ToCore() : generateTerrain ? new TerrainGenerationDefinition(waterChance, terrainPatchSize, new WeightedPool<TerrainKind>(land), shallowShores) : null,
-                irregularShape && roadRoomLayout ? new RoadRoomDefinition(mainRoadLength, exitCount, minRoomSize, maxRoomSize, emptyRatio, required) : null);
+                rooms, automaticArea: irregularShape);
         }
     }
 }

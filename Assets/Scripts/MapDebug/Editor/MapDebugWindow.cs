@@ -173,7 +173,7 @@ namespace Dungeon.MapDebug.Editor
             }
             catch (Exception exception)
             {
-                error = "生成失败：" + exception.Message + "\n请检查生成范围、目标格数、固定地块和入口。无法满足的配置会明确报错，不会自动换种子重抽。";
+                error = "生成失败：" + exception.Message + "\n生成空间按格数自动分配；请检查格数、房间尺寸、固定地块和入口。不会自动减少必放内容或更换用户种子。";
             }
             Repaint();
         }
