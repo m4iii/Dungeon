@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: a30abafabf77ae346a3a4968f188735b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5506030914816341831
+    second: hex-grass-ridge-v1_0
+  - first:
+      213: -8864572777605398271
+    second: hex-grass-ridge-v1_1
+  - first:
+      213: -999821455533713384
+    second: hex-grass-ridge-v1_2
+  - first:
+      213: 6685367539946528595
+    second: hex-grass-ridge-v1_3
+  - first:
+      213: 185243416964464214
+    second: hex-grass-ridge-v1_4
+  - first:
+      213: 2442532612450965586
+    second: hex-grass-ridge-v1_5
+  - first:
+      213: 1517514479330191501
+    second: hex-grass-ridge-v1_6
+  - first:
+      213: -1886349162435188492
+    second: hex-grass-ridge-v1_7
+  - first:
+      213: -6733838913184538005
+    second: hex-grass-ridge-v1_8
+  - first:
+      213: 663367628359490221
+    second: hex-grass-ridge-v1_9
+  - first:
+      213: -650646880092473701
+    second: hex-grass-ridge-v1_10
+  - first:
+      213: 4878216473709700656
+    second: hex-grass-ridge-v1_11
+  - first:
+      213: 3638104090275469856
+    second: hex-grass-ridge-v1_12
+  - first:
+      213: 988341179656306117
+    second: hex-grass-ridge-v1_13
+  - first:
+      213: -8487253500738341807
+    second: hex-grass-ridge-v1_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 0
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hex-grass-ridge-v1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1175
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b88d002e06a693b0800000000000000
+      internalID: -5506030914816341831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hex-grass-ridge-v1_1
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1063
+        width: 845
+        height: 438
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1018b397606baf480800000000000000
+      internalID: -8864572777605398271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hex-grass-ridge-v1_2
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 1239
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8185918feabef12f0800000000000000
+      internalID: -999821455533713384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hex-grass-ridge-v1_3
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 1135
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35f90736b5237cc50800000000000000
+      internalID: 6685367539946528595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hex-grass-ridge-v1_4
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 1163
+        width: 111
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65e752108ed129200800000000000000
+      internalID: 185243416964464214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hex-grass-ridge-v1_5
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 1175
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 258527d487e95e120800000000000000
+      internalID: 2442532612450965586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hex-grass-ridge-v1_6
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 1141
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d88ecf9f06b4f0510800000000000000
+      internalID: 1517514479330191501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hex-grass-ridge-v1_7
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 1142
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f8e1ba5e6752d5e0800000000000000
+      internalID: -1886349162435188492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hex-grass-ridge-v1_8
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 1127
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b62eee49f299c82a0800000000000000
+      internalID: -6733838913184538005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hex-grass-ridge-v1_9
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 1055
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daa5cd3e751c43900800000000000000
+      internalID: 663367628359490221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hex-grass-ridge-v1_10
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 1090
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b963fdd1c1078f6f0800000000000000
+      internalID: -650646880092473701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hex-grass-ridge-v1_11
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 1083
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 036ece47908e2b340800000000000000
+      internalID: 4878216473709700656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hex-grass-ridge-v1_12
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1079
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02ad3c405642d7230800000000000000
+      internalID: 3638104090275469856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hex-grass-ridge-v1_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1024
+        height: 1053
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cdfd42011b47bd00800000000000000
+      internalID: 988341179656306117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hex-grass-ridge-v1_14
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 1043
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 154fcc198e7373a80800000000000000
+      internalID: -8487253500738341807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      hex-grass-ridge-v1_0: -5506030914816341831
+      hex-grass-ridge-v1_1: -8864572777605398271
+      hex-grass-ridge-v1_10: -650646880092473701
+      hex-grass-ridge-v1_11: 4878216473709700656
+      hex-grass-ridge-v1_12: 3638104090275469856
+      hex-grass-ridge-v1_13: 988341179656306117
+      hex-grass-ridge-v1_14: -8487253500738341807
+      hex-grass-ridge-v1_2: -999821455533713384
+      hex-grass-ridge-v1_3: 6685367539946528595
+      hex-grass-ridge-v1_4: 185243416964464214
+      hex-grass-ridge-v1_5: 2442532612450965586
+      hex-grass-ridge-v1_6: 1517514479330191501
+      hex-grass-ridge-v1_7: -1886349162435188492
+      hex-grass-ridge-v1_8: -6733838913184538005
+      hex-grass-ridge-v1_9: 663367628359490221
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
