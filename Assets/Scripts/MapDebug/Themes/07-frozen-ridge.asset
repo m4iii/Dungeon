@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7043bd0560e88141b8ce0b2d07fcbba, type: 3}
+  m_Name: 07-frozen-ridge
+  m_EditorClassIdentifier: Dungeon.MapDebug::Dungeon.MapDebug.MapTheme
+  themeId: frozen-ridge
+  displayName: "\u51B0\u5C01\u96EA\u5CAD"
+  description: "\u96EA\u5730\u3001\u96EA\u6797\u4E0E\u51B0\u539F\uFF1B\u96EA\u5CF0\u8FB9\u754C\u4E0E\u4E00\u7247\u51B0\u6E56\u3002"
+  land:
+  - terrain: 8
+    weight: 6
+  - terrain: 9
+    weight: 3
+  - terrain: 10
+    weight: 1
+  patchSize: 16
+  continuousRegions: 1
+  rivers: 0
+  riverTargetLength: 12
+  riverSurfaces: 08000000
+  tributaries: 0
+  lakes: 1
+  lakeMinSize: 1
+  lakeMaxSize: 1
+  waterColor: {r: 0.58, g: 0.77, b: 0.83, a: 1}
+  visuals:
+  - terrain: 0
+    hexTexture: {fileID: 2800000, guid: df326463a9f6a034e8f280ba71410733, type: 3}
+    squareTexture: {fileID: 2800000, guid: 8dcdff0d81e15ed46abc5c2d8c632324, type: 3}
+  - terrain: 1
+    hexTexture: {fileID: 2800000, guid: 694de6f532a0b0645968ada93a4f852a, type: 3}
+    squareTexture: {fileID: 2800000, guid: a871e86cb23a2764788df68675746718, type: 3}
+  - terrain: 2
+    hexTexture: {fileID: 2800000, guid: c07ce2b7145490445adabfda45ef1a42, type: 3}
+    squareTexture: {fileID: 2800000, guid: fdb073cc6754bfe47ba15252c2f0141b, type: 3}
+  - terrain: 6
+    hexTexture: {fileID: 2800000, guid: a55ae185cc6d2a9419f0809873c8cfd8, type: 3}
+    squareTexture: {fileID: 2800000, guid: 6d6e07ab659520a4090d794a6afa7ee9, type: 3}
+  - terrain: 7
+    hexTexture: {fileID: 2800000, guid: 14055f10fe50c3842ab18a2abfc184ba, type: 3}
+    squareTexture: {fileID: 2800000, guid: edca1795ba26e0d42bdae53d36b99904, type: 3}
+  - terrain: 8
+    hexTexture: {fileID: 2800000, guid: daacde4451c2b0b41ba79b64e5228016, type: 3}
+    squareTexture: {fileID: 2800000, guid: 3ccba3a95e002764499505fa283e5317, type: 3}
+  - terrain: 9
+    hexTexture: {fileID: 2800000, guid: 82010bceb66d2d0429fdd628787fc18d, type: 3}
+    squareTexture: {fileID: 2800000, guid: f71dc7c8b8dfa944fbf8b1a6d77faf54, type: 3}
+  - terrain: 10
+    hexTexture: {fileID: 2800000, guid: daacde4451c2b0b41ba79b64e5228016, type: 3}
+    squareTexture: {fileID: 2800000, guid: 3ccba3a95e002764499505fa283e5317, type: 3}
+  - terrain: 3
+    hexTexture: {fileID: 2800000, guid: 985b962739038d3488b7936e76ff12f2, type: 3}
+    squareTexture: {fileID: 2800000, guid: 0672e69befb3c8f42a64b7c63a62255c, type: 3}
+  - terrain: 13
+    hexTexture: {fileID: 2800000, guid: 46ce236c9a087d548a3137099a2163d6, type: 3}
+    squareTexture: {fileID: 2800000, guid: f3ab5177afb61464ebbfeeddc80852de, type: 3}
+  - terrain: 11
+    hexTexture: {fileID: 2800000, guid: df326463a9f6a034e8f280ba71410733, type: 3}
+    squareTexture: {fileID: 2800000, guid: 8dcdff0d81e15ed46abc5c2d8c632324, type: 3}
+  - terrain: 12
+    hexTexture: {fileID: 2800000, guid: df326463a9f6a034e8f280ba71410733, type: 3}
+    squareTexture: {fileID: 2800000, guid: 8dcdff0d81e15ed46abc5c2d8c632324, type: 3}
+  aridRocks: 0
+  locations:
+  - displayName: "\u6751\u9547"
+    contentId: location-town
+    count: 0
+    terrain: 0
+    hexTexture: {fileID: 2800000, guid: 933286d04f9176a48ac49f17e1cc1394, type: 3}
+    squareTexture: {fileID: 2800000, guid: 34c41ffed375dce4ab1467d53e17b335, type: 3}
+  - displayName: "\u57CE\u5821"
+    contentId: location-castle
+    count: 0
+    terrain: 7
+    hexTexture: {fileID: 2800000, guid: d57120b8537aec047847c738314b1540, type: 3}
+    squareTexture: {fileID: 2800000, guid: 07e26295e03d5d14f9d24193930c8625, type: 3}
+  - displayName: "\u519C\u573A"
+    contentId: location-farm
+    count: 0
+    terrain: 0
+    hexTexture: {fileID: 2800000, guid: f29b96e51e6cbcd48940393499953b22, type: 3}
+    squareTexture: {fileID: 2800000, guid: c962c8d2a5f3d0f44b94dfc843cd5e64, type: 3}
+  - displayName: "\u4F10\u6728\u8425\u5730"
+    contentId: location-forester
+    count: 0
+    terrain: 1
+    hexTexture: {fileID: 2800000, guid: fb25a7b09cf571345a90597f52c63618, type: 3}
+    squareTexture: {fileID: 2800000, guid: 138607455f33b444893b8d0d1e6d557b, type: 3}
+  - displayName: "\u77FF\u573A"
+    contentId: location-mine
+    count: 0
+    terrain: 7
+    hexTexture: {fileID: 2800000, guid: 7006807f1c584744bb89dfe78fdbc4b3, type: 3}
+    squareTexture: {fileID: 2800000, guid: 9627496525ed4554cb40dd37bcb8093b, type: 3}
+  mountains: []
+  wallMountain: 3
+  peakEventCount: 0
+  peakEventId: snow-peak
+  pondWidth: 1.1

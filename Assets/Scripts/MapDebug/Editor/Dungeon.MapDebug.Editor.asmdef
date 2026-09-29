@@ -1,0 +1,7 @@
+{
+  "name": "Dungeon.MapDebug.Editor",
+  "rootNamespace": "Dungeon.MapDebug.Editor",
+  "references": ["Dungeon.Core", "Dungeon.MapDebug", "Dungeon.Runtime"],
+  "includePlatforms": ["Editor"],
+  "autoReferenced": true
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Dungeon.Runtime",
+  "rootNamespace": "Dungeon.Runtime",
+  "references": ["Dungeon.Core"],
+  "autoReferenced": true
+}

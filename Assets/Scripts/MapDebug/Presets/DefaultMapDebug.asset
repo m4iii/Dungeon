@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9cbb208991c7504f91f275fc86d9951, type: 3}
+  m_Name: DefaultMapDebug
+  m_EditorClassIdentifier: Dungeon.MapDebug::Dungeon.MapDebug.MapDebugPreset
+  theme: {fileID: 11400000, guid: c3d103c6d296dca40aa4d0193b9c47eb, type: 2}
+  mapId: debug-map
+  grid: 0
+  width: 24
+  height: 20
+  entrance: {x: 12, y: 2}
+  irregularShape: 1
+  cellCount: 60
+  compactness: 0.2
+  branchChance: 0.4
+  roadRoomLayout: 1
+  mainRoadLength: 12
+  exitCount: 1
+  minRoomSize: 5
+  maxRoomSize: 9
+  emptyRatio: 0.45
+  requiredContent:
+  - count: 5
+    content:
+      kind: 3
+      overrideTerrain: 0
+      terrain: 0
+      enemies: []
+      coins: 10
+      items: []
+      requiredKey: 
+      contentId: 
+  - count: 8
+    content:
+      kind: 1
+      overrideTerrain: 0
+      terrain: 0
+      enemies:
+      - debug-wolf
+      coins: 0
+      items: []
+      requiredKey: 
+      contentId: 
+  - count: 1
+    content:
+      kind: 6
+      overrideTerrain: 0
+      terrain: 0
+      enemies: []
+      coins: 0
+      items: []
+      requiredKey: 
+      contentId: 
+  generateTerrain: 1
+  waterChance: 0.45
+  terrainPatchSize: 12
+  shallowShores: 1
+  plainsWeight: 5
+  woodlandWeight: 2
+  forestWeight: 3
+  terrainVisuals: []
+  placeExit: 1
+  requireBossForExit: 0
+  restRatio: 1
+  pool:
+  - weight: 50
+    content:
+      kind: 0
+      overrideTerrain: 0
+      terrain: 0
+      enemies: []
+      coins: 0
+      items: []
+      requiredKey: 
+      contentId: 
+  - weight: 30
+    content:
+      kind: 1
+      overrideTerrain: 0
+      terrain: 0
+      enemies:
+      - debug-wolf
+      coins: 0
+      items: []
+      requiredKey: 
+      contentId: 
+  - weight: 15
+    content:
+      kind: 3
+      overrideTerrain: 0
+      terrain: 0
+      enemies: []
+      coins: 10
+      items: []
+      requiredKey: 
+      contentId: 
+  - weight: 5
+    content:
+      kind: 6
+      overrideTerrain: 0
+      terrain: 0
+      enemies: []
+      coins: 0
+      items: []
+      requiredKey: 
+      contentId: 
+  - weight: 0
+    content:
+      kind: 5
+      overrideTerrain: 0
+      terrain: 0
+      enemies: []
+      coins: 0
+      items: []
+      requiredKey: 
+      contentId: 
+  fixedCells: []

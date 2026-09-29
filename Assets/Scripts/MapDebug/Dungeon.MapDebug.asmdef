@@ -1,0 +1,6 @@
+{
+  "name": "Dungeon.MapDebug",
+  "rootNamespace": "Dungeon.MapDebug",
+  "references": ["Dungeon.Core"],
+  "autoReferenced": true
+}
