@@ -103,7 +103,7 @@ MonoBehaviour:
     squareTexture: {fileID: 2800000, guid: 9627496525ed4554cb40dd37bcb8093b, type: 3}
   mountains: []
   wallMountain: 0
-  wallHexTexture: {fileID: 2800000, guid: a30abafabf77ae346a3a4968f188735b, type: 3}
+  wallHexTexture: {fileID: 2800000, guid: 0c5cb872f5474f1d8eb7e9ccc6fedfbd, type: 3}
   wallSquareTexture: {fileID: 0}
   clipWallToHex: 1
   peakEventCount: 0
