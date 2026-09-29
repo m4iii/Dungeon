@@ -1,0 +1,7 @@
+{
+  "name": "Dungeon.Core",
+  "rootNamespace": "Dungeon.Core",
+  "references": [],
+  "autoReferenced": true,
+  "noEngineReferences": true
+}

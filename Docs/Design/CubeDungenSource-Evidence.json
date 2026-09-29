@@ -1,0 +1,4977 @@
+{
+  "analyzedAt": "2026-09-28",
+  "sourceRoot": "C:\\Entertainment\\Game\\CubeDungenSource",
+  "assemblySha256": "5561ccad8d8002a29ab58f386dbe5e928bcb821d2616dce23fa50b5fd428ec0d",
+  "packageVersions": {
+    "Core": "2026-09-01-1294",
+    "LanguagePackage": "2026-09-01-1224",
+    "MainPackage": "2026-09-01-1293"
+  },
+  "counts": {
+    "heroes": 7,
+    "nonHeroUnits": 60,
+    "skillStructuredAssets": 515,
+    "buffAndKeywordAssets": 55,
+    "items": 25,
+    "runes": 25,
+    "maps": 21
+  },
+  "assetSources": [
+    {
+      "asset": "SO_ItemData_Core_101_Coin",
+      "id": "Core_Item_101_Coin",
+      "package": "Core",
+      "bundle": "21dbb007d89afaaf8b3611ef1881fa56.bundle",
+      "pathId": -5761845871163519419
+    },
+    {
+      "asset": "SO_ItemData_Core_203_Key03",
+      "id": "Core_Item_203_Key03",
+      "package": "Core",
+      "bundle": "21dbb007d89afaaf8b3611ef1881fa56.bundle",
+      "pathId": 827991232306917976
+    },
+    {
+      "asset": "SO_ItemData_Core_202_Key02",
+      "id": "Core_Item_202_Key02",
+      "package": "Core",
+      "bundle": "21dbb007d89afaaf8b3611ef1881fa56.bundle",
+      "pathId": 1590751690457101411
+    },
+    {
+      "asset": "SO_ItemData_Core_201_Key01",
+      "id": "Core_Item_201_Key01",
+      "package": "Core",
+      "bundle": "21dbb007d89afaaf8b3611ef1881fa56.bundle",
+      "pathId": 5009101585401153640
+    },
+    {
+      "asset": "SO_BuffData_MainPackage_Vitality_4",
+      "id": "MainPackage_Vitality_4",
+      "package": "MainPackage",
+      "bundle": "0fa9618d704eb1ac08d23a3b81b64284.bundle",
+      "pathId": -8754959660424928083
+    },
+    {
+      "asset": "SO_BuffData_MainPackage_CuiRuo_1",
+      "id": "MainPackage_CuiRuo_1",
+      "package": "MainPackage",
+      "bundle": "0fa9618d704eb1ac08d23a3b81b64284.bundle",
+      "pathId": -8701504330135465341
+    },
+    {
+      "asset": "SO_BuffData_MainPackage_1012_ShiFaGanRao",
+      "id": "MainPackage_1012_ShiFaGanRao",
+      "package": "MainPackage",
+      "bundle": "0fa9618d704eb1ac08d23a3b81b64284.bundle",
+      "pathId": -8356454728896121349
+    },
+    {
+      "asset": "SO_BuffData_MainPackage_1008_TouZhi",
+      "id": "MainPackage_1008_TouZhi",
+      "package": "MainPackage",
+      "bundle": "0fa9618d704eb1ac08d23a3b81b64284.bundle",
+      "pathId": -8000804289067121727
+    },
+    {
+      "asset": "SO_BuffData_MainPackage_1004_ZhaoHuanWu",
+      "id": "MainPackage_1004_ZhaoHuanWu",
+      "package": "MainPackage",
+      "bundle": "0fa9618d704eb1ac08d23a3b81b64284.bundle",
+      "pathId": -6790497877781672617
+    },
+    {
+      "asset": "SO_BuffData_MainPackage_ChaoFeng_16",
+      "id": "MainPackage_ChaoFeng_16",
+      "package": "MainPackage",
+      "bundle": "0fa9618d704eb1ac08d23a3b81b64284.bundle",
+      "pathId": -6428920615604542717
+    },
+    {
+      "asset": "SO_BuffData_MainPackage_HuanXiang_19",
+      "id": "MainPackage_HuanXiang_19",
+      "package": "MainPackage",
+      "bundle": "0fa9618d704eb1ac08d23a3b81b64284.bundle",
+      "pathId": -6380588788463317175
+    },
+    {
+      "asset": "SO_BuffData_MainPackage_LingHun_21",
+      "id": "MainPackage_LingHun_21",
+      "package": "MainPackage",
+      "bundle": "0fa9618d704eb1ac08d23a3b81b64284.bundle",
+      "pathId": -5789230332531910026
+    },
+    {
+      "asset": "SO_BuffData_MainPackage_1019_DanXiao",
+      "id": "MainPackage_1019_DanXiao",
+      "package": "MainPackage",
+      "bundle": "0fa9618d704eb1ac08d23a3b81b64284.bundle",
+      "pathId": -5308530534260840606
+    },
+    {
+      "asset": "SO_BuffData_MainPackage_1001_LiJie",
+      "id": "MainPackage_1001_LiJie",
+      "package": "MainPackage",
+      "bundle": "0fa9618d704eb1ac08d23a3b81b64284.bundle",
+      "pathId": -4992917439053041222
+    },
+    {
+      "asset": "SO_BuffData_MainPackage_ShuiMian_15",
+      "id": "MainPackage_ShuiMian_15",
+      "package": "MainPackage",
+      "bundle": "0fa9618d704eb1ac08d23a3b81b64284.bundle",
+      "pathId": -4756312582054052804
+    },
+    {
+      "asset": "SO_BuffData_MainPackage_1007_JiuXu",
+      "id": "MainPackage_1007_JiuXu",
+      "package": "MainPackage",
+      "bundle": "0fa9618d704eb1ac08d23a3b81b64284.bundle",
+      "pathId": -4381761719859740816
+    },
+    {
+      "asset": "SO_BuffData_MainPackage_FanJi_5",
+      "id": "MainPackage_FanJi_5",
+      "package": "MainPackage",
+      "bundle": "0fa9618d704eb1ac08d23a3b81b64284.bundle",
+      "pathId": -4325004874381106812
+    },
+    {
+      "asset": "SO_BuffData_MainPackage_1027_QianDai",
+      "id": "MainPackage_1027_QianDai",
+      "package": "MainPackage",
+      "bundle": "0fa9618d704eb1ac08d23a3b81b64284.bundle",
+      "pathId": -4278295892881184106
+    },
+    {
+      "asset": "SO_BuffData_MainPackage_1025_ShenYuanZhouFu",
+      "id": "MainPackage_1025_ShenYuanZhouFu",
+      "package": "MainPackage",
+      "bundle": "0fa9618d704eb1ac08d23a3b81b64284.bundle",
+      "pathId": -3899200984614670008
+    },
+    {
+      "asset": "SO_BuffData_MainPackage_1019_ChangShiTaoPao",
+      "id": "MainPackage_1019_ChangShiTaoPao",
+      "package": "MainPackage",
+      "bundle": "0fa9618d704eb1ac08d23a3b81b64284.bundle",
+      "pathId": -3891898829490963843
+    },
+    {
+      "asset": "SO_BuffData_MainPackage_ShaoShang_7",
+      "id": "MainPackage_ShaoShang_7",
+      "package": "MainPackage",
+      "bundle": "0fa9618d704eb1ac08d23a3b81b64284.bundle",
+      "pathId": -3767840466266974306
+    },
+    {
+      "asset": "SO_BuffData_MainPackage_1018_LingGanShiFa",
+      "id": "MainPackage_1018_LingGanShiFa",
+      "package": "MainPackage",
+      "bundle": "0fa9618d704eb1ac08d23a3b81b64284.bundle",
+      "pathId": -3696793886404327550
+    },
+    {
+      "asset": "SO_BuffData_MainPackage_KuangFen_20",
+      "id": "MainPackage_KuangFen_20",
+      "package": "MainPackage",
+      "bundle": "0fa9618d704eb1ac08d23a3b81b64284.bundle",
+      "pathId": -3061433078818215537
+    },
+    {
+      "asset": "SO_BuffData_MainPackage_1005_ChanRao",
+      "id": "MainPackage_1005_ChanRao",
+      "package": "MainPackage",
+      "bundle": "0fa9618d704eb1ac08d23a3b81b64284.bundle",
+      "pathId": -2977548114189483872
+    },
+    {
+      "asset": "SO_BuffData_MainPackage_2001_StrengthContent",
+      "id": "MainPackage_2001_StrengthContent",
+      "package": "MainPackage",
+      "bundle": "0fa9618d704eb1ac08d23a3b81b64284.bundle",
+      "pathId": -2819368136935047434
+    },
+    {
+      "asset": "SO_BuffData_MainPackage_HanShuang_8",
+      "id": "MainPackage_HanShuang_8",
+      "package": "MainPackage",
+      "bundle": "0fa9618d704eb1ac08d23a3b81b64284.bundle",
+      "pathId": -2263375789400853178
+    },
+    {
+      "asset": "SO_BuffData_MainPackage_1015_ChenZhong",
+      "id": "MainPackage_1015_ChenZhong",
+      "package": "MainPackage",
+      "bundle": "0fa9618d704eb1ac08d23a3b81b64284.bundle",
+      "pathId": -1514676962810195090
+    },
+    {
+      "asset": "SO_BuffData_MainPackage_1023_ZhiZheDeQiuZhi",
+      "id": "MainPackage_1023_ZhiZheDeQiuZhi",
+      "package": "MainPackage",
+      "bundle": "0fa9618d704eb1ac08d23a3b81b64284.bundle",
+      "pathId": -784151519352515690
+    },
+    {
+      "asset": "SO_BuffData_MainPackage_GuoZai_9",
+      "id": "MainPackage_GuoZai_9",
+      "package": "MainPackage",
+      "bundle": "0fa9618d704eb1ac08d23a3b81b64284.bundle",
+      "pathId": -272237614928209976
+    },
+    {
+      "asset": "SO_BuffData_MainPackage_1020_LieZhiBaoPoYao",
+      "id": "MainPackage_1020_LieZhiBaoPoYao",
+      "package": "MainPackage",
+      "bundle": "0fa9618d704eb1ac08d23a3b81b64284.bundle",
+      "pathId": -164124892285389535
+    },
+    {
+      "asset": "SO_BuffData_MainPackage_1002_ShuFu",
+      "id": "MainPackage_1002_ShuFu",
+      "package": "MainPackage",
+      "bundle": "0fa9618d704eb1ac08d23a3b81b64284.bundle",
+      "pathId": 230985505142673415
+    },
+    {
+      "asset": "SO_BuffData_MainPackage_JingJi_2",
+      "id": "MainPackage_JingJi_2",
+      "package": "MainPackage",
+      "bundle": "0fa9618d704eb1ac08d23a3b81b64284.bundle",
+      "pathId": 477874491483801034
+    },
+    {
+      "asset": "SO_BuffData_MainPackage_1024_ZhongYaLiChang",
+      "id": "MainPackage_1024_ZhongYaLiChang",
+      "package": "MainPackage",
+      "bundle": "0fa9618d704eb1ac08d23a3b81b64284.bundle",
+      "pathId": 861467651673859154
+    },
+    {
+      "asset": "SO_BuffData_MainPackage_GanDian_18",
+      "id": "MainPackage_GanDian_18",
+      "package": "MainPackage",
+      "bundle": "0fa9618d704eb1ac08d23a3b81b64284.bundle",
+      "pathId": 2060354511098729499
+    },
+    {
+      "asset": "SO_BuffData_MainPackage_BiLei_10",
+      "id": "MainPackage_BiLei_10",
+      "package": "MainPackage",
+      "bundle": "0fa9618d704eb1ac08d23a3b81b64284.bundle",
+      "pathId": 3015086688744255896
+    },
+    {
+      "asset": "SO_BuffData_MainPackage_1017_ErChongChang",
+      "id": "MainPackage_1017_ErChongChang",
+      "package": "MainPackage",
+      "bundle": "0fa9618d704eb1ac08d23a3b81b64284.bundle",
+      "pathId": 3747619597090209062
+    },
+    {
+      "asset": "SO_BuffData_MainPackage_JiSu_6",
+      "id": "MainPackage_JiSu_6",
+      "package": "MainPackage",
+      "bundle": "0fa9618d704eb1ac08d23a3b81b64284.bundle",
+      "pathId": 4278912760313443713
+    },
+    {
+      "asset": "SO_BuffData_MainPackage_1029_LingHunChuQiao",
+      "id": "MainPackage_1029_LingHunChuQiao",
+      "package": "MainPackage",
+      "bundle": "0fa9618d704eb1ac08d23a3b81b64284.bundle",
+      "pathId": 4452369945307803195
+    },
+    {
+      "asset": "SO_BuffData_MainPackage_1028_LingHunDes",
+      "id": "MainPackage_1028_LingHunDes",
+      "package": "MainPackage",
+      "bundle": "0fa9618d704eb1ac08d23a3b81b64284.bundle",
+      "pathId": 5263323839602924146
+    },
+    {
+      "asset": "SO_BuffData_MainPackage_KangFen_20",
+      "id": "MainPackage_KangFen_20",
+      "package": "MainPackage",
+      "bundle": "0fa9618d704eb1ac08d23a3b81b64284.bundle",
+      "pathId": 5351347307401255512
+    },
+    {
+      "asset": "SO_BuffData_MainPackage_YingHua_14",
+      "id": "MainPackage_YingHua_14",
+      "package": "MainPackage",
+      "bundle": "0fa9618d704eb1ac08d23a3b81b64284.bundle",
+      "pathId": 5561386393686517305
+    },
+    {
+      "asset": "SO_BuffData_MainPackage_1011_ShiKongLingYu",
+      "id": "MainPackage_1011_ShiKongLingYu",
+      "package": "MainPackage",
+      "bundle": "0fa9618d704eb1ac08d23a3b81b64284.bundle",
+      "pathId": 5834512744000969652
+    },
+    {
+      "asset": "SO_BuffData_MainPackage_BiaoJi_17",
+      "id": "MainPackage_BiaoJi_17",
+      "package": "MainPackage",
+      "bundle": "0fa9618d704eb1ac08d23a3b81b64284.bundle",
+      "pathId": 6009655897824205235
+    },
+    {
+      "asset": "SO_BuffData_MainPackage_1014_WeiSuo",
+      "id": "MainPackage_1014_WeiSuo",
+      "package": "MainPackage",
+      "bundle": "0fa9618d704eb1ac08d23a3b81b64284.bundle",
+      "pathId": 6762267095273956551
+    },
+    {
+      "asset": "SO_BuffData_MainPackage_QingShi_11",
+      "id": "MainPackage_QingShi_11",
+      "package": "MainPackage",
+      "bundle": "0fa9618d704eb1ac08d23a3b81b64284.bundle",
+      "pathId": 6871415979819357707
+    },
+    {
+      "asset": "SO_BuffData_MainPackage_1026_LieYanZhiQiang",
+      "id": "MainPackage_1026_LieYanZhiQiang",
+      "package": "MainPackage",
+      "bundle": "0fa9618d704eb1ac08d23a3b81b64284.bundle",
+      "pathId": 6920176610911688365
+    },
+    {
+      "asset": "SO_BuffData_MainPackage_2002_AglieContent",
+      "id": "MainPackage_2002_AglieContent",
+      "package": "MainPackage",
+      "bundle": "0fa9618d704eb1ac08d23a3b81b64284.bundle",
+      "pathId": 7187315480760980036
+    },
+    {
+      "asset": "SO_BuffData_MainPackage_1010_ChaNaShuangYing",
+      "id": "MainPackage_1010_ChaNaShuangYing",
+      "package": "MainPackage",
+      "bundle": "0fa9618d704eb1ac08d23a3b81b64284.bundle",
+      "pathId": 7317982934341934266
+    },
+    {
+      "asset": "SO_BuffData_MainPackage_1021_SenLinZhiYou",
+      "id": "MainPackage_1021_SenLinZhiYou",
+      "package": "MainPackage",
+      "bundle": "0fa9618d704eb1ac08d23a3b81b64284.bundle",
+      "pathId": 7449271742252019338
+    },
+    {
+      "asset": "SO_BuffData_MainPackage_1006_ZhenShiShangHai",
+      "id": "MainPackage_1006_ZhenShiShangHai",
+      "package": "MainPackage",
+      "bundle": "0fa9618d704eb1ac08d23a3b81b64284.bundle",
+      "pathId": 8072188253046123341
+    },
+    {
+      "asset": "SO_BuffData_MainPackage_2003_IntelligenceContent",
+      "id": "MainPackage_2003_IntelligenceContent",
+      "package": "MainPackage",
+      "bundle": "0fa9618d704eb1ac08d23a3b81b64284.bundle",
+      "pathId": 8077996456832571435
+    },
+    {
+      "asset": "SO_BuffData_MainPackage_2004_DefenseContent",
+      "id": "MainPackage_2004_DefenseContent",
+      "package": "MainPackage",
+      "bundle": "0fa9618d704eb1ac08d23a3b81b64284.bundle",
+      "pathId": 8122904743224691664
+    },
+    {
+      "asset": "SO_BuffData_MainPackage_XuRuo_12",
+      "id": "MainPackage_XuRuo_12",
+      "package": "MainPackage",
+      "bundle": "0fa9618d704eb1ac08d23a3b81b64284.bundle",
+      "pathId": 8269889556055481782
+    },
+    {
+      "asset": "SO_BuffData_MainPackage_1003_KongYaoPing",
+      "id": "MainPackage_1003_KongYaoPing",
+      "package": "MainPackage",
+      "bundle": "0fa9618d704eb1ac08d23a3b81b64284.bundle",
+      "pathId": 8304863072488097019
+    },
+    {
+      "asset": "SO_BuffData_MainPackage_1022_DuoTouShengWu",
+      "id": "MainPackage_1022_DuoTouShengWu",
+      "package": "MainPackage",
+      "bundle": "0fa9618d704eb1ac08d23a3b81b64284.bundle",
+      "pathId": 8365960100530906331
+    },
+    {
+      "asset": "SO_BuffData_MainPackage_1009_YiGongWeiShou",
+      "id": "MainPackage_1009_YiGongWeiShou",
+      "package": "MainPackage",
+      "bundle": "0fa9618d704eb1ac08d23a3b81b64284.bundle",
+      "pathId": 8888170485492955579
+    },
+    {
+      "asset": "SO_BuffData_MainPackage_ZhongDu_3",
+      "id": "MainPackage_ZhongDu_3",
+      "package": "MainPackage",
+      "bundle": "0fa9618d704eb1ac08d23a3b81b64284.bundle",
+      "pathId": 8967626867898237558
+    },
+    {
+      "asset": "SO_BuffData_MainPackage_XuanYun_13",
+      "id": "MainPackage_XuanYun_13",
+      "package": "MainPackage",
+      "bundle": "0fa9618d704eb1ac08d23a3b81b64284.bundle",
+      "pathId": 9003172558175459078
+    },
+    {
+      "asset": "SO_BuffData_MainPackage_1013_YingJia",
+      "id": "MainPackage_1013_YingJia",
+      "package": "MainPackage",
+      "bundle": "0fa9618d704eb1ac08d23a3b81b64284.bundle",
+      "pathId": 9106547857857730580
+    },
+    {
+      "asset": "SO_ItemData_MainPackage_Item_DongJiePoition_1021",
+      "id": "MainPackage_Item_DongJiePoition_1021",
+      "package": "MainPackage",
+      "bundle": "0ac7e320b06113d9c233cc2b75b79220.bundle",
+      "pathId": -8454212646692820788
+    },
+    {
+      "asset": "SO_ItemData_MainPackage_Item_LongXuePoition_1015",
+      "id": "MainPackage_Item_LongXuePoition_1015",
+      "package": "MainPackage",
+      "bundle": "0ac7e320b06113d9c233cc2b75b79220.bundle",
+      "pathId": -8034271823055971542
+    },
+    {
+      "asset": "SO_ItemData_MainPackage_Item_HealthPoition_1007",
+      "id": "MainPackage_Item_HealthPoition_1007",
+      "package": "MainPackage",
+      "bundle": "0ac7e320b06113d9c233cc2b75b79220.bundle",
+      "pathId": -7794758431675662532
+    },
+    {
+      "asset": "SO_ItemData_MainPackage_Item_YiShangPoition_1009",
+      "id": "MainPackage_Item_YiShangPoition_1009",
+      "package": "MainPackage",
+      "bundle": "0ac7e320b06113d9c233cc2b75b79220.bundle",
+      "pathId": -7599654777879469179
+    },
+    {
+      "asset": "SO_ItemData_MainPackage_Item_InferiorBoomPoition_1005",
+      "id": "MainPackage_Item_InferiorBoomPoition_1005",
+      "package": "MainPackage",
+      "bundle": "0ac7e320b06113d9c233cc2b75b79220.bundle",
+      "pathId": -7440079943400745911
+    },
+    {
+      "asset": "SO_ItemData_MainPackage_Item_LengQuePoition_1006",
+      "id": "MainPackage_Item_LengQuePoition_1006",
+      "package": "MainPackage",
+      "bundle": "0ac7e320b06113d9c233cc2b75b79220.bundle",
+      "pathId": -6270961822462022303
+    },
+    {
+      "asset": "SO_ItemData_MainPackage_Item_InferiorHealthPoition_1001",
+      "id": "MainPackage_Item_InferiorHealthPoition_1001",
+      "package": "MainPackage",
+      "bundle": "0ac7e320b06113d9c233cc2b75b79220.bundle",
+      "pathId": -6016544140956787569
+    },
+    {
+      "asset": "SO_ItemData_MainPackage_Item_InferiorVitalityPoition_1003",
+      "id": "MainPackage_Item_InferiorVitalityPoition_1003",
+      "package": "MainPackage",
+      "bundle": "0ac7e320b06113d9c233cc2b75b79220.bundle",
+      "pathId": -4690018942549693463
+    },
+    {
+      "asset": "SO_ItemData_MainPackage_Item_BaoLiePoition_1014",
+      "id": "MainPackage_Item_BaoLiePoition_1014",
+      "package": "MainPackage",
+      "bundle": "0ac7e320b06113d9c233cc2b75b79220.bundle",
+      "pathId": -4414979359383854507
+    },
+    {
+      "asset": "SO_ItemData_MainPackage_Item_InferiorMagicPoition_1002",
+      "id": "MainPackage_Item_InferiorMagicPoition_1002",
+      "package": "MainPackage",
+      "bundle": "0ac7e320b06113d9c233cc2b75b79220.bundle",
+      "pathId": -2894330790583646571
+    },
+    {
+      "asset": "SO_ItemData_MainPackage_Item_MinJiePoition_1011",
+      "id": "MainPackage_Item_MinJiePoition_1011",
+      "package": "MainPackage",
+      "bundle": "0ac7e320b06113d9c233cc2b75b79220.bundle",
+      "pathId": -1902996848441866971
+    },
+    {
+      "asset": "SO_ItemData_MainPackage_Item_ActionPoition_1018",
+      "id": "MainPackage_Item_ActionPoition_1018",
+      "package": "MainPackage",
+      "bundle": "0ac7e320b06113d9c233cc2b75b79220.bundle",
+      "pathId": 518746156752752051
+    },
+    {
+      "asset": "SO_ItemData_MainPackage_Item_JiNengPoition_1013",
+      "id": "MainPackage_Item_JiNengPoition_1013",
+      "package": "MainPackage",
+      "bundle": "0ac7e320b06113d9c233cc2b75b79220.bundle",
+      "pathId": 1189675140363684775
+    },
+    {
+      "asset": "SO_ItemData_MainPackage_Item_ZhiLiPoition_1012",
+      "id": "MainPackage_Item_ZhiLiPoition_1012",
+      "package": "MainPackage",
+      "bundle": "0ac7e320b06113d9c233cc2b75b79220.bundle",
+      "pathId": 2692017423963591647
+    },
+    {
+      "asset": "SO_ItemData_MainPackage_Item_InferiorPoisionPoition_1004",
+      "id": "MainPackage_Item_InferiorPoisionPoition_1004",
+      "package": "MainPackage",
+      "bundle": "0ac7e320b06113d9c233cc2b75b79220.bundle",
+      "pathId": 3884122685498804086
+    },
+    {
+      "asset": "SO_ItemData_MainPackage_Item_ZhongJiJiNengShi_1020",
+      "id": "MainPackage_Item_ZhongJiJiNengShi_1020",
+      "package": "MainPackage",
+      "bundle": "0ac7e320b06113d9c233cc2b75b79220.bundle",
+      "pathId": 4069003124405309956
+    },
+    {
+      "asset": "SO_ItemData_MainPackage_Item_ChuJiJiNengShi_1019",
+      "id": "MainPackage_Item_ChuJiJiNengShi_1019",
+      "package": "MainPackage",
+      "bundle": "0ac7e320b06113d9c233cc2b75b79220.bundle",
+      "pathId": 4107729207321170813
+    },
+    {
+      "asset": "SO_ItemData_MainPackage_Item_LiLiangPoition_1010",
+      "id": "MainPackage_Item_LiLiangPoition_1010",
+      "package": "MainPackage",
+      "bundle": "0ac7e320b06113d9c233cc2b75b79220.bundle",
+      "pathId": 4482363817023078423
+    },
+    {
+      "asset": "SO_ItemData_MainPackage_Item_TuPoPoition_1016",
+      "id": "MainPackage_Item_TuPoPoition_1016",
+      "package": "MainPackage",
+      "bundle": "0ac7e320b06113d9c233cc2b75b79220.bundle",
+      "pathId": 6823786360758029784
+    },
+    {
+      "asset": "SO_ItemData_MainPackage_Item_EmptyPoition_-1",
+      "id": "MainPackage_Item_EmptyPoition_-1",
+      "package": "MainPackage",
+      "bundle": "0ac7e320b06113d9c233cc2b75b79220.bundle",
+      "pathId": 7770213403073352013
+    },
+    {
+      "asset": "SO_ItemData_MainPackage_Item_MagicPoition_1008",
+      "id": "MainPackage_Item_MagicPoition_1008",
+      "package": "MainPackage",
+      "bundle": "0ac7e320b06113d9c233cc2b75b79220.bundle",
+      "pathId": 9015630288320201291
+    },
+    {
+      "asset": "SO_MapData_ConstMap_3001_Abyss_Normal",
+      "id": "ConstMap_3001_Abyss",
+      "package": "MainPackage",
+      "bundle": "58052e1ab80fa2de03c7aca31667392e.bundle",
+      "pathId": 1294150445230521583
+    },
+    {
+      "asset": "SO_MapData_1002_DeepForest_Rest",
+      "id": "MapData_1002_DeepForest_Rest",
+      "package": "MainPackage",
+      "bundle": "f20a61d0a91257a5263b09115af00398.bundle",
+      "pathId": -5412707987491945805
+    },
+    {
+      "asset": "SO_MapData_1001_RuinsForest_Rest",
+      "id": "MapData_1001_RuinsForest_Rest",
+      "package": "MainPackage",
+      "bundle": "f20a61d0a91257a5263b09115af00398.bundle",
+      "pathId": -2680477884106478025
+    },
+    {
+      "asset": "SO_MapData_1003_Swamp_Rest",
+      "id": "MapData_1003_Swamp_Rest",
+      "package": "MainPackage",
+      "bundle": "f20a61d0a91257a5263b09115af00398.bundle",
+      "pathId": -2617045572963010279
+    },
+    {
+      "asset": "SO_MapData_1004_StoneForest_Rest",
+      "id": "MapData_1004_StoneForest_Rest",
+      "package": "MainPackage",
+      "bundle": "f20a61d0a91257a5263b09115af00398.bundle",
+      "pathId": 565140745356130429
+    },
+    {
+      "asset": "SO_MapData_1005_StarLake_Rest",
+      "id": "MapData_1005_StarLake_Rest",
+      "package": "MainPackage",
+      "bundle": "f20a61d0a91257a5263b09115af00398.bundle",
+      "pathId": 7292457724128987295
+    },
+    {
+      "asset": "SO_MapData_MainPackage_Secret_20011",
+      "id": "MainPackage_Secret_20011",
+      "package": "MainPackage",
+      "bundle": "0358cec08412b08fbce0f82706675b7b.bundle",
+      "pathId": -8732614324188300091
+    },
+    {
+      "asset": "SO_MapData_MainPackage_Secret_10011",
+      "id": "MainPackage_Secret_10011",
+      "package": "MainPackage",
+      "bundle": "0358cec08412b08fbce0f82706675b7b.bundle",
+      "pathId": -6124380788216495390
+    },
+    {
+      "asset": "SO_MapData_MainPackage_Secret_10012",
+      "id": "MainPackage_Secret_10012",
+      "package": "MainPackage",
+      "bundle": "0358cec08412b08fbce0f82706675b7b.bundle",
+      "pathId": -813843587265273528
+    },
+    {
+      "asset": "SO_MapData_MainPackage_Secret_20012",
+      "id": "MainPackage_Secret_20012",
+      "package": "MainPackage",
+      "bundle": "0358cec08412b08fbce0f82706675b7b.bundle",
+      "pathId": 1935849499187612283
+    },
+    {
+      "asset": "SO_MapData_MainPackage_Secret_20013",
+      "id": "MainPackage_Secret_20013",
+      "package": "MainPackage",
+      "bundle": "0358cec08412b08fbce0f82706675b7b.bundle",
+      "pathId": 2964543903312023096
+    },
+    {
+      "asset": "SO_MapData_MainPackage_Secret_10013",
+      "id": "MainPackage_Secret_10013",
+      "package": "MainPackage",
+      "bundle": "0358cec08412b08fbce0f82706675b7b.bundle",
+      "pathId": 4942861349621497231
+    },
+    {
+      "asset": "SO_MapData_ConstMap_10051_CityCastle",
+      "id": "MapData_ConstMap_10051_CityCastle",
+      "package": "MainPackage",
+      "bundle": "074ff85501bcb0557891176eb6dda65e.bundle",
+      "pathId": -4691572093514741818
+    },
+    {
+      "asset": "SO_MapData_ConstMap_1005_CityLayer",
+      "id": "ConstMap_1004_CityLayer",
+      "package": "MainPackage",
+      "bundle": "074ff85501bcb0557891176eb6dda65e.bundle",
+      "pathId": -2950970994881396781
+    },
+    {
+      "asset": "SO_MapData_1002_DeepForest",
+      "id": "MapData_1002_DeepOfForest",
+      "package": "MainPackage",
+      "bundle": "074ff85501bcb0557891176eb6dda65e.bundle",
+      "pathId": -2705974163811036553
+    },
+    {
+      "asset": "SO_MapData_ConstMap_TestScene",
+      "id": "ConstMap_TestScene",
+      "package": "MainPackage",
+      "bundle": "074ff85501bcb0557891176eb6dda65e.bundle",
+      "pathId": -1781678087410653915
+    },
+    {
+      "asset": "SO_MapData_1004_StoneForest",
+      "id": "MapData_1004_StoneForest",
+      "package": "MainPackage",
+      "bundle": "074ff85501bcb0557891176eb6dda65e.bundle",
+      "pathId": 850234443750658145
+    },
+    {
+      "asset": "SO_MapData_1006_StarLake",
+      "id": "MapData_1006_StarLake",
+      "package": "MainPackage",
+      "bundle": "074ff85501bcb0557891176eb6dda65e.bundle",
+      "pathId": 3695426991442300422
+    },
+    {
+      "asset": "SO_MapData_1003_Swamp",
+      "id": "MapData_1003_Swamp",
+      "package": "MainPackage",
+      "bundle": "074ff85501bcb0557891176eb6dda65e.bundle",
+      "pathId": 6374746987665326584
+    },
+    {
+      "asset": "SO_MapData_ConstMap_2001_TutorialScene",
+      "id": "ConstMap_2001_TutorialScene",
+      "package": "MainPackage",
+      "bundle": "074ff85501bcb0557891176eb6dda65e.bundle",
+      "pathId": 6865378359995810176
+    },
+    {
+      "asset": "SO_MapData_1001_RuinsForest",
+      "id": "MapData_1001_RuinsForest",
+      "package": "MainPackage",
+      "bundle": "074ff85501bcb0557891176eb6dda65e.bundle",
+      "pathId": 7556938621864612493
+    },
+    {
+      "asset": "SO_SkillData_NothingToDo",
+      "id": "SkillData_NothingToDo",
+      "package": "MainPackage",
+      "bundle": "9e380968abf5d5d286e092318fb07082.bundle",
+      "pathId": -2060745198439349738
+    },
+    {
+      "asset": "SO_SkillData_MonsterNormalDefense",
+      "id": "SkillData_MonsterNormalDefense",
+      "package": "MainPackage",
+      "bundle": "9e380968abf5d5d286e092318fb07082.bundle",
+      "pathId": 1953270122731657775
+    },
+    {
+      "asset": "SO_SkillData_MonsterNormalAttack",
+      "id": "SkillData_MonsterNormalAttack",
+      "package": "MainPackage",
+      "bundle": "9e380968abf5d5d286e092318fb07082.bundle",
+      "pathId": 2709206622023448684
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_SceneEffect_1_JiHan",
+      "id": "MainPackage_SceneEffect_1_JiHan",
+      "package": "MainPackage",
+      "bundle": "8996b22d6b2eb72a583dc26248c8f59f.bundle",
+      "pathId": -7003251811904565775
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_SceneEffect_2_HenDuoShiDui",
+      "id": "MainPackage_SceneEffect_2_HenDuoShiDui",
+      "package": "MainPackage",
+      "bundle": "8996b22d6b2eb72a583dc26248c8f59f.bundle",
+      "pathId": 1381095984473920985
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_SceneEffect_3_JiRe",
+      "id": "MainPackage_SceneEffect_3_JiRe",
+      "package": "MainPackage",
+      "bundle": "8996b22d6b2eb72a583dc26248c8f59f.bundle",
+      "pathId": 3865439128570404019
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_SceneEffect_4_KangFen",
+      "id": "MainPackage_SceneEffect_4_KangFen",
+      "package": "MainPackage",
+      "bundle": "8996b22d6b2eb72a583dc26248c8f59f.bundle",
+      "pathId": 6179417332607548799
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_1062_ChuWanJinWo",
+      "id": "MainPackage_Skill_1062_ChuWanJinWo",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -9200987531111641596
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_370_XianJiYiShi",
+      "id": "MainPackage_Skill_370_XianJiYiShi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -9126941791118289544
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_275_XingFenChongJi",
+      "id": "MainPackage_Skill_275_XingFenChongJi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -9089826338802735792
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_195_ChongDongKeZhi",
+      "id": "MainPackage_Skill_195_ChongDongKeZhi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -9088209599723305271
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_317_LeiDianFengHuan",
+      "id": "MainPackage_Skill_317_LeiDianFengHuan",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -9022586489965909332
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_207_ChaNaShuangYing",
+      "id": "MainPackage_Skill_207_ChaNaShuangYing",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -9006497736198985136
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_329_ZhaoHuanQiangLiHuanXiang",
+      "id": "MainPackage_Skill_329_ZhaoHuanQiangLiHuanXiang",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -8999387930411966019
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_126_MoFaDun",
+      "id": "MainPackage_Skill_126_MoFaDun",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -8986809068266539623
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_204_ShengMingFeiTeng",
+      "id": "MainPackage_Skill_204_ShengMingFeiTeng",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -8916693046782442504
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_257_YingHua",
+      "id": "MainPackage_Skill_257_YingHua",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -8895889407451989350
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_298_BeiShuiYiZhan",
+      "id": "MainPackage_Skill_298_BeiShuiYiZhan",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -8892987547174914812
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_106_XuLi",
+      "id": "MainPackage_Skill_106_XuLi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -8881083608030661343
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_210_HuiMieZhanJi",
+      "id": "MainPackage_Skill_210_HuiMieZhanJi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -8797013613904776896
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_245_ChaoZai",
+      "id": "MainPackage_Skill_245_ChaoZai",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -8795832721915027229
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_354_ChongNeng",
+      "id": "MainPackage_Skill_354_ChongNeng",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -8778917726311415510
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_369_SiWangQiYue",
+      "id": "MainPackage_Skill_369_SiWangQiYue",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -8753642582506639047
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_363_LingHunShouGe",
+      "id": "MainPackage_Skill_363_LingHunShouGe",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -8697853868372161213
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_202_XueChang",
+      "id": "MainPackage_Skill_202_XueChang",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -8680483974101773794
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_115_XianFaZhiRen",
+      "id": "MainPackage_Skill_115_XianFaZhiRen",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -8674049334198497500
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_309_JiHuo",
+      "id": "MainPackage_Skill_309_JiHuo",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -8522857966182448185
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_254_QuTiGaiZao",
+      "id": "MainPackage_Skill_254_QuTiGaiZao",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -8427828821254481468
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_167_CanLiuMoLi",
+      "id": "MainPackage_Skill_167_CanLiuMoLi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -8405032606697880574
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_125_AoShuFeiDan",
+      "id": "MainPackage_Skill_125_AoShuFeiDan",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -8395270452755056139
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_1067_YanShiLingTi",
+      "id": "MainPackage_Skill_1067_YanShiLingTi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -8379073859260699431
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_179_WuYingZhan",
+      "id": "MainPackage_Skill_179_WuYingZhan",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -8373822208663203760
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_105_DunPaiMengJi",
+      "id": "MainPackage_Skill_105_DunPaiMengJi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -8373574940625163291
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_304_ZhanHou",
+      "id": "MainPackage_Skill_304_ZhanHou",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -8372773685585492404
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_281_XianXueZhiDun",
+      "id": "MainPackage_Skill_281_XianXueZhiDun",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -8296535206437745354
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_211_LingShiGeDang",
+      "id": "MainPackage_Skill_211_LingShiGeDang",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -8278733167687132029
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_184_YeManShengZhang",
+      "id": "MainPackage_Skill_184_YeManShengZhang",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -8271364242512742644
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_289_JianCiHuDun",
+      "id": "MainPackage_Skill_289_JianCiHuDun",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -8257448720457059781
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_384_LingYa",
+      "id": "MainPackage_Skill_384_LingYa",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -8252917785461529597
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_1046_SenLinZhiYou",
+      "id": "MainPackage_Skill_1046_SenLinZhiYou",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -8245441370058030643
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_273_ZhaoHuanHuoYuanSu",
+      "id": "MainPackage_Skill_273_ZhaoHuanHuoYuanSu",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -8244891164151410194
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_331_JuNeng",
+      "id": "MainPackage_Skill_331_JuNeng",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -8225471292267110851
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_357_TongTiao",
+      "id": "MainPackage_Skill_357_TongTiao",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -8223446362669261772
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_1023_JianTa",
+      "id": "MainPackage_Skill_1023_JianTa",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -8131766468234061885
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_159_JiHanLingYu",
+      "id": "MainPackage_Skill_159_JiHanLingYu",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -8112724768827393379
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_FireBall",
+      "id": "MainPackage_Skill_FireBall",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -8047876386649441235
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_1025_ChaoQiangZaiSheng",
+      "id": "MainPackage_Skill_1025_ChaoQiangZaiSheng",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -7946715898271415645
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_124_BaoFengZhouYu",
+      "id": "MainPackage_Skill_124_BaoFengZhouYu",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -7925856875080619759
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_1039_CiDengShengMingTouQu",
+      "id": "MainPackage_Skill_1039_CiDengShengMingTouQu",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -7904521278606080522
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_1037_CiErJianJiao",
+      "id": "MainPackage_Skill_1037_CiErJianJiao",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -7880665684519165800
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_258_DuXingCuiHua",
+      "id": "MainPackage_Skill_258_DuXingCuiHua",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -7705825575828341784
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_292_TiaoXing",
+      "id": "MainPackage_Skill_292_TiaoXing",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -7629011915338260479
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_150_FanJiDaShi",
+      "id": "MainPackage_Skill_150_FanJiDaShi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -7326346152775832895
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_166_KuangYeShiFa",
+      "id": "MainPackage_Skill_166_KuangYeShiFa",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -7325899573658958775
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_10_BenZhongZhuangJia",
+      "id": "MainPackage_Skill_10_BenZhongZhuangJia",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -7268173479249148409
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_1058_JingShenCuoLuan",
+      "id": "MainPackage_Skill_1058_JingShenCuoLuan",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -7253561030582637071
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_164_HuoYanQingHe",
+      "id": "MainPackage_Skill_164_HuoYanQingHe",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -7183530074299132427
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_108_ZhenShe",
+      "id": "MainPackage_Skill_108_ZhenShe",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -7168120592735230784
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_1036_XiXue",
+      "id": "MainPackage_Skill_1036_XiXue",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -7134423393142716177
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_4_HuiFuLi",
+      "id": "MainPackage_Skill_4_HuiFuLi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -7034254057675269581
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_5_ShengMingTiSheng",
+      "id": "MainPackage_Skill_5_ShengMingTiSheng",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -6982724086999167213
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_229_JieShiDaJi",
+      "id": "MainPackage_Skill_229_JieShiDaJi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -6857477833576190275
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_350_JingZhunLeiJi",
+      "id": "MainPackage_Skill_350_JingZhunLeiJi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -6850070297223686592
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_339_TanLanZhe",
+      "id": "MainPackage_Skill_339_TanLanZhe",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -6835449011926851862
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_1071_TongKuMeiHeng",
+      "id": "MainPackage_Skill_1071_TongKuMeiHeng",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -6816092794160886011
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_1008_ShiFaGanRao",
+      "id": "MainPackage_Skill_1008_ShiFaGanRao",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -6752286236633015775
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_346_YongChangBiLei",
+      "id": "MainPackage_Skill_346_YongChangBiLei",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -6734802280648322392
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_1002_SiYao",
+      "id": "MainPackage_Skill_1002_SiYao",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -6706106703010178675
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_381_XiuGuWeiXin",
+      "id": "MainPackage_Skill_381_XiuGuWeiXin",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -6691203615874692563
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_191_FanJiZhunBei",
+      "id": "MainPackage_Skill_191_FanJiZhunBei",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -6668754674761633915
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_198_KuaiSuChuQiao",
+      "id": "MainPackage_Skill_198_KuaiSuChuQiao",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -6661725613396277406
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_3_ZhiLiTiSheng",
+      "id": "MainPackage_Skill_3_ZhiLiTiSheng",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -6659350489195001583
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_12_JingJiJia",
+      "id": "MainPackage_Skill_12_JingJiJia",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -6658772632560609382
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_103_LengJing",
+      "id": "MainPackage_Skill_103_LengJing",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -6587361536106027019
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_20_MinJieXunLian",
+      "id": "MainPackage_Skill_20_MinJieXunLian",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -6531716100931257082
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_387_GuanZhuangLingHun",
+      "id": "MainPackage_Skill_387_GuanZhuangLingHun",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -6531542905303510073
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_1035_AnHeiZhiMao",
+      "id": "MainPackage_Skill_1035_AnHeiZhiMao",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -6520260731676146908
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_351_YongDongCiJi",
+      "id": "MainPackage_Skill_351_YongDongCiJi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -6467687160400225561
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_1029_CuiDuDuanRen",
+      "id": "MainPackage_Skill_1029_CuiDuDuanRen",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -6459152895381716007
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_17_JiZao",
+      "id": "MainPackage_Skill_17_JiZao",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -6444834420392086652
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_138_ZhiMingBaoDan",
+      "id": "MainPackage_Skill_138_ZhiMingBaoDan",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -6327239558827570553
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_1031_BuQu",
+      "id": "MainPackage_Skill_1031_BuQu",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -6237941784800685619
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_321_HuanLeiYiShi",
+      "id": "MainPackage_Skill_321_HuanLeiYiShi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -6176697779862325299
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_1012_WeiSuo",
+      "id": "MainPackage_Skill_1012_WeiSuo",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -6168336917962311644
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_24_ChuanTouShu",
+      "id": "MainPackage_Skill_24_ChuanTouShu",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -6158626104756344774
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_1004_DuoCengHuJia",
+      "id": "MainPackage_Skill_1004_DuoCengHuJia",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -6151433709781377370
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_217_XiTi",
+      "id": "MainPackage_Skill_217_XiTi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -6145874639317842901
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_172_JianTiTianJiaWu",
+      "id": "MainPackage_Skill_172_JianTiTianJiaWu",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -6113488713874157001
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_142_GaoJiLianZhi",
+      "id": "MainPackage_Skill_142_GaoJiLianZhi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -6091983847498350832
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_50_HuoLiZhan",
+      "id": "MainPackage_Skill_50_HuoLiZhan",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -6043018543491740300
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_21_ZhiLiXunLian",
+      "id": "MainPackage_Skill_21_ZhiLiXunLian",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -6023715922943685232
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_333_ZhaoHuanHuanYing",
+      "id": "MainPackage_Skill_333_ZhaoHuanHuanYing",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -5946558805157786389
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_187_BianTa",
+      "id": "MainPackage_Skill_187_BianTa",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -5739091555972007393
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_219_FengXianTuXi",
+      "id": "MainPackage_Skill_219_FengXianTuXi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -5714348303759701921
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_391_XueShi",
+      "id": "MainPackage_Skill_391_XueShi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -5631427577642548267
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_180_FangYuTiSheng",
+      "id": "MainPackage_Skill_180_FangYuTiSheng",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -5616519630024231006
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_7_MoLiHuiFuTiSheng",
+      "id": "MainPackage_Skill_7_MoLiHuiFuTiSheng",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -5506773269256689730
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_315_DianNengZhuRu",
+      "id": "MainPackage_Skill_315_DianNengZhuRu",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -5452118942194890724
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_312_BoDou",
+      "id": "MainPackage_Skill_312_BoDou",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -5434272915753432817
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_139_LeiYingBu",
+      "id": "MainPackage_Skill_139_LeiYingBu",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -5429556549765151699
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_1030_DanXiao",
+      "id": "MainPackage_Skill_1030_DanXiao",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -5378285545842365301
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_212_BeiCi",
+      "id": "MainPackage_Skill_212_BeiCi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -5319978393800386157
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_193_XinLiu",
+      "id": "MainPackage_Skill_193_XinLiu",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -5317958390463852359
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_118_DuSuGuanCi",
+      "id": "MainPackage_Skill_118_DuSuGuanCi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -5309912432764463800
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_133_PoJiaRen",
+      "id": "MainPackage_Skill_133_PoJiaRen",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -5280067137059543485
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_152_JianWu",
+      "id": "MainPackage_Skill_152_JianWu",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -5166780868950741286
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_1047_BuWenDingJuHeWu",
+      "id": "MainPackage_Skill_1047_BuWenDingJuHeWu",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -5163432336990722434
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_47_ShangKouCiJi",
+      "id": "MainPackage_Skill_47_ShangKouCiJi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -5121182322709022946
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_340_DunJiZhe",
+      "id": "MainPackage_Skill_340_DunJiZhe",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -5111895032788822304
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_1024_LiZhuaQieGe",
+      "id": "MainPackage_Skill_1024_LiZhuaQieGe",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -5073195650285210037
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_18_LuoJingXiaShi",
+      "id": "MainPackage_Skill_18_LuoJingXiaShi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -5058098840008981604
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_1042_QinShiBaoZi",
+      "id": "MainPackage_Skill_1042_QinShiBaoZi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -4863274512232062632
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_361_CuiLian",
+      "id": "MainPackage_Skill_361_CuiLian",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -4856265408881064456
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_294_SiMingDiKang",
+      "id": "MainPackage_Skill_294_SiMingDiKang",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -4820765608840505856
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_11_CeZhongShenTi",
+      "id": "MainPackage_Skill_11_CeZhongShenTi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -4793082302699762744
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_134_JuDuLingYu",
+      "id": "MainPackage_Skill_134_JuDuLingYu",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -4658948411569500057
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_1072_WuLiMeiHeng",
+      "id": "MainPackage_Skill_1072_WuLiMeiHeng",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -4605183907747378035
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_250_BingLengQuTi",
+      "id": "MainPackage_Skill_250_BingLengQuTi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -4587435784447902533
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_360_BingSiTiYan",
+      "id": "MainPackage_Skill_360_BingSiTiYan",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -4553840998454053190
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_132_ZhanQianXiaDu",
+      "id": "MainPackage_Skill_132_ZhanQianXiaDu",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -4497440553847862875
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_1020_JuShiQuan",
+      "id": "MainPackage_Skill_1020_JuShiQuan",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -4494980676507488378
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_226_RenFeng",
+      "id": "MainPackage_Skill_226_RenFeng",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -4459303295867189597
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_110_QiuShengBenNeng",
+      "id": "MainPackage_Skill_110_QiuShengBenNeng",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -4396580518346343802
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_328_LueFaLianJi",
+      "id": "MainPackage_Skill_328_LueFaLianJi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -4290021030645613138
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_395_ZhouShiDaJi",
+      "id": "MainPackage_Skill_395_ZhouShiDaJi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -4245909316316742067
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_311_GongJiJiQiao",
+      "id": "MainPackage_Skill_311_GongJiJiQiao",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -4244812939235521669
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_373_HeiAnYiShi",
+      "id": "MainPackage_Skill_373_HeiAnYiShi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -4232433944708109741
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_15_ZhuangJiShu",
+      "id": "MainPackage_Skill_15_ZhuangJiShu",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -4201408592571258647
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_182_GongShouJianBei",
+      "id": "MainPackage_Skill_182_GongShouJianBei",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -4194747981772472582
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_1027_AiShi",
+      "id": "MainPackage_Skill_1027_AiShi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -4175310843886126511
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_353_LeiFa",
+      "id": "MainPackage_Skill_353_LeiFa",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -4173287126900953217
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_155_JiaDaJiLiang",
+      "id": "MainPackage_Skill_155_JiaDaJiLiang",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -4129740034860139939
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_380_ShengMingJiQu",
+      "id": "MainPackage_Skill_380_ShengMingJiQu",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -4106347415232730917
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_228_SuQing",
+      "id": "MainPackage_Skill_228_SuQing",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -4067993639805361410
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_1001_TongJi",
+      "id": "MainPackage_Skill_1001_TongJi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -4003310806467398045
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_117_YanWuDan",
+      "id": "MainPackage_Skill_117_YanWuDan",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -3904841440834854785
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_236_KuangWangYongChang",
+      "id": "MainPackage_Skill_236_KuangWangYongChang",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -3887965930084896411
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_371_XingDongZhiLing",
+      "id": "MainPackage_Skill_371_XingDongZhiLing",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -3878260331568979714
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_1_LiLiangTisheng",
+      "id": "MainPackage_Skill_1_LiLiangTisheng",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -3819336307170393056
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_368_HuanXingShiGu",
+      "id": "MainPackage_Skill_368_HuanXingShiGu",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -3778770848522776886
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_243_YanMoHua",
+      "id": "MainPackage_Skill_243_YanMoHua",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -3696467577256917374
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_385_HaiGuBiLei",
+      "id": "MainPackage_Skill_385_HaiGuBiLei",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -3690700333326411120
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_352_ChongNengTuCi",
+      "id": "MainPackage_Skill_352_ChongNengTuCi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -3611475281449203764
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_366_GuMaoTouZhi",
+      "id": "MainPackage_Skill_366_GuMaoTouZhi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -3573843885916867074
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_44_ZhenFen",
+      "id": "MainPackage_Skill_44_ZhenFen",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -3472024579796974750
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_1028_BingLengJuJi",
+      "id": "MainPackage_Skill_1028_BingLengJuJi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -3367854891269333846
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_30_LiuGuangShu",
+      "id": "MainPackage_Skill_30_LiuGuangShu",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -3292530355312354446
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_383_WangLingDaJun",
+      "id": "MainPackage_Skill_383_WangLingDaJun",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -3251672904150766357
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_113_DuZhiRen",
+      "id": "MainPackage_Skill_113_DuZhiRen",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -3061331163831090473
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_120_MinJieXunLian",
+      "id": "MainPackage_Skill_120_MinJieXunLian",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -3048300140301532598
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_400_LingHunLianCheng",
+      "id": "MainPackage_Skill_400_LingHunLianCheng",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -3042791604086303610
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_398_XingJunZhiLing",
+      "id": "MainPackage_Skill_398_XingJunZhiLing",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -2986900305597785124
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_344_GuanChuanMoRen",
+      "id": "MainPackage_Skill_344_GuanChuanMoRen",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -2981316379681507544
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_205_YiGongWeiShou",
+      "id": "MainPackage_Skill_205_YiGongWeiShou",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -2920017350167166090
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_1054_MoLiXiQu",
+      "id": "MainPackage_Skill_1054_MoLiXiQu",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -2915204396210972716
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_1075_DianLiuHuDun",
+      "id": "MainPackage_Skill_1075_DianLiuHuDun",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -2875711765535275163
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_235_LvDongYongChang",
+      "id": "MainPackage_Skill_235_LvDongYongChang",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -2843431764713494926
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_165_KuangYeYanHuo",
+      "id": "MainPackage_Skill_165_KuangYeYanHuo",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -2836142004562889396
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_279_CeShenGeDang",
+      "id": "MainPackage_Skill_279_CeShenGeDang",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -2823642425108561996
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_136_DuXueYongDong",
+      "id": "MainPackage_Skill_136_DuXueYongDong",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -2823171622543735119
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_199_TouZhi",
+      "id": "MainPackage_Skill_199_TouZhi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -2771263958918884950
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_364_ZhaoHunShu",
+      "id": "MainPackage_Skill_364_ZhaoHunShu",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -2714550370674520197
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_285_FuChouJingJi",
+      "id": "MainPackage_Skill_285_FuChouJingJi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -2599445939931800380
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_174_QuanShenZhuangJi",
+      "id": "MainPackage_Skill_174_QuanShenZhuangJi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -2595973734197366931
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_307_KuaiSuLengQue",
+      "id": "MainPackage_Skill_307_KuaiSuLengQue",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -2564809969960243558
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_48_GeDangDaJi",
+      "id": "MainPackage_Skill_48_GeDangDaJi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -2564399641025486814
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_1055_PoSuiJiaJi",
+      "id": "MainPackage_Skill_1055_PoSuiJiaJi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -2562048300877761829
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_220_DuJiaShu",
+      "id": "MainPackage_Skill_220_DuJiaShu",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -2551729869296785828
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_332_LieYanZhiQiang",
+      "id": "MainPackage_Skill_332_LieYanZhiQiang",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -2547905095790328559
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_30_JingLiWangSheng",
+      "id": "MainPackage_Skill_30_JingLiWangSheng",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -2533388117208714688
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_171_PingZhuangHuoLi",
+      "id": "MainPackage_Skill_171_PingZhuangHuoLi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -2514781049232498706
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_268_LianJinCanLiu",
+      "id": "MainPackage_Skill_268_LianJinCanLiu",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -2454611926268199852
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_9_LengQueJiaSu",
+      "id": "MainPackage_Skill_9_LengQueJiaSu",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -2439109293561191200
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_241_BaoFengXue",
+      "id": "MainPackage_Skill_241_BaoFengXue",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -2405017189833559266
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_396_XieEZiYang",
+      "id": "MainPackage_Skill_396_XieEZiYang",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -2375660308955832266
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_300_JueDou",
+      "id": "MainPackage_Skill_300_JueDou",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -2375100516360805772
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_403_DuShengTieWei",
+      "id": "MainPackage_Skill_403_DuShengTieWei",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -2354633156636205549
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_389_KuTongZheMo",
+      "id": "MainPackage_Skill_389_KuTongZheMo",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -2342039580104651767
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_319_DianNengJiHuo",
+      "id": "MainPackage_Skill_319_DianNengJiHuo",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -2332857367048696523
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_101_PoZhanZhanHou",
+      "id": "MainPackage_Skill_101_PoZhanZhanHou",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -2321386908138980656
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_68_HuoQiuShu",
+      "id": "MainPackage_Skill_68_HuoQiuShu",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -2076266761449603542
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_1006_RaoLuanChongJi",
+      "id": "MainPackage_Skill_1006_RaoLuanChongJi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -2075668530523946780
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_128_ShiFaJingTong",
+      "id": "MainPackage_Skill_128_ShiFaJingTong",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -2058611438012652589
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_63_DianJiShu",
+      "id": "MainPackage_Skill_63_DianJiShu",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -2053896256677672828
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_197_JieZouZhanJi",
+      "id": "MainPackage_Skill_197_JieZouZhanJi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -1977365947737490283
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_262_QuTiJiSu",
+      "id": "MainPackage_Skill_262_QuTiJiSu",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -1967461577218514301
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_201_WeiHeNuHou",
+      "id": "MainPackage_Skill_201_WeiHeNuHou",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -1907694731780107156
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_102_KuaiSuFanYing",
+      "id": "MainPackage_Skill_102_KuaiSuFanYing",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -1844479509061013344
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_365_ShiBaoShu",
+      "id": "MainPackage_Skill_365_ShiBaoShu",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -1827368794068651621
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_271_DuBaoShu",
+      "id": "MainPackage_Skill_271_DuBaoShu",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -1791447599773631021
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_1034_TongYuHaoLing",
+      "id": "MainPackage_Skill_1034_TongYuHaoLing",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -1758359021042876525
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_122_ZhiLiXunLian",
+      "id": "MainPackage_Skill_122_ZhiLiXunLian",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -1664722158192753346
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_260_CuiDuWuQi",
+      "id": "MainPackage_Skill_260_CuiDuWuQi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -1657925125969393697
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_402_HaiGuDui",
+      "id": "MainPackage_Skill_402_HaiGuDui",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -1564747929355603598
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_253_XuJiaZhiLiao",
+      "id": "MainPackage_Skill_253_XuJiaZhiLiao",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -1539809671892817792
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_29_HuiDunQieGe",
+      "id": "MainPackage_Skill_29_HuiDunQieGe",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -1514048054504546050
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_1061_QiuZhiYu",
+      "id": "MainPackage_Skill_1061_QiuZhiYu",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -1338613399534259477
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_151_TanKaiWuQi",
+      "id": "MainPackage_Skill_151_TanKaiWuQi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -1202124970075587695
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_104_FenLiYiBo",
+      "id": "MainPackage_Skill_104_FenLiYiBo",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -1191980106306531638
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_334_HouCheHuanYing",
+      "id": "MainPackage_Skill_334_HouCheHuanYing",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -1150203740344832791
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_1076_LongXueFeiTeng",
+      "id": "MainPackage_Skill_1076_LongXueFeiTeng",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -1095345900829261337
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_28_ShangTongGanZhi",
+      "id": "MainPackage_Skill_28_ShangTongGanZhi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -1060321745738105759
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_338_TouQie",
+      "id": "MainPackage_Skill_338_TouQie",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -1047272222685384429
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_376_BuSi",
+      "id": "MainPackage_Skill_376_BuSi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -998080464021631560
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_263_CuiQu",
+      "id": "MainPackage_Skill_263_CuiQu",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -909889731379890545
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_154_FanJiFengBao",
+      "id": "MainPackage_Skill_154_FanJiFengBao",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -890445474473230522
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_313_BoMing",
+      "id": "MainPackage_Skill_313_BoMing",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -660137619262482787
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_121_LiLiangXunLian",
+      "id": "MainPackage_Skill_121_LiLiangXunLian",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -598373453763790162
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_78_DuCiShu",
+      "id": "MainPackage_Skill_78_DuCiShu",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -580949209827300584
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_206_ShengMingRanShao",
+      "id": "MainPackage_Skill_206_ShengMingRanShao",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -577405996198793935
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_1052_MoLiFuZhuo",
+      "id": "MainPackage_Skill_1052_MoLiFuZhuo",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -506529046772932858
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_170_DianRan",
+      "id": "MainPackage_Skill_170_DianRan",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -415139410436098645
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_246_ShangDianHuiYuan",
+      "id": "MainPackage_Skill_246_ShangDianHuiYuan",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -404366647681327344
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_327_AoShuFuMo",
+      "id": "MainPackage_Skill_327_AoShuFuMo",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -371338083147165586
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_1003_DuoChongDaJi",
+      "id": "MainPackage_Skill_1003_DuoChongDaJi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -358702204644922221
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_393_TongKuLianJie",
+      "id": "MainPackage_Skill_393_TongKuLianJie",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -352560495320660148
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_225_PoZhanHuiShi",
+      "id": "MainPackage_Skill_225_PoZhanHuiShi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -333840328922003587
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_1074_ChongZhuang",
+      "id": "MainPackage_Skill_1074_ChongZhuang",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -282928521931319177
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_107_JiuShiXianZai",
+      "id": "MainPackage_Skill_107_JiuShiXianZai",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -277224587244234597
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_2001_MeiMoQiYue",
+      "id": "MainPackage_Skill_2001_MeiMoQiYue",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -184311339721680096
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_335_TiShen",
+      "id": "MainPackage_Skill_335_TiShen",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -87367497770103272
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_287_WuJuTengTong",
+      "id": "MainPackage_Skill_287_WuJuTengTong",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -68379322909051600
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_244_JuNengGuangShu",
+      "id": "MainPackage_Skill_244_JuNengGuangShu",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": -32590511435284634
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_16_YanXi",
+      "id": "MainPackage_Skill_16_YanXi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 3327533622732480
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_216_SaoTui",
+      "id": "MainPackage_Skill_216_SaoTui",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 24017355855132324
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_397_LingHunHuTi",
+      "id": "MainPackage_Skill_397_LingHunHuTi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 42226147466186003
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_345_YinShi",
+      "id": "MainPackage_Skill_345_YinShi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 81684200496582156
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_1043_XuRuoHuaFen",
+      "id": "MainPackage_Skill_1043_XuRuoHuaFen",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 124758219682800834
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_156_HanBingJian",
+      "id": "MainPackage_Skill_156_HanBingJian",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 129883932907397557
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_1050_LieYanHuShen",
+      "id": "MainPackage_Skill_1050_LieYanHuShen",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 134581233421929971
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_362_HuiShou",
+      "id": "MainPackage_Skill_362_HuiShou",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 145628674112707799
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_1013_ShiTan",
+      "id": "MainPackage_Skill_1013_ShiTan",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 174618846327915417
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_232_ErChongChang",
+      "id": "MainPackage_Skill_232_ErChongChang",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 193998772661760710
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_347_YangGong",
+      "id": "MainPackage_Skill_347_YangGong",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 232462158528112856
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_303_FuChouDaJi",
+      "id": "MainPackage_Skill_303_FuChouDaJi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 250873773375321901
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_342_MoNengHuaJian",
+      "id": "MainPackage_Skill_342_MoNengHuaJian",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 341214092620305220
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_252_YanWuMiMan",
+      "id": "MainPackage_Skill_252_YanWuMiMan",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 383544947548894246
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_145_LianZhiBaoPoYaoJi",
+      "id": "MainPackage_Skill_145_LianZhiBaoPoYaoJi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 524823320477319220
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_297_GenJin",
+      "id": "MainPackage_Skill_297_GenJin",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 542851717670211312
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_322_DianLiXunJie",
+      "id": "MainPackage_Skill_322_DianLiXunJie",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 567543721559593630
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_1004_ChanRao",
+      "id": "MainPackage_Skill_1004_ChanRao",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 603205622973899732
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_320_LeiDianQiang",
+      "id": "MainPackage_Skill_320_LeiDianQiang",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 605563069469603683
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_203_JianBuKeCui",
+      "id": "MainPackage_Skill_203_JianBuKeCui",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 652457887352407457
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_341_MengLieGongShi",
+      "id": "MainPackage_Skill_341_MengLieGongShi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 710552574369355846
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_358_XuRuoDianJi",
+      "id": "MainPackage_Skill_358_XuRuoDianJi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 738150961612293279
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_13_ZhongJiShu",
+      "id": "MainPackage_Skill_13_ZhongJiShu",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 772179807227438838
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_218_GuanChuanChongJi",
+      "id": "MainPackage_Skill_218_GuanChuanChongJi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 775554423685215531
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_356_XuShiZhanJi",
+      "id": "MainPackage_Skill_356_XuShiZhanJi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 794193097984396217
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_314_XunJieZhiYing",
+      "id": "MainPackage_Skill_314_XunJieZhiYing",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 879000277740223786
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_141_GuHuaTianJiaWu",
+      "id": "MainPackage_Skill_141_GuHuaTianJiaWu",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 933945316226733180
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_135_DuLiao",
+      "id": "MainPackage_Skill_135_DuLiao",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 934041067079624842
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_1038_LiangQiangChongZhuang",
+      "id": "MainPackage_Skill_1038_LiangQiangChongZhuang",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 954624933652681705
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_200_LianHuanDaJi",
+      "id": "MainPackage_Skill_200_LianHuanDaJi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 965721774247011049
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_1049_FeiTeng",
+      "id": "MainPackage_Skill_1049_FeiTeng",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 977389208780480167
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_1032_TaoWang",
+      "id": "MainPackage_Skill_1032_TaoWang",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 989138587983360187
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_1056_JuQianNianYa",
+      "id": "MainPackage_Skill_1056_JuQianNianYa",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 992771689644576276
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_162_BingShuangFuMo",
+      "id": "MainPackage_Skill_162_BingShuangFuMo",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 1037172103659368597
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_388_ShunYingSha",
+      "id": "MainPackage_Skill_388_ShunYingSha",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 1060087768597902362
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_348_LeiTingJiaSu",
+      "id": "MainPackage_Skill_348_LeiTingJiaSu",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 1133048190629546871
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_230_ZhuDuCiJi",
+      "id": "MainPackage_Skill_230_ZhuDuCiJi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 1174093285174721563
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_259_DuWu",
+      "id": "MainPackage_Skill_259_DuWu",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 1260771224032170427
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_374_LingHunTouZhi",
+      "id": "MainPackage_Skill_374_LingHunTouZhi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 1323436622185143846
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_1053_JuanWei",
+      "id": "MainPackage_Skill_1053_JuanWei",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 1468970427189559739
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_144_ShenShangXianZhuSe",
+      "id": "MainPackage_Skill_144_ShenShangXianZhuSe",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 1479839815659116283
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_35_JueXingZhe",
+      "id": "MainPackage_Skill_35_JueXingZhe",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 1506931679737298418
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_173_GeDang",
+      "id": "MainPackage_Skill_173_GeDang",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 1550613095448673103
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_1010_XuePenDaKou",
+      "id": "MainPackage_Skill_1010_XuePenDaKou",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 1573874909967358687
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_129_AoShuLianJi",
+      "id": "MainPackage_Skill_129_AoShuLianJi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 1624136160604699227
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_25_ShenPanJi",
+      "id": "MainPackage_Skill_25_ShenPanJi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 1639621382321445558
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_185_JingJiHuShen",
+      "id": "MainPackage_Skill_185_JingJiHuShen",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 1788669395449772824
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_305_ShanLiangDengChang",
+      "id": "MainPackage_Skill_305_ShanLiangDengChang",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 1897733959566957536
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_302_QiongZhuiMengDa",
+      "id": "MainPackage_Skill_302_QiongZhuiMengDa",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 1920290657832674665
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_153_LiuZhuan",
+      "id": "MainPackage_Skill_153_LiuZhuan",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 2022979347014755189
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_323_XunLeiGongJi",
+      "id": "MainPackage_Skill_323_XunLeiGongJi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 2107733336555284334
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_1005_PaoXiao",
+      "id": "MainPackage_Skill_1005_PaoXiao",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 2127992430973115647
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_223_YaZhi",
+      "id": "MainPackage_Skill_223_YaZhi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 2129694716607169450
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_343_MoNengSaoDang",
+      "id": "MainPackage_Skill_343_MoNengSaoDang",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 2152505385149394661
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_158_HanBingDun",
+      "id": "MainPackage_Skill_158_HanBingDun",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 2215222522029818094
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_149_FanJiLuoXuan",
+      "id": "MainPackage_Skill_149_FanJiLuoXuan",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 2244457236866002842
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_40_KuaiZhan",
+      "id": "MainPackage_Skill_40_KuaiZhan",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 2250193152332859739
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_188_RenNai",
+      "id": "MainPackage_Skill_188_RenNai",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 2280420543002849273
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_1070_MeiHuoZhiWen",
+      "id": "MainPackage_Skill_1070_MeiHuoZhiWen",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 2317176847205765027
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_255_QuTiGaiZao",
+      "id": "MainPackage_Skill_255_QuTiGaiZao",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 2377996450508008333
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_1051_ZiBao",
+      "id": "MainPackage_Skill_1051_ZiBao",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 2395917575162055305
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_45_ZhongJieZhan",
+      "id": "MainPackage_Skill_45_ZhongJieZhan",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 2442499910975578590
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_169_BiaoPiYingHua",
+      "id": "MainPackage_Skill_169_BiaoPiYingHua",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 2510035448638589237
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_214_XunXi",
+      "id": "MainPackage_Skill_214_XunXi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 2512493381364221285
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_176_BaoZhaTianJiaWu",
+      "id": "MainPackage_Skill_176_BaoZhaTianJiaWu",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 2582554928935515991
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_1014_RouRen",
+      "id": "MainPackage_Skill_1014_RouRen",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 2653773426552787022
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_280_XuShi",
+      "id": "MainPackage_Skill_280_XuShi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 2658452626643137725
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_1005_QiangLiZaiSheng",
+      "id": "MainPackage_Skill_1005_QiangLiZaiSheng",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 2712817093629096302
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_359_ZhongJieYiJi",
+      "id": "MainPackage_Skill_359_ZhongJieYiJi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 2844922501076720563
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_1026_JuShiBaoJun",
+      "id": "MainPackage_Skill_1026_JuShiBaoJun",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 2851720060415652725
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_31_RongHeJi",
+      "id": "MainPackage_Skill_31_RongHeJi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 3069540367722971215
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_23_DuXue",
+      "id": "MainPackage_Skill_23_DuXue",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 3135764834645597406
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_189_YingCheng",
+      "id": "MainPackage_Skill_189_YingCheng",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 3241186667104513712
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_123_YinDuShu",
+      "id": "MainPackage_Skill_123_YinDuShu",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 3245964076461099018
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_256_DuQiBengFa",
+      "id": "MainPackage_Skill_256_DuQiBengFa",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 3252148286127328473
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_116_ZhenBeiHuJia",
+      "id": "MainPackage_Skill_116_ZhenBeiHuJia",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 3279570599356455043
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_242_LianYu",
+      "id": "MainPackage_Skill_242_LianYu",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 3317042654413711819
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_1016_DuZhiXue",
+      "id": "MainPackage_Skill_1016_DuZhiXue",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 3342677884144868095
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_55_YueZhanYueYong",
+      "id": "MainPackage_Skill_55_YueZhanYueYong",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 3399464387932662861
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_267_ZhiMingTuXi",
+      "id": "MainPackage_Skill_267_ZhiMingTuXi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 3405307479901655945
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_324_LeiYun",
+      "id": "MainPackage_Skill_324_LeiYun",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 3490831395273432060
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_143_YaoShuiLianZhi",
+      "id": "MainPackage_Skill_143_YaoShuiLianZhi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 3531042424069339209
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_278_GongGu",
+      "id": "MainPackage_Skill_278_GongGu",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 3541672820007617736
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_146_SuanYePenShe",
+      "id": "MainPackage_Skill_146_SuanYePenShe",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 3572786543405614283
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_1060_ZhongYaLiChang",
+      "id": "MainPackage_Skill_1060_ZhongYaLiChang",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 3616750702513126016
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_378_GuCiShu",
+      "id": "MainPackage_Skill_378_GuCiShu",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 3666843000979994493
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_186_FangYuZhenLie",
+      "id": "MainPackage_Skill_186_FangYuZhenLie",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 3764063771713689427
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_8_ChiXuLi",
+      "id": "MainPackage_Skill_8_ChiXuLi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 3815882481830796851
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_270_XingFenTianJiaWu",
+      "id": "MainPackage_Skill_270_XingFenTianJiaWu",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 3831750176825620591
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_251_DiWenJingZhi",
+      "id": "MainPackage_Skill_251_DiWenJingZhi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 3859308032689782431
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_49_ZhunBeiZiTai",
+      "id": "MainPackage_Skill_49_ZhunBeiZiTai",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 3868814378668490435
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_1017_DuoTouShengWu",
+      "id": "MainPackage_Skill_1017_DuoTouShengWu",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 3872030076673421444
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_83_TasnLan",
+      "id": "MainPackage_Skill_83_TasnLan",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 3876438058706529987
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_239_BingLengCiGu",
+      "id": "MainPackage_Skill_239_BingLengCiGu",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 3890543417481804204
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_375_LingHunChongJi",
+      "id": "MainPackage_Skill_375_LingHunChongJi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 3893893451152670650
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_277_DuSuZhuanYi",
+      "id": "MainPackage_Skill_277_DuSuZhuanYi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 4075955237859191524
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_1018_ChenZhongDaJi",
+      "id": "MainPackage_Skill_1018_ChenZhongDaJi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 4078248249029561189
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_308_HouKongFan",
+      "id": "MainPackage_Skill_308_HouKongFan",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 4085559920749280556
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_325_LianXuHongJi",
+      "id": "MainPackage_Skill_325_LianXuHongJi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 4098322473728666435
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_161_PoBingShu",
+      "id": "MainPackage_Skill_161_PoBingShu",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 4177835098881407898
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_237_LingGanYongChang",
+      "id": "MainPackage_Skill_237_LingGanYongChang",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 4201890929831168251
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_1015_ChuanBoJiBing",
+      "id": "MainPackage_Skill_1015_ChuanBoJiBing",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 4264377165073414885
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_213_ZhanShuGeDang",
+      "id": "MainPackage_Skill_213_ZhanShuGeDang",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 4268971241364726948
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_1065_TanTa",
+      "id": "MainPackage_Skill_1065_TanTa",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 4307709233570482088
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_265_YingHuaZiShen",
+      "id": "MainPackage_Skill_265_YingHuaZiShen",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 4336711982220165222
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_127_AoShuShuangDan",
+      "id": "MainPackage_Skill_127_AoShuShuangDan",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 4364743745407861780
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_249_ErLianJi",
+      "id": "MainPackage_Skill_249_ErLianJi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 4375181782603847468
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_340_TunJiZhe",
+      "id": "MainPackage_Skill_340_TunJiZhe",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 4405213210647094857
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_209_HuoLiZhiChao",
+      "id": "MainPackage_Skill_209_HuoLiZhiChao",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 4409922390787447068
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_194_JuShou",
+      "id": "MainPackage_Skill_194_JuShou",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 4448248508045408766
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_316_GuoZaiDianJi",
+      "id": "MainPackage_Skill_316_GuoZaiDianJi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 4505978195554928448
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_1044_WuMouChongFeng",
+      "id": "MainPackage_Skill_1044_WuMouChongFeng",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 4507578344673703284
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_1059_TuiBian",
+      "id": "MainPackage_Skill_1059_TuiBian",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 4514168573388749651
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_337_WuXingZhiYing",
+      "id": "MainPackage_Skill_337_WuXingZhiYing",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 4541851431957035007
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_399_HaiGuFengBao",
+      "id": "MainPackage_Skill_399_HaiGuFengBao",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 4634874601144425874
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_181_YiDongBaoLei",
+      "id": "MainPackage_Skill_181_YiDongBaoLei",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 4643349244743657328
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_276_BaoPoShiYan",
+      "id": "MainPackage_Skill_276_BaoPoShiYan",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 4679287049620344690
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_301_YouRenYouYu",
+      "id": "MainPackage_Skill_301_YouRenYouYu",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 4721192581496661844
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_215_ZhanShuTiaoZheng",
+      "id": "MainPackage_Skill_215_ZhanShuTiaoZheng",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 4764454561501721772
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_349_LuoLei",
+      "id": "MainPackage_Skill_349_LuoLei",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 4811800775847472866
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_221_GuanXingShiKong",
+      "id": "MainPackage_Skill_221_GuanXingShiKong",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 4872960212008560036
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_178_XuLingHua",
+      "id": "MainPackage_Skill_178_XuLingHua",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 4891050423162712984
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_192_ZhuanZhuZhongJi",
+      "id": "MainPackage_Skill_192_ZhuanZhuZhongJi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 4891195835126672411
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_183_JingJiCanShen",
+      "id": "MainPackage_Skill_183_JingJiCanShen",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 4954269105660773206
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_382_XianLaiYiJu",
+      "id": "MainPackage_Skill_382_XianLaiYiJu",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 4962878007312254633
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_137_DengDaiShiJi",
+      "id": "MainPackage_Skill_137_DengDaiShiJi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 5016460034351082246
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_283_KuangNvFanJi",
+      "id": "MainPackage_Skill_283_KuangNvFanJi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 5016506877781988897
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_1066_YanShiTouZhi",
+      "id": "MainPackage_Skill_1066_YanShiTouZhi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 5085638721641239544
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_390_ShiMingZhiRen",
+      "id": "MainPackage_Skill_390_ShiMingZhiRen",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 5092693876419570295
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_367_DuanTouTai",
+      "id": "MainPackage_Skill_367_DuanTouTai",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 5095903346816820735
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_97_JinJiDun",
+      "id": "MainPackage_Skill_97_JinJiDun",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 5131452347553593648
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_238_JianJieShiFa",
+      "id": "MainPackage_Skill_238_JianJieShiFa",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 5143271341313360142
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_386_LingHunFengBao",
+      "id": "MainPackage_Skill_386_LingHunFengBao",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 5174640494069879232
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_114_AnZhongMouHua",
+      "id": "MainPackage_Skill_114_AnZhongMouHua",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 5296987977160998287
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_1069_JiXu",
+      "id": "MainPackage_Skill_1069_JiXu",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 5357357692436454341
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_148_GeDangFanJi",
+      "id": "MainPackage_Skill_148_GeDangFanJi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 5387805239683245645
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_1011_QianFu",
+      "id": "MainPackage_Skill_1011_QianFu",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 5393435520027796973
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_190_FangMaGuoLai",
+      "id": "MainPackage_Skill_190_FangMaGuoLai",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 5415194132788786019
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_295_JuDunGongJi",
+      "id": "MainPackage_Skill_295_JuDunGongJi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 5426543985352544210
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_330_MoLiJuHe",
+      "id": "MainPackage_Skill_330_MoLiJuHe",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 5431986117407794360
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_248_ZhongHuoLi",
+      "id": "MainPackage_Skill_248_ZhongHuoLi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 5437761599150485961
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_1045_ShenLinZhiNu",
+      "id": "MainPackage_Skill_1045_ShenLinZhiNu",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 5469628627667464320
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_119_MingXiang",
+      "id": "MainPackage_Skill_119_MingXiang",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 5506172742956609964
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_1007_ZhouFu",
+      "id": "MainPackage_Skill_1007_ZhouFu",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 5543647290697762790
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_293_MuZhongWuRen",
+      "id": "MainPackage_Skill_293_MuZhongWuRen",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 5575155087538382903
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_43_MuMouDaJi",
+      "id": "MainPackage_Skill_43_MuMouDaJi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 5612431618885437575
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_1040_DuoChongZhuaJi",
+      "id": "MainPackage_Skill_1040_DuoChongZhuaJi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 5657297375670470711
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_147_FanJiZiTai",
+      "id": "MainPackage_Skill_147_FanJiZiTai",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 5664127339157365262
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_1027_YeManZhiXue",
+      "id": "MainPackage_Skill_1027_YeManZhiXue",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 5687519357120166124
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_27_DeLuYi",
+      "id": "MainPackage_Skill_27_DeLuYi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 5733634698935435256
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_1022_JuJiaoZhuangJi",
+      "id": "MainPackage_Skill_1022_JuJiaoZhuangJi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 5743631564379484076
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_54_ZhanQianReShen",
+      "id": "MainPackage_Skill_54_ZhanQianReShen",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 5778893641424065845
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_1073_JiaoSha",
+      "id": "MainPackage_Skill_1073_JiaoSha",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 5780188517140255036
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_119_ShuangCi",
+      "id": "MainPackage_Skill_119_ShuangCi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 5804085087545522539
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_163_HuoYanFuMo",
+      "id": "MainPackage_Skill_163_HuoYanFuMo",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 5829694254636981750
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_14_CeZhongTouNao",
+      "id": "MainPackage_Skill_14_CeZhongTouNao",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 5854500904222417996
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_264_LianYaoZhunBei",
+      "id": "MainPackage_Skill_264_LianYaoZhunBei",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 5947008681315788259
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_355_JingDianChang",
+      "id": "MainPackage_Skill_355_JingDianChang",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 5969197869092481336
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_227_ShiKongLingYu",
+      "id": "MainPackage_Skill_227_ShiKongLingYu",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 6011684525359443275
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_310_JiZhongGongJi",
+      "id": "MainPackage_Skill_310_JiZhongGongJi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 6079839001970779867
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_336_QunQiGongZhi",
+      "id": "MainPackage_Skill_336_QunQiGongZhi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 6124833830076839019
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_1033_KuaiLaiHuJia",
+      "id": "MainPackage_Skill_1033_KuaiLaiHuJia",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 6169080764864757973
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_42_JianShuGeDang",
+      "id": "MainPackage_Skill_42_JianShuGeDang",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 6354662722068953266
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_46_ZhongRen",
+      "id": "MainPackage_Skill_46_ZhongRen",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 6355850869218537220
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_1057_MiHuo",
+      "id": "MainPackage_Skill_1057_MiHuo",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 6371630533891450204
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_19_LiLiangXunLian",
+      "id": "MainPackage_Skill_19_LiLiangXunLian",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 6396378577631525347
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_379_LingHunHuiShou",
+      "id": "MainPackage_Skill_379_LingHunHuiShou",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 6443847825610388362
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_401_GuXueDun",
+      "id": "MainPackage_Skill_401_GuXueDun",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 6463043013634242185
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_261_CuiDuCiJi",
+      "id": "MainPackage_Skill_261_CuiDuCiJi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 6485317170309677148
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_157_BingShuangQingHe",
+      "id": "MainPackage_Skill_157_BingShuangQingHe",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 6485533474225599848
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_109_JingJiChuLi",
+      "id": "MainPackage_Skill_109_JingJiChuLi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 6505620749780834900
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_196_ChuanXi",
+      "id": "MainPackage_Skill_196_ChuanXi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 6514636450884394235
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_231_XieTongGongJi",
+      "id": "MainPackage_Skill_231_XieTongGongJi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 6556574172976373909
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_1019_ChenShui",
+      "id": "MainPackage_Skill_1019_ChenShui",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 6589026259130929639
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_282_JiaoGuan",
+      "id": "MainPackage_Skill_282_JiaoGuan",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 6631186940816679133
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_130_ZhuoReLingYu",
+      "id": "MainPackage_Skill_130_ZhuoReLingYu",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 6683316603051126023
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_2_MinJieTiSheng",
+      "id": "MainPackage_Skill_2_MinJieTiSheng",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 6713731315432878623
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_326_LouDian",
+      "id": "MainPackage_Skill_326_LouDian",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 6741233570440201909
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_291_DingDun",
+      "id": "MainPackage_Skill_291_DingDun",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 6772941628246771121
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_222_Shouwei",
+      "id": "MainPackage_Skill_222_Shouwei",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 6944933497134582403
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_296_TuWei",
+      "id": "MainPackage_Skill_296_TuWei",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 6994636095267212350
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_392_LingHunChuQiao",
+      "id": "MainPackage_Skill_392_LingHunChuQiao",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 7007719324403798885
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_1048_ChongXinNingJu",
+      "id": "MainPackage_Skill_1048_ChongXinNingJu",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 7062590629345647057
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_266_ZhenTongJi",
+      "id": "MainPackage_Skill_266_ZhenTongJi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 7074866938943901498
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_168_FangYu",
+      "id": "MainPackage_Skill_168_FangYu",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 7121029983509819920
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_286_ZhongZhuangDengChang",
+      "id": "MainPackage_Skill_286_ZhongZhuangDengChang",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 7304505739812359685
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_290_TengTongCiJi",
+      "id": "MainPackage_Skill_290_TengTongCiJi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 7353040261287030092
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_247_MoLiGuoSheng",
+      "id": "MainPackage_Skill_247_MoLiGuoSheng",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 7428531055200322278
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_140_HuanYingLianJi",
+      "id": "MainPackage_Skill_140_HuanYingLianJi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 7465419213160254477
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_131_ShangKouQieGe",
+      "id": "MainPackage_Skill_131_ShangKouQieGe",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 7513544338318381786
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_99_HuLuanDaJi",
+      "id": "MainPackage_Skill_99_HuLuanDaJi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 7536673301491167549
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_208_TongKuZhuanZhu",
+      "id": "MainPackage_Skill_208_TongKuZhuanZhu",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 7579351818556403756
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_224_ShuaiBaiTuXi",
+      "id": "MainPackage_Skill_224_ShuaiBaiTuXi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 7615023101431964624
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_22_XianXueJingJi",
+      "id": "MainPackage_Skill_22_XianXueJingJi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 7624626893860076533
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_177_AnQi",
+      "id": "MainPackage_Skill_177_AnQi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 7673199983523202988
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_255_JianNaoTianJiaWu",
+      "id": "MainPackage_Skill_255_JianNaoTianJiaWu",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 7694535631764508030
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_284_JingJiZhiQiang",
+      "id": "MainPackage_Skill_284_JingJiZhiQiang",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 7713641843429843104
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_272_LianJinZaoWu",
+      "id": "MainPackage_Skill_272_LianJinZaoWu",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 7731210587893998063
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_1068_TuoLi",
+      "id": "MainPackage_Skill_1068_TuoLi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 7755017324146383115
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_240_JiHanNingJu",
+      "id": "MainPackage_Skill_240_JiHanNingJu",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 7762984904562701842
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_394_DaiJiaZhuanYi",
+      "id": "MainPackage_Skill_394_DaiJiaZhuanYi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 7860110686937842880
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_233_DongMian",
+      "id": "MainPackage_Skill_233_DongMian",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 7875752301943694528
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_306_WangSheng",
+      "id": "MainPackage_Skill_306_WangSheng",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 7904665573737241448
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_112_XiaZuoGongJi",
+      "id": "MainPackage_Skill_112_XiaZuoGongJi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 7944842212591250014
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_100_ZhuanShouWeiGong",
+      "id": "MainPackage_Skill_100_ZhuanShouWeiGong",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 7971559597834810395
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_160_BingJinFenSui",
+      "id": "MainPackage_Skill_160_BingJinFenSui",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 7986713799864153016
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_6_MoLiTiSheng",
+      "id": "MainPackage_Skill_6_MoLiTiSheng",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 8090958435816405977
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_377_KuiLan",
+      "id": "MainPackage_Skill_377_KuiLan",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 8112669474697263170
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_234_JingJieYongChang",
+      "id": "MainPackage_Skill_234_JingJieYongChang",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 8113622614674219877
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_72_DiYuYan",
+      "id": "MainPackage_Skill_72_DiYuYan",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 8223068329824201197
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_318_YuDian",
+      "id": "MainPackage_Skill_318_YuDian",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 8286064948528647203
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_1063_ShenYuanZhouFu",
+      "id": "MainPackage_Skill_1063_ShenYuanZhouFu",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 8291205910978064861
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_299_YuBeiFanJi",
+      "id": "MainPackage_Skill_299_YuBeiFanJi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 8375402589636098602
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_372_HeiAnQianYing",
+      "id": "MainPackage_Skill_372_HeiAnQianYing",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 8401373557361726544
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_111_JiSuLengQue",
+      "id": "MainPackage_Skill_111_JiSuLengQue",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 8580003617961222041
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_288_FuChouSaoDang",
+      "id": "MainPackage_Skill_288_FuChouSaoDang",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 8610167356062847193
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_1009_YingJia",
+      "id": "MainPackage_Skill_1009_YingJia",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 8644972144470226200
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_175_ZhiZuoKongYaoPing",
+      "id": "MainPackage_Skill_175_ZhiZuoKongYaoPing",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 8824879841295574737
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_66_TouNaoFengBao",
+      "id": "MainPackage_Skill_66_TouNaoFengBao",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 8831727998847297188
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_98_ZhuanYan",
+      "id": "MainPackage_Skill_98_ZhuanYan",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 8834209725035577477
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_274_ZhaoHuanBingQiang",
+      "id": "MainPackage_Skill_274_ZhaoHuanBingQiang",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 8943567001112164282
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_269_DuXingNaiShou",
+      "id": "MainPackage_Skill_269_DuXingNaiShou",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 9132624287936959860
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_1021_LianHuanTuXi",
+      "id": "MainPackage_Skill_1021_LianHuanTuXi",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 9190101585450118664
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_1041_ShangKouTianXue",
+      "id": "MainPackage_Skill_1041_ShangKouTianXue",
+      "package": "MainPackage",
+      "bundle": "0f02c560f8c8fdf24edfcdb6bbfd6927.bundle",
+      "pathId": 9220662341140947770
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Skill_Test_Summed",
+      "id": "MainPackage_Skill_Test_Summed",
+      "package": "MainPackage",
+      "bundle": "715424811721b1f29691eb13783e6483.bundle",
+      "pathId": 5786154769053699040
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Weapen_19_LianDao",
+      "id": "MainPackage_Weapen_19_LianDao",
+      "package": "MainPackage",
+      "bundle": "1f798e661533b80cdc4e61daa481b044.bundle",
+      "pathId": -6995744118329031445
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Weapen_6_SiLingShu",
+      "id": "MainPackage_Weapen_6_SiLingShu",
+      "package": "MainPackage",
+      "bundle": "1f798e661533b80cdc4e61daa481b044.bundle",
+      "pathId": -5995348701184353017
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Weapen_18_JuRenZhanFu",
+      "id": "MainPackage_Weapen_18_JuRenZhanFu",
+      "package": "MainPackage",
+      "bundle": "1f798e661533b80cdc4e61daa481b044.bundle",
+      "pathId": -5755821725957209379
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Weapen_15_DaoZeiBiShou",
+      "id": "MainPackage_Weapen_15_DaoZeiBiShou",
+      "package": "MainPackage",
+      "bundle": "1f798e661533b80cdc4e61daa481b044.bundle",
+      "pathId": -5346103047406920317
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Weapen_10_BingXinQuanZhang",
+      "id": "MainPackage_Weapen_10_BingXinQuanZhang",
+      "package": "MainPackage",
+      "bundle": "1f798e661533b80cdc4e61daa481b044.bundle",
+      "pathId": -2017010849743440872
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Weapen_14_XiuShiBiShou",
+      "id": "MainPackage_Weapen_14_XiuShiBiShou",
+      "package": "MainPackage",
+      "bundle": "1f798e661533b80cdc4e61daa481b044.bundle",
+      "pathId": -1926724851728154229
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Weapen_21_ChangBingDao",
+      "id": "MainPackage_Weapen_21_ChangBingDao",
+      "package": "MainPackage",
+      "bundle": "1f798e661533b80cdc4e61daa481b044.bundle",
+      "pathId": -1720348233975587631
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Weapen_1_Jian",
+      "id": "MainPackage_Weapen_1_Jian",
+      "package": "MainPackage",
+      "bundle": "1f798e661533b80cdc4e61daa481b044.bundle",
+      "pathId": -1407676838273993440
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Weapen_22_YinXueJian",
+      "id": "MainPackage_Weapen_22_YinXueJian",
+      "package": "MainPackage",
+      "bundle": "1f798e661533b80cdc4e61daa481b044.bundle",
+      "pathId": -1398154859018959965
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Weapen_9_DuYaBian",
+      "id": "MainPackage_Weapen_9_DuYaBian",
+      "package": "MainPackage",
+      "bundle": "1f798e661533b80cdc4e61daa481b044.bundle",
+      "pathId": -700967414023280966
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Weapen_5_MoJian",
+      "id": "MainPackage_Weapen_5_MoJian",
+      "package": "MainPackage",
+      "bundle": "1f798e661533b80cdc4e61daa481b044.bundle",
+      "pathId": -695386103167170047
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Weapen_7_ShuangRen",
+      "id": "MainPackage_Weapen_7_ShuangRen",
+      "package": "MainPackage",
+      "bundle": "1f798e661533b80cdc4e61daa481b044.bundle",
+      "pathId": 1130652803378623531
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Weapen_20_LiZhuaRen",
+      "id": "MainPackage_Weapen_20_LiZhuaRen",
+      "package": "MainPackage",
+      "bundle": "1f798e661533b80cdc4e61daa481b044.bundle",
+      "pathId": 2525806243828062179
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Weapen_17_ShuangShouJian",
+      "id": "MainPackage_Weapen_17_ShuangShouJian",
+      "package": "MainPackage",
+      "bundle": "1f798e661533b80cdc4e61daa481b044.bundle",
+      "pathId": 2698054649781910758
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Weapen_3_BiShou",
+      "id": "MainPackage_Weapen_3_BiShou",
+      "package": "MainPackage",
+      "bundle": "1f798e661533b80cdc4e61daa481b044.bundle",
+      "pathId": 4250638412115310112
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Weapen_16_ShuangShouFu",
+      "id": "MainPackage_Weapen_16_ShuangShouFu",
+      "package": "MainPackage",
+      "bundle": "1f798e661533b80cdc4e61daa481b044.bundle",
+      "pathId": 6393645677357251977
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Weapen_12_XiuJian",
+      "id": "MainPackage_Weapen_12_XiuJian",
+      "package": "MainPackage",
+      "bundle": "1f798e661533b80cdc4e61daa481b044.bundle",
+      "pathId": 6683803690764031646
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Weapen_4_ChangQiang",
+      "id": "MainPackage_Weapen_4_ChangQiang",
+      "package": "MainPackage",
+      "bundle": "1f798e661533b80cdc4e61daa481b044.bundle",
+      "pathId": 7411880473638580414
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Weapen_13_JianDun",
+      "id": "MainPackage_Weapen_13_JianDun",
+      "package": "MainPackage",
+      "bundle": "1f798e661533b80cdc4e61daa481b044.bundle",
+      "pathId": 7567993551862740634
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Weapen_8_LongGuGong",
+      "id": "MainPackage_Weapen_8_LongGuGong",
+      "package": "MainPackage",
+      "bundle": "1f798e661533b80cdc4e61daa481b044.bundle",
+      "pathId": 8330325062474459657
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Weapen_2_FaZhang",
+      "id": "MainPackage_Weapen_2_FaZhang",
+      "package": "MainPackage",
+      "bundle": "1f798e661533b80cdc4e61daa481b044.bundle",
+      "pathId": 8753352606792280746
+    },
+    {
+      "asset": "SO_SkillData_MainPackage_Weapen_11_ShiJianShaLou",
+      "id": "MainPackage_Weapen_11_ShiJianShaLou",
+      "package": "MainPackage",
+      "bundle": "1f798e661533b80cdc4e61daa481b044.bundle",
+      "pathId": 8963280145761274830
+    },
+    {
+      "asset": "SO_Hero_01_Warrior",
+      "id": "MainPackage_Warrior",
+      "package": "MainPackage",
+      "bundle": "845a8fbb7d4af9f7905d590e184a9c17.bundle",
+      "pathId": -7473384020866393023
+    },
+    {
+      "asset": "SO_Hero_03_Magician",
+      "id": "MainPackage_Magician",
+      "package": "MainPackage",
+      "bundle": "845a8fbb7d4af9f7905d590e184a9c17.bundle",
+      "pathId": -100110860654533909
+    },
+    {
+      "asset": "SO_Hero_04_Alchemist",
+      "id": "MainPackage_Alchemist",
+      "package": "MainPackage",
+      "bundle": "845a8fbb7d4af9f7905d590e184a9c17.bundle",
+      "pathId": 1862170300674221024
+    },
+    {
+      "asset": "SO_Hero_06_MagicSword",
+      "id": "MainPackage_MagicSword",
+      "package": "MainPackage",
+      "bundle": "845a8fbb7d4af9f7905d590e184a9c17.bundle",
+      "pathId": 4287348774532120877
+    },
+    {
+      "asset": "SO_Hero_05_Guard",
+      "id": "MainPackage_Guard",
+      "package": "MainPackage",
+      "bundle": "845a8fbb7d4af9f7905d590e184a9c17.bundle",
+      "pathId": 6723868711443766918
+    },
+    {
+      "asset": "SO_Hero_02_Assassin",
+      "id": "MainPackage_Assassin",
+      "package": "MainPackage",
+      "bundle": "845a8fbb7d4af9f7905d590e184a9c17.bundle",
+      "pathId": 7532620437556299592
+    },
+    {
+      "asset": "SO_Hero_07_Lich",
+      "id": "MainPackage_Lich",
+      "package": "MainPackage",
+      "bundle": "845a8fbb7d4af9f7905d590e184a9c17.bundle",
+      "pathId": 7848395064234965286
+    },
+    {
+      "asset": "SO_UnitData_MainPackage_monster_40003_HuoYuanSu",
+      "id": "MainPackage_monster_40003_HuoYuanSu",
+      "package": "MainPackage",
+      "bundle": "34d475770fee051402909441e185e079.bundle",
+      "pathId": -9096046566121822135
+    },
+    {
+      "asset": "SO_UnitData_MainPackage_monster_4001_YingYanShe",
+      "id": "MainPackage_monster_4001_YingYanShe",
+      "package": "MainPackage",
+      "bundle": "34d475770fee051402909441e185e079.bundle",
+      "pathId": -8720693224306501222
+    },
+    {
+      "asset": "SO_UnitData_MainPackage_monster_2004_LangRen",
+      "id": "MainPackage_monster_2004_LangRen",
+      "package": "MainPackage",
+      "bundle": "34d475770fee051402909441e185e079.bundle",
+      "pathId": -8429913219737609763
+    },
+    {
+      "asset": "SO_UnitData_MainPackage_monster_3002_DuWa",
+      "id": "MainPackage_monster_3002_DuWa",
+      "package": "MainPackage",
+      "bundle": "34d475770fee051402909441e185e079.bundle",
+      "pathId": -8349867148890638702
+    },
+    {
+      "asset": "SO_UnitData_MainPackage_monster_40001_ShiDui",
+      "id": "MainPackage_monster_40001_ShiDui",
+      "package": "MainPackage",
+      "bundle": "34d475770fee051402909441e185e079.bundle",
+      "pathId": -8122855668391001343
+    },
+    {
+      "asset": "SO_UnitData_MainPackage_monster_6001_GuiYiShuiPao",
+      "id": "MainPackage_monster_6001_GuiYiShuiPao",
+      "package": "MainPackage",
+      "bundle": "34d475770fee051402909441e185e079.bundle",
+      "pathId": -8006224224272725074
+    },
+    {
+      "asset": "SO_UnitData_MainPackage_monster_1001_Wolf",
+      "id": "MainPackage_monster_1001_Wolf",
+      "package": "MainPackage",
+      "bundle": "34d475770fee051402909441e185e079.bundle",
+      "pathId": -7925525708908126214
+    },
+    {
+      "asset": "SO_UnitData_MainPackage_monster_2006_ShuJuRen",
+      "id": "MainPackage_monster_2006_ShuJuRen",
+      "package": "MainPackage",
+      "bundle": "34d475770fee051402909441e185e079.bundle",
+      "pathId": -6901511472130812652
+    },
+    {
+      "asset": "SO_UnitData_MainPackage_monster_30062_DuoLuoJiSi",
+      "id": "MainPackage_monster_30062_DuoLuoJiSi",
+      "package": "MainPackage",
+      "bundle": "34d475770fee051402909441e185e079.bundle",
+      "pathId": -6807128198562887724
+    },
+    {
+      "asset": "SO_UnitData_MainPackage_monster_5003_ShouRenLangQiBing",
+      "id": "MainPackage_monster_5003_ShouRenLangQiBing",
+      "package": "MainPackage",
+      "bundle": "34d475770fee051402909441e185e079.bundle",
+      "pathId": -5489110295680089061
+    },
+    {
+      "asset": "SO_UnitData_MainPackage_monster_3001_LvYing",
+      "id": "MainPackage_monster_3001_LvYing",
+      "package": "MainPackage",
+      "bundle": "34d475770fee051402909441e185e079.bundle",
+      "pathId": -5144059733523144034
+    },
+    {
+      "asset": "SO_UnitData_MainPackage_monster_40008_KuLou",
+      "id": "MainPackage_monster_40008_KuLou",
+      "package": "MainPackage",
+      "bundle": "34d475770fee051402909441e185e079.bundle",
+      "pathId": -5082319123765230099
+    },
+    {
+      "asset": "SO_UnitData_MainPackage_monster_lich_6",
+      "id": "MainPackage_monster_lich_6",
+      "package": "MainPackage",
+      "bundle": "34d475770fee051402909441e185e079.bundle",
+      "pathId": -5050790686759111047
+    },
+    {
+      "asset": "SO_UnitData_MainPackage_monster_3006_BaQi",
+      "id": "MainPackage_monster_3006_BaQi",
+      "package": "MainPackage",
+      "bundle": "34d475770fee051402909441e185e079.bundle",
+      "pathId": -4554656912166736358
+    },
+    {
+      "asset": "SO_UnitData_MainPackage_monster_1007_Chimera",
+      "id": "MainPackage_monster_1007_Chimera",
+      "package": "MainPackage",
+      "bundle": "34d475770fee051402909441e185e079.bundle",
+      "pathId": -4186266644823454972
+    },
+    {
+      "asset": "SO_UnitData_MainPackage_monster_4004_JuXi",
+      "id": "MainPackage_monster_4004_JuXi",
+      "package": "MainPackage",
+      "bundle": "34d475770fee051402909441e185e079.bundle",
+      "pathId": -3974321552311040038
+    },
+    {
+      "asset": "SO_UnitData_MainPackage_monster_10_LieDengXueZu",
+      "id": "MainPackage_monster_10_LieDengXueZu",
+      "package": "MainPackage",
+      "bundle": "34d475770fee051402909441e185e079.bundle",
+      "pathId": -3970278538740764823
+    },
+    {
+      "asset": "SO_UnitData_MainPackage_monster_2003_RenMa",
+      "id": "MainPackage_monster_2003_RenMa",
+      "package": "MainPackage",
+      "bundle": "34d475770fee051402909441e185e079.bundle",
+      "pathId": -3925880814996976782
+    },
+    {
+      "asset": "SO_UnitData_MainPackage_monster_9_JiangShiShiBing",
+      "id": "MainPackage_monster_9_JiangShiShiBing",
+      "package": "MainPackage",
+      "bundle": "34d475770fee051402909441e185e079.bundle",
+      "pathId": -3740325824040799638
+    },
+    {
+      "asset": "SO_UnitData_MainPackage_monster_4003_JuDiao",
+      "id": "MainPackage_monster_4003_JuDiao",
+      "package": "MainPackage",
+      "bundle": "34d475770fee051402909441e185e079.bundle",
+      "pathId": -3636291223107188299
+    },
+    {
+      "asset": "SO_UnitData_MainPackage_monster_5005_GeBuLingZhiWang",
+      "id": "MainPackage_monster_5005_GeBuLingZhiWang",
+      "package": "MainPackage",
+      "bundle": "34d475770fee051402909441e185e079.bundle",
+      "pathId": -3531831325767639052
+    },
+    {
+      "asset": "SO_UnitData_MainPackage_monster_40007_LiLiSi",
+      "id": "MainPackage_monster_40007_LiLiSi",
+      "package": "MainPackage",
+      "bundle": "34d475770fee051402909441e185e079.bundle",
+      "pathId": -2972268160995387392
+    },
+    {
+      "asset": "SO_UnitData_MainPackage_monster_1006_Chomper",
+      "id": "MainPackage_monster_1006_Chomper",
+      "package": "MainPackage",
+      "bundle": "34d475770fee051402909441e185e079.bundle",
+      "pathId": -2888760748043651896
+    },
+    {
+      "asset": "SO_UnitData_MainPackage_monster_3005_ELong",
+      "id": "MainPackage_monster_3005_ELong",
+      "package": "MainPackage",
+      "bundle": "34d475770fee051402909441e185e079.bundle",
+      "pathId": -2528056260700350273
+    },
+    {
+      "asset": "SO_UnitData_MainPackage_monster_40006_JingJiQiang",
+      "id": "MainPackage_monster_40006_JingJiQiang",
+      "package": "MainPackage",
+      "bundle": "34d475770fee051402909441e185e079.bundle",
+      "pathId": -2169025892051255848
+    },
+    {
+      "asset": "SO_UnitData_MainPackage_monster_3007_YingLong",
+      "id": "MainPackage_monster_3007_YingLong",
+      "package": "MainPackage",
+      "bundle": "34d475770fee051402909441e185e079.bundle",
+      "pathId": -2154992240022160363
+    },
+    {
+      "asset": "SO_UnitData_MainPackage_monster_4005_BiMeng",
+      "id": "MainPackage_monster_4005_BiMeng",
+      "package": "MainPackage",
+      "bundle": "34d475770fee051402909441e185e079.bundle",
+      "pathId": -530291502133513920
+    },
+    {
+      "asset": "SO_UnitData_MainPackage_monster_6006_ShenYuanZhiZhe",
+      "id": "MainPackage_monster_6006_ShenYuanZhiZhe",
+      "package": "MainPackage",
+      "bundle": "34d475770fee051402909441e185e079.bundle",
+      "pathId": 13340631415918329
+    },
+    {
+      "asset": "SO_UnitData_MainPackage_monster_40009_HaiGuDui",
+      "id": "MainPackage_monster_40009_HaiGuDui",
+      "package": "MainPackage",
+      "bundle": "34d475770fee051402909441e185e079.bundle",
+      "pathId": 392302607973708872
+    },
+    {
+      "asset": "SO_UnitData_MainPackage_monster_40008_KuLouGongJianShou",
+      "id": "MainPackage_monster_40008_KuLouGongJianShou",
+      "package": "MainPackage",
+      "bundle": "34d475770fee051402909441e185e079.bundle",
+      "pathId": 672327966464837455
+    },
+    {
+      "asset": "SO_UnitData_MainPackage_monster_2007_LvLong",
+      "id": "MainPackage_monster_2007_LvLong",
+      "package": "MainPackage",
+      "bundle": "34d475770fee051402909441e185e079.bundle",
+      "pathId": 741459489994187746
+    },
+    {
+      "asset": "SO_UnitData_MainPackage_monster_2005_YingMo",
+      "id": "MainPackage_monster_2005_YingMo",
+      "package": "MainPackage",
+      "bundle": "34d475770fee051402909441e185e079.bundle",
+      "pathId": 835365662583316168
+    },
+    {
+      "asset": "SO_UnitData_MainPackage_monster_1002_WildBoar",
+      "id": "MainPackage_monster_1002_WildBoar",
+      "package": "MainPackage",
+      "bundle": "34d475770fee051402909441e185e079.bundle",
+      "pathId": 1147971268416175840
+    },
+    {
+      "asset": "SO_UnitData_MainPackage_monster_40002_YuNiGuai",
+      "id": "MainPackage_monster_40002_YuNiGuai",
+      "package": "MainPackage",
+      "bundle": "34d475770fee051402909441e185e079.bundle",
+      "pathId": 1857031123678521949
+    },
+    {
+      "asset": "SO_UnitData_MainPackage_monster_5002_ShouRenZhanShi",
+      "id": "MainPackage_monster_5002_ShouRenZhanShi",
+      "package": "MainPackage",
+      "bundle": "34d475770fee051402909441e185e079.bundle",
+      "pathId": 1918482840620326880
+    },
+    {
+      "asset": "SO_UnitData_MainPackage_monster_2001_HuaYao",
+      "id": "MainPackage_monster_2001_HuaYao",
+      "package": "MainPackage",
+      "bundle": "34d475770fee051402909441e185e079.bundle",
+      "pathId": 2167997446032893239
+    },
+    {
+      "asset": "SO_UnitData_MainPackage_monster_5004_ZhongChuiShiRenMo",
+      "id": "MainPackage_monster_5004_ZhongChuiShiRenMo",
+      "package": "MainPackage",
+      "bundle": "34d475770fee051402909441e185e079.bundle",
+      "pathId": 2511676628131594241
+    },
+    {
+      "asset": "SO_UnitData_MainPackage_monster_6004_XingKongShiTu",
+      "id": "MainPackage_monster_6004_XingKongShiTu",
+      "package": "MainPackage",
+      "bundle": "34d475770fee051402909441e185e079.bundle",
+      "pathId": 2521962422194753235
+    },
+    {
+      "asset": "SO_UnitData_MainPackage_monster_3004_NiZhaoChuShou",
+      "id": "MainPackage_monster_3004_NiZhaoChuShou",
+      "package": "MainPackage",
+      "bundle": "34d475770fee051402909441e185e079.bundle",
+      "pathId": 2697430832544756490
+    },
+    {
+      "asset": "SO_UnitData_MainPackage_monster_5001_GeBuLingChiHou",
+      "id": "MainPackage_monster_5001_GeBuLingChiHou",
+      "package": "MainPackage",
+      "bundle": "34d475770fee051402909441e185e079.bundle",
+      "pathId": 2728484777391347194
+    },
+    {
+      "asset": "SO_UnitData_MainPackage_monster_40004_BingQiang",
+      "id": "MainPackage_monster_40004_BingQiang",
+      "package": "MainPackage",
+      "bundle": "34d475770fee051402909441e185e079.bundle",
+      "pathId": 3214413154654800408
+    },
+    {
+      "asset": "SO_UnitData_MainPackage_monster_6005_YongHengJuGui",
+      "id": "MainPackage_monster_6005_YongHengJuGui",
+      "package": "MainPackage",
+      "bundle": "34d475770fee051402909441e185e079.bundle",
+      "pathId": 3545086372655240830
+    },
+    {
+      "asset": "SO_UnitData_MainPackage_monster_1005_GiantApe",
+      "id": "MainPackage_monster_1005_GiantApe",
+      "package": "MainPackage",
+      "bundle": "34d475770fee051402909441e185e079.bundle",
+      "pathId": 3592766786906659314
+    },
+    {
+      "asset": "SO_UnitData_MainPackage_monster_skeleton_1",
+      "id": "MainPackage_monster_skeleton_1",
+      "package": "MainPackage",
+      "bundle": "34d475770fee051402909441e185e079.bundle",
+      "pathId": 4079436510573261073
+    },
+    {
+      "asset": "SO_UnitData_MainPackage_monster_4002_ShiRen",
+      "id": "MainPackage_monster_4002_ShiRen",
+      "package": "MainPackage",
+      "bundle": "34d475770fee051402909441e185e079.bundle",
+      "pathId": 4155761162341751973
+    },
+    {
+      "asset": "SO_UnitData_MainPackage_monster_40010_SiWangQiShi",
+      "id": "MainPackage_monster_40010_SiWangQiShi",
+      "package": "MainPackage",
+      "bundle": "34d475770fee051402909441e185e079.bundle",
+      "pathId": 4658784095332296044
+    },
+    {
+      "asset": "SO_UnitData_MainPackage_monster_3008_YuNiJuWu",
+      "id": "MainPackage_monster_3008_YuNiJuWu",
+      "package": "MainPackage",
+      "bundle": "34d475770fee051402909441e185e079.bundle",
+      "pathId": 4726795082492464543
+    },
+    {
+      "asset": "SO_UnitData_MainPackage_monster_3003_DuXi",
+      "id": "MainPackage_monster_3003_DuXi",
+      "package": "MainPackage",
+      "bundle": "34d475770fee051402909441e185e079.bundle",
+      "pathId": 4761321875511052806
+    },
+    {
+      "asset": "SO_UnitData_MainPackage_monster_1004_Bear",
+      "id": "MainPackage_monster_1004_Bear",
+      "package": "MainPackage",
+      "bundle": "34d475770fee051402909441e185e079.bundle",
+      "pathId": 4867704186233620743
+    },
+    {
+      "asset": "SO_UnitData_MainPackage_monster_8_YouLingMao",
+      "id": "MainPackage_monster_8_YouLingMao",
+      "package": "MainPackage",
+      "bundle": "34d475770fee051402909441e185e079.bundle",
+      "pathId": 5275905708118408618
+    },
+    {
+      "asset": "SO_UnitData_MainPackage_monster_40005_YuNiFenLieTi",
+      "id": "MainPackage_monster_40005_YuNiFenLieTi",
+      "package": "MainPackage",
+      "bundle": "34d475770fee051402909441e185e079.bundle",
+      "pathId": 6062865070574663169
+    },
+    {
+      "asset": "SO_UnitData_MainPackage_monster_ghost_3",
+      "id": "MainPackage_monster_ghost_3",
+      "package": "MainPackage",
+      "bundle": "34d475770fee051402909441e185e079.bundle",
+      "pathId": 6939562549813111790
+    },
+    {
+      "asset": "SO_UnitData_MainPackage_monster_4006_ShiJuLing",
+      "id": "MainPackage_monster_4006_ShiJuLing",
+      "package": "MainPackage",
+      "bundle": "34d475770fee051402909441e185e079.bundle",
+      "pathId": 7347691973774881949
+    },
+    {
+      "asset": "SO_UnitData_MainPackage_monster_2002_MoGuGuai",
+      "id": "MainPackage_monster_2002_MoGuGuai",
+      "package": "MainPackage",
+      "bundle": "34d475770fee051402909441e185e079.bundle",
+      "pathId": 7408915053224848280
+    },
+    {
+      "asset": "SO_UnitData_MainPackage_monster_30061_SheTou",
+      "id": "MainPackage_monster_30061_SheTou",
+      "package": "MainPackage",
+      "bundle": "34d475770fee051402909441e185e079.bundle",
+      "pathId": 7482358573870127439
+    },
+    {
+      "asset": "SO_UnitData_MainPackage_monster_6002_YouYing",
+      "id": "MainPackage_monster_6002_YouYing",
+      "package": "MainPackage",
+      "bundle": "34d475770fee051402909441e185e079.bundle",
+      "pathId": 8000800073170259803
+    },
+    {
+      "asset": "SO_UnitData_MainPackage_monster_1003_Python",
+      "id": "MainPackage_monster_1003_Python",
+      "package": "MainPackage",
+      "bundle": "34d475770fee051402909441e185e079.bundle",
+      "pathId": 8100459038592023951
+    },
+    {
+      "asset": "SO_UnitData_MainPackage_monster_6003_XingHuXie",
+      "id": "MainPackage_monster_6003_XingHuXie",
+      "package": "MainPackage",
+      "bundle": "34d475770fee051402909441e185e079.bundle",
+      "pathId": 8496323127775299447
+    },
+    {
+      "asset": "SO_UnitData_MainPackage_monster_KeXueShou_7",
+      "id": "MainPackage_monster_KeXueShou_7",
+      "package": "MainPackage",
+      "bundle": "34d475770fee051402909441e185e079.bundle",
+      "pathId": 8932158827228978443
+    },
+    {
+      "asset": "SO_UnitData_MainPackage_monster_zombie_2",
+      "id": "MainPackage_monster_zombie_2",
+      "package": "MainPackage",
+      "bundle": "34d475770fee051402909441e185e079.bundle",
+      "pathId": 9157245666074424944
+    },
+    {
+      "asset": "SO_RelicData_MainPackage_Relic_1006_TianShiZhiLei",
+      "id": "MainPackage_Relic_1006_TianShiZhiLei",
+      "package": "MainPackage",
+      "bundle": "f5a66557207f5b1f260ce87692975854.bundle",
+      "pathId": -9202587302455581915
+    },
+    {
+      "asset": "SO_RelicData_MainPackage_Relic_3004_JiFengMingWen",
+      "id": "MainPackage_Relic_3004_JiFengMingWen",
+      "package": "MainPackage",
+      "bundle": "f5a66557207f5b1f260ce87692975854.bundle",
+      "pathId": -9087448872267166783
+    },
+    {
+      "asset": "SO_RelicData_MainPackage_Relic_3005_AoShuMingWen",
+      "id": "MainPackage_Relic_3005_AoShuMingWen",
+      "package": "MainPackage",
+      "bundle": "f5a66557207f5b1f260ce87692975854.bundle",
+      "pathId": -8768011967875981735
+    },
+    {
+      "asset": "SO_RelicData_MainPackage_Relic_2007_JuLiYaoDai",
+      "id": "MainPackage_Relic_2007_JuLiYaoDai",
+      "package": "MainPackage",
+      "bundle": "f5a66557207f5b1f260ce87692975854.bundle",
+      "pathId": -6768860448469195821
+    },
+    {
+      "asset": "SO_RelicData_MainPackage_Relic_2014_HunNengJiQuQi",
+      "id": "MainPackage_Relic_2014_HunNengJiQuQi",
+      "package": "MainPackage",
+      "bundle": "f5a66557207f5b1f260ce87692975854.bundle",
+      "pathId": -5614530730878460290
+    },
+    {
+      "asset": "SO_RelicData_MainPackage_Relic_2004_JuRenHuJian",
+      "id": "MainPackage_Relic_2004_JuRenHuJian",
+      "package": "MainPackage",
+      "bundle": "f5a66557207f5b1f260ce87692975854.bundle",
+      "pathId": -4908571802479606117
+    },
+    {
+      "asset": "SO_RelicData_MainPackage_Relic_2011_HuoLiHuFu",
+      "id": "MainPackage_Relic_2011_HuoLiHuFu",
+      "package": "MainPackage",
+      "bundle": "f5a66557207f5b1f260ce87692975854.bundle",
+      "pathId": -4696277238153982478
+    },
+    {
+      "asset": "SO_RelicData_MainPackage_Relic_1015_KuaiJianJianQiao",
+      "id": "MainPackage_Relic_1015_KuaiJianJianQiao",
+      "package": "MainPackage",
+      "bundle": "f5a66557207f5b1f260ce87692975854.bundle",
+      "pathId": -4266692227600381029
+    },
+    {
+      "asset": "SO_RelicData_MainPackage_Relic_3006_XuNengJingHe",
+      "id": "MainPackage_Relic_3006_XuNengJingHe",
+      "package": "MainPackage",
+      "bundle": "f5a66557207f5b1f260ce87692975854.bundle",
+      "pathId": -4115234016754065061
+    },
+    {
+      "asset": "SO_RelicData_MainPackage_Relic_3008_LuYaDeXieKou",
+      "id": "MainPackage_Relic_3008_LuYaDeXieKou",
+      "package": "MainPackage",
+      "bundle": "f5a66557207f5b1f260ce87692975854.bundle",
+      "pathId": -3856101366719149198
+    },
+    {
+      "asset": "SO_RelicData_MainPackage_Relic_1011_LongXueHuiJi",
+      "id": "MainPackage_Relic_1011_LongXueHuiJi",
+      "package": "MainPackage",
+      "bundle": "f5a66557207f5b1f260ce87692975854.bundle",
+      "pathId": -3478562076636678029
+    },
+    {
+      "asset": "SO_RelicData_MainPackage_Relic_1010_QieZhanZheLaoYin",
+      "id": "MainPackage_Relic_1010_QieZhanZheLaoYin",
+      "package": "MainPackage",
+      "bundle": "f5a66557207f5b1f260ce87692975854.bundle",
+      "pathId": -3273405134981027501
+    },
+    {
+      "asset": "SO_RelicData_MainPackage_Relic_1007_HuPoHuFu",
+      "id": "MainPackage_Relic_1007_HuPoHuFu",
+      "package": "MainPackage",
+      "bundle": "f5a66557207f5b1f260ce87692975854.bundle",
+      "pathId": -2762645039184260757
+    },
+    {
+      "asset": "SO_RelicData_MainPackage_Relic_3009_JianShuDaShiDeShouTao",
+      "id": "MainPackage_Relic_3009_JianShuDaShiDeShouTao",
+      "package": "MainPackage",
+      "bundle": "f5a66557207f5b1f260ce87692975854.bundle",
+      "pathId": -2614809054858331858
+    },
+    {
+      "asset": "SO_RelicData_MainPackage_Relic_3002_LianJiZhiHu",
+      "id": "MainPackage_Relic_3002_LianJiZhiHu",
+      "package": "MainPackage",
+      "bundle": "f5a66557207f5b1f260ce87692975854.bundle",
+      "pathId": -2455380077992890188
+    },
+    {
+      "asset": "SO_RelicData_MainPackage_Relic_2001_JingZhong",
+      "id": "MainPackage_Relic_2001_JingZhong",
+      "package": "MainPackage",
+      "bundle": "f5a66557207f5b1f260ce87692975854.bundle",
+      "pathId": -2284183354567185302
+    },
+    {
+      "asset": "SO_RelicData_MainPackage_Relic_1014_LanSeBaoShi",
+      "id": "MainPackage_Relic_1014_LanSeBaoShi",
+      "package": "MainPackage",
+      "bundle": "f5a66557207f5b1f260ce87692975854.bundle",
+      "pathId": -1731420680183407821
+    },
+    {
+      "asset": "SO_RelicData_MainPackage_Relic_2015_XuLiYinZhang",
+      "id": "MainPackage_Relic_2015_XuLiYinZhang",
+      "package": "MainPackage",
+      "bundle": "f5a66557207f5b1f260ce87692975854.bundle",
+      "pathId": -1544607213769421235
+    },
+    {
+      "asset": "SO_RelicData_MainPackage_Relic_2009_TanLanQianDai",
+      "id": "MainPackage_Relic_2009_TanLanQianDai",
+      "package": "MainPackage",
+      "bundle": "f5a66557207f5b1f260ce87692975854.bundle",
+      "pathId": -1406781602074350627
+    },
+    {
+      "asset": "SO_RelicData_MainPackage_Relic_2002_FangYuYinZhang",
+      "id": "MainPackage_Relic_2002_FangYuYinZhang",
+      "package": "MainPackage",
+      "bundle": "f5a66557207f5b1f260ce87692975854.bundle",
+      "pathId": -1198675959944434891
+    },
+    {
+      "asset": "SO_RelicData_MainPackage_Relic_3013_JiNengDiaoZhui",
+      "id": "MainPackage_Relic_3013_JiNengDiaoZhui",
+      "package": "MainPackage",
+      "bundle": "f5a66557207f5b1f260ce87692975854.bundle",
+      "pathId": -1070267906769019171
+    },
+    {
+      "asset": "SO_RelicData_MainPackage_Relic_3010_WuQiBao",
+      "id": "MainPackage_Relic_3010_WuQiBao",
+      "package": "MainPackage",
+      "bundle": "f5a66557207f5b1f260ce87692975854.bundle",
+      "pathId": -253399411288179259
+    },
+    {
+      "asset": "SO_RelicData_MainPackage_Relic_1003_MingXiangJieZhi",
+      "id": "MainPackage_Relic_1003_MingXiangJieZhi",
+      "package": "MainPackage",
+      "bundle": "f5a66557207f5b1f260ce87692975854.bundle",
+      "pathId": -232426508515590894
+    },
+    {
+      "asset": "SO_RelicData_MainPackage_Relic_2008_FaLiZhiHe",
+      "id": "MainPackage_Relic_2008_FaLiZhiHe",
+      "package": "MainPackage",
+      "bundle": "f5a66557207f5b1f260ce87692975854.bundle",
+      "pathId": 25406327519817928
+    },
+    {
+      "asset": "SO_RelicData_MainPackage_Relic_2006_ZhiLiDouPeng",
+      "id": "MainPackage_Relic_2006_ZhiLiDouPeng",
+      "package": "MainPackage",
+      "bundle": "f5a66557207f5b1f260ce87692975854.bundle",
+      "pathId": 167367563897107242
+    },
+    {
+      "asset": "SO_RelicData_MainPackage_Relic_2003_YouHuiJuan",
+      "id": "MainPackage_Relic_2003_YouHuiJuan",
+      "package": "MainPackage",
+      "bundle": "f5a66557207f5b1f260ce87692975854.bundle",
+      "pathId": 1560745203659179989
+    },
+    {
+      "asset": "SO_RelicData_MainPackage_Relic_2005_XunJieZhiXue",
+      "id": "MainPackage_Relic_2005_XunJieZhiXue",
+      "package": "MainPackage",
+      "bundle": "f5a66557207f5b1f260ce87692975854.bundle",
+      "pathId": 1942462908898837045
+    },
+    {
+      "asset": "SO_RelicData_MainPackage_Relic_3012_EMoZhiJiao",
+      "id": "MainPackage_Relic_3012_EMoZhiJiao",
+      "package": "MainPackage",
+      "bundle": "f5a66557207f5b1f260ce87692975854.bundle",
+      "pathId": 2034169458404714281
+    },
+    {
+      "asset": "SO_RelicData_MainPackage_Relic_3001_XunHuanDiaoZhui",
+      "id": "MainPackage_Relic_3001_XunHuanDiaoZhui",
+      "package": "MainPackage",
+      "bundle": "f5a66557207f5b1f260ce87692975854.bundle",
+      "pathId": 2129680505546800521
+    },
+    {
+      "asset": "SO_RelicData_MainPackage_Relic_1012_ZhangPeng",
+      "id": "MainPackage_Relic_1012_ZhangPeng",
+      "package": "MainPackage",
+      "bundle": "f5a66557207f5b1f260ce87692975854.bundle",
+      "pathId": 2526673378147507859
+    },
+    {
+      "asset": "SO_RelicData_MainPackage_Relic_1004_ShengMingKeYing",
+      "id": "MainPackage_Relic_1004_ShengMingKeYing",
+      "package": "MainPackage",
+      "bundle": "f5a66557207f5b1f260ce87692975854.bundle",
+      "pathId": 2692405533917806222
+    },
+    {
+      "asset": "SO_RelicData_MainPackage_Relic_2010_NengLiangShouZhuo",
+      "id": "MainPackage_Relic_2010_NengLiangShouZhuo",
+      "package": "MainPackage",
+      "bundle": "f5a66557207f5b1f260ce87692975854.bundle",
+      "pathId": 2702225945972731461
+    },
+    {
+      "asset": "SO_RelicData_MainPackage_Relic_1009_XiNengZhouFu",
+      "id": "MainPackage_Relic_1009_XiNengZhouFu",
+      "package": "MainPackage",
+      "bundle": "f5a66557207f5b1f260ce87692975854.bundle",
+      "pathId": 2725610954160040643
+    },
+    {
+      "asset": "SO_RelicData_MainPackage_Relic_1002_LingQiaoShouTao",
+      "id": "MainPackage_Relic_1002_LingQiaoShouTao",
+      "package": "MainPackage",
+      "bundle": "f5a66557207f5b1f260ce87692975854.bundle",
+      "pathId": 3036319875031194909
+    },
+    {
+      "asset": "SO_RelicData_MainPackage_Relic_2013_XuShiHuWan",
+      "id": "MainPackage_Relic_2013_XuShiHuWan",
+      "package": "MainPackage",
+      "bundle": "f5a66557207f5b1f260ce87692975854.bundle",
+      "pathId": 3360993360485545579
+    },
+    {
+      "asset": "SO_RelicData_MainPackage_Relic_3003_ZhanShenMingWen",
+      "id": "MainPackage_Relic_3003_ZhanShenMingWen",
+      "package": "MainPackage",
+      "bundle": "f5a66557207f5b1f260ce87692975854.bundle",
+      "pathId": 3421331665278139784
+    },
+    {
+      "asset": "SO_RelicData_MainPackage_Relic_1013_JingPing",
+      "id": "MainPackage_Relic_1013_JingPing",
+      "package": "MainPackage",
+      "bundle": "f5a66557207f5b1f260ce87692975854.bundle",
+      "pathId": 3878319569552874441
+    },
+    {
+      "asset": "SO_RelicData_MainPackage_Relic_1005_FaLiKeYing",
+      "id": "MainPackage_Relic_1005_FaLiKeYing",
+      "package": "MainPackage",
+      "bundle": "f5a66557207f5b1f260ce87692975854.bundle",
+      "pathId": 3978256859736257087
+    },
+    {
+      "asset": "SO_RelicData_MainPackage_Relic_3007_JinJiHaoJiao",
+      "id": "MainPackage_Relic_3007_JinJiHaoJiao",
+      "package": "MainPackage",
+      "bundle": "f5a66557207f5b1f260ce87692975854.bundle",
+      "pathId": 4864899466140229668
+    },
+    {
+      "asset": "SO_RelicData_MainPackage_Relic_3011_CuiDuYaoDai",
+      "id": "MainPackage_Relic_3011_CuiDuYaoDai",
+      "package": "MainPackage",
+      "bundle": "f5a66557207f5b1f260ce87692975854.bundle",
+      "pathId": 5188941699291228613
+    },
+    {
+      "asset": "SO_RelicData_MainPackage_Relic_1016_ShaoHuiDeDouPeng",
+      "id": "MainPackage_Relic_1016_ShaoHuiDeDouPeng",
+      "package": "MainPackage",
+      "bundle": "f5a66557207f5b1f260ce87692975854.bundle",
+      "pathId": 5842143005119931386
+    },
+    {
+      "asset": "SO_RelicData_MainPackage_Relic_2012_JianShouYinJi",
+      "id": "MainPackage_Relic_2012_JianShouYinJi",
+      "package": "MainPackage",
+      "bundle": "f5a66557207f5b1f260ce87692975854.bundle",
+      "pathId": 6909119657461362363
+    },
+    {
+      "asset": "SO_RelicData_MainPackage_Relic_1001_YaLing",
+      "id": "MainPackage_Relic_1001_YaLing",
+      "package": "MainPackage",
+      "bundle": "f5a66557207f5b1f260ce87692975854.bundle",
+      "pathId": 7894274212257360106
+    },
+    {
+      "asset": "SO_RelicData_MainPackage_Relic_2016_DouShiBiZhang",
+      "id": "MainPackage_Relic_2016_DouShiBiZhang",
+      "package": "MainPackage",
+      "bundle": "f5a66557207f5b1f260ce87692975854.bundle",
+      "pathId": 7965236608417190424
+    },
+    {
+      "asset": "SO_RelicData_MainPackage_Relic_1008_YinXueBi",
+      "id": "MainPackage_Relic_1008_YinXueBi",
+      "package": "MainPackage",
+      "bundle": "f5a66557207f5b1f260ce87692975854.bundle",
+      "pathId": 8212031887089682239
+    },
+    {
+      "asset": "SO_RuneDataFile_MainPackage_Rune_22_JianJin",
+      "id": "MainPackage_Rune_22_JianJin",
+      "package": "MainPackage",
+      "bundle": "3d7a2fb87677bc622043e98f421f1f35.bundle",
+      "pathId": -6787269177598986915
+    },
+    {
+      "asset": "SO_RuneDataFile_MainPackage_Rune_7_DuoChong",
+      "id": "MainPackage_Rune_7_DuoChong",
+      "package": "MainPackage",
+      "bundle": "3d7a2fb87677bc622043e98f421f1f35.bundle",
+      "pathId": -6552693036532973638
+    },
+    {
+      "asset": "SO_RuneDataFile_MainPackage_Rune_17_LiuZhuan",
+      "id": "MainPackage_Rune_17_LiuZhuan",
+      "package": "MainPackage",
+      "bundle": "3d7a2fb87677bc622043e98f421f1f35.bundle",
+      "pathId": -4635121339318006962
+    },
+    {
+      "asset": "SO_RuneDataFile_MainPackage_Rune_4_LiLiang",
+      "id": "MainPackage_Rune_4_LiLiang",
+      "package": "MainPackage",
+      "bundle": "3d7a2fb87677bc622043e98f421f1f35.bundle",
+      "pathId": -4599626361061204726
+    },
+    {
+      "asset": "SO_RuneDataFile_MainPackage_Rune_14_JiAng",
+      "id": "MainPackage_Rune_14_JiAng",
+      "package": "MainPackage",
+      "bundle": "3d7a2fb87677bc622043e98f421f1f35.bundle",
+      "pathId": -3449614647090823761
+    },
+    {
+      "asset": "SO_RuneDataFile_MainPackage_Rune_12_BaoLi",
+      "id": "MainPackage_Rune_12_BaoLi",
+      "package": "MainPackage",
+      "bundle": "3d7a2fb87677bc622043e98f421f1f35.bundle",
+      "pathId": -3169473602784910616
+    },
+    {
+      "asset": "SO_RuneDataFile_MainPackage_Rune_21_HunLuan",
+      "id": "MainPackage_Rune_21_HunLuan",
+      "package": "MainPackage",
+      "bundle": "3d7a2fb87677bc622043e98f421f1f35.bundle",
+      "pathId": -2953449074213696803
+    },
+    {
+      "asset": "SO_RuneDataFile_MainPackage_Rune_10_QingYing",
+      "id": "MainPackage_Rune_10_QingYing",
+      "package": "MainPackage",
+      "bundle": "3d7a2fb87677bc622043e98f421f1f35.bundle",
+      "pathId": -1920448629288642165
+    },
+    {
+      "asset": "SO_RuneDataFile_MainPackage_Rune_20_MoNeng",
+      "id": "MainPackage_Rune_20_MoNeng",
+      "package": "MainPackage",
+      "bundle": "3d7a2fb87677bc622043e98f421f1f35.bundle",
+      "pathId": -1448468904449249303
+    },
+    {
+      "asset": "SO_RuneDataFile_MainPackage_Rune_23_NengLiang",
+      "id": "MainPackage_Rune_23_NengLiang",
+      "package": "MainPackage",
+      "bundle": "3d7a2fb87677bc622043e98f421f1f35.bundle",
+      "pathId": -1112985671541167316
+    },
+    {
+      "asset": "SO_RuneDataFile_MainPackage_Rune_8_RenNai",
+      "id": "MainPackage_Rune_8_RenNai",
+      "package": "MainPackage",
+      "bundle": "3d7a2fb87677bc622043e98f421f1f35.bundle",
+      "pathId": -773720930570058581
+    },
+    {
+      "asset": "SO_RuneDataFile_MainPackage_Rune_9_HuoLi",
+      "id": "MainPackage_Rune_9_HuoLi",
+      "package": "MainPackage",
+      "bundle": "3d7a2fb87677bc622043e98f421f1f35.bundle",
+      "pathId": 731707888845661522
+    },
+    {
+      "asset": "SO_RuneDataFile_MainPackage_Rune_18_TuPo",
+      "id": "MainPackage_Rune_18_TuPo",
+      "package": "MainPackage",
+      "bundle": "3d7a2fb87677bc622043e98f421f1f35.bundle",
+      "pathId": 1107135137615862638
+    },
+    {
+      "asset": "SO_RuneDataFile_MainPackage_Rune_25_XianXueFuWen",
+      "id": "MainPackage_Rune_25_XianXueFuWen",
+      "package": "MainPackage",
+      "bundle": "3d7a2fb87677bc622043e98f421f1f35.bundle",
+      "pathId": 1619491166434002843
+    },
+    {
+      "asset": "SO_RuneDataFile_MainPackage_Rune_24_GuoLiang",
+      "id": "MainPackage_Rune_24_GuoLiang",
+      "package": "MainPackage",
+      "bundle": "3d7a2fb87677bc622043e98f421f1f35.bundle",
+      "pathId": 2048431378570266528
+    },
+    {
+      "asset": "SO_RuneDataFile_MainPackage_Rune_5_MinJie",
+      "id": "MainPackage_Rune_5_MinJie",
+      "package": "MainPackage",
+      "bundle": "3d7a2fb87677bc622043e98f421f1f35.bundle",
+      "pathId": 2306970082551150945
+    },
+    {
+      "asset": "SO_RuneDataFile_MainPackage_Rune_2_JiSu",
+      "id": "MainPackage_Rune_2_JiSu",
+      "package": "MainPackage",
+      "bundle": "3d7a2fb87677bc622043e98f421f1f35.bundle",
+      "pathId": 2410656898602653893
+    },
+    {
+      "asset": "SO_RuneDataFile_MainPackage_Rune_15_HuanYing",
+      "id": "MainPackage_Rune_15_HuanYing",
+      "package": "MainPackage",
+      "bundle": "3d7a2fb87677bc622043e98f421f1f35.bundle",
+      "pathId": 2863533934865951997
+    },
+    {
+      "asset": "SO_RuneDataFile_MainPackage_Rune_13_XinLiu",
+      "id": "MainPackage_Rune_13_XinLiu",
+      "package": "MainPackage",
+      "bundle": "3d7a2fb87677bc622043e98f421f1f35.bundle",
+      "pathId": 3313235795421331039
+    },
+    {
+      "asset": "SO_RuneDataFile_MainPackage_Rune_1_XunJie",
+      "id": "MainPackage_Rune_1_XunJie",
+      "package": "MainPackage",
+      "bundle": "3d7a2fb87677bc622043e98f421f1f35.bundle",
+      "pathId": 4565446995708203772
+    },
+    {
+      "asset": "SO_RuneDataFile_MainPackage_Rune_16_ChenZhong",
+      "id": "MainPackage_Rune_16_ChenZhong",
+      "package": "MainPackage",
+      "bundle": "3d7a2fb87677bc622043e98f421f1f35.bundle",
+      "pathId": 6149967454891928171
+    },
+    {
+      "asset": "SO_RuneDataFile_MainPackage_Rune_6_ZhiLiFuWen",
+      "id": "MainPackage_Rune_6_ZhiLiFuWen",
+      "package": "MainPackage",
+      "bundle": "3d7a2fb87677bc622043e98f421f1f35.bundle",
+      "pathId": 6731922364539745080
+    },
+    {
+      "asset": "SO_RuneDataFile_MainPackage_Rune_19_ChongFang",
+      "id": "MainPackage_Rune_19_ChongFang",
+      "package": "MainPackage",
+      "bundle": "3d7a2fb87677bc622043e98f421f1f35.bundle",
+      "pathId": 7313405361988488278
+    },
+    {
+      "asset": "SO_RuneDataFile_MainPackage_Rune_11_JiQiao",
+      "id": "MainPackage_Rune_11_JiQiao",
+      "package": "MainPackage",
+      "bundle": "3d7a2fb87677bc622043e98f421f1f35.bundle",
+      "pathId": 8567353097582388462
+    },
+    {
+      "asset": "SO_RuneDataFile_MainPackage_Rune_3_XuNeng",
+      "id": "MainPackage_Rune_3_XuNeng",
+      "package": "MainPackage",
+      "bundle": "3d7a2fb87677bc622043e98f421f1f35.bundle",
+      "pathId": 9075767435864641003
+    }
+  ]
+}
