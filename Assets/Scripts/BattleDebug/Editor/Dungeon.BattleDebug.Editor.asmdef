@@ -1,0 +1,7 @@
+{
+  "name": "Dungeon.BattleDebug.Editor",
+  "rootNamespace": "Dungeon.BattleDebug",
+  "references": ["Dungeon.Core", "Dungeon.Runtime"],
+  "includePlatforms": ["Editor"],
+  "autoReferenced": true
+}

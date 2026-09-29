@@ -1,0 +1,241 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0af2a5facaf174e40bd9920c1e4872c8, type: 3}
+  m_Name: DefaultBattleDebug
+  m_EditorClassIdentifier: Dungeon.BattleDebug.Editor::Dungeon.BattleDebug.BattleDebugPreset
+  actionsPerTurn: 3
+  escapeCost: 2
+  teamCapacity: 6
+  eventLimit: 2048
+  playerId: hero
+  enemyIds:
+  - wolf
+  - shaman
+  units:
+  - id: hero
+    displayName: "\u8C03\u8BD5\u52C7\u8005"
+    health: 100
+    mana: 30
+    attack: 12
+    defense: 3
+    startArmor: 0
+    strength: 0
+    agility: 0
+    intelligence: 0
+    deriveAttributes: 0
+    size: 1
+    weapon:
+      skillId: attack
+      level: 1
+      initialCooldown: 0
+    skills:
+    - skillId: fire
+      level: 1
+      initialCooldown: 0
+    - skillId: guard
+      level: 1
+      initialCooldown: 0
+    - skillId: poison
+      level: 1
+      initialCooldown: 0
+    - skillId: heal
+      level: 1
+      initialCooldown: 0
+  - id: wolf
+    displayName: "\u91CE\u72FC"
+    health: 45
+    mana: 0
+    attack: 8
+    defense: 1
+    startArmor: 0
+    strength: 0
+    agility: 0
+    intelligence: 0
+    deriveAttributes: 0
+    size: 1
+    weapon:
+      skillId: attack
+      level: 1
+      initialCooldown: 0
+    skills: []
+  - id: shaman
+    displayName: "\u65BD\u6BD2\u8005"
+    health: 55
+    mana: 20
+    attack: 6
+    defense: 2
+    startArmor: 0
+    strength: 0
+    agility: 0
+    intelligence: 0
+    deriveAttributes: 0
+    size: 1
+    weapon:
+      skillId: attack
+      level: 1
+      initialCooldown: 0
+    skills:
+    - skillId: poison
+      level: 1
+      initialCooldown: 0
+  skills:
+  - id: attack
+    displayName: "\u666E\u901A\u653B\u51FB"
+    kind: 0
+    maxLevel: 3
+    resource: 0
+    resourceCost: 0
+    cooldown: 0
+    actionCost: 1
+    effects:
+    - kind: 0
+      target: 1
+      constant: 0
+      perLevel: 0
+      scaleWithStat: 1
+      sourceStat: 5
+      coefficient: 1
+      referenceId: 
+      changedStat: 5
+      hits: 1
+      trueDamage: 0
+      isAttack: 1
+    triggers: []
+  - id: fire
+    displayName: "\u706B\u7403\u672F"
+    kind: 1
+    maxLevel: 3
+    resource: 0
+    resourceCost: 5
+    cooldown: 2
+    actionCost: 1
+    effects:
+    - kind: 0
+      target: 1
+      constant: 16
+      perLevel: 2
+      scaleWithStat: 0
+      sourceStat: 5
+      coefficient: 1
+      referenceId: 
+      changedStat: 5
+      hits: 1
+      trueDamage: 0
+      isAttack: 0
+    triggers: []
+  - id: guard
+    displayName: "\u9632\u5FA1"
+    kind: 1
+    maxLevel: 3
+    resource: 0
+    resourceCost: 0
+    cooldown: 1
+    actionCost: 1
+    effects:
+    - kind: 1
+      target: 0
+      constant: 12
+      perLevel: 0
+      scaleWithStat: 0
+      sourceStat: 5
+      coefficient: 1
+      referenceId: 
+      changedStat: 5
+      hits: 1
+      trueDamage: 0
+      isAttack: 0
+    triggers: []
+  - id: poison
+    displayName: "\u65BD\u6BD2"
+    kind: 1
+    maxLevel: 3
+    resource: 0
+    resourceCost: 3
+    cooldown: 2
+    actionCost: 1
+    effects:
+    - kind: 4
+      target: 1
+      constant: 3
+      perLevel: 0
+      scaleWithStat: 0
+      sourceStat: 5
+      coefficient: 1
+      referenceId: poisoned
+      changedStat: 5
+      hits: 1
+      trueDamage: 0
+      isAttack: 0
+    triggers: []
+  - id: heal
+    displayName: "\u6CBB\u7597"
+    kind: 1
+    maxLevel: 3
+    resource: 0
+    resourceCost: 4
+    cooldown: 2
+    actionCost: 1
+    effects:
+    - kind: 2
+      target: 0
+      constant: 15
+      perLevel: 0
+      scaleWithStat: 0
+      sourceStat: 5
+      coefficient: 1
+      referenceId: 
+      changedStat: 5
+      hits: 1
+      trueDamage: 0
+      isAttack: 0
+    triggers: []
+  statuses:
+  - id: poisoned
+    displayName: "\u4E2D\u6BD2"
+    stacking: 0
+    maxStacks: 10
+    debuff: 1
+    decay: 1
+    traits: 0
+    triggers:
+    - when: 3
+      consumeStacks: 0
+      effects:
+      - kind: 0
+        target: 0
+        constant: 0
+        perLevel: 2
+        scaleWithStat: 0
+        sourceStat: 5
+        coefficient: 1
+        referenceId: 
+        changedStat: 5
+        hits: 1
+        trueDamage: 1
+        isAttack: 0
+  items:
+  - id: potion
+    displayName: "\u6CBB\u7597\u836F\u6C34"
+    count: 2
+    effects:
+    - kind: 2
+      target: 0
+      constant: 25
+      perLevel: 0
+      scaleWithStat: 0
+      sourceStat: 5
+      coefficient: 1
+      referenceId: 
+      changedStat: 5
+      hits: 1
+      trueDamage: 0
+      isAttack: 0
