@@ -1,2 +1,9 @@
 ﻿<Solution>
+  <Project Path="Dungeon.Core.csproj" />
+  <Project Path="Assembly-CSharp.csproj" />
+  <Project Path="Assembly-CSharp-Editor.csproj" />
+  <Project Path="Dungeon.MapDebug.Editor.csproj" />
+  <Project Path="Dungeon.MapDebug.csproj" />
+  <Project Path="Dungeon.Runtime.csproj" />
+  <Project Path="Dungeon.BattleDebug.Editor.csproj" />
 </Solution>
