@@ -1,0 +1,1 @@
+define(["jquery","backbone"],function(a,b){var c=b.Model.extend({defaults:{manifest:[{src:Game.imgUri+"/sp/cjs/weapon.png",id:"weapon",type:"image"},{src:Game.imgUri+"/sp/cjs/bsk_sw_1_01.png",id:"bsk_sw_1_01",type:"image"},{src:Game.imgUri+"/sp/cjs/bsk_sw_1_01_head.png",id:"bsk_sw_1_01_head",type:"image"}]}});return c});

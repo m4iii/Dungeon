@@ -1,0 +1,840 @@
+[
+  {
+    "slug": "knight",
+    "id": "110001",
+    "title": "骑士",
+    "english": "Knight",
+    "group": "骑士与重装",
+    "code": "kni_sw_1_01",
+    "textures": [
+      "weapon.png",
+      "kni_sw_1_01.png",
+      "kni_sw_1_01_head.png"
+    ],
+    "labels": [
+      "wait",
+      "attack",
+      "ability",
+      "summon",
+      "win",
+      "damage",
+      "dead",
+      "chara_in",
+      "chara_out",
+      "mortal_A"
+    ]
+  },
+  {
+    "slug": "paladin",
+    "id": "110401",
+    "title": "圣骑士",
+    "english": "Paladin",
+    "group": "骑士与重装",
+    "code": "pld_sw_1_01",
+    "textures": [
+      "pld_sw_1_01.png",
+      "pld_sw_1_01_head.png",
+      "shield.png",
+      "weapon.png"
+    ],
+    "labels": [
+      "wait",
+      "attack",
+      "ability",
+      "summon",
+      "win",
+      "damage",
+      "dead",
+      "chara_in",
+      "chara_out",
+      "mortal_A"
+    ]
+  },
+  {
+    "slug": "spartan",
+    "id": "110301",
+    "title": "斯巴达",
+    "english": "Spartan",
+    "group": "骑士与重装",
+    "code": "spt_sw_1_01",
+    "textures": [
+      "weapon.png",
+      "spt_sw_1_01.png",
+      "spt_sw_1_01_head.png"
+    ],
+    "labels": [
+      "wait",
+      "attack",
+      "ability",
+      "summon",
+      "win",
+      "damage",
+      "dead",
+      "chara_in",
+      "chara_out",
+      "mortal_A"
+    ]
+  },
+  {
+    "slug": "shieldsworn",
+    "id": "470301",
+    "title": "盾卫",
+    "english": "Shieldsworn",
+    "group": "骑士与重装",
+    "code": "sld_ax_1_01",
+    "textures": [
+      "shield.png",
+      "sld_ax_1_01.png",
+      "sld_ax_1_01_head.png",
+      "weapon.png"
+    ],
+    "labels": [
+      "wait",
+      "attack",
+      "ability",
+      "summon",
+      "win",
+      "damage",
+      "dead",
+      "chara_in",
+      "chara_out",
+      "mortal_A"
+    ]
+  },
+  {
+    "slug": "cavalier",
+    "id": "420301",
+    "title": "骑兵",
+    "english": "Cavalier",
+    "group": "骑士与重装",
+    "code": "cav_sp_1_01",
+    "textures": [
+      "cav_sp_1_01.png",
+      "cav_sp_1_01_head.png",
+      "weapon.png"
+    ],
+    "labels": [
+      "wait",
+      "attack",
+      "ability",
+      "summon",
+      "win",
+      "damage",
+      "dead",
+      "chara_in",
+      "chara_out",
+      "mortal_A"
+    ]
+  },
+  {
+    "slug": "samurai",
+    "id": "220201",
+    "title": "武士",
+    "english": "Samurai",
+    "group": "剑术与近战",
+    "code": "smr_bw_1_01",
+    "textures": [
+      "weapon.png",
+      "smr_bw_1_01.png",
+      "smr_bw_1_01_head.png"
+    ],
+    "labels": [
+      "wait",
+      "attack",
+      "ability",
+      "summon",
+      "win",
+      "damage",
+      "dead",
+      "chara_in",
+      "chara_out",
+      "mortal_A"
+    ]
+  },
+  {
+    "slug": "kengo",
+    "id": "220301",
+    "title": "剑豪",
+    "english": "Kengo",
+    "group": "剑术与近战",
+    "code": "kng_bw_1_01",
+    "textures": [
+      "weapon.png",
+      "kng_bw_1_01.png",
+      "kng_bw_1_01_head.png"
+    ],
+    "labels": [
+      "wait",
+      "attack",
+      "ability",
+      "summon",
+      "win",
+      "damage",
+      "dead",
+      "chara_in",
+      "chara_out",
+      "mortal_A"
+    ]
+  },
+  {
+    "slug": "sword-master",
+    "id": "230201",
+    "title": "剑圣",
+    "english": "Sword Master",
+    "group": "剑术与近战",
+    "code": "sdm_sw_1_01",
+    "textures": [
+      "weapon.png",
+      "sdm_sw_1_01_a.png",
+      "sdm_sw_1_01_b.png",
+      "sdm_sw_1_01_head.png"
+    ],
+    "labels": [
+      "wait",
+      "attack",
+      "ability",
+      "summon",
+      "win",
+      "damage",
+      "dead",
+      "chara_in",
+      "chara_out",
+      "mortal_A"
+    ]
+  },
+  {
+    "slug": "chrysaor",
+    "id": "300301",
+    "title": "双剑士",
+    "english": "Chrysaor",
+    "group": "剑术与近战",
+    "code": "crs_sw_1_01",
+    "textures": [
+      "weapon.png",
+      "weapon2a.png",
+      "weapon2b.png",
+      "crs_sw_1_01_a.png",
+      "crs_sw_1_01_b.png",
+      "crs_sw_1_01_head.png"
+    ],
+    "labels": [
+      "wait",
+      "attack",
+      "ability",
+      "summon",
+      "win",
+      "damage",
+      "dead",
+      "chara_in",
+      "chara_out",
+      "mortal_A"
+    ]
+  },
+  {
+    "slug": "viking",
+    "id": "100401",
+    "title": "维京战士",
+    "english": "Viking",
+    "group": "剑术与近战",
+    "code": "vkn_sw_1_01",
+    "textures": [
+      "vkn_sw_1_01.png",
+      "vkn_sw_1_01_head.png",
+      "weapon.png",
+      "weapon2a.png",
+      "weapon2b.png"
+    ],
+    "labels": [
+      "wait",
+      "attack",
+      "ability",
+      "summon",
+      "win",
+      "damage",
+      "dead",
+      "chara_in",
+      "chara_out",
+      "mortal_A"
+    ]
+  },
+  {
+    "slug": "ranger",
+    "id": "170001",
+    "title": "游侠",
+    "english": "Ranger",
+    "group": "远程",
+    "code": "rng_bw_1_01",
+    "textures": [
+      "weapon.png",
+      "rng_bw_1_01.png",
+      "rng_bw_1_01_head.png"
+    ],
+    "labels": [
+      "wait",
+      "attack",
+      "ability",
+      "summon",
+      "win",
+      "damage",
+      "dead",
+      "chara_in",
+      "chara_out",
+      "mortal_A"
+    ]
+  },
+  {
+    "slug": "archer",
+    "id": "170101",
+    "title": "弓箭手",
+    "english": "Archer",
+    "group": "远程",
+    "code": "mrk_bw_1_01",
+    "textures": [
+      "weapon.png",
+      "mrk_bw_1_01_a.png",
+      "mrk_bw_1_01_b.png",
+      "mrk_bw_1_01_head.png"
+    ],
+    "labels": [
+      "wait",
+      "attack",
+      "ability",
+      "summon",
+      "win",
+      "damage",
+      "dead",
+      "chara_in",
+      "chara_out",
+      "mortal_A"
+    ]
+  },
+  {
+    "slug": "robin-hood",
+    "id": "440301",
+    "title": "罗宾汉",
+    "english": "Robin Hood",
+    "group": "远程",
+    "code": "rbn_bw_1_01",
+    "textures": [
+      "rbn_bw_1_01.png",
+      "rbn_bw_1_01_head.png",
+      "weapon.png"
+    ],
+    "labels": [
+      "wait",
+      "attack",
+      "ability",
+      "summon",
+      "win",
+      "damage",
+      "dead",
+      "chara_in",
+      "chara_out",
+      "mortal_A"
+    ]
+  },
+  {
+    "slug": "gunslinger",
+    "id": "240201",
+    "title": "枪手",
+    "english": "Gunslinger",
+    "group": "远程",
+    "code": "gns_gu_1_01",
+    "textures": [
+      "weapon.png",
+      "gns_gu_1_01.png",
+      "gns_gu_1_01_head.png"
+    ],
+    "labels": [
+      "wait",
+      "attack",
+      "ability",
+      "summon",
+      "win",
+      "damage",
+      "dead",
+      "chara_in",
+      "chara_out",
+      "mortal_A"
+    ]
+  },
+  {
+    "slug": "thief",
+    "id": "140001",
+    "title": "盗贼",
+    "english": "Thief",
+    "group": "潜行",
+    "code": "thi_kn_1_01",
+    "textures": [
+      "weapon.png",
+      "thi_kn_1_01.png",
+      "thi_kn_1_01_head.png"
+    ],
+    "labels": [
+      "wait",
+      "attack",
+      "ability",
+      "summon",
+      "win",
+      "damage",
+      "dead",
+      "chara_in",
+      "chara_out",
+      "mortal_A"
+    ]
+  },
+  {
+    "slug": "bandit-tycoon",
+    "id": "140301",
+    "title": "义贼",
+    "english": "Bandit Tycoon",
+    "group": "潜行",
+    "code": "gzk_kn_1_01",
+    "textures": [
+      "weapon.png",
+      "gzk_kn_1_01.png",
+      "gzk_kn_1_01_head.png"
+    ],
+    "labels": [
+      "wait",
+      "attack",
+      "ability",
+      "summon",
+      "win",
+      "damage",
+      "dead",
+      "chara_in",
+      "chara_out",
+      "mortal_A"
+    ]
+  },
+  {
+    "slug": "ninja",
+    "id": "210201",
+    "title": "忍者",
+    "english": "Ninja",
+    "group": "潜行",
+    "code": "nnj_me_1_01",
+    "textures": [
+      "weapon_l.png",
+      "weapon_r.png",
+      "nnj_me_1_01.png",
+      "nnj_me_1_01_head.png"
+    ],
+    "labels": [
+      "wait",
+      "attack",
+      "ability",
+      "summon",
+      "win",
+      "damage",
+      "dead",
+      "chara_in",
+      "chara_out",
+      "mortal_A"
+    ]
+  },
+  {
+    "slug": "tormentor",
+    "id": "260301",
+    "title": "秘器使",
+    "english": "Tormentor",
+    "group": "潜行",
+    "code": "tmt_kn_1_01",
+    "textures": [
+      "weapon.png",
+      "tmt_kn_1_01.png",
+      "tmt_kn_1_01_head.png"
+    ],
+    "labels": [
+      "wait",
+      "attack",
+      "ability",
+      "summon",
+      "win",
+      "damage",
+      "dead",
+      "chara_in",
+      "chara_out",
+      "mortal_A"
+    ]
+  },
+  {
+    "slug": "runeslayer",
+    "id": "210301",
+    "title": "魔法战士",
+    "english": "Runeslayer",
+    "group": "魔法",
+    "code": "mhs_me_1_01",
+    "textures": [
+      "weapon_l.png",
+      "weapon_r.png",
+      "mhs_me_1_01.png",
+      "mhs_me_1_01_head.png"
+    ],
+    "labels": [
+      "wait",
+      "attack",
+      "ability",
+      "summon",
+      "win",
+      "damage",
+      "dead",
+      "chara_in",
+      "chara_out",
+      "mortal_A"
+    ]
+  },
+  {
+    "slug": "onmyoji",
+    "id": "150401",
+    "title": "阴阳师",
+    "english": "Onmyoji",
+    "group": "魔法",
+    "code": "omj_kn_1_01",
+    "textures": [
+      "omj_kn_1_01.png",
+      "omj_kn_1_01_head.png",
+      "weapon.png"
+    ],
+    "labels": [
+      "wait",
+      "attack",
+      "ability",
+      "summon",
+      "win",
+      "damage",
+      "dead",
+      "chara_in",
+      "chara_out",
+      "mortal_A"
+    ]
+  },
+  {
+    "slug": "mystic",
+    "id": "250201",
+    "title": "贤者",
+    "english": "Mystic",
+    "group": "魔法",
+    "code": "wmn_wa_1_01",
+    "textures": [
+      "weapon.png",
+      "wmn_wa_1_01.png",
+      "wmn_wa_1_01_head.png"
+    ],
+    "labels": [
+      "wait",
+      "attack",
+      "ability",
+      "summon",
+      "win",
+      "damage",
+      "dead",
+      "chara_in",
+      "chara_out",
+      "mortal_A"
+    ]
+  },
+  {
+    "slug": "nekomancer",
+    "id": "250301",
+    "title": "黑猫道士",
+    "english": "Nekomancer",
+    "group": "魔法",
+    "code": "knd_wa_1_01",
+    "textures": [
+      "weapon.png",
+      "knd_wa_1_01.png",
+      "knd_wa_1_01_head.png"
+    ],
+    "labels": [
+      "wait",
+      "attack",
+      "ability",
+      "summon",
+      "win",
+      "damage",
+      "dead",
+      "chara_in",
+      "chara_out",
+      "mortal_A"
+    ]
+  },
+  {
+    "slug": "priest",
+    "id": "120001",
+    "title": "牧师",
+    "english": "Priest",
+    "group": "治疗与辅助",
+    "code": "pri_wa_1_01",
+    "textures": [
+      "weapon.png",
+      "pri_wa_1_01.png",
+      "pri_wa_1_01_head.png"
+    ],
+    "labels": [
+      "wait",
+      "attack",
+      "ability",
+      "summon",
+      "win",
+      "damage",
+      "dead",
+      "chara_in",
+      "chara_out",
+      "mortal_A"
+    ]
+  },
+  {
+    "slug": "bishop",
+    "id": "120201",
+    "title": "主教",
+    "english": "Bishop",
+    "group": "治疗与辅助",
+    "code": "bis_wa_1_01",
+    "textures": [
+      "weapon.png",
+      "bis_wa_1_01.png",
+      "bis_wa_1_01_head.png"
+    ],
+    "labels": [
+      "wait",
+      "attack",
+      "ability",
+      "summon",
+      "win",
+      "damage",
+      "dead",
+      "chara_in",
+      "chara_out",
+      "mortal_A"
+    ]
+  },
+  {
+    "slug": "alchemist",
+    "id": "200201",
+    "title": "炼金术士",
+    "english": "Alchemist",
+    "group": "治疗与辅助",
+    "code": "acm_kn_1_01",
+    "textures": [
+      "weapon.png",
+      "acm_kn_1_01.png",
+      "acm_kn_1_01_head.png"
+    ],
+    "labels": [
+      "wait",
+      "attack",
+      "ability",
+      "summon",
+      "win",
+      "damage",
+      "dead",
+      "chara_in",
+      "chara_out",
+      "mortal_A"
+    ]
+  },
+  {
+    "slug": "doctor",
+    "id": "200301",
+    "title": "医生",
+    "english": "Doctor",
+    "group": "治疗与辅助",
+    "code": "dct_kn_1_01",
+    "textures": [
+      "weapon.png",
+      "dct_kn_1_01.png",
+      "dct_kn_1_01_head.png"
+    ],
+    "labels": [
+      "wait",
+      "attack",
+      "ability",
+      "summon",
+      "win",
+      "damage",
+      "dead",
+      "chara_in",
+      "chara_out",
+      "mortal_A"
+    ]
+  },
+  {
+    "slug": "bard",
+    "id": "180101",
+    "title": "吟游诗人",
+    "english": "Bard",
+    "group": "音乐与舞蹈",
+    "code": "mst_kn_1_01",
+    "textures": [
+      "weapon.png",
+      "mst_kn_1_01.png",
+      "mst_kn_1_01_head.png"
+    ],
+    "labels": [
+      "wait",
+      "attack",
+      "ability",
+      "summon",
+      "win",
+      "damage",
+      "dead",
+      "chara_in",
+      "chara_out",
+      "mortal_A"
+    ]
+  },
+  {
+    "slug": "dancer",
+    "id": "280201",
+    "title": "舞者",
+    "english": "Dancer",
+    "group": "音乐与舞蹈",
+    "code": "dnc_kn_1_01",
+    "textures": [
+      "weapon.png",
+      "dnc_kn_1_01.png",
+      "dnc_kn_1_01_head.png"
+    ],
+    "labels": [
+      "wait",
+      "attack",
+      "ability",
+      "summon",
+      "win",
+      "damage",
+      "dead",
+      "chara_in",
+      "chara_out",
+      "mortal_A"
+    ]
+  },
+  {
+    "slug": "masquerade",
+    "id": "280301",
+    "title": "假面舞者",
+    "english": "Masquerade",
+    "group": "音乐与舞蹈",
+    "code": "msq_kn_1_01",
+    "textures": [
+      "msq_kn_1_01.png",
+      "msq_kn_1_01_head.png",
+      "weapon.png"
+    ],
+    "labels": [
+      "wait",
+      "attack",
+      "ability",
+      "summon",
+      "win",
+      "damage",
+      "dead",
+      "chara_in",
+      "chara_out",
+      "mortal_A"
+    ]
+  },
+  {
+    "slug": "dragoon",
+    "id": "190101",
+    "title": "龙骑兵",
+    "english": "Dragoon",
+    "group": "其他",
+    "code": "drg_sp_1_01",
+    "textures": [
+      "weapon.png",
+      "drg_sp_1_01.png",
+      "drg_sp_1_01_head.png"
+    ],
+    "labels": [
+      "wait",
+      "attack",
+      "ability",
+      "summon",
+      "win",
+      "damage",
+      "dead",
+      "chara_in",
+      "chara_out",
+      "mortal_A"
+    ]
+  },
+  {
+    "slug": "valkyrie",
+    "id": "190201",
+    "title": "女武神",
+    "english": "Valkyrie",
+    "group": "其他",
+    "code": "vkr_sp_1_01",
+    "textures": [
+      "weapon.png",
+      "vkr_sp_1_01.png",
+      "vkr_sp_1_01_head.png"
+    ],
+    "labels": [
+      "wait",
+      "attack",
+      "ability",
+      "summon",
+      "win",
+      "damage",
+      "dead",
+      "chara_in",
+      "chara_out",
+      "mortal_A"
+    ]
+  },
+  {
+    "slug": "grappler",
+    "id": "160001",
+    "title": "格斗家",
+    "english": "Grappler",
+    "group": "其他",
+    "code": "grp_me_1_01",
+    "textures": [
+      "weapon_l.png",
+      "weapon_r.png",
+      "grp_me_1_01_a.png",
+      "grp_me_1_01_b.png",
+      "grp_me_1_01_head.png"
+    ],
+    "labels": [
+      "wait",
+      "attack",
+      "ability",
+      "summon",
+      "win",
+      "damage",
+      "dead",
+      "chara_in",
+      "chara_out",
+      "mortal_A"
+    ]
+  },
+  {
+    "slug": "mechanic",
+    "id": "290201",
+    "title": "机械师",
+    "english": "Mechanic",
+    "group": "其他",
+    "code": "kks_gu_1_01",
+    "textures": [
+      "weapon.png",
+      "kks_gu_1_01.png",
+      "kks_gu_1_01_head.png"
+    ],
+    "labels": [
+      "wait",
+      "attack",
+      "ability",
+      "summon",
+      "win",
+      "damage",
+      "dead",
+      "chara_in",
+      "chara_out",
+      "mortal_A"
+    ]
+  }
+]

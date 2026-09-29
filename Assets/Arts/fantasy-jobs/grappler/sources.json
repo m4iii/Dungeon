@@ -1,0 +1,10 @@
+{
+  "portrait.png": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/leader/my/160001_me_1_01.png",
+  "animation.js": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/js/cjs/grp_me_1_01.js",
+  "manifest.js": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/js/model/manifest/grp_me_1_01.js",
+  "weapon_l.png": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/cjs/weapon_l.png",
+  "weapon_r.png": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/cjs/weapon_r.png",
+  "grp_me_1_01_a.png": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/cjs/grp_me_1_01_a.png",
+  "grp_me_1_01_b.png": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/cjs/grp_me_1_01_b.png",
+  "grp_me_1_01_head.png": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/cjs/grp_me_1_01_head.png"
+}

@@ -1,0 +1,2520 @@
+/*jshint esversion: 11 */
+
+var bookmarks = []; // bookmark storage
+var search_history = []; // history storage
+var last_new = null; // store most recent info in updated/new tab
+var help_form = null;
+const HISTORY_LENGTH = 100;
+
+// access indexes (ported from GBFAL updater.py)
+// override if needed
+var DataIdx = Object.freeze({
+	// chara/skin/partner update
+	CHARA_SPRITE: 0,
+	CHARA_PHIT: 1,
+	CHARA_SP: 2,
+	CHARA_AB_ALL: 3,
+	CHARA_AB: 4,
+	CHARA_GENERAL: 5,
+	CHARA_SD: 6,
+	CHARA_SCENE: 7,
+	CHARA_SOUND: 8,
+	CHARA_MYPAGE: 9,
+	// npc update
+	NPC_JOURNAL: 0,
+	NPC_SCENE: 1,
+	NPC_SOUND: 2,
+	// MC update
+	JOB_ID: 0,
+	JOB_ALT: 1,
+	JOB_DETAIL: 2,
+	JOB_DETAIL_ALT: 3,
+	JOB_DETAIL_ALL: 4,
+	JOB_SD: 5,
+	JOB_MH: 6,
+	JOB_SPRITE: 7,
+	JOB_PHIT: 8,
+	JOB_SP: 9,
+	JOB_AB_ALL: 10,
+	JOB_AB: 11,
+	JOB_UNLOCK: 12,
+	JOB_MYPAGE: 13,
+	// summon update
+	SUM_GENERAL: 0,
+	SUM_CALL: 1,
+	SUM_DAMAGE: 2,
+	SUM_MYPAGE: 3,
+	// weapon update
+	WEAP_GENERAL: 0,
+	WEAP_PHIT: 1,
+	WEAP_SP: 2,
+	// enemy update
+	BOSS_GENERAL: 0,
+	BOSS_SPRITE: 1,
+	BOSS_APPEAR: 2,
+	BOSS_HIT: 3,
+	BOSS_SP: 4,
+	BOSS_SP_ALL: 5,
+	// event update
+	EVENT_CHAPTER_COUNT: 0,
+	EVENT_NAME: 1,
+	EVENT_THUMB: 2,
+	EVENT_SIDE: 3,
+	EVENT_OP: 4,
+	EVENT_ED: 5,
+	EVENT_INT: 6,
+	EVENT_CHAPTER_START: 7,
+	EVENT_MAX_CHAPTER: 20,
+	EVENT_SKY: 7+20,
+	EVENT_UPDATE_COUNT: 20,
+	// story update
+	STORY_CONTENT: 0,
+	STORY_UPDATE_COUNT: 10,
+	// fate update
+	FATE_CONTENT: 0,
+	FATE_UNCAP_CONTENT: 1,
+	FATE_TRANSCENDENCE_CONTENT: 2,
+	FATE_OTHER_CONTENT: 3,
+	FATE_LINK: 4
+});
+
+function clock() // update the "last updated" clock
+{
+	let now = new Date();
+	let elapsed = (now - (new Date(timestamp))) / 1000;
+	let msg = "";
+	if(elapsed < 120)
+	{
+		msg = Math.trunc(elapsed) + " seconds ago.";
+		setTimeout(clock, 1000);
+	}
+	else if(elapsed < 7200)
+	{
+		msg = Math.trunc(elapsed / 60) + " minutes ago.";
+		setTimeout(clock, (60 - elapsed % 60) * 1000);
+	}
+	else if(elapsed < 172800)
+	{
+		msg = Math.trunc(elapsed / 3600) + " hours ago.";
+		setTimeout(clock, (3600 - elapsed % 3600) * 1000);
+	}
+	else if(elapsed < 5270400)
+	{
+		msg = Math.trunc(elapsed / 86400) + " days ago.";
+		setTimeout(clock, (86400 - elapsed % 86400) * 1000);
+	}
+	else if(elapsed < 63115200)
+	{
+		msg = Math.trunc(elapsed / 2635200) + " months ago.";
+		setTimeout(clock, (2635200 - elapsed % 2635200) * 1000);
+	}
+	else
+	{
+		msg = Math.trunc(elapsed / 31557600) + " years ago.";
+		setTimeout(clock, (31557600 - elapsed % 31557600) * 1000);
+	}
+	document.getElementById('timestamp').textContent = "Last update: " + msg;
+}
+
+function reset_tabs() // reset the tab state
+{
+	let tabcontent = document.getElementsByClassName("tab-content");
+	for(let i = 0; i < tabcontent.length; i++)
+		tabcontent[i].style.display = "none";
+	let tabbuttons = document.getElementsByClassName("tab-button");
+	for (let i = 0; i < tabbuttons.length; i++)
+		tabbuttons[i].classList.toggle("active", false);
+}
+
+function open_tab(name) // reset and then select a tab
+{
+	reset_tabs();
+	document.getElementById(name).style.display = "";
+	let tab = document.getElementById("tab-"+name);
+	tab.classList.toggle("active", true);
+	// remove updated button glow if clicked and updated storage
+	if(last_new != null && name == "new")
+	{
+		tab.classList.toggle("button-has-update", false);
+		set_last_updated_seen();
+	}
+}
+
+function crash() // setup the notice
+{
+	let el = document.getElementById("issues");
+	if(el)
+	{
+		el.innerHTML = '<p>A critical error occured, please report the issue if it persists.<br>You can also try to clear your cache or do a CTRL+F5.<br><a href="https://mizagbf.github.io/">Home Page</a><br><a href="https://github.com/MizaGBF/GBFAL/issues">Github</a></p>';
+		el.style.display = null;
+	}
+}
+
+function issues(changelog) // setup the issue notice
+{
+	if(changelog.issues.length > 0)
+	{
+		let el = document.getElementById("issues");
+		if(el)
+		{
+			let html = "<ul>";
+			for(let i = 0; i < changelog.issues.length; ++i)
+				html += "<li>" + changelog.issues[i] + "</li>\n";
+			html += "</ul>";
+			el.innerHTML = html;
+			el.style.display = null;
+		}
+	}
+}
+
+function help_wanted() // setup the help wanted notice
+{
+	let d = document.getElementById("notice");
+	if(d)
+	{
+		d.style.display = null;
+		d.innerHTML = 'Looking for help to find the name of those <a href="?id=missing-help-wanted">elements</a>.<br>Contact me or use this <a href="' + help_form + '">form</a> to submit a name.';
+	}
+}
+
+function init_lists(changelog, callback)
+{
+	if(gbf)
+	{
+		try
+		{
+			let node = document.getElementById('new');
+			if(node && changelog.new)
+			{
+				init_last_updated_seen(changelog.new);
+				let fragment = document.createDocumentFragment();
+				// open spoiler buttons
+				let div = add_to(fragment, "div", {
+					cls:["std-button-container"]
+				});
+				let spoiler_button = add_to(div, "button", {
+					cls:["std-button", "std-button-large"],
+					innertext:"Open Spoilers",
+					onclick:function() {
+						if(open_spoilers())
+							this.style.display = "none";
+					}
+				});
+				// add new entries
+				let count_spoiler = 0;
+				for(const [key, value] of Object.entries(changelog.new))
+				{
+					let div = document.createElement("div");
+					div.classList.add("mobile-big");
+					div.classList.add("updated-header");
+					div.innerText = key;
+					fragment.appendChild(div);
+					list_elements(fragment, value.reverse(), callback);
+					for(const entry of value)
+					{
+						if(entry.length > 2 && entry[2])
+							count_spoiler++;
+					}
+				}
+				if(count_spoiler == 0)
+					spoiler_button.style.display = "none";
+				node.appendChild(fragment);
+			}
+			toggle_bookmark();
+			update_history();
+		} catch(err) {
+			console.error("Exception thrown", err.stack);
+			crash();
+		}
+	}
+	else crash();
+}
+
+// load last seen content from storage, add glow around tab button if outdated, and set last_new key
+function init_last_updated_seen(new_elements)
+{
+	let node = document.getElementById('tab-new');
+	if(node != null && typeof updated_key != "undefined")
+	{
+		try
+		{
+			let content = localStorage.getItem(updated_key);
+			let check = (content == null) ? ["", -1] : JSON.parse(content);
+			for(const [key, value] of Object.entries(new_elements))
+			{
+				if(key != check[0] || value.length != check[1])
+				{
+					node.classList.toggle("button-has-update", true);
+				}
+				last_new = [key, value.length];
+				break;
+			}
+		} catch(err) {
+			node.classList.toggle("button-has-update", true);
+			if(last_new == null) // set last_new anyway
+			{
+				for(const [key, value] of Object.entries(new_elements))
+				{
+					last_new = [key, value.length];
+					break;
+				}
+			}
+			console.error("Exception thrown", err.stack);
+		}
+	}
+}
+
+// set updated_key content when tab is pressed
+function set_last_updated_seen()
+{
+	if(last_new != null && typeof updated_key != "undefined")
+	{
+		localStorage.setItem(updated_key, JSON.stringify(last_new));
+		last_new = null; // clear this so it's not set every time the user presses it
+	}
+}
+
+function toggle_bookmark(id = null, type = null)
+{
+	if(bookmark_key)
+	{
+		try
+		{
+			bookmarks = localStorage.getItem(bookmark_key);
+			if(bookmarks == null)
+			{
+				bookmarks = [];
+			}
+			else
+			{
+				bookmarks = JSON.parse(bookmarks);
+			}
+		}
+		catch(err)
+		{
+			console.error("Exception thrown", err.stack);
+			bookmarks = [];
+		}
+		if(id != null)
+		{
+			let fav = document.getElementById('fav-btn');
+			if(fav)
+			{
+				let name = gbf.get_lookup_names(id)[0];
+				if(!fav.classList.contains("fav-on"))
+				{
+					bookmarks.push([id, type]);
+					set_bookmark_button(true);
+					push_popup(name + " has been bookmarked.");
+				}
+				else
+				{
+					for(let i = 0; i < bookmarks.length; ++i)
+					{
+						if(bookmarks[i][0] == id)
+						{
+							bookmarks.splice(i, 1);
+							break;
+						}
+					}
+					set_bookmark_button(false);
+					push_popup(name + " has been removed from the bookmarks.");
+				}
+				localStorage.setItem(bookmark_key, JSON.stringify(bookmarks));
+			}
+		}
+		update_bookmark();
+	}
+}
+
+function init_bookmark_button(state, id = null, type = null) // favorite button control
+{
+	let fav = document.getElementById('fav-btn');
+	if(fav)
+	{
+		if(state)
+		{
+			fav.style.display = null;
+			fav.onclick = function() { toggle_bookmark(id, type); };
+			for(let e of bookmarks)
+			{
+				if(e[0] == id)
+				{
+					set_bookmark_button(true);
+					return;
+				}
+			}
+			set_bookmark_button(false);
+		}
+		else
+		{
+			fav.style.display = "none";
+			fav.onclick = null;
+		}
+	}
+}
+
+function set_bookmark_button(val) // set bookmark button state
+{
+	let fav = document.getElementById('fav-btn');
+	if(val)
+	{
+		fav.classList.toggle("fav-on", true);
+		fav.innerHTML = "★";
+	}
+	else
+	{
+		fav.classList.toggle("fav-on", false);
+		fav.innerHTML = "☆";
+	}
+}
+
+function update_bookmark() // update bookmark list
+{
+	let node = document.getElementById('bookmark');
+	if(node)
+	{
+		var fragment = document.createDocumentFragment();
+		list_elements(fragment, bookmarks, bookmark_onclick);
+		add_lazy_to_images(fragment); // set images to lazy loading
+
+		fragment.appendChild(document.createElement("br"));
+		
+		let div = add_to(fragment, "div", {
+			cls:["std-button-container"]
+		});
+		add_to(div, "button", {
+			cls:["std-button"],
+			innertext:"Clear",
+			onclick:clear_bookmark
+		});
+		add_to(div, "button", {
+			cls:["std-button"],
+			innertext:"Export",
+			onclick:export_bookmark
+		});
+		add_to(div, "button", {
+			cls:["std-button"],
+			innertext:"Import",
+			onclick:import_bookmark
+		});
+		update_next_frame(function() {
+			node.innerHTML = "";
+			if(bookmarks.length == 0)
+				node.innerText = "No bookmarked elements.";
+			node.appendChild(fragment);
+		});
+	}
+}
+
+function clear_bookmark() // clear the bookmark list
+{
+	localStorage.removeItem(bookmark_key);
+	let fav = document.getElementById('fav-btn');
+	fav.classList.remove("fav-on");
+	fav.innerHTML = "☆";
+	bookmarks = [];
+	update_bookmark();
+}
+
+function export_bookmark() // export the bookmark list to the clipboard
+{
+	try
+	{
+		bookmarks = localStorage.getItem(bookmark_key);
+		if(bookmarks == null)
+		{
+			bookmarks = [];
+		}
+		else
+		{
+			bookmarks = JSON.parse(bookmarks);
+		}
+		navigator.clipboard.writeText(JSON.stringify(bookmarks));
+		push_popup("Bookmarks have been copied");
+	}
+	catch(err)
+	{
+		console.error("Exception thrown", err.stack);
+		bookmarks = [];
+	}
+}
+
+function import_bookmark() // import the bookmark list from the clipboard. need localhost or a HTTPS host
+{
+	navigator.clipboard.readText().then((clipText) => {
+		try
+		{
+			let tmp = JSON.parse(clipText);
+			if(typeof tmp != 'object')
+			{
+				push_popup("The imported data seems corrupt or invalid.");
+				return;
+			}
+			let val = false;
+			for(let i = 0; i < tmp.length; ++i)
+			{
+				let e = tmp[i];
+				if(e.length != 2 || typeof e[0] != 'string' || typeof e[1] != 'number')
+				{
+					push_popup("The imported data seems corrupt or invalid.");
+					return;
+				}
+			}
+			bookmarks = tmp;
+			localStorage.setItem(bookmark_key, JSON.stringify(bookmarks));
+			set_bookmark_button(val);
+			update_bookmark();
+			push_popup("Bookmarks have been imported with success");
+		}
+		catch(err)
+		{
+			console.error("Exception thrown", err.stack);
+		}
+	});
+}
+
+function clear_history() // clear the history
+{
+	localStorage.removeItem(history_key);
+	update_history();
+}
+
+function update_history(id = null, type = null) // update the history list
+{
+	// update local storage
+	try
+	{
+		search_history = localStorage.getItem(history_key);
+		if(search_history == null)
+		{
+			search_history = [];
+		}
+		else
+		{
+			search_history = JSON.parse(search_history);
+			if(search_history.length > HISTORY_LENGTH) // resize
+			{
+				search_history = search_history.slice(search_history.length - HISTORY_LENGTH);
+			}
+		}
+	}
+	catch(err)
+	{
+		console.error("Exception thrown", err.stack);
+		search_history = [];
+	}
+	if(id != null)
+	{
+		let found = false;
+		for(let i = 0; i < search_history.length; ++i)
+		{
+			const e = search_history[i];
+			if(e[0] == id && e[1] == type)
+			{
+				return; // don't update if already in
+			}
+			else if(e[0] == id)
+			{
+				search_history[i][1] = type;
+				found = true;
+			}
+		}
+		if(!found)
+		{
+			search_history.push([id, type]);
+			if(search_history.length > HISTORY_LENGTH) // resize
+			{
+				search_history = search_history.slice(search_history.length - HISTORY_LENGTH);
+			}
+		}
+		localStorage.setItem(history_key, JSON.stringify(search_history));
+	}
+	let node = document.getElementById('history');
+	if(node)
+	{
+		if(search_history.length == 0)
+		{
+			node.innerHTML = "";
+			node.appendChild(document.createTextNode("No elements in your history."));
+			return;
+		}
+		var fragment = document.createDocumentFragment();
+		list_elements(fragment, search_history.slice().reverse(), history_onclick);
+		add_lazy_to_images(fragment); // set images to lazy loading
+		fragment.appendChild(document.createElement("br"));
+		
+		
+		let div = add_to(fragment, "div", {
+			cls:["std-button-container"]
+		});
+		add_to(div, "button", {
+			cls:["std-button"],
+			innertext:"Clear",
+			onclick:clear_history
+		});
+		update_next_frame(function() {
+			node.innerHTML = "";
+			node.appendChild(fragment);
+		});
+	}
+}
+
+function add_to_index(node, data, callback, level = 0)
+{
+	// detail
+	let details = document.createElement("details");
+	if(data.id ?? null)
+		details.id = data.id;
+	if(data.hide ?? false)
+		details.style.display = "none";
+	let summary = document.createElement("summary");
+	summary.classList.add("detail");
+	if(level > 0)
+	{
+		summary.classList.add("sub-detail");
+		if(level > 1)
+			summary.classList.add("sub-detail-child");
+	}
+	// icon
+	let icon = null;
+	if(data.icon)
+	{
+		icon = document.createElement("img");
+		icon.src = data.icon;
+		icon.alt = "";
+		icon.loading = "lazy";
+	}
+	else icon = document.createElement("span");
+	icon.classList.add(level ? "sub-detail-icon" : "detail-icon");
+	summary.appendChild(icon);
+	// name
+	summary.appendChild(document.createTextNode(data.name));
+	// set
+	details.appendChild(summary);
+	node.appendChild(details);
+	// set content
+	if(data.childs)
+	{
+		let div = document.createElement("div");
+		div.className = "subdetails";
+		details.appendChild(div);
+		for(let child of data.childs)
+		{
+			add_to_index(div, child, callback, level + 1);
+		}
+	}
+	else
+	{
+		let h3 = document.createElement("h3");
+		h3.className = "container mobile-big";
+		details.appendChild(h3);
+		details.onclick = function (){
+			load_index_content(h3, data, callback);
+			this.onclick = null;
+		};
+	}
+}
+
+// populate the page index
+function load_index_content(node, data, onclick)
+{
+	let callback = null;
+	let image_callback = add_index_image;
+	let target = data.target ? data.target : data.key;
+	let type = gbf.index_to_type(target);
+	if(type == null)
+	{
+		switch(target) // extra GBFAL types
+		{
+			case "profile_npcs":
+				callback = get_profile_npc;
+				break;
+			case "profile_arts":
+				callback = get_profile_art;
+				break;
+			case "profile_bgs":
+				callback = get_profile_bg;
+				break;
+			case "arca3_maps":
+				callback = get_arca3_maps;
+				break;
+			case "arca3_specials":
+				callback = get_arca3_specials;
+				break;
+			case "title":
+				callback = get_title;
+				break;
+			case "sky_title":
+				callback = get_sky_title;
+				break;
+			case "suptix":
+				callback = get_suptix;
+				break;
+			case "mypage_bg":
+				callback = get_mypage_bg;
+				break;
+			case "subskills":
+				callback = get_subskill;
+				break;
+			case "valentines":
+				callback = get_valentine;
+				break;
+			default:
+				return;
+		};
+	}
+	else
+	{
+		switch(type)
+		{
+			case GBFType.job:
+				callback = get_job;
+				break;
+			case GBFType.weapon:
+				callback = get_weapon;
+				break;
+			case GBFType.summon:
+				callback = get_summon;
+				break;
+			case GBFType.character:
+				callback = target == "skins" ? get_skin : get_character;
+				break;
+			case GBFType.enemy:
+				callback = get_enemy;
+				break;
+			case GBFType.npc:
+				callback = get_npc;
+				image_callback = add_npc_image;
+				break;
+			case GBFType.partner:
+				callback = get_partner;
+				break;
+			case GBFType.event:
+				callback = get_event;
+				break;
+			case GBFType.skill:
+				callback = get_skill;
+				break;
+			case GBFType.buff:
+				callback = get_buff;
+				break;
+			case GBFType.background:
+				callback = get_background;
+				break;
+			case GBFType.free:
+			case GBFType.story0:
+			case GBFType.story1:
+				callback = get_story;
+				image_callback = add_text_image;
+				break;
+			case GBFType.fate:
+				callback = get_fate;
+				image_callback = add_fate_image;
+				break;
+			case GBFType.shield:
+				callback = get_shield;
+				break;
+			case GBFType.manatura:
+				callback = get_manatura;
+				break;
+		}
+	}
+	try
+	{
+		let ref = index;
+		let start = null;
+		let lengths = null;
+		if(!data.root)
+			ref = index[target];
+		if(data.check)
+		{
+			start = data.check[0];
+			lengths = data.check[1];
+		}
+		let slist = {};
+		for(const id in ref)
+		{
+			if(
+				(lengths != null && !lengths.includes(id.length))
+				|| (start != null && !id.startsWith(start))
+			) continue;
+			let r = callback(id, ref[id], data.arg1, data.arg2);
+			if(r != null)
+			{
+				if(data.pad)
+					slist[id.padStart(20, "0")] = r;
+				else
+					slist[id] = r;
+			}
+		}
+		const keys = data.reverse ? Object.keys(slist).sort().reverse() : Object.keys(slist).sort();
+		if(keys.length > 0)
+		{
+			if(data.text)
+				node.innerHTML = "<div>" + data.text + "</div>";
+			else
+				node.innerHTML = data.reverse ? "<div>Newest first</div>" : "<div>Oldest first</div>";
+		}
+		else node.innerHTML = '<div>Empty</div><img src="../GBFML/assets/ui/sorry.png" loading="lazy">'
+		for(const k of keys)
+		{
+			for(let r of slist[k])
+			{
+				r.id = gbf.get_prefix(type) + r.id;
+				image_callback(node, r, onclick);
+			}
+		}
+	} catch(err) {
+		console.error("Exception thrown", err.stack);
+		return;
+	}
+}
+
+function init_index(config, changelog, callback) // build the html index. simply edit config.json to change the index.
+{
+	var content = document.getElementById('index');
+	if(content == null || !config.hasOwnProperty("index"))
+		return;
+	try
+	{
+		let frag = document.createDocumentFragment();
+		for(const section of config.index)
+		{
+			add_to_index(frag, section, callback);
+		}
+		// stat string
+		if(changelog.hasOwnProperty("stat") && changelog.stat != null)
+		{
+			let center = document.createElement("center");
+			center.appendChild(document.createTextNode(changelog.stat));
+			center.classList.add("small-text");
+			frag.appendChild(center);
+		}
+		// wait next frame to give time to calculate
+		update_next_frame(function() {
+			content.innerHTML = "";
+			content.appendChild(frag);
+		});
+	}
+	catch(err)
+	{
+		console.error("Exception thrown", err.stack);
+		content.innerHTML = '<div class="container">An error occured while loading the index.<br>Please notify me if you see this message.</div>';
+	}
+}
+
+// populate a node with elements
+function list_elements(node, elems, onclick)
+{
+	for(const elem of elems)
+	{
+		const id = elem[0];
+		const type = elem[1];
+		const spoiler = elem.length > 2 ? elem[2] : false;
+		try
+		{
+			let res = null;
+			let callback = add_index_image;
+			switch(type)
+			{
+				case GBFType.character:
+				{
+					if(gbf.is_character_skin(id))
+					{
+						res = get_skin(id, (id in index['skins']) ? index['skins'][id] : null, [0, 1000]);
+					}
+					else
+					{
+						res = get_character(id, (id in index['characters']) ? index['characters'][id] : null, [0, 1000, 0, 1000, 0, 1000]);
+					}
+					break;
+				}
+				case GBFType.summon:
+				{
+					res = get_summon(id, (id in index['summons']) ? index['summons'][id] : null, id[2], [0, 1000]);
+					break;
+				}
+				case GBFType.weapon:
+				{
+					res = get_weapon(id, (id in index['weapons']) ? index['weapons'][id] : null, id[2], id[4]);
+					break;
+				}
+				case GBFType.shield:
+				{
+					res = get_shield(id, (id in index['shields']) ? index['shields'][id] : null, id[0]);
+					break;
+				}
+				case GBFType.manatura:
+				{
+					res = get_manatura(id, (id in index['manaturas']) ? index['manaturas'][id] : null, id[0]);
+					break;
+				}
+				case GBFType.job:
+				{
+					res = get_job(id, (id in index['job']) ? index['job'][id] : null);
+					break;
+				}
+				case GBFType.enemy:
+				{
+					res = get_enemy(id, (id in index['enemies']) ? index['enemies'][id] : null, id[0], id[1]);
+					break;
+				}
+				case GBFType.npc:
+				{
+					res = get_npc(id, (id in index['npcs']) ? index['npcs'][id] : null, id.slice(1, 3), [0, 10000]);
+					callback = add_npc_image;
+					break;
+				}
+				case GBFType.partner:
+				{
+					res = get_partner(id, (id in index['partners']) ? index['partners'][id] : null, id.slice(1, 3));
+					break;
+				}
+				case GBFType.event:
+				{
+					res = get_event(id, (id in index['events']) ? index['events'][id] : null);
+					break;
+				}
+				case GBFType.skill:
+				{
+					res = get_skill(id, (id in index['skills']) ? index['skills'][id] : null, [0, 10000]);
+					break;
+				}
+				case GBFType.buff:
+				{
+					res = get_buff(id, (id in index['buffs']) ? index['buffs'][id] : null, [0, 10000]);
+					break;
+				}
+				case GBFType.background:
+				{
+					res = get_background(id, index['background'][id]);
+					break;
+				}
+				case GBFType.free:
+				{
+					res = get_story(id, (id in index['free']) ? index['free'][id] : null, -1);
+					callback = add_text_image;
+					break;
+				}
+				case GBFType.story0:
+				{
+					res = get_story(id, (id in index['story0']) ? index['story0'][id] : null, 0);
+					callback = add_text_image;
+					break;
+				}
+				case GBFType.story1:
+				{
+					res = get_story(id, (id in index['story1']) ? index['story1'][id] : null, 1);
+					callback = add_text_image;
+					break;
+				}
+				case GBFType.fate:
+				{
+					res = get_fate(id, (id in index['fate']) ? index['fate'][id] : null);
+					callback = add_fate_image;
+					break;
+				}
+				case "subskills":
+				{
+					res = get_subskill(id.split(':')[1], index['subskills'][id.split(':')[1]]);
+					break;
+				}
+				case "profile_npcs":
+				{
+					res = get_profile_npc(id.split(':')[1], index['profile_npcs'][id.split(':')[1]]);
+					break;
+				}
+				case "profile_arts":
+				{
+					res = get_profile_art(id.split(':')[1], index['profile_arts'][id.split(':')[1]]);
+					break;
+				}
+				case "profile_bgs":
+				{
+					res = get_profile_bg(id.split(':')[1], index['profile_bgs'][id.split(':')[1]]);
+					break;
+				}
+				case "arca3_maps":
+				{
+					res = get_arca3_maps(id.split(':')[1], index['arca3_maps'][id.split(':')[1]]);
+					break;
+				}
+				case "arca3_specials":
+				{
+					res = get_arca3_specials(id.split(':')[1], index['arca3_specials'][id.split(':')[1]]);
+					break;
+				}
+				case "title":
+				{
+					res = get_title(id.split(':')[1], index['title'][id.split(':')[1]]);
+					break;
+				}
+				case "sky_title":
+				{
+					res = get_sky_title(id.split(':')[1], index['title'][id.split(':')[1]]);
+					break;
+				}
+				case "suptix":
+				{
+					res = get_suptix(id.split(':')[1], index['suptix'][id.split(':')[1]]);
+					break;
+				}
+				case "mypage_bg":
+				{
+					res = get_mypage_bg(id.split(':')[1], index['mypage_bg'][id.split(':')[1]]);
+					break;
+				}
+			};
+			if(res != null)
+			{
+				for(let r of res)
+				{
+					if(r.unlisted ?? false)
+						continue;
+					r.id = gbf.get_prefix(type) + r.id; // update prefix
+					if(spoiler)
+					{
+						const n = add_index_image(
+							node,
+							{id:r.id, path:"../GBFML/assets/ui/spoiler.png", onerr:null, class:"", link:false},
+							onclick
+						);
+						n.classList.toggle("spoiler", true);
+						n.elem_callback = callback;
+						n.elem_info = r;
+					}
+					else
+					{
+						callback(node, r, onclick);
+					}
+				}
+			}
+		} catch(err) {
+			console.error("Exception thrown", err.stack);
+		}
+	}
+}
+
+function open_spoilers()
+{
+	if(window.confirm("Are you sure that you want to open spoilers?"))
+	{
+		let nodes = document.querySelectorAll(".spoiler");
+		for(const node of nodes)
+		{
+			const new_node = node.elem_callback(null, node.elem_info, node.onclick);
+			node.replaceWith(new_node);
+		}
+		return true;
+	}
+	return false;
+}
+
+// default onerror functions for element images
+function default_onerror()
+{
+	this.src= "../GBFML/assets/ui/no_asset.jpg";
+	this.classList.remove("preview");
+	this.classList.remove("preview-noborder");
+}
+
+function get_character(id, data, range, unused = null)
+{
+	let val = parseInt(id.slice(4, 7));
+	switch(id[2])
+	{
+		case '4':
+			if(val < range[4] || val >= range[5])
+				return null;
+			break;
+		case '3':
+			if(val < range[2] || val >= range[3])
+				return null;
+			break;
+		case '2':
+			if(val < range[0] || val >= range[1])
+				return null;
+			break;
+		default:
+			return null;
+	}
+	let uncap = 1;
+	let uncap_string = "_01";
+	if(data)
+	{
+		for(const f of data[DataIdx.CHARA_GENERAL])
+		{
+			if(f.includes("_st")) continue;
+			const u = parseInt(f.slice(11, 13));
+			switch(u)
+			{
+				case 3: case 4: case 5: case 6:
+					if(u > uncap || (uncap_string.length == 3 && f.length >= 13))
+					{
+						uncap = u;
+						uncap_string = f.slice(10);
+					}
+					break;
+				default:
+					break;
+			}
+		}
+	}
+	let onerr = null;
+	if(uncap_string != "_01")
+	{
+		onerr = function() {
+			if(uncap_string.includes("_f"))
+			{
+				this.src=gbf.endpoint() + "assets_en/img_low/sp/assets/npc/m/"+id+uncap_string.split("_f")[0]+".jpg";
+				this.onerror=function(){this.src=gbf.endpoint() + "assets_en/img_low/sp/assets/npc/m/"+id+"_01.jpg"; this.onerror=default_onerror;};
+			}
+			else if(uncap_string.endsWith("_01"))
+			{
+				this.src=gbf.endpoint() + "assets_en/img_low/sp/assets/npc/m/"+id+uncap_string.replace("_01", "")+".jpg";
+				this.onerror=function(){this.src=gbf.endpoint() + "assets_en/img_low/sp/assets/npc/m/"+id+"_01.jpg"; this.onerror=default_onerror;};
+			}
+			else
+			{
+				this.src=gbf.endpoint() + "assets_en/img_low/sp/assets/npc/m/"+id+"_01.jpg";
+				this.onerror=default_onerror;
+			}
+		};
+	}
+	else
+	{
+		onerr = default_onerror;
+	}
+	let path = "GBF/assets_en/img_low/sp/assets/npc/m/" + id + uncap_string + ".jpg";
+	return [{id:id, path:path, onerr:onerr, class:"", link:false}];
+}
+
+function get_skin(id, data, range, unused = null)
+{
+	let val = parseInt(id.slice(4, 7));
+	if(val < range[0] || val >= range[1])
+		return null;
+	let uncap = "_01";
+	if(data)
+	{
+		for(const f of data[DataIdx.CHARA_SD])
+			if(!f.includes("st") && f[11] != 8 && f.slice(11, 13) != "02" && (f[11] != 9 || (f[11] == 9 && !(["_03", "_04", "_05"].includes(uncap))))) uncap = f.slice(10);
+	}
+	let onerr = default_onerror;
+	if(uncap != "_01")
+	{
+		onerr = function() {
+			this.src=gbf.endpoint() + "assets_en/img_low/sp/assets/npc/m/"+id+"_01.jpg";
+			this.onerror=default_onerror;
+		};
+	}
+	let path = "GBF/assets_en/img_low/sp/assets/npc/m/" + id + uncap + ".jpg";
+	return [{id:id, path:path, onerr:onerr, class:"", link:false}];
+}
+
+function get_partner(id, data, prefix, unused = null)
+{
+	if(id.slice(1, 3) != prefix)
+		return null;
+	let onerr = function() {
+		this.src = gbf.endpoint() + "assets_en/img_low/sp/assets/npc/raid_normal/3999999999.jpg";
+	};
+	let path = null;
+	if(data && data[DataIdx.CHARA_GENERAL].length > 0)
+	{
+		let onerr;
+		if(data[DataIdx.CHARA_GENERAL].length > 1)
+		{
+			onerr = function() { // failsafe
+				this.onerror = function() {
+					this.src =  gbf.endpoint() + "assets_en/img_low/sp/assets/npc/raid_normal/3999999999.jpg";
+				};
+				this.src =  gbf.endpoint() + "assets_en/img_low/sp/assets/npc/raid_normal/" + data[DataIdx.CHARA_GENERAL][1] + ".jpg";
+			};
+		}
+		path =  "GBF/assets_en/img_low/sp/assets/npc/raid_normal/" + data[DataIdx.CHARA_GENERAL][0] + ".jpg";
+	}
+	else
+	{
+		path =  "GBF/assets_en/img_low/sp/assets/npc/raid_normal/" + id + "_01.jpg";
+	}
+	return [{id:id, path:path, onerr:onerr, class:"preview", link:false}];
+}
+
+function get_summon(id, data, rarity, range)
+{
+	if(id[2] != rarity)
+		return null;
+	let val = parseInt(id.slice(4, 7));
+	if(val < range[0] || val >= range[1])
+		return null;
+	let uncap = "";
+	if(data)
+	{
+		for(const f of data[DataIdx.SUM_GENERAL])
+			if(f.includes("_")) uncap = f.slice(10);
+	}
+	let onerr = default_onerror;
+	if(uncap != "")
+	{
+		onerr = function() {
+			this.src=gbf.endpoint() + "assets_en/img_low/sp/assets/summon/m/"+id+".jpg";
+			this.onerror=default_onerror;
+		};
+	}
+	let path = "GBF/assets_en/img_low/sp/assets/summon/m/" + id + uncap + ".jpg";
+	return [{id:id, path:path, onerr:onerr, class:"", link:false}];
+}
+
+function get_weapon(id, data, rarity, proficiency)
+{
+	if(id[2] != rarity || id[4] != proficiency)
+		return null;
+	let uncap = "";
+	if(data)
+	{
+		for(const f of data[DataIdx.WEAP_GENERAL])
+			if(f.includes("_")) uncap = f.slice(10);
+	}
+	let onerr = default_onerror;
+	if(uncap != "")
+	{
+		onerr = function() {
+			this.src=gbf.endpoint() + "assets_en/img_low/sp/assets/weapon/m/"+id+".jpg";
+			this.onerror=default_onerror;
+		};
+	}
+	let path = "GBF/assets_en/img_low/sp/assets/weapon/m/" + id + uncap + ".jpg";
+	return [{id:id, path:path, onerr:onerr, class:"", link:false}];
+}
+
+function get_shield(id, data, rarity, unused = null)
+{
+	if(rarity != null && id[0] != rarity)
+		return null;
+	let path = "GBF/assets_en/img_low/sp/assets/shield/m/" + id + ".jpg";
+	return [{id:id, path:path, onerr:default_onerror, class:"", link:false}];
+}
+
+function get_manatura(id, data, unusedA = null, unusedB = null)
+{
+	let path = "GBF/assets_en/img_low/sp/assets/familiar/m/" + parseInt(id) + ".jpg";
+	return [{id:id, path:path, onerr:default_onerror, class:"", link:false}];
+}
+
+function get_job(id, data, type_filter = null, unusedB = null)
+{
+	if(type_filter != null)
+	{
+		const s2 = id.slice(0,2);
+		const s3 = id.slice(0,3);
+		if(type_filter) // classes
+		{
+			if(
+				["31","32","33","34","35","36","37","38","39","40"].includes(s2) ||
+				["125","165","185"].includes(s3)
+			)
+				return null;
+		}
+		else // outfits
+		{
+			if(
+				!["31","32","33","34","35","36","37","38","39"].includes(s2) &&
+				!["125","165","185"].includes(s3)
+			)
+				return null;
+		}
+	}
+	return [{id:id, path:"GBF/assets_en/img_low/sp/assets/leader/m/" + id + "_01.jpg", onerr:default_onerror, class:"", link:false}];
+}
+
+function get_enemy(id, data, type, size)
+{
+	if(id[0] != type || id[1] != size)
+		return null;
+	let className = (data && data[DataIdx.BOSS_APPEAR].length > 0) ? "preview vs" : "preview";
+	return [{id:id, path:"GBF/assets_en/img/sp/assets/enemy/s/" + id + ".png", onerr:function() {
+		this.src=gbf.endpoint() + "assets_en/img_low/sp/assets/enemy/m/"+id+".png";
+		this.onerror=default_onerror;
+	}, class:className, link:false}];
+}
+
+function get_npc(id, data, prefix, range)
+{
+	if(prefix != null && id.slice(1, 3) != prefix)
+		return null;
+	let val = parseInt(id.slice(3, 7));
+	if(val < range[0] || val >= range[1])
+		return null;
+	let path = "";
+	let className = "";
+	if(data)
+	{
+		if(data[DataIdx.NPC_JOURNAL])
+		{
+			path = "GBF/assets_en/img_low/sp/assets/npc/m/" + id + "_01.jpg";
+		}
+		else if(data[DataIdx.NPC_SCENE].length > 0)
+		{
+			path = "GBF/assets_en/img_low/sp/quest/scene/character/body/" + id + data[DataIdx.NPC_SCENE][0] + ".png";
+			className = "preview";
+		}
+		else // sound-only
+		{
+			return [{id:id, modifier:"sound-only", text:gbf.get_lookup_names(id)[0]}];
+		}
+	}
+	else return null;
+	let onerr = function()
+	{
+		this.src=this.src.replace("sp/quest/scene/character/body", "sp/raid/navi_face");
+		this.onerror = default_onerror;
+	};
+	return [{id:id, path:path, onerr:onerr, class:className, link:false}];
+}
+
+function get_valentine(id, data = null, unusedA = null, unusedB = null)
+{
+	switch(id.slice(0, 3)) // we hook up to existing functions
+	{
+		case "304":
+		case "302":
+		case "303":
+			return get_character(id, index["characters"][id], parseInt(id[2]), null);
+		case "399":
+		case "305":
+			return get_npc(id, index["npcs"][id], parseInt(id.slice(1,3)), [0, 10000]);
+		default:
+			return null;
+	}
+}
+
+function get_story(id, data, arc, type_filter = null)
+{
+	if(data[DataIdx.STORY_CONTENT].length == 0 || arc < -1)
+		return null;
+	if(type_filter != null)
+	{
+		if(id.startsWith("r")) // recap
+		{
+			if(type_filter != "recap")
+				return null;
+		}
+		else if(id.startsWith("c")) // compilation
+		{
+			if(type_filter != "compilation")
+				return null;
+		}
+		else if(type_filter != "chapter") // normal chapter
+		{
+			return null;
+		}
+	}
+	const title = gbf.msq_lookup(id);
+	const arc_title = arc <= 0 ? "Free Quest " : "Arc " + (arc + 1) + " ";
+	if(title != null)
+	{
+		return [{id:id, modifier:"scene", text:arc_title + title}];
+	}
+	else if(arc <= 0)
+	{
+		return [{id:id, modifier:"scene", text:arc_title + parseInt(id)}];
+	}
+	else
+	{
+		return [{id:id, modifier:"scene", text:arc_title + "Chapter " + parseInt(id)}];
+	}
+}
+
+function get_fate(id, data, prefix = null, range = null)
+{
+	if(data[DataIdx.FATE_CONTENT].length + data[DataIdx.FATE_UNCAP_CONTENT].length + data[DataIdx.FATE_TRANSCENDENCE_CONTENT].length + data[DataIdx.FATE_OTHER_CONTENT].length == 0)
+		return null;
+	if((prefix == "none" && data[DataIdx.FATE_LINK] != null) || (prefix != null && prefix != "none" && (data[DataIdx.FATE_LINK] == null || !data[DataIdx.FATE_LINK].startsWith(prefix))))
+		return null;
+	if(range != null)
+	{
+		const iid = parseInt(id);
+		if(iid < range[0] || iid >= range[1])
+			return null;
+	}
+	if(data[DataIdx.FATE_LINK] != null) 
+	{
+		let ret = null;
+		if(data[DataIdx.FATE_LINK].startsWith("30") && "characters" in index && data[DataIdx.FATE_LINK] in index["characters"])
+			ret = get_character(data[DataIdx.FATE_LINK], index["characters"][data[DataIdx.FATE_LINK]], [0, 9999]);
+		else if(data[DataIdx.FATE_LINK].startsWith("20") && "summons" in index && data[DataIdx.FATE_LINK] in index["summons"])
+			ret = get_summon(data[DataIdx.FATE_LINK], index["summons"][data[DataIdx.FATE_LINK]], data[DataIdx.FATE_LINK][2], [0, 9999]);
+		if(ret != null)
+		{
+			ret[0].path = ret[0].path.replace("GBF/", gbf.endpoint()); // update url here
+			ret[0].id = id; // set fate id
+			return ret;
+		}
+	}
+	return [{id:id, modifier:"scene", text:"Fate " + id}];
+}
+
+function get_event(id, data, idfilter = null, unusedB = null)
+{
+	if(!data)
+		return null;
+	if(idfilter != null)
+	{
+		if(idfilter == "" && !isNaN(id))
+		{
+			return null;
+		}
+		else if(idfilter == "14" && !id.startsWith(idfilter) && !id.startsWith("13")) // special Exception for first event of the game
+		{
+			return null;
+		}
+		else if(idfilter != "14" && !id.startsWith(idfilter))
+		{
+			return null;
+		}
+	}
+	let has_file = false;
+	let path = "";
+	let className = "";
+	if(
+		data[DataIdx.EVENT_THUMB] != null
+		|| data[DataIdx.EVENT_SIDE] != null
+	)
+	{
+		has_file = true;
+	}
+	else
+	{
+		for(let i = DataIdx.EVENT_OP; i < data.length; ++i)
+		{
+			if(data[i].length > 0)
+			{
+				has_file = true;
+				break;
+			}
+		}
+	}
+	if(has_file)
+	{
+		if(index["events"][id][DataIdx.EVENT_THUMB] == null)
+		{
+			path = "../GBFML/assets/ui/event.png";
+			className = "preview-noborder";
+		}
+		else if(isNaN(parseInt(index["events"][id][DataIdx.EVENT_THUMB])))
+		{
+			path = "../GBFML/assets/ui/" + index["events"][id][DataIdx.EVENT_THUMB] + ".png";
+			className = "preview";
+		}
+		else
+		{
+			path = "GBF/assets_en/img_low/sp/archive/assets/island_m2/" + index["events"][id][DataIdx.EVENT_THUMB] + ".png";
+			className = "preview";
+			if(data[DataIdx.EVENT_SIDE] != null)
+			{
+				className += " side-event"
+			}
+			if(data[DataIdx.EVENT_SKY].length > 0)
+			{
+				className += " sky-event"
+			}
+		}
+		return [{id:id, path:path, onerr:null, class:className, link:false}];
+	}
+	else return null;
+}
+
+function get_skill(id, data, range, unused = null)
+{
+	if(!data)
+		return null;
+	let val = parseInt(id);
+	if(val < range[0] || val >= range[1])
+		return null;
+	return [{id:id, path:"GBF/assets_en/img_low/sp/ui/icon/ability/m/" + data[0][0] + ".png", onerr:null, class:"preview", link:false}];
+}
+
+function get_subskill(id, data, unusedA = null, unusedB = null)
+{
+	return [
+		{id:id+"_1", path:"GBF/assets_en/img_low/sp/assets/item/ability/s/" + id + "_1.jpg", onerr:null, class:"preview", link:true},
+		{id:id+"_2", path:"GBF/assets_en/img_low/sp/assets/item/ability/s/" + id + "_2.jpg", onerr:null, class:"preview", link:true},
+		{id:id+"_3", path:"GBF/assets_en/img_low/sp/assets/item/ability/s/" + id + "_3.jpg", onerr:null, class:"preview", link:true},
+		{id:id+"_4", path:"GBF/assets_en/img_low/sp/assets/item/ability/s/" + id + "_4.jpg", onerr:null, class:"preview", link:true}
+	];
+}
+
+function get_buff(id, data, range, unused = null)
+{
+	if(!data)
+		return null;
+	let val = parseInt(id);
+	if(val < range[0] || val >= range[1])
+		return null;
+	return [
+		{
+			id:id,
+			path:"GBF/assets_en/img_low/sp/ui/icon/status/x64/status_" + data[0][0] + data[1][0] + ".png",
+			onerr:null,
+			class:"preview" + (data[1].length > 1 ? " more" : ""),
+			link:false
+		}
+	];
+}
+
+function get_background(id, data, key = null, unused = null)
+{
+	let path = null;
+	switch(id.split('_')[0])
+	{
+		case "common":
+		{
+			if(key != null && key != "common")
+			{
+				return null;
+			}
+			path = ["sp/raid/bg/", ".jpg"];
+			break;
+		}
+		case "main":
+		{
+			if(key != null && key != "main")
+			{
+				return null;
+			}
+			path = ["sp/guild/custom/bg/", ".png"];
+			break;
+		}
+		case "event":
+		{
+			if(key != null && key != "event")
+			{
+				return null;
+			}
+			path = ["sp/raid/bg/", ".jpg"];
+			break;
+		}
+		default:
+		{
+			const first_character = id[0];
+			if(
+				key != null
+				&& (
+					(
+						key != ""
+						&& key != first_character
+					) || (
+						key == ""
+						&& !"0123456789".includes(first_character)
+					)
+				)
+			)
+			{
+				return null;
+			}
+			path = ["sp/raid/bg/", ".jpg"];
+			break;
+		}
+	}
+	let list = [];
+	if(data)
+	{
+		list = data[0];
+	}
+	else
+	{
+		list = [id];
+	}
+	let ret = [];
+	for(let i of list)
+	{
+		ret.push({id:i, path:"GBF/assets_en/img_low/" + path[0] + i + path[1], onerr:null, class:"preview", link:true});
+	}
+	return ret;
+}
+
+function get_profile_npc(id, data, unusedA = null, unusedB = null)
+{
+	return [{id:id, path:"GBF/assets_en/img_low/sp/assets/profile_room/character/other/" + id + ".png", onerr:null, class:"preview", link:true}];
+}
+
+function get_profile_art(id, data, range_start = null, range_end = null)
+{
+	if(range_start != null && range_end != null)
+	{
+		const iid = parseInt(id);
+		if(iid < range_start || iid >= range_end)
+		{
+			return null;
+		}
+	}
+	return [{id:id, path:"GBF/assets_en/img_low/sp/assets/profile_room/memorial_frame/painting/" + id + ".png", onerr:null, class:"preview", link:true}];
+}
+
+function get_profile_bg(id, data, unusedA = null, unusedB = null)
+{
+	return [{id:id, path:"GBF/assets_en/img_low/sp/assets/profile_room/profile_card/bg/" + id + ".jpg", onerr:null, class:"preview", link:true}];
+}
+
+function get_arca3_maps(id, data, unusedA = null, unusedB = null)
+{
+	return [{id:id, path:"GBF/assets_en/img_low/sp/arcarum3/assets/map_bg/" + id + ".jpg", onerr:null, class:"preview", link:true}];
+}
+
+function get_arca3_specials(id, data, unusedA = null, unusedB = null)
+{
+	return [{id:id, path:"GBF/assets_en/img_low/sp/arcarum3/assets/scpecial_node_bg/" + id + ".png", onerr:null, class:"preview", link:true}];
+}
+
+function get_title(id, data, unusedA = null, unusedB = null)
+{
+	return [{id:id, path:"GBF/assets_en/img_low/sp/top/bg/bg_" + id + ".jpg", onerr:null, class:"preview", link:true}];
+}
+
+function get_sky_title(id, data, unusedA = null, unusedB = null)
+{
+	return [{id:id, path:"https://media.skycompass.io/assets/archives/galleries/" + id + "/detail_s.png", onerr:null, class:"preview", link:true}];
+}
+
+function get_suptix(id, data, unusedA = null, unusedB = null)
+{
+	return [{id:id, path:"GBF/assets_en/img_low/sp/gacha/campaign/surprise/top_" + id + ".jpg", onerr:null, class:"preview", link:true}];
+}
+
+function get_mypage_bg(id, data, unusedA = null, unusedB = null)
+{
+	return [{id:id, path:"GBF/assets_en/img_low/sp/mypage/town/" + id + "/bg.jpg", onerr:null, class:"preview", link:true}];
+}
+
+// path must start with "GBF/" if it's not a local asset.
+function add_index_image(node, data, onclick_callback)
+{
+	if(data.link) // two behavior based on link attribute
+	{
+		let a = add_to(node, "a");
+		a.target = "_blank";
+		a.rel = "noopener noreferrer";
+		let img = add_to(a, "img", {
+			cls: ["loading"],
+			onload: function() {
+				this.classList.remove("loading");
+				this.classList.add(data.class);
+				this.classList.add("link");
+			},
+			onerror: (data.onerr == null ?
+				function() {
+					this.parentNode.remove();
+					this.remove();
+				} :
+				data.onerr
+			),
+			title: "Click to open: " + data.id
+		});
+		img.setAttribute('loading', 'lazy');
+		img.src = data.path.replace("GBF/", gbf.endpoint());
+		a.href = img.src.replace("img_low/", "img/");
+		return a;
+	}
+	else
+	{
+		if(data.onclick ?? null) // override
+			onclick_callback = data.onclick;
+		let cls = data.class ? data.class.split(" ") : [];
+		let img = add_to(node, "img", {
+			cls: cls,
+			onload: function() {
+				this.classList.remove("loading");
+				this.classList.add("index-image");
+				if(onclick_callback != null)
+				{
+					this.classList.add("clickable");
+				}
+				else
+				{
+					this.classList.add("no-animation");
+				}
+				this.onclick = onclick_callback;
+			},
+			onerror: (data.onerr == null ?
+				function() {
+					this.remove();
+				} :
+				data.onerr
+			),
+			title: data.id
+		});
+		img.classList.toggle("loading", true);
+		img.setAttribute('loading', 'lazy');
+		img.onclickid = data.id;
+		img.src = data.path.replace("GBF/", gbf.endpoint());
+		return img;
+	}
+}
+
+function add_text_image(node, data, onclick)
+{
+	let elem = add_to(node, "div", {
+		cls:[data.modifier, "preview-noborder"],
+		onclick:onclick,
+		title:data.id,
+		innertext:data.text
+	});
+	if(onclick == null)
+	{
+		elem.classList.add("no-animation");
+	}
+	else
+	{
+		elem.classList.add("clickable");
+	}
+	elem.onclickid = data.id;
+	return elem;
+}
+
+function add_fate_image(node, data, onclick)
+{
+	if(data.path)
+	{
+		let img = add_index_image(node, data, onclick);
+		img.classList.toggle("fate-image", true);
+		return img;
+	}
+	else
+	{
+		return add_text_image(node, data, onclick);
+	}
+}
+
+function add_npc_image(node, data, onclick)
+{
+	if(data.path)
+	{
+		return add_index_image(node, data, onclick);
+	}
+	else
+	{
+		return add_text_image(node, data, onclick);
+	}
+}
+
+function build_header(
+	node,
+	{
+		id,
+		target,
+		data = null,
+		create_div = true,
+		navigation = false,
+		navigation_special_targets = [],
+		lookup = false,
+		related = false,
+		link = false,
+		extra_links = []
+	}={}
+)
+{
+	let name = "";
+	switch(target)
+	{
+		case "characters":
+		{
+			name = "Character " + gbf.get_prefix(GBFType.character) + id;
+			break;
+		}
+		case "skins":
+		{
+			name = "Skin " + gbf.get_prefix(GBFType.character) + id;
+			break;
+		}
+		case "partners":
+		{
+			name = "Partner " + gbf.get_prefix(GBFType.partner) + id;
+			break;
+		}
+		case "summons":
+		{
+			name = "Summon " + gbf.get_prefix(GBFType.summon) + id;
+			break;
+		}
+		case "weapons":
+		{
+			name = "Weapon " + gbf.get_prefix(GBFType.weapon) + id;
+			break;
+		}
+		case "npcs":
+		{
+			name = "NPC " + gbf.get_prefix(GBFType.npc) + id;
+			break;
+		}
+		case "enemies":
+		{
+			name = "Enemy " + gbf.get_prefix(GBFType.enemy) + id;
+			break;
+		}
+		case "job":
+		{
+			name = "Main Character " + gbf.get_prefix(GBFType.job) + id;
+			break;
+		}
+		case "shields":
+		{
+			name = "Shield " + gbf.get_prefix(GBFType.shield) + id;
+			break;
+		}
+		case "manaturas":
+		{
+			name = "Manatura " + gbf.get_prefix(GBFType.manatura) + id;
+			break;
+		}
+		case "fate":
+		{
+			name = "Fate Episode " + gbf.get_prefix(GBFType.fate) + id;
+			break;
+		}
+		case "events":
+		{
+			name = "Event " + gbf.get_prefix(GBFType.event) + id;
+			if(!isNaN(id))
+			{
+				name += " (" + id.substring(0, 2) + "/" + id.substring(2, 4) + "/" + id.substring(4, 6) + ")";
+			}
+			if(data != null && data[DataIdx.EVENT_NAME] != "")
+			{
+				name += "\n" + data[DataIdx.EVENT_NAME];
+			}
+			break;
+		}
+		case "free":
+		{
+			name = "Free Quest " +  parseInt(id);
+			break;
+		}
+		case "story0":
+		{
+			const title = gbf.msq_lookup(id);
+			name = (
+				(title != null) ?
+				("Arc I " + title + " (" + gbf.get_prefix(GBFType.story0) + id + ")") :
+				(
+					id == "191" ?
+					("Arc I Ending (" + gbf.get_prefix(GBFType.story0) + id + ")") :
+					("Arc I Chapter " + parseInt(id) + " (" + gbf.get_prefix(GBFType.story0) + id + ")")
+				)
+			);
+			break;
+		}
+		case "story1":
+		{
+			const title = gbf.msq_lookup(id);
+			name = (title != null) ?
+				("Arc II " + title + " (" + gbf.get_prefix(GBFType.story1) + id + ")") :
+				("Arc II Chapter " + parseInt(id) + " (" + gbf.get_prefix(GBFType.story1) + id + ")");
+			break;
+		}
+		case "skills":
+		{
+			name = "Skill " + gbf.get_prefix(GBFType.skill) + id;
+			break;
+		}
+		case "buffs":
+		{
+			name = "Buff " + gbf.get_prefix(GBFType.buff) + id;
+			break;
+		}
+		default:
+		{
+			console.error("Unsupported " + target);
+			return;
+		}
+	}
+	let div = node;
+	if(create_div)
+	{
+		div = add_to(
+			node,
+			"div",
+			{
+				cls:["container-header"]
+			}
+		)
+	}
+	add_to(div, "span", {
+		cls:["header-block"],
+		id:"container-header-element-name",
+		innertext:name
+	});
+	list_elements(
+		add_to(div, "span", {
+			cls:["header-block"],
+			id:"container-header-element-thumbnail"
+		}),
+		[[id, gbf.index_to_type(target)]],
+		null
+	);
+	if(link)
+	{
+		add_links(div, id, extra_links);
+	}
+	if(navigation)
+	{
+		add_navigation(div, id, target, navigation_special_targets);
+	}
+	if(lookup && target != "events")
+	{
+		add_lookup(div, id);
+	}
+	if(related)
+	{
+		add_related(div, id, target);
+	}
+	return div;
+}
+
+function add_links(node, id, extra_links)
+{
+	let block = add_to(node, "span", {
+		cls:["header-block"],
+		id:"container-header-element-links"
+	});
+	let wiki_fallback = true;
+	if("lookup" in index && id in index["lookup"])
+	{
+		// extract /w tag content
+		const A = index["lookup"][id].indexOf("/w ");
+		if(A != -1)
+		{
+			const B = index["lookup"][id].indexOf(" /", A + 1);
+			const wiki_path = (
+				B == -1
+				? index["lookup"][id].slice(A + 3)
+				: index["lookup"][id].slice(A + 3, B)
+			);
+			let a = add_to(block, "a", {title:"Wiki page for " + wiki_path.replaceAll("_", " ")});
+			a.href = "https://gbf.wiki/" + wiki_path;
+			let img = add_to(a, "img", {cls:["img-link"]});
+			img.src = "../GBFML/assets/ui/icon/wiki.png";
+			wiki_fallback = false;
+		}
+	}
+	if(wiki_fallback)
+	{
+		let a = add_to(block, "a", {title:"Wiki search for " + id});
+		a.href = "https://gbf.wiki/index.php?title=Special:Search&search=" + id;
+		let img = add_to(a, "img", {cls:["img-link"]});
+		img.src = "../GBFML/assets/ui/icon/wiki.png";
+	}
+	for(const [title, imgsrc, href] of extra_links)
+	{
+		let a = add_to(block, "a", {title:title});
+		a.href = href;
+		let img = add_to(a, "img", {cls:["img-link"]});
+		img.src = imgsrc;
+	}
+}
+
+function add_navigation(node, id, target, navigation_special_targets)
+{
+	if(target in index && id in index[target])
+	{
+		let is_special = navigation_special_targets.length > 0 && navigation_special_targets.includes(target);
+		let keys = Object.keys(index[target]);
+		if(keys.length > 0)
+		{
+			keys.sort();
+			const c = keys.indexOf(id);
+			let next = c;
+			let previous = c;
+			if(is_special)
+			{
+				// this mode lets us skip over empty elements
+				if(typeof get_special_navigation_indexes !== "undefined")
+				{
+					let ret = get_special_navigation_indexes(id, target, c, keys);
+					previous = ret[0];
+					next = ret[1];
+				}
+				else
+				{
+					console.error("get_special_navigation_indexes is undefined");
+					return;
+				}
+			}
+			else
+			{
+				next = (c + 1) % keys.length;
+				previous = (c + keys.length - 1) % keys.length;
+			}
+			if(next != c) // assume previous is too
+			{
+				let type = gbf.index_to_type(target);
+				list_elements(
+					add_to(node, "span", {
+						cls:["navigate-element", "navigate-element-left"]
+					}),
+					[[keys[previous], type]],
+					index_onclick
+				);
+				list_elements(
+					add_to(node, "span", {
+						cls:["navigate-element", "navigate-element-right"]
+					}),
+					[[keys[next], type]],
+					index_onclick
+				);
+			}
+		}
+	}
+}
+
+function add_lookup_tag(node, text, id, format, add_css=true)
+{
+	let elem;
+	if(typeof search != "undefined" && search != null && search.m_search_bar != null)
+	{
+		elem = add_to(node, "i", {
+			cls: ["tag", "clickable"],
+			onclick: function() {
+				search.m_search_bar.value = search.m_search_bar.value.trim();
+				if(search.m_search_bar.value.value == "")
+					search.m_search_bar.value = text;
+				else
+					search.m_search_bar.value = search.m_search_bar.value + " " + text;
+				search.update();
+				search.m_search_bar.scrollIntoView();
+			}
+		});
+	}
+	else
+	{
+		elem = add_to(node, "i", {cls: ["tag"]});
+	}
+	if(format)
+	{
+		switch(text)
+		{
+			case "ssr":
+			case "sr":
+			case "r":
+			case "n":
+			{
+				elem.innerText = text.toUpperCase();
+				break;
+			}
+			default:
+			{
+				if(text == id && id != id)
+				{
+					elem.innerText = id;
+				}
+				else if(text.length == 1)
+				{
+					elem.innerText = text.toUpperCase();
+				}
+				else
+				{
+					elem.innerText = capitalize(text);
+				}
+				break;
+			}
+		}
+	}
+	else
+	{
+		elem.innerText = text;
+	}
+	if(add_css)
+		add_lookup_tag_class(elem, elem.innerText);
+	return elem;
+}
+
+
+function add_lookup_tag_class(node, text)
+{
+	switch(text.toLowerCase())
+	{
+		case "ssr": case "grand": case "providence": case "optimus": case "dynamis": case "archangel":
+		case "opus": case "xeno": case "exo": case "six": case "dragons": case "illustrious":
+			node.classList.add("tag-gold");
+			break;
+		case "missing-help-wanted":
+			node.classList.add("tag-gold");
+			break;
+		case "sr": case "militis": case "voiced": case "voice-only":
+			node.classList.add("tag-silver");
+			break;
+		case "r":
+			node.classList.add("tag-bronze");
+			break;
+		case "n": case "gran": case "djeeta": case "null": case "any": case "unknown-element": case "unknown-boss":
+			node.classList.add("tag-normal");
+			break;
+		case "fire": case "dragon-boss": case "elemental-boss": case "other-boss":
+			node.classList.add("tag-fire");
+			break;
+		case "water": case "fish-boss": case "core-boss": case "aberration-boss":
+			node.classList.add("tag-water");
+			break;
+		case "earth": case "beast-boss": case "golem-boss": case "machine-boss": case "goblin-boss":
+			node.classList.add("tag-earth");
+			break;
+		case "wind": case "flying-boss": case "plant-boss": case "insect-boss": case "wyvern-boss":
+			node.classList.add("tag-wind");
+			break;
+		case "light": case "people-boss": case "fairy-boss": case "primal-boss":
+			node.classList.add("tag-light");
+			break;
+		case "dark": case "monster-boss": case "otherworld-boss": case "undead-boss": case "reptile-boss":
+			node.classList.add("tag-dark");
+			break;
+		case "cut-content": case "trial":
+			node.classList.add("tag-cut-content"); break;
+		case "sabre": case "sword": case "spear": case "dagger": case "axe": case "staff": case "melee": case "gun": case "bow": case "harp": case "katana":
+			node.classList.add("tag-weaptype");
+			break;
+		case "summer": case "omega":
+			node.classList.add("tag-series-summer");
+			break;
+		case "yukata": case "rebirth":
+			node.classList.add("tag-series-yukata");
+			break;
+		case "valentine":  case "regalia":
+			node.classList.add("tag-series-valentine");
+			break;
+		case "halloween": case "odious":
+			node.classList.add("tag-series-halloween");
+			break;
+		case "holiday":
+			node.classList.add("tag-series-holiday");
+			break;
+		case "12generals":
+			node.classList.add("tag-series-zodiac");
+			break;
+		case "13buddhas":
+			node.classList.add("tag-series-buddha");
+			break;
+		case "fantasy":
+			node.classList.add("tag-series-fantasy");
+			break;
+		case "collab":
+			node.classList.add("tag-series-collab");
+			break;
+		case "eternals":
+			node.classList.add("tag-series-eternal");
+			break;
+		case "evokers":
+			node.classList.add("tag-series-evoker");
+			break;
+		case "4saints":
+			node.classList.add("tag-series-saint");
+			break;
+		case "crest": case "robur": case "bellum": case "acies": case "cryptid": case "carbuncle": case "upgrader":
+			node.classList.add("tag-series-summon-series");
+			break;
+		case "formal":
+			node.classList.add("tag-series-formal");
+			break;
+		case "male":
+			node.classList.add("tag-gender0");
+			break;
+		case "female":
+			node.classList.add("tag-gender1");
+			break;
+		case "other":
+			node.classList.add("tag-gender2");
+			break;
+		case "human":
+			node.classList.add("tag-race0");
+			break;
+		case "draph":
+			node.classList.add("tag-race1");
+			break;
+		case "erune":
+			node.classList.add("tag-race2");
+			break;
+		case "harvin":
+			node.classList.add("tag-race3");
+			break;
+		case "primal":
+			node.classList.add("tag-race4");
+			break;
+		case "unknown":
+			node.classList.add("tag-race5");
+			break;
+		case "geonoid":
+			node.classList.add("tag-race6");
+			break;
+		case "levleath":
+			node.classList.add("tag-race7");
+			break;
+		case "wolvir":
+			node.classList.add("tag-race8");
+			break;
+		case "grokkle":
+			node.classList.add("tag-race9");
+			break;
+		case "balanced":
+			node.classList.add("tag-type0");
+			break;
+		case "attack":
+			node.classList.add("tag-type1");
+			break;
+		case "defense":
+			node.classList.add("tag-type2");
+			break;
+		case "heal":
+			node.classList.add("tag-type3");
+			break;
+		case "special":
+			node.classList.add("tag-type4");
+			break;
+		case "gbf-versus-rising":
+			node.classList.add("tag-rising");
+			break;
+		case "gbf-relink":
+			node.classList.add("tag-relink");
+			break;
+		default:
+			break;
+	}
+}
+
+function add_lookup(node, id)
+{
+	if("lookup" in index && id in index.lookup)
+	{
+		let last_token = "";
+		let words = index.lookup[id].split(' ');
+		if(words.length == 0)
+			return
+		// container
+		let block = add_to(null, "span", {
+			cls:["header-block"],
+			id:"container-header-element-lookup"
+		});
+		let missing = false;
+		let added = false;
+		let other_tag = false;
+		let special_tag = false;
+		let game_tag = false;
+		for(let i = 0; i < words.length; ++i)
+		{
+			const w = words[i];
+			if(GBF.c_special_tokens.has(w))
+			{
+				last_token = w;
+				switch(w)
+				{
+					case "/!":
+					{
+						if(!special_tag)
+						{
+							if(added)
+							{
+								block.appendChild(document.createElement("br"));
+							}
+							special_tag = true;
+						}
+						add_lookup_tag(block, "Voiced", id, false);
+						added = true;
+						break;
+					}
+					case "/!!":
+					{
+						if(!special_tag)
+						{
+							if(added)
+							{
+								block.appendChild(document.createElement("br"));
+							}
+							special_tag = true;
+						}
+						add_lookup_tag(block, "Voice-only", id, false);
+						added = true;
+						break;
+					}
+					case "/1":
+					{
+						if(!game_tag)
+						{
+							if(added)
+							{
+								block.appendChild(document.createElement("br"));
+							}
+							game_tag = true;
+						}
+						add_lookup_tag(block, "GBF-Versus-Rising", id, false);
+						added = true;
+						break;
+					}
+					case "/2":
+					{
+						if(!game_tag)
+						{
+							if(added)
+							{
+								block.appendChild(document.createElement("br"));
+							}
+							game_tag = true;
+						}
+						add_lookup_tag(block, "GBF-Relink", id, false);
+						added = true;
+						break;
+					}
+					case "/$":
+					{
+						add_lookup_tag(block, "missing-help-wanted", id, false);
+						added = true;
+						missing = true;
+						break;
+					}
+					case "/_":
+					{
+						add_lookup_tag(block, "Young", id, false, false).classList.add("tag-series-fantasy");
+						added = true;
+						break;
+					}
+					case "/y":
+					case "/n":
+					{
+						if(added)
+						{
+							block.appendChild(document.createElement("br"));
+						}
+						break;
+					}
+					case "/b":
+					case "/c":
+					case "/s":
+					{
+						if(!other_tag)
+						{
+							if(added)
+							{
+								block.appendChild(document.createElement("br"));
+							}
+							other_tag = true;
+						}
+						break;
+					}
+					case "/%": // reset
+					{
+						if(added)
+						{
+							block.appendChild(document.createElement("br"));
+						}
+						added = false;
+						other_tag = false;
+						special_tag = false;
+						game_tag = false;
+						break;
+					}
+				}
+			}
+			else
+			{
+				switch(last_token)
+				{
+					case "/a":
+					case "/b":
+					case "/c":
+					case "/e":
+					case "/f":
+					case "/k":
+					case "/m":
+					case "/n":
+					case "/p":
+					case "/s":
+					case "/t":
+					case "/y":
+					{
+						add_lookup_tag(block, w, id, true, last_token != "/n");
+						added = true;
+						break;
+					}
+				}
+			}
+		}
+		if(missing && help_form != null)
+		{
+			block.appendChild(document.createElement("br"));
+			let a = document.createElement("a");
+			a.href = help_form;
+			a.innerHTML = "Submit a name";
+			block.appendChild(a);
+		}
+		if(block.childNodes.length > 0)
+		{
+			node.appendChild(block);
+		}
+	}
+}
+
+function add_related(node, id, target)
+{
+	let has_been_added = false;
+	let parent_block = add_to(null, "span", {
+		cls:["header-block"],
+		id:"container-header-element-related"
+	});
+	parent_block.appendChild(document.createTextNode("Possibly Related"));
+	let block = add_to(parent_block, "div", {
+		cls:["header-related-results"]
+	});
+	
+	let exclude = [id];
+	switch(target)
+	{
+		case "partners":
+		{
+			let cid = "30" + id.slice(2);
+			if("characters" in index && cid in index["characters"])
+			{
+				list_elements(block, [[cid, GBFType.character]], index_onclick);
+				has_been_added = true;
+				// invert to use character related elements
+				id = cid;
+				exclude = [id];
+			}
+			break;
+		}
+		case "characters":
+		{
+			let added_line_break = false;
+			// fate episode
+			let fate_id = gbf.look_for_fate_episode_in_index(id);
+			if(fate_id != null)
+			{
+				list_elements(block, [[fate_id, GBFType.fate]], index_onclick);
+				has_been_added = true;
+				added_line_break = true;
+			}
+			// partner
+			let partner_id = "38" + id.slice(2);
+			if("partners" in index && partner_id in index["partners"])
+			{
+				list_elements(block, [[partner_id, GBFType.partner]], index_onclick);
+				has_been_added = true;
+				added_line_break = true;
+			}
+			// weapon
+			if("premium" in index && id in index["premium"] && index["premium"][id] != null)
+			{
+				list_elements(block, [[index["premium"][id], GBFType.weapon]], index_onclick);
+				has_been_added = true;
+				exclude.push(index["premium"][id]);
+			}
+			break;
+		}
+		case "summons":
+		{
+			// fate episode
+			let fate_id = gbf.look_for_fate_episode_in_index(id);
+			if(fate_id != null)
+			{
+				list_elements(block, [[fate_id, GBFType.fate]], index_onclick);
+				has_been_added = true;
+			}
+			break;
+		}
+		case "weapons":
+		{
+			// character
+			if("premium" in index && id in index["premium"] && index["premium"][id] != null)
+			{
+				list_elements(block, [[index["premium"][id], GBFType.character]], index_onclick);
+				has_been_added = true;
+				exclude.push(index["premium"][id]);
+			}
+			break;
+		}
+		case "fate":
+		{
+			if("fate" in index && id in index["fate"] && index["fate"][id] != 0 && index["fate"][id][4] != null)
+			{
+				let target_id = index["fate"][id][4];
+				switch(target_id.substring(0, 2))
+				{
+					case "30":
+					{
+						list_elements(block, [[target_id, GBFType.character]], index_onclick);
+						has_been_added = true;
+						// invert to use character related elements
+						id = target_id;
+						exclude = [id];
+						break;
+					}
+					case "20":
+					{
+						list_elements(block, [[target_id, GBFType.summon]], index_onclick);
+						has_been_added = true;
+						// invert to use character related elements
+						id = target_id;
+						exclude = [id];
+						break;
+					}
+				}
+			}
+			break;
+		}
+        case "enemies":
+        case "skins":
+        case "job":
+        case 'npcs':
+		{
+			break;
+		}
+		case "events":
+		{
+			if(typeof search != "undefined" && search.m_evt_lookup_key in index)
+			{
+				for(const [unused, ids] of Object.entries(index[search.m_evt_lookup_key]))
+				{
+					if(ids.includes(id))
+					{
+						if(ids.length <= 1)
+						{
+							break;
+						}
+						const l = [];
+						for(const ev_id of ids)
+						{
+							if(ev_id != id)
+							{
+								l.push([ev_id, GBFType.event]);
+							}
+						}
+						list_elements(block, l, index_onclick);
+						has_been_added = true;
+						break;
+					}
+				}
+			}
+			break;
+		}
+		default:
+		{
+			return;
+		}
+	}
+	// add other related elements
+	if(typeof search != "undefined")
+	{
+		const l = search.related_elements(id, exclude);
+		if(l.length > 0)
+		{
+			if(has_been_added)
+			{
+				block.appendChild(document.createElement("br"));
+			}
+			list_elements(block, l, index_onclick);
+			has_been_added = true;
+		}
+	}
+	
+	if(has_been_added)
+	{
+		node.appendChild(parent_block);
+	}
+}
