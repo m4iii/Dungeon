@@ -1,0 +1,5135 @@
+fileFormatVersion: 2
+guid: 034a75df796be024cbdabccdf1db82bd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 596620660564877454
+    second: cav_sp_1_01_0
+  - first:
+      213: 1661626336935051566
+    second: cav_sp_1_01_1
+  - first:
+      213: 6967376973185847199
+    second: cav_sp_1_01_2
+  - first:
+      213: 5949090994518334137
+    second: cav_sp_1_01_3
+  - first:
+      213: 133601524648325719
+    second: cav_sp_1_01_4
+  - first:
+      213: 4794104071371899083
+    second: cav_sp_1_01_5
+  - first:
+      213: -516290834224207488
+    second: cav_sp_1_01_6
+  - first:
+      213: 6761385408546433069
+    second: cav_sp_1_01_7
+  - first:
+      213: 6193617582207764407
+    second: cav_sp_1_01_8
+  - first:
+      213: -2087783523639201860
+    second: cav_sp_1_01_9
+  - first:
+      213: 7716305147530322916
+    second: cav_sp_1_01_10
+  - first:
+      213: -4880038539740891748
+    second: cav_sp_1_01_11
+  - first:
+      213: 5625508541598804198
+    second: cav_sp_1_01_12
+  - first:
+      213: -2928900042358487159
+    second: cav_sp_1_01_13
+  - first:
+      213: -5444077414952955037
+    second: cav_sp_1_01_14
+  - first:
+      213: -8762338290080565977
+    second: cav_sp_1_01_15
+  - first:
+      213: 3668023100095463329
+    second: cav_sp_1_01_16
+  - first:
+      213: 1459969160648638210
+    second: cav_sp_1_01_17
+  - first:
+      213: -8625442451247611242
+    second: cav_sp_1_01_18
+  - first:
+      213: 1046859105176955274
+    second: cav_sp_1_01_19
+  - first:
+      213: 6755995898304962659
+    second: cav_sp_1_01_20
+  - first:
+      213: 4221377560054234851
+    second: cav_sp_1_01_21
+  - first:
+      213: -848526892770506210
+    second: cav_sp_1_01_22
+  - first:
+      213: -5263411915723302696
+    second: cav_sp_1_01_23
+  - first:
+      213: 215298712088929312
+    second: cav_sp_1_01_24
+  - first:
+      213: -2305196738450058901
+    second: cav_sp_1_01_25
+  - first:
+      213: 6628436877923324187
+    second: cav_sp_1_01_26
+  - first:
+      213: -5616592610102207504
+    second: cav_sp_1_01_27
+  - first:
+      213: -4620214624728067168
+    second: cav_sp_1_01_28
+  - first:
+      213: 6752901495445573308
+    second: cav_sp_1_01_29
+  - first:
+      213: -6466154924122234100
+    second: cav_sp_1_01_30
+  - first:
+      213: 3029910384496889647
+    second: cav_sp_1_01_31
+  - first:
+      213: 7687048552256734580
+    second: cav_sp_1_01_32
+  - first:
+      213: -5405545589803952003
+    second: cav_sp_1_01_33
+  - first:
+      213: -6931320412905660688
+    second: cav_sp_1_01_34
+  - first:
+      213: -9103998335310232609
+    second: cav_sp_1_01_35
+  - first:
+      213: 3403974517657346209
+    second: cav_sp_1_01_36
+  - first:
+      213: -3766937234269852814
+    second: cav_sp_1_01_37
+  - first:
+      213: 5902177740398498076
+    second: cav_sp_1_01_38
+  - first:
+      213: -5276723925467710880
+    second: cav_sp_1_01_39
+  - first:
+      213: -2843186493644027518
+    second: cav_sp_1_01_40
+  - first:
+      213: -2599598880454281089
+    second: cav_sp_1_01_41
+  - first:
+      213: -7958885154372254581
+    second: cav_sp_1_01_42
+  - first:
+      213: 5201137420750936980
+    second: cav_sp_1_01_43
+  - first:
+      213: 6850826915530587321
+    second: cav_sp_1_01_44
+  - first:
+      213: -3766875411125134436
+    second: cav_sp_1_01_45
+  - first:
+      213: 5387759149994775409
+    second: cav_sp_1_01_46
+  - first:
+      213: 6811074857925726734
+    second: cav_sp_1_01_47
+  - first:
+      213: 8468614642966947571
+    second: cav_sp_1_01_48
+  - first:
+      213: -5663740457759193490
+    second: cav_sp_1_01_49
+  - first:
+      213: 8888085684567618786
+    second: cav_sp_1_01_50
+  - first:
+      213: 7833497335427410279
+    second: cav_sp_1_01_51
+  - first:
+      213: 5533821849517466205
+    second: cav_sp_1_01_52
+  - first:
+      213: 3036329097883050926
+    second: cav_sp_1_01_53
+  - first:
+      213: 7222398823845010212
+    second: cav_sp_1_01_54
+  - first:
+      213: -6361598630011804328
+    second: cav_sp_1_01_55
+  - first:
+      213: 8257925664939763380
+    second: cav_sp_1_01_56
+  - first:
+      213: 9200538555194551404
+    second: cav_sp_1_01_57
+  - first:
+      213: -5152671357868799023
+    second: cav_sp_1_01_58
+  - first:
+      213: -231099326650945465
+    second: cav_sp_1_01_59
+  - first:
+      213: 4917020104705854762
+    second: cav_sp_1_01_60
+  - first:
+      213: 6633573453504446204
+    second: cav_sp_1_01_61
+  - first:
+      213: -339633372336935411
+    second: cav_sp_1_01_62
+  - first:
+      213: 6238082328653514065
+    second: cav_sp_1_01_63
+  - first:
+      213: -4127736712510425506
+    second: cav_sp_1_01_64
+  - first:
+      213: 1257755710826972654
+    second: cav_sp_1_01_65
+  - first:
+      213: -1751127149983775872
+    second: cav_sp_1_01_66
+  - first:
+      213: 876303592227025384
+    second: cav_sp_1_01_67
+  - first:
+      213: -2410774014357196117
+    second: cav_sp_1_01_68
+  - first:
+      213: -581353997341151004
+    second: cav_sp_1_01_69
+  - first:
+      213: -2970612746718369807
+    second: cav_sp_1_01_70
+  - first:
+      213: -4430532531325684899
+    second: cav_sp_1_01_71
+  - first:
+      213: -1368380502744092526
+    second: cav_sp_1_01_72
+  - first:
+      213: -8840067985052851483
+    second: cav_sp_1_01_73
+  - first:
+      213: -7010369826582394484
+    second: cav_sp_1_01_74
+  - first:
+      213: 1079804343010369410
+    second: cav_sp_1_01_75
+  - first:
+      213: 1064890180165298034
+    second: cav_sp_1_01_76
+  - first:
+      213: -8687514978603288572
+    second: cav_sp_1_01_77
+  - first:
+      213: 3925730780293902245
+    second: cav_sp_1_01_78
+  - first:
+      213: -4629159530008871922
+    second: cav_sp_1_01_79
+  - first:
+      213: 3147406883645279427
+    second: cav_sp_1_01_80
+  - first:
+      213: -8791444345058867048
+    second: cav_sp_1_01_81
+  - first:
+      213: -6541189749520681225
+    second: cav_sp_1_01_82
+  - first:
+      213: 7356633206840518040
+    second: cav_sp_1_01_83
+  - first:
+      213: -1970268709676510991
+    second: cav_sp_1_01_84
+  - first:
+      213: -9068686560371185644
+    second: cav_sp_1_01_85
+  - first:
+      213: 7748516945928467531
+    second: cav_sp_1_01_86
+  - first:
+      213: 8540477315302689016
+    second: cav_sp_1_01_87
+  - first:
+      213: -7466027394160220275
+    second: cav_sp_1_01_88
+  - first:
+      213: 2313110768325283427
+    second: cav_sp_1_01_89
+  - first:
+      213: 6251521543161864246
+    second: cav_sp_1_01_90
+  - first:
+      213: -2573006839817685170
+    second: cav_sp_1_01_91
+  - first:
+      213: 4231641179178925709
+    second: cav_sp_1_01_92
+  - first:
+      213: 5719612658890391631
+    second: cav_sp_1_01_93
+  - first:
+      213: 1246077622443647452
+    second: cav_sp_1_01_94
+  - first:
+      213: 8380237132249890558
+    second: cav_sp_1_01_95
+  - first:
+      213: 6172895639836534750
+    second: cav_sp_1_01_96
+  - first:
+      213: -2357470392956368892
+    second: cav_sp_1_01_97
+  - first:
+      213: -2487452493318479497
+    second: cav_sp_1_01_98
+  - first:
+      213: 4775693778837436896
+    second: cav_sp_1_01_99
+  - first:
+      213: 8616996527123625057
+    second: cav_sp_1_01_100
+  - first:
+      213: 9051734541866789506
+    second: cav_sp_1_01_101
+  - first:
+      213: 7032634767913281694
+    second: cav_sp_1_01_102
+  - first:
+      213: -3114554589946306938
+    second: cav_sp_1_01_103
+  - first:
+      213: -3375917566999775817
+    second: cav_sp_1_01_104
+  - first:
+      213: 2959613961623706502
+    second: cav_sp_1_01_105
+  - first:
+      213: -983725830949954902
+    second: cav_sp_1_01_106
+  - first:
+      213: 5566311053306070961
+    second: cav_sp_1_01_107
+  - first:
+      213: 5271878165727158868
+    second: cav_sp_1_01_108
+  - first:
+      213: -1238209564334901274
+    second: cav_sp_1_01_109
+  - first:
+      213: 4463078973734031032
+    second: cav_sp_1_01_110
+  - first:
+      213: -8885832401759120921
+    second: cav_sp_1_01_111
+  - first:
+      213: -5773050034861054824
+    second: cav_sp_1_01_112
+  - first:
+      213: 3046263240058612749
+    second: cav_sp_1_01_113
+  - first:
+      213: 7092481627637465755
+    second: cav_sp_1_01_114
+  - first:
+      213: -6998176040673940299
+    second: cav_sp_1_01_115
+  - first:
+      213: -3884535681917520256
+    second: cav_sp_1_01_116
+  - first:
+      213: 3298199780352239379
+    second: cav_sp_1_01_117
+  - first:
+      213: -7082238088530125386
+    second: cav_sp_1_01_118
+  - first:
+      213: -9119820712977931492
+    second: cav_sp_1_01_119
+  - first:
+      213: -6172124962925013587
+    second: cav_sp_1_01_120
+  - first:
+      213: -959313686641298972
+    second: cav_sp_1_01_121
+  - first:
+      213: -5819050311018502261
+    second: cav_sp_1_01_122
+  - first:
+      213: 8762000430990623989
+    second: cav_sp_1_01_123
+  - first:
+      213: -7905707874952357995
+    second: cav_sp_1_01_124
+  - first:
+      213: -6549002298637522311
+    second: cav_sp_1_01_125
+  - first:
+      213: 7546661856418995862
+    second: cav_sp_1_01_126
+  - first:
+      213: 532367808597473915
+    second: cav_sp_1_01_127
+  - first:
+      213: -123143823789291162
+    second: cav_sp_1_01_128
+  - first:
+      213: -376060420201380591
+    second: cav_sp_1_01_129
+  - first:
+      213: 140269827266556343
+    second: cav_sp_1_01_130
+  - first:
+      213: -8967486818390060590
+    second: cav_sp_1_01_131
+  - first:
+      213: 5689065840538573192
+    second: cav_sp_1_01_132
+  - first:
+      213: -5581495799926749324
+    second: cav_sp_1_01_133
+  - first:
+      213: -435192602660550672
+    second: cav_sp_1_01_134
+  - first:
+      213: -5689320700951054510
+    second: cav_sp_1_01_135
+  - first:
+      213: 7093896149241259852
+    second: cav_sp_1_01_136
+  - first:
+      213: 7450506696705687421
+    second: cav_sp_1_01_137
+  - first:
+      213: 981883792045788587
+    second: cav_sp_1_01_138
+  - first:
+      213: -7157667631240678964
+    second: cav_sp_1_01_139
+  - first:
+      213: -6266783539769709037
+    second: cav_sp_1_01_140
+  - first:
+      213: 7502657837837975316
+    second: cav_sp_1_01_141
+  - first:
+      213: -5590961902833890622
+    second: cav_sp_1_01_142
+  - first:
+      213: -4891617843868353519
+    second: cav_sp_1_01_143
+  - first:
+      213: -1447120642455609429
+    second: cav_sp_1_01_144
+  - first:
+      213: -5711029300278613771
+    second: cav_sp_1_01_145
+  - first:
+      213: -2579237181320822380
+    second: cav_sp_1_01_146
+  - first:
+      213: 2627311126469855079
+    second: cav_sp_1_01_147
+  - first:
+      213: -938665275642657869
+    second: cav_sp_1_01_148
+  - first:
+      213: 8504557767154497813
+    second: cav_sp_1_01_149
+  - first:
+      213: -8545687832567610380
+    second: cav_sp_1_01_150
+  - first:
+      213: 6616132671846049612
+    second: cav_sp_1_01_151
+  - first:
+      213: -5509714173872924304
+    second: cav_sp_1_01_152
+  - first:
+      213: -1446359144687046521
+    second: cav_sp_1_01_153
+  - first:
+      213: 7288419566345357616
+    second: cav_sp_1_01_154
+  - first:
+      213: 5382832610230016687
+    second: cav_sp_1_01_155
+  - first:
+      213: -8333842113957526828
+    second: cav_sp_1_01_156
+  - first:
+      213: 9013853310209001078
+    second: cav_sp_1_01_157
+  - first:
+      213: 7628482244472665437
+    second: cav_sp_1_01_158
+  - first:
+      213: -4179659146742649669
+    second: cav_sp_1_01_159
+  - first:
+      213: -857896259146486624
+    second: cav_sp_1_01_160
+  - first:
+      213: 913999558006926038
+    second: cav_sp_1_01_161
+  - first:
+      213: 2579604918403962586
+    second: cav_sp_1_01_162
+  - first:
+      213: 7852872904595760346
+    second: cav_sp_1_01_163
+  - first:
+      213: 8784225126511055424
+    second: cav_sp_1_01_164
+  - first:
+      213: -444557233077422989
+    second: cav_sp_1_01_165
+  - first:
+      213: 2278864532471979618
+    second: cav_sp_1_01_166
+  - first:
+      213: -3738334593279981543
+    second: cav_sp_1_01_167
+  - first:
+      213: -7185515143375131680
+    second: cav_sp_1_01_168
+  - first:
+      213: -9020438632132565376
+    second: cav_sp_1_01_169
+  - first:
+      213: -8449296122070444436
+    second: cav_sp_1_01_170
+  - first:
+      213: 7850168817290048171
+    second: cav_sp_1_01_171
+  - first:
+      213: -1275676727096288435
+    second: cav_sp_1_01_172
+  - first:
+      213: -7718368602624353347
+    second: cav_sp_1_01_173
+  - first:
+      213: -3329635226484159433
+    second: cav_sp_1_01_174
+  - first:
+      213: -6789672241633324042
+    second: cav_sp_1_01_175
+  - first:
+      213: 6467291839565826091
+    second: cav_sp_1_01_176
+  - first:
+      213: -457448910213734512
+    second: cav_sp_1_01_177
+  - first:
+      213: 7377761935820278088
+    second: cav_sp_1_01_178
+  - first:
+      213: 257319075676210488
+    second: cav_sp_1_01_179
+  - first:
+      213: 5784305648523255801
+    second: cav_sp_1_01_180
+  - first:
+      213: 5283779995577302485
+    second: cav_sp_1_01_181
+  - first:
+      213: 6064708491748106341
+    second: cav_sp_1_01_182
+  - first:
+      213: -8589570856033348621
+    second: cav_sp_1_01_183
+  - first:
+      213: -5795600416964903222
+    second: cav_sp_1_01_184
+  - first:
+      213: -3316314320063932793
+    second: cav_sp_1_01_185
+  - first:
+      213: -2882038499723310212
+    second: cav_sp_1_01_186
+  - first:
+      213: -838476583492666801
+    second: cav_sp_1_01_187
+  - first:
+      213: -719373571409436304
+    second: cav_sp_1_01_188
+  - first:
+      213: 1094389514159870974
+    second: cav_sp_1_01_189
+  - first:
+      213: -7787274680953955453
+    second: cav_sp_1_01_190
+  - first:
+      213: -5387821324132426141
+    second: cav_sp_1_01_191
+  - first:
+      213: -9174335146708282235
+    second: cav_sp_1_01_192
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cav_sp_1_01_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1539
+        width: 484
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e80e0aa645f974800800000000000000
+      internalID: 596620660564877454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_1
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 1800
+        width: 202
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e21827a89584f0710800000000000000
+      internalID: 1661626336935051566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_2
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 1848
+        width: 96
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9f8afe317811b060800000000000000
+      internalID: 6967376973185847199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_3
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 1848
+        width: 112
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ba9db86dba6f8250800000000000000
+      internalID: 5949090994518334137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_4
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 1918
+        width: 36
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7523d1af0e5aad100800000000000000
+      internalID: 133601524648325719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_5
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 1851
+        width: 36
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc0406ea044188240800000000000000
+      internalID: 4794104071371899083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_6
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 1720
+        width: 135
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 089a641c834c5d8f0800000000000000
+      internalID: -516290834224207488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_7
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 1258
+        width: 20
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d286be9a43445dd50800000000000000
+      internalID: 6761385408546433069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_8
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 1752
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b78b16306624f550800000000000000
+      internalID: 6193617582207764407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_9
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 1749
+        width: 125
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbf629162f3b603e0800000000000000
+      internalID: -2087783523639201860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_10
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 1709
+        width: 77
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e3201126a2d51b60800000000000000
+      internalID: 7716305147530322916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_11
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 1714
+        width: 72
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c95378cbdce964cb0800000000000000
+      internalID: -4880038539740891748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_12
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 1645
+        width: 132
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e82cee9632d11e40800000000000000
+      internalID: 5625508541598804198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_13
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 1599
+        width: 59
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9878890fde47a57d0800000000000000
+      internalID: -2928900042358487159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_14
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 1707
+        width: 75
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36390006f60c274b0800000000000000
+      internalID: -5444077414952955037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_15
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 1567
+        width: 123
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 725b1f100cbe56680800000000000000
+      internalID: -8762338290080565977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_16
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 1628
+        width: 125
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1affd15539f67e230800000000000000
+      internalID: 3668023100095463329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_17
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 1598
+        width: 84
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20fbc73673ad24410800000000000000
+      internalID: 1459969160648638210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_18
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 1611
+        width: 20
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 692cfc64ac54c4880800000000000000
+      internalID: -8625442451247611242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_19
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 1478
+        width: 53
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a89a4f54fc0378e00800000000000000
+      internalID: 1046859105176955274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_20
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 1597
+        width: 48
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 360a676897e12cd50800000000000000
+      internalID: 6755995898304962659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_21
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1458
+        width: 104
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ee76d96688559a30800000000000000
+      internalID: 4221377560054234851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_22
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 1423
+        width: 71
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1a4c06694d6934f0800000000000000
+      internalID: -848526892770506210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_23
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 1440
+        width: 84
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d811c8dfba94f6b0800000000000000
+      internalID: -5263411915723302696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_24
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 1458
+        width: 102
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 024e8a6b905ecf200800000000000000
+      internalID: 215298712088929312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_25
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1456
+        width: 100
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b619b43a7cb4200e0800000000000000
+      internalID: -2305196738450058901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_26
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 1486
+        width: 104
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1118b4b830fcfb50800000000000000
+      internalID: 6628436877923324187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_27
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 1488
+        width: 23
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fb16c277cadd02b0800000000000000
+      internalID: -5616592610102207504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_28
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 1488
+        width: 63
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a3d40b1743b1efb0800000000000000
+      internalID: -4620214624728067168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_29
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 1509
+        width: 100
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbecc37b12027bd50800000000000000
+      internalID: 6752901495445573308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_30
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 1473
+        width: 69
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c032d0d0b5a9346a0800000000000000
+      internalID: -6466154924122234100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_31
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1343
+        width: 69
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2f443901776c0a20800000000000000
+      internalID: 3029910384496889647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_32
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1425
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47581783ee1edaa60800000000000000
+      internalID: 7687048552256734580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_33
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 1346
+        width: 81
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d785e860de4abf4b0800000000000000
+      internalID: -5405545589803952003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_34
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 1382
+        width: 108
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fe1854eec00fcf90800000000000000
+      internalID: -6931320412905660688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_35
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 1369
+        width: 89
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd30614cfb918a180800000000000000
+      internalID: -9103998335310232609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_36
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 1385
+        width: 81
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a0a27de9c85d3f20800000000000000
+      internalID: 3403974517657346209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_37
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 1351
+        width: 51
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27b27242b8629bbc0800000000000000
+      internalID: -3766937234269852814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_38
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 1378
+        width: 81
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c119ba1426fb8e150800000000000000
+      internalID: 5902177740398498076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_39
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 1417
+        width: 40
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06a31bc0c8f45c6b0800000000000000
+      internalID: -5276723925467710880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_40
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 1413
+        width: 84
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 289c828a2f8fa88d0800000000000000
+      internalID: -2843186493644027518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_41
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 1338
+        width: 55
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f78f40c679e5cebd0800000000000000
+      internalID: -2599598880454281089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_42
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 1393
+        width: 29
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b84038dbe1c5c8190800000000000000
+      internalID: -7958885154372254581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_43
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1323
+        width: 77
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49bd9d76de62e2840800000000000000
+      internalID: 5201137420750936980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_44
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 1351
+        width: 23
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bcb2ed48c6031f50800000000000000
+      internalID: 6850826915530587321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_45
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 1295
+        width: 89
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9b9bb675ce59bbc0800000000000000
+      internalID: -3766875411125134436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_46
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 1270
+        width: 69
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1739cceb66a25ca40800000000000000
+      internalID: 5387759149994775409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_47
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 1302
+        width: 31
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e02d1452f7cc58e50800000000000000
+      internalID: 6811074857925726734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_48
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 1302
+        width: 86
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f667bd2620968570800000000000000
+      internalID: 8468614642966947571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_49
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 1279
+        width: 72
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e66414bbf0a5661b0800000000000000
+      internalID: -5663740457759193490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_50
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 1334
+        width: 97
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e433e9c6d2d85b70800000000000000
+      internalID: 8888085684567618786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_51
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 1350
+        width: 27
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 769ae1ba25c26bc60800000000000000
+      internalID: 7833497335427410279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_52
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 1338
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d52a8c617a51ccc40800000000000000
+      internalID: 5533821849517466205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_53
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1242
+        width: 78
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea360843a35332a20800000000000000
+      internalID: 3036329097883050926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_54
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 1197
+        width: 44
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42b1b71e67d1b3460800000000000000
+      internalID: 7222398823845010212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_55
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1278
+        width: 18
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 855e88e40cf07b7a0800000000000000
+      internalID: -6361598630011804328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_56
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 1255
+        width: 78
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b6e050d3ab0a9270800000000000000
+      internalID: 8257925664939763380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_57
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 1300
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6c28a4c111eeaf70800000000000000
+      internalID: 9200538555194551404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_58
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 1303
+        width: 48
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1db86e533b80e78b0800000000000000
+      internalID: -5152671357868799023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_59
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 1250
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74073270368faccf0800000000000000
+      internalID: -231099326650945465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_60
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 1261
+        width: 21
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2d4276dbb3cc3440800000000000000
+      internalID: 4917020104705854762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_61
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 1262
+        width: 88
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfef797e8ef2f0c50800000000000000
+      internalID: 6633573453504446204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_62
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 1264
+        width: 31
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0e2dff4f31694bf0800000000000000
+      internalID: -339633372336935411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_63
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 1216
+        width: 75
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 155c80fb3de129650800000000000000
+      internalID: 6238082328653514065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_64
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1269
+        width: 36
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e563a74645557b6c0800000000000000
+      internalID: -4127736712510425506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_65
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 1213
+        width: 74
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee58f06b722747110800000000000000
+      internalID: 1257755710826972654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_66
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 1233
+        width: 95
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 083ccac822fb2b7e0800000000000000
+      internalID: -1751127149983775872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_67
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 1195
+        width: 69
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e1371a6971492c00800000000000000
+      internalID: 876303592227025384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_68
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1156
+        width: 64
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba23f788ec53b8ed0800000000000000
+      internalID: -2410774014357196117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_69
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1152
+        width: 53
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e03abb9e9d9ee7f0800000000000000
+      internalID: -581353997341151004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_70
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1216
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f7aa92227346c6d0800000000000000
+      internalID: -2970612746718369807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_71
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1193
+        width: 82
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d53358003269382c0800000000000000
+      internalID: -4430532531325684899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_72
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 1223
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2903e58ce29820de0800000000000000
+      internalID: -1368380502744092526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_73
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 1169
+        width: 90
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e22f981105c15580800000000000000
+      internalID: -8840067985052851483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_74
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 1199
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c89807609c926be90800000000000000
+      internalID: -7010369826582394484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_75
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 1151
+        width: 55
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28f9e04345c3cfe00800000000000000
+      internalID: 1079804343010369410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_76
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 1222
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 277ed811aff37ce00800000000000000
+      internalID: 1064890180165298034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_77
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 1173
+        width: 63
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4083777c72fbf6780800000000000000
+      internalID: -8687514978603288572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_78
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 1170
+        width: 60
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5af2c33685ffa7630800000000000000
+      internalID: 3925730780293902245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_79
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 1185
+        width: 17
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0cf43d0febe1cfb0800000000000000
+      internalID: -4629159530008871922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_80
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1131
+        width: 64
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cccb4f82e5ddab20800000000000000
+      internalID: 3147406883645279427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_81
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1191
+        width: 37
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 898462e72f38ef580800000000000000
+      internalID: -8791444345058867048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_82
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 1140
+        width: 77
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f6b46b54960935a0800000000000000
+      internalID: -6541189749520681225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_83
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 1168
+        width: 25
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 895629cace2081660800000000000000
+      internalID: 7356633206840518040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_84
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 1194
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f01aa72c0338a4e0800000000000000
+      internalID: -1970268709676510991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_85
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1066
+        width: 51
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41867bd0f9d852280800000000000000
+      internalID: -9068686560371185644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_86
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1102
+        width: 54
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b443922eb13488b60800000000000000
+      internalID: 7748516945928467531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_87
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1117
+        width: 70
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f806ee6eded58670800000000000000
+      internalID: 8540477315302689016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_88
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 1110
+        width: 56
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d87aeb744a7536890800000000000000
+      internalID: -7466027394160220275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_89
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 1101
+        width: 76
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36ec8280df1d91020800000000000000
+      internalID: 2313110768325283427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_90
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 1037
+        width: 35
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6306dd5b8bdd1c650800000000000000
+      internalID: 6251521543161864246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_91
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 1149
+        width: 118
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e47340c59e7da4cd0800000000000000
+      internalID: -2573006839817685170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_92
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 1099
+        width: 72
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8effd57b3fc9ba30800000000000000
+      internalID: 4231641179178925709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_93
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 1076
+        width: 53
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f404df1d865206f40800000000000000
+      internalID: 5719612658890391631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_94
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 1042
+        width: 35
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd12150eef4fa4110800000000000000
+      internalID: 1246077622443647452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_95
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 1015
+        width: 49
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efefa4975459c4470800000000000000
+      internalID: 8380237132249890558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_96
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 1061
+        width: 51
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed7a30801e78aa550800000000000000
+      internalID: 6172895639836534750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_97
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 1062
+        width: 85
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 408c5530b25984fd0800000000000000
+      internalID: -2357470392956368892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_98
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 1027
+        width: 50
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 771a71ce22bca7dd0800000000000000
+      internalID: -2487452493318479497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_99
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 1018
+        width: 46
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e9f5ab603ca64240800000000000000
+      internalID: 4775693778837436896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_100
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 1069
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1647af5cfa8b59770800000000000000
+      internalID: 8616996527123625057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_101
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 1016
+        width: 50
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28a6a119b983e9d70800000000000000
+      internalID: 9051734541866789506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_102
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 993
+        width: 38
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9868889f00f89160800000000000000
+      internalID: 7032634767913281694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_103
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 1065
+        width: 57
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68e10b02a11e6c4d0800000000000000
+      internalID: -3114554589946306938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_104
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 1055
+        width: 50
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b53af3fbd45621d0800000000000000
+      internalID: -3375917566999775817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_105
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 1025
+        width: 35
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68b1ed6a739a21920800000000000000
+      internalID: 2959613961623706502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_106
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 1025
+        width: 51
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaa1ad9919a1952f0800000000000000
+      internalID: -983725830949954902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_107
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 1075
+        width: 31
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b783a159628f3d40800000000000000
+      internalID: 5566311053306070961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_108
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 985
+        width: 45
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4522e479249792940800000000000000
+      internalID: 5271878165727158868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_109
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 993
+        width: 51
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e7b35826fef0dee0800000000000000
+      internalID: -1238209564334901274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_110
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 1008
+        width: 69
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8be8ee12eaa00fd30800000000000000
+      internalID: 4463078973734031032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_111
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1027
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e1dd7f728e2fa480800000000000000
+      internalID: -8885832401759120921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_112
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 985
+        width: 46
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 894ec89849102efa0800000000000000
+      internalID: -5773050034861054824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_113
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 1015
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0c260ce640864a20800000000000000
+      internalID: 3046263240058612749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_114
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 1002
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b92c057767e8d6260800000000000000
+      internalID: 7092481627637465755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_115
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 1001
+        width: 55
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bceafb08fb71ee90800000000000000
+      internalID: -6998176040673940299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_116
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 974
+        width: 36
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 086f9f1e06b571ac0800000000000000
+      internalID: -3884535681917520256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_117
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 979
+        width: 42
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 317aa22c93f85cd20800000000000000
+      internalID: 3298199780352239379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_118
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 994
+        width: 43
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bd9b665bf5d6bd90800000000000000
+      internalID: -7082238088530125386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_119
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 957
+        width: 36
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1363b36163ef6180800000000000000
+      internalID: -9119820712977931492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_120
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 954
+        width: 48
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da5988b2c05385aa0800000000000000
+      internalID: -6172124962925013587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_121
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 929
+        width: 36
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e1339fd845dfa2f0800000000000000
+      internalID: -959313686641298972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_122
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 987
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b87ad91a2949e3fa0800000000000000
+      internalID: -5819050311018502261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_123
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 980
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f4040b08f0e89970800000000000000
+      internalID: 8762000430990623989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_124
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 982
+        width: 71
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 597d47fe298494290800000000000000
+      internalID: -7905707874952357995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_125
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 947
+        width: 45
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97a6e748b154d15a0800000000000000
+      internalID: -6549002298637522311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_126
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 974
+        width: 71
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69e18d779f02bb860800000000000000
+      internalID: 7546661856418995862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_127
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 955
+        width: 72
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7a3e4983b9536700800000000000000
+      internalID: 532367808597473915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_128
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 975
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66981ce38518a4ef0800000000000000
+      internalID: -123143823789291162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_129
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 981
+        width: 71
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11500df4a07f7caf0800000000000000
+      internalID: -376060420201380591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_130
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 986
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b1bdea2aa652f100800000000000000
+      internalID: 140269827266556343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_131
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 923
+        width: 40
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d1dcdd10461d8380800000000000000
+      internalID: -8967486818390060590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_132
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 932
+        width: 50
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8895c117d3f93fe40800000000000000
+      internalID: 5689065840538573192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_133
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 935
+        width: 70
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 477080a542b8a82b0800000000000000
+      internalID: -5581495799926749324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_134
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 951
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f74a8532a2e5f9f0800000000000000
+      internalID: -435192602660550672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_135
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 928
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 257398e37f87b01b0800000000000000
+      internalID: -5689320700951054510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_136
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 912
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c47690176f4927260800000000000000
+      internalID: 7093896149241259852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_137
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 908
+        width: 33
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7fbfcdbd54856760800000000000000
+      internalID: 7450506696705687421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_138
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 935
+        width: 43
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bad4a9b4b1a50ad00800000000000000
+      internalID: 981883792045788587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_139
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 909
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc1769b563bdaac90800000000000000
+      internalID: -7157667631240678964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_140
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 894
+        width: 20
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31ee2cbc299e709a0800000000000000
+      internalID: -6266783539769709037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_141
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 927
+        width: 48
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41ff1af7d8bce1860800000000000000
+      internalID: 7502657837837975316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_142
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 927
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ca08d485c9e862b0800000000000000
+      internalID: -5590961902833890622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_143
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 922
+        width: 38
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11cb347ec7b7d1cb0800000000000000
+      internalID: -4891617843868353519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_144
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 918
+        width: 37
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baf5c4f517bcaebe0800000000000000
+      internalID: -1447120642455609429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_145
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 898
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f8ab071c195eb0b0800000000000000
+      internalID: -5711029300278613771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_146
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 911
+        width: 59
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49184efe275b43cd0800000000000000
+      internalID: -2579237181320822380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_147
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 903
+        width: 39
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 767caa7ac85167420800000000000000
+      internalID: 2627311126469855079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_148
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 891
+        width: 24
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b34352b7e039f2f0800000000000000
+      internalID: -938665275642657869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_149
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 901
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 519780bea32460670800000000000000
+      internalID: 8504557767154497813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_150
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 930
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f30e6a713e976980800000000000000
+      internalID: -8545687832567610380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_151
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 860
+        width: 25
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c476d3c7c9931db50800000000000000
+      internalID: 6616132671846049612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_152
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 882
+        width: 38
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0799e5c86209983b0800000000000000
+      internalID: -5509714173872924304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_153
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 868
+        width: 28
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7807a4365008debe0800000000000000
+      internalID: -1446359144687046521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_154
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 864
+        width: 30
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 039850adafaa52560800000000000000
+      internalID: 7288419566345357616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_155
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 888
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faa16225db9a3ba40800000000000000
+      internalID: 5382832610230016687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_156
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 866
+        width: 22
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d20f5f70ce385c80800000000000000
+      internalID: -8333842113957526828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_157
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 864
+        width: 24
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6768c7404d3a71d70800000000000000
+      internalID: 9013853310209001078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_158
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 872
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d55fa251f20ddd960800000000000000
+      internalID: 7628482244472665437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_159
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 865
+        width: 27
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbc213c962edef5c0800000000000000
+      internalID: -4179659146742649669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_160
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 867
+        width: 29
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0acef6bc5e32814f0800000000000000
+      internalID: -857896259146486624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_161
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 880
+        width: 39
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6daedd361cd2fac00800000000000000
+      internalID: 913999558006926038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_162
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 869
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad6915681099cc320800000000000000
+      internalID: 2579604918403962586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_163
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 889
+        width: 43
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad468b8ec420bfc60800000000000000
+      internalID: 7852872904595760346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_164
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 869
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04290c43636d7e970800000000000000
+      internalID: 8784225126511055424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_165
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 881
+        width: 37
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 374f6184d8d94d9f0800000000000000
+      internalID: -444557233077422989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_166
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 879
+        width: 35
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26e9a35e73720af10800000000000000
+      internalID: 2278864532471979618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_167
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 856
+        width: 24
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9180ef37e74ce1cc0800000000000000
+      internalID: -3738334593279981543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_168
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 877
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eb6fee2c0ce74c90800000000000000
+      internalID: -7185515143375131680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_169
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 874
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 086278d3bd6f0d280800000000000000
+      internalID: -9020438632132565376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_170
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 899
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c66d7e971f11eba80800000000000000
+      internalID: -8449296122070444436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_171
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 865
+        width: 34
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba2fb6582f661fc60800000000000000
+      internalID: 7850168817290048171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_172
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 855
+        width: 35
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4b513986c2eb4ee0800000000000000
+      internalID: -1275676727096288435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_173
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 860
+        width: 34
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbb1c0b46a8d2e490800000000000000
+      internalID: -7718368602624353347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_174
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 848
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73cc8c51762cac1d0800000000000000
+      internalID: -3329635226484159433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_175
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 849
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f39d18c11d36c1a0800000000000000
+      internalID: -6789672241633324042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_176
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 847
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b288a14b9af60c950800000000000000
+      internalID: 6467291839565826091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_177
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 865
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09f12dbc3a0d6a9f0800000000000000
+      internalID: -457448910213734512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_178
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 864
+        width: 36
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84947fd3463136660800000000000000
+      internalID: 7377761935820278088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_179
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 852
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 835cc93065e229300800000000000000
+      internalID: 257319075676210488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_180
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 857
+        width: 35
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ff938c375bf54050800000000000000
+      internalID: 5784305648523255801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_181
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 856
+        width: 32
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dd33bb49e1c35940800000000000000
+      internalID: 5283779995577302485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_182
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 845
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 560e0f4bd3c2a2450800000000000000
+      internalID: 6064708491748106341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_183
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 866
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f39511e0d6bbc880800000000000000
+      internalID: -8589570856033348621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_184
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 869
+        width: 34
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ace73be8024e19fa0800000000000000
+      internalID: -5795600416964903222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_185
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 843
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7865c0d42b51af1d0800000000000000
+      internalID: -3316314320063932793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_186
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 843
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7b0ef21141f008d0800000000000000
+      internalID: -2882038499723310212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_187
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 847
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4abf606df12d54f0800000000000000
+      internalID: -838476583492666801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_188
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 843
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07126575c854406f0800000000000000
+      internalID: -719373571409436304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_189
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 844
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef3596df67d003f00800000000000000
+      internalID: 1094389514159870974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_190
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 844
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38b9859bfea0ee390800000000000000
+      internalID: -7787274680953955453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_191
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 847
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36edfc53d0d9a35b0800000000000000
+      internalID: -5387821324132426141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cav_sp_1_01_192
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 849
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5845212bac63ea080800000000000000
+      internalID: -9174335146708282235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      cav_sp_1_01_0: 596620660564877454
+      cav_sp_1_01_1: 1661626336935051566
+      cav_sp_1_01_10: 7716305147530322916
+      cav_sp_1_01_100: 8616996527123625057
+      cav_sp_1_01_101: 9051734541866789506
+      cav_sp_1_01_102: 7032634767913281694
+      cav_sp_1_01_103: -3114554589946306938
+      cav_sp_1_01_104: -3375917566999775817
+      cav_sp_1_01_105: 2959613961623706502
+      cav_sp_1_01_106: -983725830949954902
+      cav_sp_1_01_107: 5566311053306070961
+      cav_sp_1_01_108: 5271878165727158868
+      cav_sp_1_01_109: -1238209564334901274
+      cav_sp_1_01_11: -4880038539740891748
+      cav_sp_1_01_110: 4463078973734031032
+      cav_sp_1_01_111: -8885832401759120921
+      cav_sp_1_01_112: -5773050034861054824
+      cav_sp_1_01_113: 3046263240058612749
+      cav_sp_1_01_114: 7092481627637465755
+      cav_sp_1_01_115: -6998176040673940299
+      cav_sp_1_01_116: -3884535681917520256
+      cav_sp_1_01_117: 3298199780352239379
+      cav_sp_1_01_118: -7082238088530125386
+      cav_sp_1_01_119: -9119820712977931492
+      cav_sp_1_01_12: 5625508541598804198
+      cav_sp_1_01_120: -6172124962925013587
+      cav_sp_1_01_121: -959313686641298972
+      cav_sp_1_01_122: -5819050311018502261
+      cav_sp_1_01_123: 8762000430990623989
+      cav_sp_1_01_124: -7905707874952357995
+      cav_sp_1_01_125: -6549002298637522311
+      cav_sp_1_01_126: 7546661856418995862
+      cav_sp_1_01_127: 532367808597473915
+      cav_sp_1_01_128: -123143823789291162
+      cav_sp_1_01_129: -376060420201380591
+      cav_sp_1_01_13: -2928900042358487159
+      cav_sp_1_01_130: 140269827266556343
+      cav_sp_1_01_131: -8967486818390060590
+      cav_sp_1_01_132: 5689065840538573192
+      cav_sp_1_01_133: -5581495799926749324
+      cav_sp_1_01_134: -435192602660550672
+      cav_sp_1_01_135: -5689320700951054510
+      cav_sp_1_01_136: 7093896149241259852
+      cav_sp_1_01_137: 7450506696705687421
+      cav_sp_1_01_138: 981883792045788587
+      cav_sp_1_01_139: -7157667631240678964
+      cav_sp_1_01_14: -5444077414952955037
+      cav_sp_1_01_140: -6266783539769709037
+      cav_sp_1_01_141: 7502657837837975316
+      cav_sp_1_01_142: -5590961902833890622
+      cav_sp_1_01_143: -4891617843868353519
+      cav_sp_1_01_144: -1447120642455609429
+      cav_sp_1_01_145: -5711029300278613771
+      cav_sp_1_01_146: -2579237181320822380
+      cav_sp_1_01_147: 2627311126469855079
+      cav_sp_1_01_148: -938665275642657869
+      cav_sp_1_01_149: 8504557767154497813
+      cav_sp_1_01_15: -8762338290080565977
+      cav_sp_1_01_150: -8545687832567610380
+      cav_sp_1_01_151: 6616132671846049612
+      cav_sp_1_01_152: -5509714173872924304
+      cav_sp_1_01_153: -1446359144687046521
+      cav_sp_1_01_154: 7288419566345357616
+      cav_sp_1_01_155: 5382832610230016687
+      cav_sp_1_01_156: -8333842113957526828
+      cav_sp_1_01_157: 9013853310209001078
+      cav_sp_1_01_158: 7628482244472665437
+      cav_sp_1_01_159: -4179659146742649669
+      cav_sp_1_01_16: 3668023100095463329
+      cav_sp_1_01_160: -857896259146486624
+      cav_sp_1_01_161: 913999558006926038
+      cav_sp_1_01_162: 2579604918403962586
+      cav_sp_1_01_163: 7852872904595760346
+      cav_sp_1_01_164: 8784225126511055424
+      cav_sp_1_01_165: -444557233077422989
+      cav_sp_1_01_166: 2278864532471979618
+      cav_sp_1_01_167: -3738334593279981543
+      cav_sp_1_01_168: -7185515143375131680
+      cav_sp_1_01_169: -9020438632132565376
+      cav_sp_1_01_17: 1459969160648638210
+      cav_sp_1_01_170: -8449296122070444436
+      cav_sp_1_01_171: 7850168817290048171
+      cav_sp_1_01_172: -1275676727096288435
+      cav_sp_1_01_173: -7718368602624353347
+      cav_sp_1_01_174: -3329635226484159433
+      cav_sp_1_01_175: -6789672241633324042
+      cav_sp_1_01_176: 6467291839565826091
+      cav_sp_1_01_177: -457448910213734512
+      cav_sp_1_01_178: 7377761935820278088
+      cav_sp_1_01_179: 257319075676210488
+      cav_sp_1_01_18: -8625442451247611242
+      cav_sp_1_01_180: 5784305648523255801
+      cav_sp_1_01_181: 5283779995577302485
+      cav_sp_1_01_182: 6064708491748106341
+      cav_sp_1_01_183: -8589570856033348621
+      cav_sp_1_01_184: -5795600416964903222
+      cav_sp_1_01_185: -3316314320063932793
+      cav_sp_1_01_186: -2882038499723310212
+      cav_sp_1_01_187: -838476583492666801
+      cav_sp_1_01_188: -719373571409436304
+      cav_sp_1_01_189: 1094389514159870974
+      cav_sp_1_01_19: 1046859105176955274
+      cav_sp_1_01_190: -7787274680953955453
+      cav_sp_1_01_191: -5387821324132426141
+      cav_sp_1_01_192: -9174335146708282235
+      cav_sp_1_01_2: 6967376973185847199
+      cav_sp_1_01_20: 6755995898304962659
+      cav_sp_1_01_21: 4221377560054234851
+      cav_sp_1_01_22: -848526892770506210
+      cav_sp_1_01_23: -5263411915723302696
+      cav_sp_1_01_24: 215298712088929312
+      cav_sp_1_01_25: -2305196738450058901
+      cav_sp_1_01_26: 6628436877923324187
+      cav_sp_1_01_27: -5616592610102207504
+      cav_sp_1_01_28: -4620214624728067168
+      cav_sp_1_01_29: 6752901495445573308
+      cav_sp_1_01_3: 5949090994518334137
+      cav_sp_1_01_30: -6466154924122234100
+      cav_sp_1_01_31: 3029910384496889647
+      cav_sp_1_01_32: 7687048552256734580
+      cav_sp_1_01_33: -5405545589803952003
+      cav_sp_1_01_34: -6931320412905660688
+      cav_sp_1_01_35: -9103998335310232609
+      cav_sp_1_01_36: 3403974517657346209
+      cav_sp_1_01_37: -3766937234269852814
+      cav_sp_1_01_38: 5902177740398498076
+      cav_sp_1_01_39: -5276723925467710880
+      cav_sp_1_01_4: 133601524648325719
+      cav_sp_1_01_40: -2843186493644027518
+      cav_sp_1_01_41: -2599598880454281089
+      cav_sp_1_01_42: -7958885154372254581
+      cav_sp_1_01_43: 5201137420750936980
+      cav_sp_1_01_44: 6850826915530587321
+      cav_sp_1_01_45: -3766875411125134436
+      cav_sp_1_01_46: 5387759149994775409
+      cav_sp_1_01_47: 6811074857925726734
+      cav_sp_1_01_48: 8468614642966947571
+      cav_sp_1_01_49: -5663740457759193490
+      cav_sp_1_01_5: 4794104071371899083
+      cav_sp_1_01_50: 8888085684567618786
+      cav_sp_1_01_51: 7833497335427410279
+      cav_sp_1_01_52: 5533821849517466205
+      cav_sp_1_01_53: 3036329097883050926
+      cav_sp_1_01_54: 7222398823845010212
+      cav_sp_1_01_55: -6361598630011804328
+      cav_sp_1_01_56: 8257925664939763380
+      cav_sp_1_01_57: 9200538555194551404
+      cav_sp_1_01_58: -5152671357868799023
+      cav_sp_1_01_59: -231099326650945465
+      cav_sp_1_01_6: -516290834224207488
+      cav_sp_1_01_60: 4917020104705854762
+      cav_sp_1_01_61: 6633573453504446204
+      cav_sp_1_01_62: -339633372336935411
+      cav_sp_1_01_63: 6238082328653514065
+      cav_sp_1_01_64: -4127736712510425506
+      cav_sp_1_01_65: 1257755710826972654
+      cav_sp_1_01_66: -1751127149983775872
+      cav_sp_1_01_67: 876303592227025384
+      cav_sp_1_01_68: -2410774014357196117
+      cav_sp_1_01_69: -581353997341151004
+      cav_sp_1_01_7: 6761385408546433069
+      cav_sp_1_01_70: -2970612746718369807
+      cav_sp_1_01_71: -4430532531325684899
+      cav_sp_1_01_72: -1368380502744092526
+      cav_sp_1_01_73: -8840067985052851483
+      cav_sp_1_01_74: -7010369826582394484
+      cav_sp_1_01_75: 1079804343010369410
+      cav_sp_1_01_76: 1064890180165298034
+      cav_sp_1_01_77: -8687514978603288572
+      cav_sp_1_01_78: 3925730780293902245
+      cav_sp_1_01_79: -4629159530008871922
+      cav_sp_1_01_8: 6193617582207764407
+      cav_sp_1_01_80: 3147406883645279427
+      cav_sp_1_01_81: -8791444345058867048
+      cav_sp_1_01_82: -6541189749520681225
+      cav_sp_1_01_83: 7356633206840518040
+      cav_sp_1_01_84: -1970268709676510991
+      cav_sp_1_01_85: -9068686560371185644
+      cav_sp_1_01_86: 7748516945928467531
+      cav_sp_1_01_87: 8540477315302689016
+      cav_sp_1_01_88: -7466027394160220275
+      cav_sp_1_01_89: 2313110768325283427
+      cav_sp_1_01_9: -2087783523639201860
+      cav_sp_1_01_90: 6251521543161864246
+      cav_sp_1_01_91: -2573006839817685170
+      cav_sp_1_01_92: 4231641179178925709
+      cav_sp_1_01_93: 5719612658890391631
+      cav_sp_1_01_94: 1246077622443647452
+      cav_sp_1_01_95: 8380237132249890558
+      cav_sp_1_01_96: 6172895639836534750
+      cav_sp_1_01_97: -2357470392956368892
+      cav_sp_1_01_98: -2487452493318479497
+      cav_sp_1_01_99: 4775693778837436896
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

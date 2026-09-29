@@ -1,0 +1,1287 @@
+fileFormatVersion: 2
+guid: 13cb4b482f795d14e8298ef537343de9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2797893434988087725
+    second: kni_sw_1_01_0
+  - first:
+      213: -7216578514626857484
+    second: kni_sw_1_01_1
+  - first:
+      213: -6332329614067019307
+    second: kni_sw_1_01_2
+  - first:
+      213: 482625471276735823
+    second: kni_sw_1_01_3
+  - first:
+      213: 2066936223021961084
+    second: kni_sw_1_01_4
+  - first:
+      213: 3802299992063093538
+    second: kni_sw_1_01_5
+  - first:
+      213: -3167503704925115569
+    second: kni_sw_1_01_6
+  - first:
+      213: 8621488965395292490
+    second: kni_sw_1_01_7
+  - first:
+      213: -8488774704386795638
+    second: kni_sw_1_01_8
+  - first:
+      213: 5485186683569587906
+    second: kni_sw_1_01_9
+  - first:
+      213: -6449356686119136503
+    second: kni_sw_1_01_10
+  - first:
+      213: 8680281126866920020
+    second: kni_sw_1_01_11
+  - first:
+      213: -2417439572092960825
+    second: kni_sw_1_01_12
+  - first:
+      213: -1077825382600156991
+    second: kni_sw_1_01_13
+  - first:
+      213: 7278634458438685031
+    second: kni_sw_1_01_14
+  - first:
+      213: -4167880703904464970
+    second: kni_sw_1_01_15
+  - first:
+      213: 4644796088053053161
+    second: kni_sw_1_01_16
+  - first:
+      213: -3484241586925131029
+    second: kni_sw_1_01_17
+  - first:
+      213: 2614522724109089507
+    second: kni_sw_1_01_18
+  - first:
+      213: 2643036092275180349
+    second: kni_sw_1_01_19
+  - first:
+      213: -3896780023938758547
+    second: kni_sw_1_01_20
+  - first:
+      213: -7779088170033397972
+    second: kni_sw_1_01_21
+  - first:
+      213: 2184990384952525443
+    second: kni_sw_1_01_22
+  - first:
+      213: 3782701294194770147
+    second: kni_sw_1_01_23
+  - first:
+      213: 2386543386021277638
+    second: kni_sw_1_01_24
+  - first:
+      213: 4979234000923922219
+    second: kni_sw_1_01_25
+  - first:
+      213: 5701406273980626832
+    second: kni_sw_1_01_26
+  - first:
+      213: 6772853027161164452
+    second: kni_sw_1_01_27
+  - first:
+      213: -2465495363461860002
+    second: kni_sw_1_01_28
+  - first:
+      213: 1260299534172055149
+    second: kni_sw_1_01_29
+  - first:
+      213: 1152549865733756297
+    second: kni_sw_1_01_30
+  - first:
+      213: 4676449939899034293
+    second: kni_sw_1_01_31
+  - first:
+      213: -9108400346621655564
+    second: kni_sw_1_01_32
+  - first:
+      213: -5687984024133409554
+    second: kni_sw_1_01_33
+  - first:
+      213: -5752396750551945866
+    second: kni_sw_1_01_34
+  - first:
+      213: -5253567497888708475
+    second: kni_sw_1_01_35
+  - first:
+      213: -6634672232397117160
+    second: kni_sw_1_01_36
+  - first:
+      213: -9212739507164985996
+    second: kni_sw_1_01_37
+  - first:
+      213: -2969367863198527141
+    second: kni_sw_1_01_38
+  - first:
+      213: -3164621976913703318
+    second: kni_sw_1_01_39
+  - first:
+      213: 8639683903427419130
+    second: kni_sw_1_01_40
+  - first:
+      213: -1810017978891860992
+    second: kni_sw_1_01_41
+  - first:
+      213: 3953936151279309358
+    second: kni_sw_1_01_42
+  - first:
+      213: -5678340343251147883
+    second: kni_sw_1_01_43
+  - first:
+      213: -6295374394643180430
+    second: kni_sw_1_01_44
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: kni_sw_1_01_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1543
+        width: 484
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3563328aeb2eb29d0800000000000000
+      internalID: -2797893434988087725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kni_sw_1_01_1
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 1789
+        width: 110
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f533f5731099db90800000000000000
+      internalID: -7216578514626857484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kni_sw_1_01_2
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 1852
+        width: 112
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d159d024cb0f18a0800000000000000
+      internalID: -6332329614067019307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kni_sw_1_01_3
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 1852
+        width: 96
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4d510f1f41a2b600800000000000000
+      internalID: 482625471276735823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kni_sw_1_01_4
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 1722
+        width: 72
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7f8c923b8b3fac10800000000000000
+      internalID: 2066936223021961084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kni_sw_1_01_5
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 1314
+        width: 20
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22b246482bb74c430800000000000000
+      internalID: 3802299992063093538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kni_sw_1_01_6
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 1826
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4b643b9924ca04d0800000000000000
+      internalID: -3167503704925115569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kni_sw_1_01_7
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 1746
+        width: 74
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a412651198ea5a770800000000000000
+      internalID: 8621488965395292490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kni_sw_1_01_8
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 1584
+        width: 28
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8714beb160d13a80800000000000000
+      internalID: -8488774704386795638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kni_sw_1_01_9
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 1583
+        width: 59
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c64ed81a3c4f1c40800000000000000
+      internalID: 5485186683569587906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kni_sw_1_01_10
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 1574
+        width: 53
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 903141e93484f76a0800000000000000
+      internalID: -6449356686119136503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kni_sw_1_01_11
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 1591
+        width: 51
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4522e6dd1bd867870800000000000000
+      internalID: 8680281126866920020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kni_sw_1_01_12
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 1484
+        width: 75
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cf3d6f6487837ed0800000000000000
+      internalID: -2417439572092960825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kni_sw_1_01_13
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 1546
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c8d73c668bca01f0800000000000000
+      internalID: -1077825382600156991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kni_sw_1_01_14
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1458
+        width: 55
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 761d721e977e20560800000000000000
+      internalID: 7278634458438685031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kni_sw_1_01_15
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 1518
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bfb1990596b826c0800000000000000
+      internalID: -4167880703904464970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kni_sw_1_01_16
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 1499
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e6b682de61a57040800000000000000
+      internalID: 4644796088053053161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kni_sw_1_01_17
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 1492
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bea2fabacbc75afc0800000000000000
+      internalID: -3484241586925131029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kni_sw_1_01_18
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1285
+        width: 111
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ea75b3b096a84420800000000000000
+      internalID: 2614522724109089507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kni_sw_1_01_19
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 1399
+        width: 82
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3349909253fda420800000000000000
+      internalID: 2643036092275180349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kni_sw_1_01_20
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 1358
+        width: 66
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d68ca49d63bdbe9c0800000000000000
+      internalID: -3896780023938758547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kni_sw_1_01_21
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1269
+        width: 124
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2f37b456802b0490800000000000000
+      internalID: -7779088170033397972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kni_sw_1_01_22
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 1267
+        width: 131
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3824db4bd25a25e10800000000000000
+      internalID: 2184990384952525443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kni_sw_1_01_23
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 1303
+        width: 67
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e0c3e319cade7430800000000000000
+      internalID: 3782701294194770147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kni_sw_1_01_24
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 1264
+        width: 67
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cf2bdca094be1120800000000000000
+      internalID: 2386543386021277638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kni_sw_1_01_25
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 1331
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2f0e9651fac91540800000000000000
+      internalID: 4979234000923922219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kni_sw_1_01_26
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 1267
+        width: 67
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0977cc08cc67f1f40800000000000000
+      internalID: 5701406273980626832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kni_sw_1_01_27
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 1237
+        width: 56
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aacedfa1f10efd50800000000000000
+      internalID: 6772853027161164452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kni_sw_1_01_28
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 1226
+        width: 71
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e55bb79970dc8cdd0800000000000000
+      internalID: -2465495363461860002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kni_sw_1_01_29
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 1196
+        width: 71
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d666aecbfbb7d7110800000000000000
+      internalID: 1260299534172055149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kni_sw_1_01_30
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 1182
+        width: 44
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9851cf41ffdaeff00800000000000000
+      internalID: 1152549865733756297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kni_sw_1_01_31
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 1138
+        width: 21
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ba2495817616e040800000000000000
+      internalID: 4676449939899034293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kni_sw_1_01_32
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 1189
+        width: 69
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f54293a426789180800000000000000
+      internalID: -9108400346621655564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kni_sw_1_01_33
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 1123
+        width: 27
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee46e619aa83011b0800000000000000
+      internalID: -5687984024133409554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kni_sw_1_01_34
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 1141
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67d6d3402a16b20b0800000000000000
+      internalID: -5752396750551945866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kni_sw_1_01_35
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 1158
+        width: 66
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5884eccf1349717b0800000000000000
+      internalID: -5253567497888708475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kni_sw_1_01_36
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 1149
+        width: 43
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81962d2b1c8ece3a0800000000000000
+      internalID: -6634672232397117160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kni_sw_1_01_37
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 1029
+        width: 79
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 475493bba36c52080800000000000000
+      internalID: -9212739507164985996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kni_sw_1_01_38
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 1041
+        width: 71
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b51579a29afaac6d0800000000000000
+      internalID: -2969367863198527141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kni_sw_1_01_39
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 1010
+        width: 114
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6e0aa134110514d0800000000000000
+      internalID: -3164621976913703318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kni_sw_1_01_40
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 765
+        width: 73
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afb93733cb256e770800000000000000
+      internalID: 8639683903427419130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kni_sw_1_01_41
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 748
+        width: 142
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0048413fc3681e6e0800000000000000
+      internalID: -1810017978891860992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kni_sw_1_01_42
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 749
+        width: 123
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2214911bf33fd630800000000000000
+      internalID: 3953936151279309358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kni_sw_1_01_43
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 505
+        width: 110
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 593eebefa8b7231b0800000000000000
+      internalID: -5678340343251147883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kni_sw_1_01_44
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 490
+        width: 111
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2741437a75652a8a0800000000000000
+      internalID: -6295374394643180430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      kni_sw_1_01_0: -2797893434988087725
+      kni_sw_1_01_1: -7216578514626857484
+      kni_sw_1_01_10: -6449356686119136503
+      kni_sw_1_01_11: 8680281126866920020
+      kni_sw_1_01_12: -2417439572092960825
+      kni_sw_1_01_13: -1077825382600156991
+      kni_sw_1_01_14: 7278634458438685031
+      kni_sw_1_01_15: -4167880703904464970
+      kni_sw_1_01_16: 4644796088053053161
+      kni_sw_1_01_17: -3484241586925131029
+      kni_sw_1_01_18: 2614522724109089507
+      kni_sw_1_01_19: 2643036092275180349
+      kni_sw_1_01_2: -6332329614067019307
+      kni_sw_1_01_20: -3896780023938758547
+      kni_sw_1_01_21: -7779088170033397972
+      kni_sw_1_01_22: 2184990384952525443
+      kni_sw_1_01_23: 3782701294194770147
+      kni_sw_1_01_24: 2386543386021277638
+      kni_sw_1_01_25: 4979234000923922219
+      kni_sw_1_01_26: 5701406273980626832
+      kni_sw_1_01_27: 6772853027161164452
+      kni_sw_1_01_28: -2465495363461860002
+      kni_sw_1_01_29: 1260299534172055149
+      kni_sw_1_01_3: 482625471276735823
+      kni_sw_1_01_30: 1152549865733756297
+      kni_sw_1_01_31: 4676449939899034293
+      kni_sw_1_01_32: -9108400346621655564
+      kni_sw_1_01_33: -5687984024133409554
+      kni_sw_1_01_34: -5752396750551945866
+      kni_sw_1_01_35: -5253567497888708475
+      kni_sw_1_01_36: -6634672232397117160
+      kni_sw_1_01_37: -9212739507164985996
+      kni_sw_1_01_38: -2969367863198527141
+      kni_sw_1_01_39: -3164621976913703318
+      kni_sw_1_01_4: 2066936223021961084
+      kni_sw_1_01_40: 8639683903427419130
+      kni_sw_1_01_41: -1810017978891860992
+      kni_sw_1_01_42: 3953936151279309358
+      kni_sw_1_01_43: -5678340343251147883
+      kni_sw_1_01_44: -6295374394643180430
+      kni_sw_1_01_5: 3802299992063093538
+      kni_sw_1_01_6: -3167503704925115569
+      kni_sw_1_01_7: 8621488965395292490
+      kni_sw_1_01_8: -8488774704386795638
+      kni_sw_1_01_9: 5485186683569587906
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

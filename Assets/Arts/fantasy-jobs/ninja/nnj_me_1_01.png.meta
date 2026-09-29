@@ -1,0 +1,1235 @@
+fileFormatVersion: 2
+guid: 9275bacbaf4962a48ac35deea1f50127
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1023778683938603191
+    second: nnj_me_1_01_0
+  - first:
+      213: -8955727848362920080
+    second: nnj_me_1_01_1
+  - first:
+      213: 515622792138389188
+    second: nnj_me_1_01_2
+  - first:
+      213: 9103925010686069847
+    second: nnj_me_1_01_3
+  - first:
+      213: 9164629079313251999
+    second: nnj_me_1_01_4
+  - first:
+      213: -3222620027918957625
+    second: nnj_me_1_01_5
+  - first:
+      213: 7738645679937975050
+    second: nnj_me_1_01_6
+  - first:
+      213: 968969100126604814
+    second: nnj_me_1_01_7
+  - first:
+      213: -5560660173613759772
+    second: nnj_me_1_01_8
+  - first:
+      213: 4752858702019581892
+    second: nnj_me_1_01_9
+  - first:
+      213: -8302172615796425889
+    second: nnj_me_1_01_10
+  - first:
+      213: 4980745779541606865
+    second: nnj_me_1_01_11
+  - first:
+      213: -20545779652426461
+    second: nnj_me_1_01_12
+  - first:
+      213: -5332755579524915193
+    second: nnj_me_1_01_13
+  - first:
+      213: 6304972692660281142
+    second: nnj_me_1_01_14
+  - first:
+      213: 5131016080329019337
+    second: nnj_me_1_01_15
+  - first:
+      213: 2798611195342168331
+    second: nnj_me_1_01_16
+  - first:
+      213: -8211148054081436757
+    second: nnj_me_1_01_17
+  - first:
+      213: 4827570974460653081
+    second: nnj_me_1_01_18
+  - first:
+      213: -7181327526313986919
+    second: nnj_me_1_01_19
+  - first:
+      213: -6049980969702489726
+    second: nnj_me_1_01_20
+  - first:
+      213: 5833114169969735994
+    second: nnj_me_1_01_21
+  - first:
+      213: -3226901126018519767
+    second: nnj_me_1_01_22
+  - first:
+      213: 8065252622985809027
+    second: nnj_me_1_01_23
+  - first:
+      213: -9207642674542791267
+    second: nnj_me_1_01_24
+  - first:
+      213: 2713342459202382053
+    second: nnj_me_1_01_25
+  - first:
+      213: -2279316335114065920
+    second: nnj_me_1_01_26
+  - first:
+      213: -7405240786569297495
+    second: nnj_me_1_01_27
+  - first:
+      213: -700009131465681199
+    second: nnj_me_1_01_28
+  - first:
+      213: -8368562461350628890
+    second: nnj_me_1_01_29
+  - first:
+      213: -4980235336496728538
+    second: nnj_me_1_01_30
+  - first:
+      213: -3630061071858688209
+    second: nnj_me_1_01_31
+  - first:
+      213: -1086416224361054817
+    second: nnj_me_1_01_32
+  - first:
+      213: 8111012538649303272
+    second: nnj_me_1_01_33
+  - first:
+      213: -3838116814137050842
+    second: nnj_me_1_01_34
+  - first:
+      213: -616413184572077952
+    second: nnj_me_1_01_35
+  - first:
+      213: 5694684648386599019
+    second: nnj_me_1_01_36
+  - first:
+      213: -5084271606163551442
+    second: nnj_me_1_01_37
+  - first:
+      213: 4368532349749874958
+    second: nnj_me_1_01_38
+  - first:
+      213: -8471104489544176486
+    second: nnj_me_1_01_39
+  - first:
+      213: -878801578904984599
+    second: nnj_me_1_01_40
+  - first:
+      213: -3834278806648132170
+    second: nnj_me_1_01_41
+  - first:
+      213: 9120670528088999287
+    second: nnj_me_1_01_42
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: nnj_me_1_01_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1539
+        width: 484
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94ff83f06becac1f0800000000000000
+      internalID: -1023778683938603191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nnj_me_1_01_1
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 1785
+        width: 123
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 077314da8fcd6b380800000000000000
+      internalID: -8955727848362920080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nnj_me_1_01_2
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 1848
+        width: 96
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c6f083923cd72700800000000000000
+      internalID: 515622792138389188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nnj_me_1_01_3
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 1807
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75cccb30093a75e70800000000000000
+      internalID: 9103925010686069847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nnj_me_1_01_4
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 1698
+        width: 53
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9e7ea2679d4f2f70800000000000000
+      internalID: 9164629079313251999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nnj_me_1_01_5
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 1522
+        width: 120
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c3c4d5a824f643d0800000000000000
+      internalID: -3222620027918957625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nnj_me_1_01_6
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 1562
+        width: 55
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a03705bae31356b60800000000000000
+      internalID: 7738645679937975050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nnj_me_1_01_7
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1260
+        width: 282
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0e40634348727d00800000000000000
+      internalID: 968969100126604814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nnj_me_1_01_8
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 1320
+        width: 112
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e20713a80194d2b0800000000000000
+      internalID: -5560660173613759772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nnj_me_1_01_9
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 1386
+        width: 72
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c75089cecb85f140800000000000000
+      internalID: 4752858702019581892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nnj_me_1_01_10
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 1371
+        width: 59
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5b7a732ef1c8cc80800000000000000
+      internalID: -8302172615796425889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nnj_me_1_01_11
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1277
+        width: 80
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d18a1ab5e92f1540800000000000000
+      internalID: 4980745779541606865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nnj_me_1_01_12
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 1277
+        width: 71
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3250f26e8b107bff0800000000000000
+      internalID: -20545779652426461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nnj_me_1_01_13
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 1291
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7006f68fd0f3ef5b0800000000000000
+      internalID: -5332755579524915193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nnj_me_1_01_14
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 1302
+        width: 56
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63fdd804243cf7750800000000000000
+      internalID: 6304972692660281142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nnj_me_1_01_15
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 1287
+        width: 46
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cf04d490f7053740800000000000000
+      internalID: 5131016080329019337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nnj_me_1_01_16
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 988
+        width: 72
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b012dc2fd0aa6d620800000000000000
+      internalID: 2798611195342168331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nnj_me_1_01_17
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 990
+        width: 78
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba3065e69542c0e80800000000000000
+      internalID: -8211148054081436757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nnj_me_1_01_18
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1013
+        width: 71
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91ea6b4493afef240800000000000000
+      internalID: 4827570974460653081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nnj_me_1_01_19
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 724
+        width: 66
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 994f152c9acc65c90800000000000000
+      internalID: -7181327526313986919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nnj_me_1_01_20
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 723
+        width: 125
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 281820bbc562a0ca0800000000000000
+      internalID: -6049980969702489726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nnj_me_1_01_21
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 749
+        width: 105
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a39f753be6263f050800000000000000
+      internalID: 5833114169969735994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nnj_me_1_01_22
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 523
+        width: 186
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92dab52d58eb733d0800000000000000
+      internalID: -3226901126018519767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nnj_me_1_01_23
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 206
+        width: 20
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38c4bd077888def60800000000000000
+      internalID: 8065252622985809027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nnj_me_1_01_24
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 460
+        width: 110
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d95362d85c1e73080800000000000000
+      internalID: -9207642674542791267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nnj_me_1_01_25
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 460
+        width: 117
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e82eba379ab7a520800000000000000
+      internalID: 2713342459202382053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nnj_me_1_01_26
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 357
+        width: 51
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 008e7ca9edd3e50e0800000000000000
+      internalID: -2279316335114065920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nnj_me_1_01_27
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 421
+        width: 46
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a18d404dbc4b3990800000000000000
+      internalID: -7405240786569297495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nnj_me_1_01_28
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 389
+        width: 20
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d6557b57611946f0800000000000000
+      internalID: -700009131465681199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nnj_me_1_01_29
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 469
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e1f68aa7c4ecdb80800000000000000
+      internalID: -8368562461350628890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nnj_me_1_01_30
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 462
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 626b34e0956a2eab0800000000000000
+      internalID: -4980235336496728538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nnj_me_1_01_31
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 426
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2f93e220be6f9dc0800000000000000
+      internalID: -3630061071858688209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nnj_me_1_01_32
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 354
+        width: 45
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9dfcb433364ce0f0800000000000000
+      internalID: -1086416224361054817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nnj_me_1_01_33
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 342
+        width: 17
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e85eee0eea109070800000000000000
+      internalID: 8111012538649303272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nnj_me_1_01_34
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 312
+        width: 71
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62938eeb7154cbac0800000000000000
+      internalID: -3838116814137050842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nnj_me_1_01_35
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 282
+        width: 38
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 088c6ba797f0277f0800000000000000
+      internalID: -616413184572077952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nnj_me_1_01_36
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 196
+        width: 96
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6814f61485970f40800000000000000
+      internalID: 5694684648386599019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nnj_me_1_01_37
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 253
+        width: 43
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2b440d69e90179b0800000000000000
+      internalID: -5084271606163551442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nnj_me_1_01_38
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 263
+        width: 19
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e01d4a0d60520ac30800000000000000
+      internalID: 4368532349749874958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nnj_me_1_01_39
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 218
+        width: 42
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9ca08d3957907a80800000000000000
+      internalID: -8471104489544176486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nnj_me_1_01_40
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 197
+        width: 110
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e3e05dbe9eddc3f0800000000000000
+      internalID: -878801578904984599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nnj_me_1_01_41
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 182
+        width: 40
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bdedef7db7e9cac0800000000000000
+      internalID: -3834278806648132170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nnj_me_1_01_42
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 181
+        width: 39
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7758e1c9581239e70800000000000000
+      internalID: 9120670528088999287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      nnj_me_1_01_0: -1023778683938603191
+      nnj_me_1_01_1: -8955727848362920080
+      nnj_me_1_01_10: -8302172615796425889
+      nnj_me_1_01_11: 4980745779541606865
+      nnj_me_1_01_12: -20545779652426461
+      nnj_me_1_01_13: -5332755579524915193
+      nnj_me_1_01_14: 6304972692660281142
+      nnj_me_1_01_15: 5131016080329019337
+      nnj_me_1_01_16: 2798611195342168331
+      nnj_me_1_01_17: -8211148054081436757
+      nnj_me_1_01_18: 4827570974460653081
+      nnj_me_1_01_19: -7181327526313986919
+      nnj_me_1_01_2: 515622792138389188
+      nnj_me_1_01_20: -6049980969702489726
+      nnj_me_1_01_21: 5833114169969735994
+      nnj_me_1_01_22: -3226901126018519767
+      nnj_me_1_01_23: 8065252622985809027
+      nnj_me_1_01_24: -9207642674542791267
+      nnj_me_1_01_25: 2713342459202382053
+      nnj_me_1_01_26: -2279316335114065920
+      nnj_me_1_01_27: -7405240786569297495
+      nnj_me_1_01_28: -700009131465681199
+      nnj_me_1_01_29: -8368562461350628890
+      nnj_me_1_01_3: 9103925010686069847
+      nnj_me_1_01_30: -4980235336496728538
+      nnj_me_1_01_31: -3630061071858688209
+      nnj_me_1_01_32: -1086416224361054817
+      nnj_me_1_01_33: 8111012538649303272
+      nnj_me_1_01_34: -3838116814137050842
+      nnj_me_1_01_35: -616413184572077952
+      nnj_me_1_01_36: 5694684648386599019
+      nnj_me_1_01_37: -5084271606163551442
+      nnj_me_1_01_38: 4368532349749874958
+      nnj_me_1_01_39: -8471104489544176486
+      nnj_me_1_01_4: 9164629079313251999
+      nnj_me_1_01_40: -878801578904984599
+      nnj_me_1_01_41: -3834278806648132170
+      nnj_me_1_01_42: 9120670528088999287
+      nnj_me_1_01_5: -3222620027918957625
+      nnj_me_1_01_6: 7738645679937975050
+      nnj_me_1_01_7: 968969100126604814
+      nnj_me_1_01_8: -5560660173613759772
+      nnj_me_1_01_9: 4752858702019581892
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

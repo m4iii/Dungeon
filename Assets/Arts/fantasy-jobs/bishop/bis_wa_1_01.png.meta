@@ -1,0 +1,1235 @@
+fileFormatVersion: 2
+guid: e5ef215bf2ab5794dbfcde1b85ae5f5c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2611795481550518613
+    second: bis_wa_1_01_0
+  - first:
+      213: 6704694863610786837
+    second: bis_wa_1_01_1
+  - first:
+      213: 7301989288189367339
+    second: bis_wa_1_01_2
+  - first:
+      213: 7700518020172985557
+    second: bis_wa_1_01_3
+  - first:
+      213: -3063051388492745466
+    second: bis_wa_1_01_4
+  - first:
+      213: 4623425947414206903
+    second: bis_wa_1_01_5
+  - first:
+      213: 4179992248273968580
+    second: bis_wa_1_01_6
+  - first:
+      213: 5848529641897107488
+    second: bis_wa_1_01_7
+  - first:
+      213: -5740285798912312525
+    second: bis_wa_1_01_8
+  - first:
+      213: -7207050551087324633
+    second: bis_wa_1_01_9
+  - first:
+      213: 3565357047005661982
+    second: bis_wa_1_01_10
+  - first:
+      213: -811295576544961914
+    second: bis_wa_1_01_11
+  - first:
+      213: 1830579741888380501
+    second: bis_wa_1_01_12
+  - first:
+      213: 7789758302658894383
+    second: bis_wa_1_01_13
+  - first:
+      213: 3283959633021028157
+    second: bis_wa_1_01_14
+  - first:
+      213: -1763994794791034104
+    second: bis_wa_1_01_15
+  - first:
+      213: -5572895700935862773
+    second: bis_wa_1_01_16
+  - first:
+      213: -1573352765928774667
+    second: bis_wa_1_01_17
+  - first:
+      213: -3643903385940158711
+    second: bis_wa_1_01_18
+  - first:
+      213: 50202118868792858
+    second: bis_wa_1_01_19
+  - first:
+      213: -2569616997592327636
+    second: bis_wa_1_01_20
+  - first:
+      213: -88986099470981634
+    second: bis_wa_1_01_21
+  - first:
+      213: 7584605089765099549
+    second: bis_wa_1_01_22
+  - first:
+      213: -807996339619500919
+    second: bis_wa_1_01_23
+  - first:
+      213: 6042363618575607075
+    second: bis_wa_1_01_24
+  - first:
+      213: 3877266265736686744
+    second: bis_wa_1_01_25
+  - first:
+      213: 7577284389970783818
+    second: bis_wa_1_01_26
+  - first:
+      213: -5141528050652535276
+    second: bis_wa_1_01_27
+  - first:
+      213: 608262907726488380
+    second: bis_wa_1_01_28
+  - first:
+      213: 8253144525212342050
+    second: bis_wa_1_01_29
+  - first:
+      213: 7250583866077312198
+    second: bis_wa_1_01_30
+  - first:
+      213: -6299052967093225389
+    second: bis_wa_1_01_31
+  - first:
+      213: 5754422021771080060
+    second: bis_wa_1_01_32
+  - first:
+      213: 4528889549055572911
+    second: bis_wa_1_01_33
+  - first:
+      213: 4732020988857106994
+    second: bis_wa_1_01_34
+  - first:
+      213: -8379595043088534540
+    second: bis_wa_1_01_35
+  - first:
+      213: -4875586397450764615
+    second: bis_wa_1_01_36
+  - first:
+      213: -2513381295468460824
+    second: bis_wa_1_01_37
+  - first:
+      213: -6057253838603281614
+    second: bis_wa_1_01_38
+  - first:
+      213: -6884921701069698701
+    second: bis_wa_1_01_39
+  - first:
+      213: -4441053465470293544
+    second: bis_wa_1_01_40
+  - first:
+      213: 5744469048457097662
+    second: bis_wa_1_01_41
+  - first:
+      213: -1147478689893619401
+    second: bis_wa_1_01_42
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bis_wa_1_01_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1031
+        width: 484
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 559f9cf0726fe3420800000000000000
+      internalID: 2611795481550518613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bis_wa_1_01_1
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 1278
+        width: 116
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51438e8947cdb0d50800000000000000
+      internalID: 6704694863610786837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bis_wa_1_01_2
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 998
+        width: 20
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b241c3ce190e55560800000000000000
+      internalID: 7301989288189367339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bis_wa_1_01_3
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 1070
+        width: 34
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d4b7ea175cbdda60800000000000000
+      internalID: 7700518020172985557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bis_wa_1_01_4
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 774
+        width: 83
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6057f1cadfadd75d0800000000000000
+      internalID: -3063051388492745466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bis_wa_1_01_5
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 758
+        width: 83
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b992f83765b92040800000000000000
+      internalID: 4623425947414206903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bis_wa_1_01_6
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 812
+        width: 33
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cd9142adc0520a30800000000000000
+      internalID: 4179992248273968580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bis_wa_1_01_7
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 608
+        width: 67
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 020ae93f8b62a2150800000000000000
+      internalID: 5848529641897107488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bis_wa_1_01_8
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 498
+        width: 85
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33bbc9eaa786650b0800000000000000
+      internalID: -5740285798912312525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bis_wa_1_01_9
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 499
+        width: 106
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 722282855b96bfb90800000000000000
+      internalID: -7207050551087324633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bis_wa_1_01_10
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 254
+        width: 83
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1b453c1851ba7130800000000000000
+      internalID: 3565357047005661982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bis_wa_1_01_11
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 238
+        width: 105
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68a1138b8f2bdb4f0800000000000000
+      internalID: -811295576544961914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bis_wa_1_01_12
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 237
+        width: 103
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55e78409396876910800000000000000
+      internalID: 1830579741888380501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bis_wa_1_01_13
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 40
+        width: 112
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2a122487e7ca1c60800000000000000
+      internalID: 7789758302658894383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bis_wa_1_01_14
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 56
+        width: 96
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d37c0f613e7f29d20800000000000000
+      internalID: 3283959633021028157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bis_wa_1_01_15
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 106
+        width: 72
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 803a7d684180587e0800000000000000
+      internalID: -1763994794791034104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bis_wa_1_01_16
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 91
+        width: 59
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b069a6fe2e819a2b0800000000000000
+      internalID: -5572895700935862773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bis_wa_1_01_17
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 90
+        width: 52
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f3ef60def35a2ae0800000000000000
+      internalID: -1573352765928774667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bis_wa_1_01_18
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 106
+        width: 55
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 907913d3d214e6dc0800000000000000
+      internalID: -3643903385940158711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bis_wa_1_01_19
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 107
+        width: 51
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a167526af8a52b000800000000000000
+      internalID: 50202118868792858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bis_wa_1_01_20
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 185
+        width: 45
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2a14b184f2e65cd0800000000000000
+      internalID: -2569616997592327636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bis_wa_1_01_21
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 129
+        width: 35
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef5a51f2d9bd3cef0800000000000000
+      internalID: -88986099470981634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bis_wa_1_01_22
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 145
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d188119e42ee14960800000000000000
+      internalID: 7584605089765099549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bis_wa_1_01_23
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 160
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98ce92d2c9b69c4f0800000000000000
+      internalID: -807996339619500919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bis_wa_1_01_24
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 44
+        width: 43
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32561f082b9cad350800000000000000
+      internalID: 6042363618575607075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bis_wa_1_01_25
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 81
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89c27d44021dec530800000000000000
+      internalID: 3877266265736686744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bis_wa_1_01_26
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 7
+        width: 20
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4e225aa10ce72960800000000000000
+      internalID: 7577284389970783818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bis_wa_1_01_27
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 97
+        width: 52
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 416262a9a7f95a8b0800000000000000
+      internalID: -5141528050652535276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bis_wa_1_01_28
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 10
+        width: 56
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c33651154ebf07800800000000000000
+      internalID: 608262907726488380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bis_wa_1_01_29
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 13
+        width: 39
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 227dd39f73f098270800000000000000
+      internalID: 8253144525212342050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bis_wa_1_01_30
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 49
+        width: 71
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c477b76c9f3f9460800000000000000
+      internalID: 7250583866077312198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bis_wa_1_01_31
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 35
+        width: 43
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 358b90343b44598a0800000000000000
+      internalID: -6299052967093225389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bis_wa_1_01_32
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 59
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c71b95f2750dbdf40800000000000000
+      internalID: 5754422021771080060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bis_wa_1_01_33
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 9
+        width: 68
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fabbf6ebc09d9de30800000000000000
+      internalID: 4528889549055572911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bis_wa_1_01_34
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 23
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 232458e94048ba140800000000000000
+      internalID: 4732020988857106994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bis_wa_1_01_35
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 16
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f3751f84b2b5bb80800000000000000
+      internalID: -8379595043088534540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bis_wa_1_01_36
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 16
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9be7834e000765cb0800000000000000
+      internalID: -4875586397450764615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bis_wa_1_01_37
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 18
+        width: 71
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e4cd7a370dae1dd0800000000000000
+      internalID: -2513381295468460824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bis_wa_1_01_38
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 4
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23b1eabf9bf40fba0800000000000000
+      internalID: -6057253838603281614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bis_wa_1_01_39
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 3
+        width: 64
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 379cc55d038d370a0800000000000000
+      internalID: -6884921701069698701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bis_wa_1_01_40
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 7
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d9202227653e52c0800000000000000
+      internalID: -4441053465470293544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bis_wa_1_01_41
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 8
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb1f2800a2478bf40800000000000000
+      internalID: 5744469048457097662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bis_wa_1_01_42
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 4
+        width: 69
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7396f8d06365310f0800000000000000
+      internalID: -1147478689893619401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      bis_wa_1_01_0: 2611795481550518613
+      bis_wa_1_01_1: 6704694863610786837
+      bis_wa_1_01_10: 3565357047005661982
+      bis_wa_1_01_11: -811295576544961914
+      bis_wa_1_01_12: 1830579741888380501
+      bis_wa_1_01_13: 7789758302658894383
+      bis_wa_1_01_14: 3283959633021028157
+      bis_wa_1_01_15: -1763994794791034104
+      bis_wa_1_01_16: -5572895700935862773
+      bis_wa_1_01_17: -1573352765928774667
+      bis_wa_1_01_18: -3643903385940158711
+      bis_wa_1_01_19: 50202118868792858
+      bis_wa_1_01_2: 7301989288189367339
+      bis_wa_1_01_20: -2569616997592327636
+      bis_wa_1_01_21: -88986099470981634
+      bis_wa_1_01_22: 7584605089765099549
+      bis_wa_1_01_23: -807996339619500919
+      bis_wa_1_01_24: 6042363618575607075
+      bis_wa_1_01_25: 3877266265736686744
+      bis_wa_1_01_26: 7577284389970783818
+      bis_wa_1_01_27: -5141528050652535276
+      bis_wa_1_01_28: 608262907726488380
+      bis_wa_1_01_29: 8253144525212342050
+      bis_wa_1_01_3: 7700518020172985557
+      bis_wa_1_01_30: 7250583866077312198
+      bis_wa_1_01_31: -6299052967093225389
+      bis_wa_1_01_32: 5754422021771080060
+      bis_wa_1_01_33: 4528889549055572911
+      bis_wa_1_01_34: 4732020988857106994
+      bis_wa_1_01_35: -8379595043088534540
+      bis_wa_1_01_36: -4875586397450764615
+      bis_wa_1_01_37: -2513381295468460824
+      bis_wa_1_01_38: -6057253838603281614
+      bis_wa_1_01_39: -6884921701069698701
+      bis_wa_1_01_4: -3063051388492745466
+      bis_wa_1_01_40: -4441053465470293544
+      bis_wa_1_01_41: 5744469048457097662
+      bis_wa_1_01_42: -1147478689893619401
+      bis_wa_1_01_5: 4623425947414206903
+      bis_wa_1_01_6: 4179992248273968580
+      bis_wa_1_01_7: 5848529641897107488
+      bis_wa_1_01_8: -5740285798912312525
+      bis_wa_1_01_9: -7207050551087324633
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

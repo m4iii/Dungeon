@@ -1,0 +1,351 @@
+fileFormatVersion: 2
+guid: 59e18ca1f82b1e4408e285ae5407c9d0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5892632054238132048
+    second: acm_kn_1_01_head_0
+  - first:
+      213: 7504002069655162720
+    second: acm_kn_1_01_head_1
+  - first:
+      213: 6190873116627107801
+    second: acm_kn_1_01_head_2
+  - first:
+      213: 2370129482073514901
+    second: acm_kn_1_01_head_3
+  - first:
+      213: 5593761439520707780
+    second: acm_kn_1_01_head_4
+  - first:
+      213: -957609838414275744
+    second: acm_kn_1_01_head_5
+  - first:
+      213: 5163536594810245965
+    second: acm_kn_1_01_head_6
+  - first:
+      213: -3504709736536783238
+    second: acm_kn_1_01_head_7
+  - first:
+      213: 890124560575525305
+    second: acm_kn_1_01_head_8
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: acm_kn_1_01_head_0
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 398
+        width: 62
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b84e0ffd5a293ea0800000000000000
+      internalID: -5892632054238132048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: acm_kn_1_01_head_1
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 398
+        width: 59
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06f879bdf12932860800000000000000
+      internalID: 7504002069655162720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: acm_kn_1_01_head_2
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 397
+        width: 60
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dff2168c466ae550800000000000000
+      internalID: 6190873116627107801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: acm_kn_1_01_head_3
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 270
+        width: 62
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5932caad43464e020800000000000000
+      internalID: 2370129482073514901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: acm_kn_1_01_head_4
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 270
+        width: 58
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c4d8e8646801ad40800000000000000
+      internalID: 5593761439520707780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: acm_kn_1_01_head_5
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 266
+        width: 58
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06bd5e3fce2e5b2f0800000000000000
+      internalID: -957609838414275744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: acm_kn_1_01_head_6
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 142
+        width: 62
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d431566ec2198a740800000000000000
+      internalID: 5163536594810245965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: acm_kn_1_01_head_7
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 142
+        width: 59
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a764fd83015cc5fc0800000000000000
+      internalID: -3504709736536783238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: acm_kn_1_01_head_8
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 142
+        width: 59
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b174fe529b5a5c00800000000000000
+      internalID: 890124560575525305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      acm_kn_1_01_head_0: -5892632054238132048
+      acm_kn_1_01_head_1: 7504002069655162720
+      acm_kn_1_01_head_2: 6190873116627107801
+      acm_kn_1_01_head_3: 2370129482073514901
+      acm_kn_1_01_head_4: 5593761439520707780
+      acm_kn_1_01_head_5: -957609838414275744
+      acm_kn_1_01_head_6: 5163536594810245965
+      acm_kn_1_01_head_7: -3504709736536783238
+      acm_kn_1_01_head_8: 890124560575525305
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

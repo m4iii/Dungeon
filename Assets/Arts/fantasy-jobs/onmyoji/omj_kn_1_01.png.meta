@@ -1,0 +1,5213 @@
+fileFormatVersion: 2
+guid: d43b2d413a9e7174c8e1d9667b743770
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8942737509849011522
+    second: omj_kn_1_01_0
+  - first:
+      213: -7133252937672994848
+    second: omj_kn_1_01_1
+  - first:
+      213: -8749054850363149078
+    second: omj_kn_1_01_2
+  - first:
+      213: 2044804829828213186
+    second: omj_kn_1_01_3
+  - first:
+      213: 7311451468187729043
+    second: omj_kn_1_01_4
+  - first:
+      213: 895569130372250076
+    second: omj_kn_1_01_5
+  - first:
+      213: -1839378576408096754
+    second: omj_kn_1_01_6
+  - first:
+      213: 6760932410725998957
+    second: omj_kn_1_01_7
+  - first:
+      213: 5945688576799960356
+    second: omj_kn_1_01_8
+  - first:
+      213: 1136282580412619926
+    second: omj_kn_1_01_9
+  - first:
+      213: 5842820817579822191
+    second: omj_kn_1_01_10
+  - first:
+      213: -1017284521031402081
+    second: omj_kn_1_01_11
+  - first:
+      213: -7045997701885919289
+    second: omj_kn_1_01_12
+  - first:
+      213: -5997468703535889160
+    second: omj_kn_1_01_13
+  - first:
+      213: 3161615585815853813
+    second: omj_kn_1_01_14
+  - first:
+      213: 888343916815112979
+    second: omj_kn_1_01_15
+  - first:
+      213: 5760916754059685107
+    second: omj_kn_1_01_16
+  - first:
+      213: 4887429670199672324
+    second: omj_kn_1_01_17
+  - first:
+      213: 9053278719682519733
+    second: omj_kn_1_01_18
+  - first:
+      213: 1312012301707695905
+    second: omj_kn_1_01_19
+  - first:
+      213: 3080737187665232386
+    second: omj_kn_1_01_20
+  - first:
+      213: 769561378819733947
+    second: omj_kn_1_01_21
+  - first:
+      213: 2407412367789467545
+    second: omj_kn_1_01_22
+  - first:
+      213: 1160303032654564485
+    second: omj_kn_1_01_23
+  - first:
+      213: -7650409789040182450
+    second: omj_kn_1_01_24
+  - first:
+      213: -3845146376179226371
+    second: omj_kn_1_01_25
+  - first:
+      213: 8893833818711743802
+    second: omj_kn_1_01_26
+  - first:
+      213: -1823837276158802441
+    second: omj_kn_1_01_27
+  - first:
+      213: -3428550055898302026
+    second: omj_kn_1_01_28
+  - first:
+      213: 5554891401955509595
+    second: omj_kn_1_01_29
+  - first:
+      213: 5576914399143598661
+    second: omj_kn_1_01_30
+  - first:
+      213: -5821339779634640190
+    second: omj_kn_1_01_31
+  - first:
+      213: 1968336822221625569
+    second: omj_kn_1_01_32
+  - first:
+      213: 4702753981318563132
+    second: omj_kn_1_01_33
+  - first:
+      213: 6835004739186293838
+    second: omj_kn_1_01_34
+  - first:
+      213: 4674621039475406494
+    second: omj_kn_1_01_35
+  - first:
+      213: -2956879029056091563
+    second: omj_kn_1_01_36
+  - first:
+      213: -7193962602519278803
+    second: omj_kn_1_01_37
+  - first:
+      213: 9093140495866055972
+    second: omj_kn_1_01_38
+  - first:
+      213: -5004488139099156530
+    second: omj_kn_1_01_39
+  - first:
+      213: -257711666089971868
+    second: omj_kn_1_01_40
+  - first:
+      213: 3957267358184868299
+    second: omj_kn_1_01_41
+  - first:
+      213: -7445997357910516832
+    second: omj_kn_1_01_42
+  - first:
+      213: 8404169831403169163
+    second: omj_kn_1_01_43
+  - first:
+      213: 7182116025685180069
+    second: omj_kn_1_01_44
+  - first:
+      213: -5875820804104195998
+    second: omj_kn_1_01_45
+  - first:
+      213: 8742765758060032917
+    second: omj_kn_1_01_46
+  - first:
+      213: -6581772020545283198
+    second: omj_kn_1_01_47
+  - first:
+      213: -1939584469706556582
+    second: omj_kn_1_01_48
+  - first:
+      213: -8633408525580023593
+    second: omj_kn_1_01_49
+  - first:
+      213: -445969935439323490
+    second: omj_kn_1_01_50
+  - first:
+      213: -365495130871962523
+    second: omj_kn_1_01_51
+  - first:
+      213: -6974289913671106288
+    second: omj_kn_1_01_52
+  - first:
+      213: -9184977569162076008
+    second: omj_kn_1_01_53
+  - first:
+      213: 7391979723927941445
+    second: omj_kn_1_01_54
+  - first:
+      213: 9172237156323773882
+    second: omj_kn_1_01_55
+  - first:
+      213: -4495150975845221410
+    second: omj_kn_1_01_56
+  - first:
+      213: -5787295022534631272
+    second: omj_kn_1_01_57
+  - first:
+      213: -8664102100555907358
+    second: omj_kn_1_01_58
+  - first:
+      213: -1184932444363257733
+    second: omj_kn_1_01_59
+  - first:
+      213: 8285642972302796282
+    second: omj_kn_1_01_60
+  - first:
+      213: -2182229932675241847
+    second: omj_kn_1_01_61
+  - first:
+      213: -4798548995652077863
+    second: omj_kn_1_01_62
+  - first:
+      213: 531363200180219482
+    second: omj_kn_1_01_63
+  - first:
+      213: -4675072649842016026
+    second: omj_kn_1_01_64
+  - first:
+      213: -9148890830866195601
+    second: omj_kn_1_01_65
+  - first:
+      213: -274254730454091942
+    second: omj_kn_1_01_66
+  - first:
+      213: -5266021776122519070
+    second: omj_kn_1_01_67
+  - first:
+      213: -2354296809342842137
+    second: omj_kn_1_01_68
+  - first:
+      213: -8228423557736588154
+    second: omj_kn_1_01_69
+  - first:
+      213: -5827928700312891266
+    second: omj_kn_1_01_70
+  - first:
+      213: -1721031490087631658
+    second: omj_kn_1_01_71
+  - first:
+      213: 669317612760395314
+    second: omj_kn_1_01_72
+  - first:
+      213: 2487268908128757001
+    second: omj_kn_1_01_73
+  - first:
+      213: -4470448971112590828
+    second: omj_kn_1_01_74
+  - first:
+      213: 540799653633864103
+    second: omj_kn_1_01_75
+  - first:
+      213: -1523384476236947107
+    second: omj_kn_1_01_76
+  - first:
+      213: 3786121551624746847
+    second: omj_kn_1_01_77
+  - first:
+      213: -8072291762921676389
+    second: omj_kn_1_01_78
+  - first:
+      213: -6145610578962092844
+    second: omj_kn_1_01_79
+  - first:
+      213: 2826160802196151075
+    second: omj_kn_1_01_80
+  - first:
+      213: -6839708730431674333
+    second: omj_kn_1_01_81
+  - first:
+      213: -6406791553488410308
+    second: omj_kn_1_01_82
+  - first:
+      213: 6580016730426987950
+    second: omj_kn_1_01_83
+  - first:
+      213: 6734894342755511551
+    second: omj_kn_1_01_84
+  - first:
+      213: -7622315996487404508
+    second: omj_kn_1_01_85
+  - first:
+      213: -264054151021667857
+    second: omj_kn_1_01_86
+  - first:
+      213: -4938173203441328689
+    second: omj_kn_1_01_87
+  - first:
+      213: 6003476291605004987
+    second: omj_kn_1_01_88
+  - first:
+      213: -7398018183252671209
+    second: omj_kn_1_01_89
+  - first:
+      213: 651072406610950135
+    second: omj_kn_1_01_90
+  - first:
+      213: -5097551879633448128
+    second: omj_kn_1_01_91
+  - first:
+      213: 6893386751678887260
+    second: omj_kn_1_01_92
+  - first:
+      213: 6377000877717120272
+    second: omj_kn_1_01_93
+  - first:
+      213: 1332947612559899686
+    second: omj_kn_1_01_94
+  - first:
+      213: 3054359331555907221
+    second: omj_kn_1_01_95
+  - first:
+      213: 2289568917175687329
+    second: omj_kn_1_01_96
+  - first:
+      213: 1459573454909136837
+    second: omj_kn_1_01_97
+  - first:
+      213: 4720309276452131906
+    second: omj_kn_1_01_98
+  - first:
+      213: -674534136982151923
+    second: omj_kn_1_01_99
+  - first:
+      213: -4957598668451497866
+    second: omj_kn_1_01_100
+  - first:
+      213: -2585960062579971599
+    second: omj_kn_1_01_101
+  - first:
+      213: -8075322673231760435
+    second: omj_kn_1_01_102
+  - first:
+      213: 4833565985574271296
+    second: omj_kn_1_01_103
+  - first:
+      213: 3945553952594154187
+    second: omj_kn_1_01_104
+  - first:
+      213: -2605005090012834843
+    second: omj_kn_1_01_105
+  - first:
+      213: 1730552716276396533
+    second: omj_kn_1_01_106
+  - first:
+      213: -2782792911705660438
+    second: omj_kn_1_01_107
+  - first:
+      213: 4227792048220428964
+    second: omj_kn_1_01_108
+  - first:
+      213: 4500215856054629707
+    second: omj_kn_1_01_109
+  - first:
+      213: 2501797863852547917
+    second: omj_kn_1_01_110
+  - first:
+      213: -7766323512799378039
+    second: omj_kn_1_01_111
+  - first:
+      213: 2452153088431185641
+    second: omj_kn_1_01_112
+  - first:
+      213: -1919189175826495203
+    second: omj_kn_1_01_113
+  - first:
+      213: 5762198721972466591
+    second: omj_kn_1_01_114
+  - first:
+      213: -2398817730447438702
+    second: omj_kn_1_01_115
+  - first:
+      213: -7318178858593219182
+    second: omj_kn_1_01_116
+  - first:
+      213: 8693230172080802213
+    second: omj_kn_1_01_117
+  - first:
+      213: 2919372890836683810
+    second: omj_kn_1_01_118
+  - first:
+      213: -4364700345232095108
+    second: omj_kn_1_01_119
+  - first:
+      213: -5394390674902865134
+    second: omj_kn_1_01_120
+  - first:
+      213: -7693145171461733932
+    second: omj_kn_1_01_121
+  - first:
+      213: -4840980741534341144
+    second: omj_kn_1_01_122
+  - first:
+      213: 3958872632241667377
+    second: omj_kn_1_01_123
+  - first:
+      213: 7919444453788873710
+    second: omj_kn_1_01_124
+  - first:
+      213: -1687615962313919388
+    second: omj_kn_1_01_125
+  - first:
+      213: 6577195040479676048
+    second: omj_kn_1_01_126
+  - first:
+      213: -319483940039169575
+    second: omj_kn_1_01_127
+  - first:
+      213: 738358563930087361
+    second: omj_kn_1_01_128
+  - first:
+      213: 6782164083101961957
+    second: omj_kn_1_01_129
+  - first:
+      213: -4032208264655866583
+    second: omj_kn_1_01_130
+  - first:
+      213: -7793654837766750687
+    second: omj_kn_1_01_131
+  - first:
+      213: -6665867176752036579
+    second: omj_kn_1_01_132
+  - first:
+      213: -7593670999368630308
+    second: omj_kn_1_01_133
+  - first:
+      213: 4839133886882055439
+    second: omj_kn_1_01_134
+  - first:
+      213: 1078788853507839294
+    second: omj_kn_1_01_135
+  - first:
+      213: 669049554807124444
+    second: omj_kn_1_01_136
+  - first:
+      213: -6647576095909453847
+    second: omj_kn_1_01_137
+  - first:
+      213: 7285150526883310325
+    second: omj_kn_1_01_138
+  - first:
+      213: -1559963998175671299
+    second: omj_kn_1_01_139
+  - first:
+      213: -1151856875185183861
+    second: omj_kn_1_01_140
+  - first:
+      213: -5826916924533614435
+    second: omj_kn_1_01_141
+  - first:
+      213: 7449938564005146492
+    second: omj_kn_1_01_142
+  - first:
+      213: 3132805670904967143
+    second: omj_kn_1_01_143
+  - first:
+      213: -6304484427325373594
+    second: omj_kn_1_01_144
+  - first:
+      213: -8910863520321317469
+    second: omj_kn_1_01_145
+  - first:
+      213: -8480178170763662633
+    second: omj_kn_1_01_146
+  - first:
+      213: -7175815630707556823
+    second: omj_kn_1_01_147
+  - first:
+      213: 9126203704219490806
+    second: omj_kn_1_01_148
+  - first:
+      213: 3047179079929012128
+    second: omj_kn_1_01_149
+  - first:
+      213: -7114111804698790166
+    second: omj_kn_1_01_150
+  - first:
+      213: -4983294525500878772
+    second: omj_kn_1_01_151
+  - first:
+      213: -1903827132714267155
+    second: omj_kn_1_01_152
+  - first:
+      213: 7825349139810080882
+    second: omj_kn_1_01_153
+  - first:
+      213: -3697853593585769303
+    second: omj_kn_1_01_154
+  - first:
+      213: -8928959129531748136
+    second: omj_kn_1_01_155
+  - first:
+      213: -8348811291890579374
+    second: omj_kn_1_01_156
+  - first:
+      213: 8080882939989336018
+    second: omj_kn_1_01_157
+  - first:
+      213: 4402946410878618887
+    second: omj_kn_1_01_158
+  - first:
+      213: -8385860252617564258
+    second: omj_kn_1_01_159
+  - first:
+      213: -7792100388352944275
+    second: omj_kn_1_01_160
+  - first:
+      213: -764796365015706909
+    second: omj_kn_1_01_161
+  - first:
+      213: -8768033412735701128
+    second: omj_kn_1_01_162
+  - first:
+      213: 1079029902555200822
+    second: omj_kn_1_01_163
+  - first:
+      213: 3223617597299372529
+    second: omj_kn_1_01_164
+  - first:
+      213: -6555611052070313142
+    second: omj_kn_1_01_165
+  - first:
+      213: 6859850020903847843
+    second: omj_kn_1_01_166
+  - first:
+      213: -4031164464021225454
+    second: omj_kn_1_01_167
+  - first:
+      213: 1327304744493453120
+    second: omj_kn_1_01_168
+  - first:
+      213: -5936571632729141403
+    second: omj_kn_1_01_169
+  - first:
+      213: -1103221597250899440
+    second: omj_kn_1_01_170
+  - first:
+      213: 5487100496279728131
+    second: omj_kn_1_01_171
+  - first:
+      213: 2031875646196744916
+    second: omj_kn_1_01_172
+  - first:
+      213: 7950807506626447266
+    second: omj_kn_1_01_173
+  - first:
+      213: 6809837086725572766
+    second: omj_kn_1_01_174
+  - first:
+      213: -826858344436031222
+    second: omj_kn_1_01_175
+  - first:
+      213: -5785647310695447150
+    second: omj_kn_1_01_176
+  - first:
+      213: 8106640043153992939
+    second: omj_kn_1_01_177
+  - first:
+      213: 7673990911715780340
+    second: omj_kn_1_01_178
+  - first:
+      213: 4342145976881100708
+    second: omj_kn_1_01_179
+  - first:
+      213: -1478092788972431862
+    second: omj_kn_1_01_180
+  - first:
+      213: -7039921730708970169
+    second: omj_kn_1_01_181
+  - first:
+      213: 4170776861854063931
+    second: omj_kn_1_01_182
+  - first:
+      213: -5475710367122875563
+    second: omj_kn_1_01_183
+  - first:
+      213: -8929024687085577939
+    second: omj_kn_1_01_184
+  - first:
+      213: 8514533620417704885
+    second: omj_kn_1_01_185
+  - first:
+      213: 1094653575551362717
+    second: omj_kn_1_01_186
+  - first:
+      213: -8204475490712220778
+    second: omj_kn_1_01_187
+  - first:
+      213: 4265323655757292450
+    second: omj_kn_1_01_188
+  - first:
+      213: 134800975465737338
+    second: omj_kn_1_01_189
+  - first:
+      213: 743695555149856622
+    second: omj_kn_1_01_190
+  - first:
+      213: 248166591184293025
+    second: omj_kn_1_01_191
+  - first:
+      213: -3091783206809550018
+    second: omj_kn_1_01_192
+  - first:
+      213: 7405976501052081361
+    second: omj_kn_1_01_193
+  - first:
+      213: -7825694270055266557
+    second: omj_kn_1_01_194
+  - first:
+      213: 6834168223849000217
+    second: omj_kn_1_01_195
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: omj_kn_1_01_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1543
+        width: 484
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eba63ed8d9305e380800000000000000
+      internalID: -8942737509849011522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_1
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 1643
+        width: 401
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ef4dfc2f38910d90800000000000000
+      internalID: -7133252937672994848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_2
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 1915
+        width: 109
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae432b3d7fc159680800000000000000
+      internalID: -8749054850363149078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_3
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 1786
+        width: 72
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c9e9eca82b906c10800000000000000
+      internalID: 2044804829828213186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_4
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 1378
+        width: 20
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39c76d16f5e777560800000000000000
+      internalID: 7311451468187729043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_5
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 1654
+        width: 55
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd9b4af0163bd6c00800000000000000
+      internalID: 895569130372250076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_6
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 1746
+        width: 18
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e005bb12ee63976e0800000000000000
+      internalID: -1839378576408096754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_7
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 1725
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d61afb3e438a3dd50800000000000000
+      internalID: 6760932410725998957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_8
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 1701
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42d624d4244538250800000000000000
+      internalID: 5945688576799960356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_9
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 1684
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69c55f19cf2e4cf00800000000000000
+      internalID: 1136282580412619926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_10
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 1664
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6c4a16b39ed51150800000000000000
+      internalID: 5842820817579822191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_11
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1282
+        width: 264
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9d7b603e11e1e1f0800000000000000
+      internalID: -1017284521031402081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_12
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1385
+        width: 217
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cffed2eb66973e90800000000000000
+      internalID: -7045997701885919289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_13
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 1340
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f488367df5b4cca0800000000000000
+      internalID: -5997468703535889160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_14
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 1448
+        width: 96
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fa74e4df9050eb20800000000000000
+      internalID: 3161615585815853813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_15
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 1527
+        width: 42
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31bd420f518045c00800000000000000
+      internalID: 888343916815112979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_16
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 1452
+        width: 43
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fce252e343e2ff40800000000000000
+      internalID: 5760916754059685107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_17
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 1252
+        width: 112
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40eb4fce363a3d340800000000000000
+      internalID: 4887429670199672324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_18
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 1397
+        width: 39
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b2a74b7705b3ad70800000000000000
+      internalID: 9053278719682519733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_19
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 1372
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 127da30bc34353210800000000000000
+      internalID: 1312012301707695905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_20
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 1379
+        width: 32
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2024f15562af0ca20800000000000000
+      internalID: 3080737187665232386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_21
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1339
+        width: 73
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb9f8692ff70eaa00800000000000000
+      internalID: 769561378819733947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_22
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 1339
+        width: 67
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99729f12bc8d86120800000000000000
+      internalID: 2407412367789467545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_23
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 1345
+        width: 52
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58c0f2de5793a1010800000000000000
+      internalID: 1160303032654564485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_24
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 1342
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4bb61a94d844d590800000000000000
+      internalID: -7650409789040182450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_25
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 1272
+        width: 68
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df8e47a4ebb43aac0800000000000000
+      internalID: -3845146376179226371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_26
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1168
+        width: 107
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3d5baf8cbe3d6b70800000000000000
+      internalID: 8893833818711743802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_27
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 1170
+        width: 80
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f5407219ad60b6e0800000000000000
+      internalID: -1823837276158802441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_28
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 1238
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b9398fa3e75b60d0800000000000000
+      internalID: -3428550055898302026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_29
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1137
+        width: 300
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b550e6b8c40f61d40800000000000000
+      internalID: 5554891401955509595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_30
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1102
+        width: 243
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54a17b7291e256d40800000000000000
+      internalID: 5576914399143598661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_31
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 1141
+        width: 194
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cac60e2052763fa0800000000000000
+      internalID: -5821339779634640190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_32
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1135
+        width: 125
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e857de39efe05b10800000000000000
+      internalID: 1968336822221625569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_33
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 1195
+        width: 21
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c350c8a64d9834140800000000000000
+      internalID: 4702753981318563132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_34
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1056
+        width: 103
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4c7f4dc890dade50800000000000000
+      internalID: 6835004739186293838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_35
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 1040
+        width: 79
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e96bf7571179fd040800000000000000
+      internalID: 4674621039475406494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_36
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 1156
+        width: 22
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55a4f45703e07f6d0800000000000000
+      internalID: -2956879029056091563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_37
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 1117
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2bc465d029e92c90800000000000000
+      internalID: -7193962602519278803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_38
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 1106
+        width: 106
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42dc0dc7a13513e70800000000000000
+      internalID: 9093140495866055972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_39
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 1101
+        width: 71
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecfc65a6d8c7c8ab0800000000000000
+      internalID: -5004488139099156530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_40
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 855
+        width: 242
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46fab38ea9c6c6cf0800000000000000
+      internalID: -257711666089971868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_41
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 844
+        width: 216
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc98bdd12b90be630800000000000000
+      internalID: 3957267358184868299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_42
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 954
+        width: 302
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ab1f338ad08aa890800000000000000
+      internalID: -7445997357910516832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_43
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 941
+        width: 37
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8527d83feb91a470800000000000000
+      internalID: 8404169831403169163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_44
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 913
+        width: 245
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aefa9e09700ca360800000000000000
+      internalID: 7182116025685180069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_45
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 754
+        width: 198
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 260f48f2c14e47ea0800000000000000
+      internalID: -5875820804104195998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_46
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 781
+        width: 153
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 593fd93c22b845970800000000000000
+      internalID: 8742765758060032917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_47
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 790
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28b1bc21839d8a4a0800000000000000
+      internalID: -6581772020545283198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_48
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 782
+        width: 290
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5bb64f73363515e0800000000000000
+      internalID: -1939584469706556582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_49
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 806
+        width: 162
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d849ff00b8ff2880800000000000000
+      internalID: -8633408525580023593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_50
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 822
+        width: 75
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9e92a1e4b89fc9f0800000000000000
+      internalID: -445969935439323490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_51
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 655
+        width: 131
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 564ed3d6d108deaf0800000000000000
+      internalID: -365495130871962523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_52
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 672
+        width: 145
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0114b0f5648563f90800000000000000
+      internalID: -6974289913671106288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_53
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 673
+        width: 110
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 890e920a097688080800000000000000
+      internalID: -9184977569162076008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_54
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 654
+        width: 115
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5417d9ff466959660800000000000000
+      internalID: 7391979723927941445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_55
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 657
+        width: 116
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abd415ad8155a4f70800000000000000
+      internalID: 9172237156323773882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_56
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 635
+        width: 59
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edbbef8f0040e91c0800000000000000
+      internalID: -4495150975845221410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_57
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 683
+        width: 20
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 890ef63e6d56fafa0800000000000000
+      internalID: -5787295022534631272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_58
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 647
+        width: 121
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ee36ae3b0de2c780800000000000000
+      internalID: -8664102100555907358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_59
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 688
+        width: 128
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7884ea48364e8fe0800000000000000
+      internalID: -1184932444363257733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_60
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 647
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af5e1d352648cf270800000000000000
+      internalID: 8285642972302796282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_61
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 600
+        width: 133
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 988eaac207927b1e0800000000000000
+      internalID: -2182229932675241847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_62
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 599
+        width: 133
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d6b9dcbc11286db0800000000000000
+      internalID: -4798548995652077863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_63
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 583
+        width: 133
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5ee479e308cf5700800000000000000
+      internalID: 531363200180219482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_64
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 636
+        width: 38
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e0c50fc13ece1fb0800000000000000
+      internalID: -4675072649842016026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_65
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 636
+        width: 37
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6b5461234c980180800000000000000
+      internalID: -9148890830866195601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_66
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 633
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a57305596c6a13cf0800000000000000
+      internalID: -274254730454091942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_67
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 648
+        width: 38
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e1eebe58155be6b0800000000000000
+      internalID: -5266021776122519070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_68
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 616
+        width: 131
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eac847868bd35fd0800000000000000
+      internalID: -2354296809342842137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_69
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 581
+        width: 131
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68c97abce54cecd80800000000000000
+      internalID: -8228423557736588154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_70
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 561
+        width: 120
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e70db8989b90f1fa0800000000000000
+      internalID: -5827928700312891266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_71
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 575
+        width: 43
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d4c01a6afaad18e0800000000000000
+      internalID: -1721031490087631658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_72
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 572
+        width: 115
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23eee7692d4e94900800000000000000
+      internalID: 669317612760395314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_73
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 618
+        width: 42
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90563e1d4ed848220800000000000000
+      internalID: 2487268908128757001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_74
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 521
+        width: 107
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 412d252a856c5f1c0800000000000000
+      internalID: -4470448971112590828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_75
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 542
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a130817b6e418700800000000000000
+      internalID: 540799653633864103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_76
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 537
+        width: 131
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d516d8dd3e9dbdae0800000000000000
+      internalID: -1523384476236947107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_77
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 471
+        width: 51
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f573b01dd710b8430800000000000000
+      internalID: 3786121551624746847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_78
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 510
+        width: 93
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b91edb3196579ff80800000000000000
+      internalID: -8072291762921676389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_79
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 518
+        width: 95
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dce4114db766baa0800000000000000
+      internalID: -6145610578962092844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_80
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 516
+        width: 136
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32bd805a64a883720800000000000000
+      internalID: 2826160802196151075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_81
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 483
+        width: 73
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3286b73e5297411a0800000000000000
+      internalID: -6839708730431674333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_82
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 495
+        width: 81
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c39a958d6018617a0800000000000000
+      internalID: -6406791553488410308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_83
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 470
+        width: 52
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea55a399a5ae05b50800000000000000
+      internalID: 6580016730426987950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_84
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 545
+        width: 111
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffceab3c8b6277d50800000000000000
+      internalID: 6734894342755511551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_85
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 458
+        width: 85
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42437976cf7183690800000000000000
+      internalID: -7622315996487404508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_86
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 498
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe9d2ee0624e55cf0800000000000000
+      internalID: -264054151021667857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_87
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 491
+        width: 141
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcdd68192a5187bb0800000000000000
+      internalID: -4938173203441328689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_88
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 456
+        width: 92
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb2889221e1a05350800000000000000
+      internalID: 6003476291605004987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_89
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 462
+        width: 92
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7150851a8a5f45990800000000000000
+      internalID: -7398018183252671209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_90
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 440
+        width: 64
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f7ba1f77e2190900800000000000000
+      internalID: 651072406610950135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_91
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 438
+        width: 56
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 043d25ec29bd149b0800000000000000
+      internalID: -5097551879633448128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_92
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 498
+        width: 118
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5534395aba3aaf50800000000000000
+      internalID: 6893386751678887260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_93
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 448
+        width: 107
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 015eea0f288af7850800000000000000
+      internalID: 6377000877717120272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_94
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 473
+        width: 38
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62c76d69ac49f7210800000000000000
+      internalID: 1332947612559899686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_95
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 475
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5961acd11a3436a20800000000000000
+      internalID: 3054359331555907221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_96
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 468
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a8580dacce26cf10800000000000000
+      internalID: 2289568917175687329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_97
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 400
+        width: 50
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cfd277f252714410800000000000000
+      internalID: 1459573454909136837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_98
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 440
+        width: 31
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24419e41748e18140800000000000000
+      internalID: 4720309276452131906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_99
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 433
+        width: 73
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0ddd48b6c293a6f0800000000000000
+      internalID: -674534136982151923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_100
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 449
+        width: 104
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 678bffb0742133bb0800000000000000
+      internalID: -4957598668451497866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_101
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 396
+        width: 63
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f9e29a2603dc1cd0800000000000000
+      internalID: -2585960062579971599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_102
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 390
+        width: 62
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc3fc5740d0beef80800000000000000
+      internalID: -8075322673231760435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_103
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 388
+        width: 55
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 049b09097a6441340800000000000000
+      internalID: 4833565985574271296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_104
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 423
+        width: 96
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc2538a5a6c61c630800000000000000
+      internalID: 3945553952594154187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_105
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 403
+        width: 74
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e353bb2ca929dbd0800000000000000
+      internalID: -2605005090012834843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_106
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 389
+        width: 49
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f1fdbec688240810800000000000000
+      internalID: 1730552716276396533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_107
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 399
+        width: 64
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae32f4637988169d0800000000000000
+      internalID: -2782792911705660438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_108
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 435
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aa5662d7722caa30800000000000000
+      internalID: 4227792048220428964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_109
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 405
+        width: 62
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4577b85a7af37e30800000000000000
+      internalID: 4500215856054629707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_110
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 398
+        width: 67
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4f13cee6eb28b220800000000000000
+      internalID: 2501797863852547917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_111
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 377
+        width: 45
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98544d0b9e9783490800000000000000
+      internalID: -7766323512799378039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_112
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 379
+        width: 74
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ee51daed3cc70220800000000000000
+      internalID: 2452153088431185641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_113
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 404
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d194616ec9bad55e0800000000000000
+      internalID: -1919189175826495203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_114
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 402
+        width: 96
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f93f06c453177ff40800000000000000
+      internalID: 5762198721972466591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_115
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 359
+        width: 41
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29c85cfcbffa5bed0800000000000000
+      internalID: -2398817730447438702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_116
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 397
+        width: 94
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29d07caf91b907a90800000000000000
+      internalID: -7318178858593219182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_117
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 351
+        width: 65
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a9859568ce84a870800000000000000
+      internalID: 8693230172080802213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_118
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 335
+        width: 44
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22cc93d3d22b38820800000000000000
+      internalID: 2919372890836683810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_119
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 343
+        width: 60
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c788a6349287d63c0800000000000000
+      internalID: -4364700345232095108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_120
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 344
+        width: 71
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21b2cba03464325b0800000000000000
+      internalID: -5394390674902865134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_121
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 356
+        width: 66
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d103810a357c3590800000000000000
+      internalID: -7693145171461733932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_122
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 353
+        width: 72
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e7a6580aa161dcb0800000000000000
+      internalID: -4840980741534341144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_123
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 362
+        width: 71
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13db7cb1fadb0f630800000000000000
+      internalID: 3958872632241667377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_124
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 339
+        width: 47
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee3f58e85c487ed60800000000000000
+      internalID: 7919444453788873710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_125
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 361
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 464fff049326498e0800000000000000
+      internalID: -1687615962313919388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_126
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 341
+        width: 48
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0968046ba04e64b50800000000000000
+      internalID: 6577195040479676048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_127
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 362
+        width: 80
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d9e58a9c07f09bf0800000000000000
+      internalID: -319483940039169575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_128
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 359
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cf9befa33d2f3a00800000000000000
+      internalID: 738358563930087361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_129
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 338
+        width: 43
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ee84b5dc461f1e50800000000000000
+      internalID: 6782164083101961957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_130
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 372
+        width: 35
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 925fac462f7ba08c0800000000000000
+      internalID: -4032208264655866583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_131
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 361
+        width: 38
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12e78e4b73067d390800000000000000
+      internalID: -7793654837766750687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_132
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 335
+        width: 66
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1542c9be151e73a0800000000000000
+      internalID: -6665867176752036579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_133
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 313
+        width: 55
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdf7275857cdd9690800000000000000
+      internalID: -7593670999368630308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_134
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 287
+        width: 39
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f05092c91ae082340800000000000000
+      internalID: 4839133886882055439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_135
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 300
+        width: 49
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e355cf02fb0a8fe00800000000000000
+      internalID: 1078788853507839294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_136
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 304
+        width: 52
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd1796b7601f84900800000000000000
+      internalID: 669049554807124444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_137
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 275
+        width: 26
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ef50f9d2c01fb3a0800000000000000
+      internalID: -6647576095909453847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_138
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 289
+        width: 33
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fa212a4ecd0a1560800000000000000
+      internalID: 7285150526883310325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_139
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 305
+        width: 43
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfb475a3205e95ae0800000000000000
+      internalID: -1559963998175671299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_140
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 310
+        width: 50
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b83ee7a5648c300f0800000000000000
+      internalID: -1151856875185183861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_141
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 307
+        width: 47
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d985671fde1a22fa0800000000000000
+      internalID: -5826916924533614435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_142
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 305
+        width: 39
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7fa20a07af736760800000000000000
+      internalID: 7449938564005146492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_143
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 295
+        width: 45
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7efae9cc826f97b20800000000000000
+      internalID: 3132805670904967143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_144
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 326
+        width: 68
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6630a41e0d8f188a0800000000000000
+      internalID: -6304484427325373594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_145
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 297
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a5d24d07d0465480800000000000000
+      internalID: -8910863520321317469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_146
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 310
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7da2c9332ea505a80800000000000000
+      internalID: -8480178170763662633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_147
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 307
+        width: 45
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92efaf5f3b16a6c90800000000000000
+      internalID: -7175815630707556823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_148
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 292
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f95bd19ae9c6ae70800000000000000
+      internalID: 9126203704219490806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_149
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 326
+        width: 65
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0af9b228a31c94a20800000000000000
+      internalID: 3047179079929012128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_150
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 289
+        width: 41
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae6f38c7109954d90800000000000000
+      internalID: -7114111804698790166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_151
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 300
+        width: 51
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c401f5c1808c7dab0800000000000000
+      internalID: -4983294525500878772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_152
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 274
+        width: 40
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dedc0d84f4f3495e0800000000000000
+      internalID: -1903827132714267155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_153
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 264
+        width: 42
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 278d9c90599399c60800000000000000
+      internalID: 7825349139810080882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_154
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 264
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a42beaafb59eacc0800000000000000
+      internalID: -3697853593585769303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_155
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 264
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d07746baf6f51480800000000000000
+      internalID: -8928959129531748136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_156
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 264
+        width: 35
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 258871a2d50132c80800000000000000
+      internalID: -8348811291890579374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_157
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 270
+        width: 41
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2df14953830152070800000000000000
+      internalID: 8080882939989336018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_158
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 268
+        width: 42
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70d4081de686a1d30800000000000000
+      internalID: 4402946410878618887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_159
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 266
+        width: 38
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9f99aac7807f9b80800000000000000
+      internalID: -8385860252617564258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_160
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 259
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d671a0a2bf5ecd390800000000000000
+      internalID: -7792100388352944275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_161
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 259
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e29ab112c5e265f0800000000000000
+      internalID: -764796365015706909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_162
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 284
+        width: 44
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87fe12fe010b15680800000000000000
+      internalID: -8768033412735701128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_163
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 268
+        width: 24
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63db3dbbafb79fe00800000000000000
+      internalID: 1079029902555200822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_164
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 254
+        width: 28
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f13ab210279cbc20800000000000000
+      internalID: 3223617597299372529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_165
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 267
+        width: 42
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4369b33b7ac505a0800000000000000
+      internalID: -6555611052070313142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_166
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 267
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a70e6cbf35133f50800000000000000
+      internalID: 6859850020903847843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_167
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 290
+        width: 48
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21046da274d6e08c0800000000000000
+      internalID: -4031164464021225454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_168
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 282
+        width: 30
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04f093cf1a88b6210800000000000000
+      internalID: 1327304744493453120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_169
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 263
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56fc487ad8f0d9da0800000000000000
+      internalID: -5936571632729141403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_170
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 238
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 012325b6dc190b0f0800000000000000
+      internalID: -1103221597250899440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_171
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 251
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3007f9754d8162c40800000000000000
+      internalID: 5487100496279728131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_172
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 267
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d20357822ca23c10800000000000000
+      internalID: 2031875646196744916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_173
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 242
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a78af55d41f65e60800000000000000
+      internalID: 7950807506626447266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_174
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 253
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e980f8410c6618e50800000000000000
+      internalID: 6809837086725572766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_175
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 251
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a01a25477b86684f0800000000000000
+      internalID: -826858344436031222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_176
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 255
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 295cd42bc6045bfa0800000000000000
+      internalID: -5785647310695447150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_177
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 255
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beca62e1b22908070800000000000000
+      internalID: 8106640043153992939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_178
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 256
+        width: 37
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f6256e531e7f7a60800000000000000
+      internalID: 7673990911715780340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_179
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 249
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a7b3e2a2c6624c30800000000000000
+      internalID: 4342145976881100708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_180
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 262
+        width: 42
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a065b309072cc7be0800000000000000
+      internalID: -1478092788972431862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_181
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 232
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 745e98a2c7c2d4e90800000000000000
+      internalID: -7039921730708970169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_182
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 237
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3dda38457391e930800000000000000
+      internalID: 4170776861854063931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_183
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 239
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55b97b2ce6e5204b0800000000000000
+      internalID: -5475710367122875563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_184
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 237
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d291297ea5bb51480800000000000000
+      internalID: -8929024687085577939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_185
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 236
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b33e114733b92670800000000000000
+      internalID: 8514533620417704885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_186
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 234
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d96a9d290adf03f00800000000000000
+      internalID: 1094653575551362717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_187
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 231
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69b03b7a209d32e80800000000000000
+      internalID: -8204475490712220778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_188
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 229
+        width: 26
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a3eb792449713b30800000000000000
+      internalID: 4265323655757292450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_189
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 244
+        width: 38
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7ce202e5c8eed100800000000000000
+      internalID: 134800975465737338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_190
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 230
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6f7eb9ca23225a00800000000000000
+      internalID: 743695555149856622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_191
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 230
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1acc8a8233aa17300800000000000000
+      internalID: 248166591184293025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_192
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 235
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e33499bed87c715d0800000000000000
+      internalID: -3091783206809550018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_193
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 238
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d48910a36057c660800000000000000
+      internalID: 7405976501052081361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_194
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 234
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 307cb80168c856390800000000000000
+      internalID: -7825694270055266557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: omj_kn_1_01_195
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 233
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91d28c56ac7d7de50800000000000000
+      internalID: 6834168223849000217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      omj_kn_1_01_0: -8942737509849011522
+      omj_kn_1_01_1: -7133252937672994848
+      omj_kn_1_01_10: 5842820817579822191
+      omj_kn_1_01_100: -4957598668451497866
+      omj_kn_1_01_101: -2585960062579971599
+      omj_kn_1_01_102: -8075322673231760435
+      omj_kn_1_01_103: 4833565985574271296
+      omj_kn_1_01_104: 3945553952594154187
+      omj_kn_1_01_105: -2605005090012834843
+      omj_kn_1_01_106: 1730552716276396533
+      omj_kn_1_01_107: -2782792911705660438
+      omj_kn_1_01_108: 4227792048220428964
+      omj_kn_1_01_109: 4500215856054629707
+      omj_kn_1_01_11: -1017284521031402081
+      omj_kn_1_01_110: 2501797863852547917
+      omj_kn_1_01_111: -7766323512799378039
+      omj_kn_1_01_112: 2452153088431185641
+      omj_kn_1_01_113: -1919189175826495203
+      omj_kn_1_01_114: 5762198721972466591
+      omj_kn_1_01_115: -2398817730447438702
+      omj_kn_1_01_116: -7318178858593219182
+      omj_kn_1_01_117: 8693230172080802213
+      omj_kn_1_01_118: 2919372890836683810
+      omj_kn_1_01_119: -4364700345232095108
+      omj_kn_1_01_12: -7045997701885919289
+      omj_kn_1_01_120: -5394390674902865134
+      omj_kn_1_01_121: -7693145171461733932
+      omj_kn_1_01_122: -4840980741534341144
+      omj_kn_1_01_123: 3958872632241667377
+      omj_kn_1_01_124: 7919444453788873710
+      omj_kn_1_01_125: -1687615962313919388
+      omj_kn_1_01_126: 6577195040479676048
+      omj_kn_1_01_127: -319483940039169575
+      omj_kn_1_01_128: 738358563930087361
+      omj_kn_1_01_129: 6782164083101961957
+      omj_kn_1_01_13: -5997468703535889160
+      omj_kn_1_01_130: -4032208264655866583
+      omj_kn_1_01_131: -7793654837766750687
+      omj_kn_1_01_132: -6665867176752036579
+      omj_kn_1_01_133: -7593670999368630308
+      omj_kn_1_01_134: 4839133886882055439
+      omj_kn_1_01_135: 1078788853507839294
+      omj_kn_1_01_136: 669049554807124444
+      omj_kn_1_01_137: -6647576095909453847
+      omj_kn_1_01_138: 7285150526883310325
+      omj_kn_1_01_139: -1559963998175671299
+      omj_kn_1_01_14: 3161615585815853813
+      omj_kn_1_01_140: -1151856875185183861
+      omj_kn_1_01_141: -5826916924533614435
+      omj_kn_1_01_142: 7449938564005146492
+      omj_kn_1_01_143: 3132805670904967143
+      omj_kn_1_01_144: -6304484427325373594
+      omj_kn_1_01_145: -8910863520321317469
+      omj_kn_1_01_146: -8480178170763662633
+      omj_kn_1_01_147: -7175815630707556823
+      omj_kn_1_01_148: 9126203704219490806
+      omj_kn_1_01_149: 3047179079929012128
+      omj_kn_1_01_15: 888343916815112979
+      omj_kn_1_01_150: -7114111804698790166
+      omj_kn_1_01_151: -4983294525500878772
+      omj_kn_1_01_152: -1903827132714267155
+      omj_kn_1_01_153: 7825349139810080882
+      omj_kn_1_01_154: -3697853593585769303
+      omj_kn_1_01_155: -8928959129531748136
+      omj_kn_1_01_156: -8348811291890579374
+      omj_kn_1_01_157: 8080882939989336018
+      omj_kn_1_01_158: 4402946410878618887
+      omj_kn_1_01_159: -8385860252617564258
+      omj_kn_1_01_16: 5760916754059685107
+      omj_kn_1_01_160: -7792100388352944275
+      omj_kn_1_01_161: -764796365015706909
+      omj_kn_1_01_162: -8768033412735701128
+      omj_kn_1_01_163: 1079029902555200822
+      omj_kn_1_01_164: 3223617597299372529
+      omj_kn_1_01_165: -6555611052070313142
+      omj_kn_1_01_166: 6859850020903847843
+      omj_kn_1_01_167: -4031164464021225454
+      omj_kn_1_01_168: 1327304744493453120
+      omj_kn_1_01_169: -5936571632729141403
+      omj_kn_1_01_17: 4887429670199672324
+      omj_kn_1_01_170: -1103221597250899440
+      omj_kn_1_01_171: 5487100496279728131
+      omj_kn_1_01_172: 2031875646196744916
+      omj_kn_1_01_173: 7950807506626447266
+      omj_kn_1_01_174: 6809837086725572766
+      omj_kn_1_01_175: -826858344436031222
+      omj_kn_1_01_176: -5785647310695447150
+      omj_kn_1_01_177: 8106640043153992939
+      omj_kn_1_01_178: 7673990911715780340
+      omj_kn_1_01_179: 4342145976881100708
+      omj_kn_1_01_18: 9053278719682519733
+      omj_kn_1_01_180: -1478092788972431862
+      omj_kn_1_01_181: -7039921730708970169
+      omj_kn_1_01_182: 4170776861854063931
+      omj_kn_1_01_183: -5475710367122875563
+      omj_kn_1_01_184: -8929024687085577939
+      omj_kn_1_01_185: 8514533620417704885
+      omj_kn_1_01_186: 1094653575551362717
+      omj_kn_1_01_187: -8204475490712220778
+      omj_kn_1_01_188: 4265323655757292450
+      omj_kn_1_01_189: 134800975465737338
+      omj_kn_1_01_19: 1312012301707695905
+      omj_kn_1_01_190: 743695555149856622
+      omj_kn_1_01_191: 248166591184293025
+      omj_kn_1_01_192: -3091783206809550018
+      omj_kn_1_01_193: 7405976501052081361
+      omj_kn_1_01_194: -7825694270055266557
+      omj_kn_1_01_195: 6834168223849000217
+      omj_kn_1_01_2: -8749054850363149078
+      omj_kn_1_01_20: 3080737187665232386
+      omj_kn_1_01_21: 769561378819733947
+      omj_kn_1_01_22: 2407412367789467545
+      omj_kn_1_01_23: 1160303032654564485
+      omj_kn_1_01_24: -7650409789040182450
+      omj_kn_1_01_25: -3845146376179226371
+      omj_kn_1_01_26: 8893833818711743802
+      omj_kn_1_01_27: -1823837276158802441
+      omj_kn_1_01_28: -3428550055898302026
+      omj_kn_1_01_29: 5554891401955509595
+      omj_kn_1_01_3: 2044804829828213186
+      omj_kn_1_01_30: 5576914399143598661
+      omj_kn_1_01_31: -5821339779634640190
+      omj_kn_1_01_32: 1968336822221625569
+      omj_kn_1_01_33: 4702753981318563132
+      omj_kn_1_01_34: 6835004739186293838
+      omj_kn_1_01_35: 4674621039475406494
+      omj_kn_1_01_36: -2956879029056091563
+      omj_kn_1_01_37: -7193962602519278803
+      omj_kn_1_01_38: 9093140495866055972
+      omj_kn_1_01_39: -5004488139099156530
+      omj_kn_1_01_4: 7311451468187729043
+      omj_kn_1_01_40: -257711666089971868
+      omj_kn_1_01_41: 3957267358184868299
+      omj_kn_1_01_42: -7445997357910516832
+      omj_kn_1_01_43: 8404169831403169163
+      omj_kn_1_01_44: 7182116025685180069
+      omj_kn_1_01_45: -5875820804104195998
+      omj_kn_1_01_46: 8742765758060032917
+      omj_kn_1_01_47: -6581772020545283198
+      omj_kn_1_01_48: -1939584469706556582
+      omj_kn_1_01_49: -8633408525580023593
+      omj_kn_1_01_5: 895569130372250076
+      omj_kn_1_01_50: -445969935439323490
+      omj_kn_1_01_51: -365495130871962523
+      omj_kn_1_01_52: -6974289913671106288
+      omj_kn_1_01_53: -9184977569162076008
+      omj_kn_1_01_54: 7391979723927941445
+      omj_kn_1_01_55: 9172237156323773882
+      omj_kn_1_01_56: -4495150975845221410
+      omj_kn_1_01_57: -5787295022534631272
+      omj_kn_1_01_58: -8664102100555907358
+      omj_kn_1_01_59: -1184932444363257733
+      omj_kn_1_01_6: -1839378576408096754
+      omj_kn_1_01_60: 8285642972302796282
+      omj_kn_1_01_61: -2182229932675241847
+      omj_kn_1_01_62: -4798548995652077863
+      omj_kn_1_01_63: 531363200180219482
+      omj_kn_1_01_64: -4675072649842016026
+      omj_kn_1_01_65: -9148890830866195601
+      omj_kn_1_01_66: -274254730454091942
+      omj_kn_1_01_67: -5266021776122519070
+      omj_kn_1_01_68: -2354296809342842137
+      omj_kn_1_01_69: -8228423557736588154
+      omj_kn_1_01_7: 6760932410725998957
+      omj_kn_1_01_70: -5827928700312891266
+      omj_kn_1_01_71: -1721031490087631658
+      omj_kn_1_01_72: 669317612760395314
+      omj_kn_1_01_73: 2487268908128757001
+      omj_kn_1_01_74: -4470448971112590828
+      omj_kn_1_01_75: 540799653633864103
+      omj_kn_1_01_76: -1523384476236947107
+      omj_kn_1_01_77: 3786121551624746847
+      omj_kn_1_01_78: -8072291762921676389
+      omj_kn_1_01_79: -6145610578962092844
+      omj_kn_1_01_8: 5945688576799960356
+      omj_kn_1_01_80: 2826160802196151075
+      omj_kn_1_01_81: -6839708730431674333
+      omj_kn_1_01_82: -6406791553488410308
+      omj_kn_1_01_83: 6580016730426987950
+      omj_kn_1_01_84: 6734894342755511551
+      omj_kn_1_01_85: -7622315996487404508
+      omj_kn_1_01_86: -264054151021667857
+      omj_kn_1_01_87: -4938173203441328689
+      omj_kn_1_01_88: 6003476291605004987
+      omj_kn_1_01_89: -7398018183252671209
+      omj_kn_1_01_9: 1136282580412619926
+      omj_kn_1_01_90: 651072406610950135
+      omj_kn_1_01_91: -5097551879633448128
+      omj_kn_1_01_92: 6893386751678887260
+      omj_kn_1_01_93: 6377000877717120272
+      omj_kn_1_01_94: 1332947612559899686
+      omj_kn_1_01_95: 3054359331555907221
+      omj_kn_1_01_96: 2289568917175687329
+      omj_kn_1_01_97: 1459573454909136837
+      omj_kn_1_01_98: 4720309276452131906
+      omj_kn_1_01_99: -674534136982151923
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

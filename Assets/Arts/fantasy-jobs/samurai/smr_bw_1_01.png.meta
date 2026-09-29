@@ -1,0 +1,1365 @@
+fileFormatVersion: 2
+guid: 6001b5a8c784b4e469a867fba8696fe1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2662849161422351062
+    second: smr_bw_1_01_0
+  - first:
+      213: 1117486501692487763
+    second: smr_bw_1_01_1
+  - first:
+      213: 377892481545274091
+    second: smr_bw_1_01_2
+  - first:
+      213: 747443198878947291
+    second: smr_bw_1_01_3
+  - first:
+      213: 7979610182465474395
+    second: smr_bw_1_01_4
+  - first:
+      213: 7945912964938144616
+    second: smr_bw_1_01_5
+  - first:
+      213: 5072280777432868390
+    second: smr_bw_1_01_6
+  - first:
+      213: 3196232954477978304
+    second: smr_bw_1_01_7
+  - first:
+      213: -1199643638397797011
+    second: smr_bw_1_01_8
+  - first:
+      213: 2699368870798199712
+    second: smr_bw_1_01_9
+  - first:
+      213: -6022173125055925835
+    second: smr_bw_1_01_10
+  - first:
+      213: 4144740812976067758
+    second: smr_bw_1_01_11
+  - first:
+      213: 1036257505940977388
+    second: smr_bw_1_01_12
+  - first:
+      213: 3105794995640338367
+    second: smr_bw_1_01_13
+  - first:
+      213: 4940430245370700545
+    second: smr_bw_1_01_14
+  - first:
+      213: 6928040844972468839
+    second: smr_bw_1_01_15
+  - first:
+      213: -8827643599817751133
+    second: smr_bw_1_01_16
+  - first:
+      213: -1593769052053222515
+    second: smr_bw_1_01_17
+  - first:
+      213: 8666983901064986252
+    second: smr_bw_1_01_18
+  - first:
+      213: 7204494940649433894
+    second: smr_bw_1_01_19
+  - first:
+      213: -7524296156908487054
+    second: smr_bw_1_01_20
+  - first:
+      213: 2300937937218292862
+    second: smr_bw_1_01_21
+  - first:
+      213: 4021307347993839073
+    second: smr_bw_1_01_22
+  - first:
+      213: -4136610248966260498
+    second: smr_bw_1_01_23
+  - first:
+      213: -4490431821416759592
+    second: smr_bw_1_01_24
+  - first:
+      213: 9108076313613422868
+    second: smr_bw_1_01_25
+  - first:
+      213: 2653829804493501689
+    second: smr_bw_1_01_26
+  - first:
+      213: -8961009536804772690
+    second: smr_bw_1_01_27
+  - first:
+      213: 3783009739493384985
+    second: smr_bw_1_01_28
+  - first:
+      213: -5794744614630912478
+    second: smr_bw_1_01_29
+  - first:
+      213: 1791533594443493592
+    second: smr_bw_1_01_30
+  - first:
+      213: 103608215888828079
+    second: smr_bw_1_01_31
+  - first:
+      213: -6080161060467905230
+    second: smr_bw_1_01_32
+  - first:
+      213: -2437939058426415966
+    second: smr_bw_1_01_33
+  - first:
+      213: -8406207802074722989
+    second: smr_bw_1_01_34
+  - first:
+      213: 137111883886264010
+    second: smr_bw_1_01_35
+  - first:
+      213: 4593033528472854036
+    second: smr_bw_1_01_36
+  - first:
+      213: 2992401106853105406
+    second: smr_bw_1_01_37
+  - first:
+      213: 9081341322426759235
+    second: smr_bw_1_01_38
+  - first:
+      213: 1142395412231408537
+    second: smr_bw_1_01_39
+  - first:
+      213: -6599379607155800264
+    second: smr_bw_1_01_40
+  - first:
+      213: 5658302673130788714
+    second: smr_bw_1_01_41
+  - first:
+      213: -9212831881917741036
+    second: smr_bw_1_01_42
+  - first:
+      213: 7517987901008125883
+    second: smr_bw_1_01_43
+  - first:
+      213: 9103256825446525007
+    second: smr_bw_1_01_44
+  - first:
+      213: -161100128360148907
+    second: smr_bw_1_01_45
+  - first:
+      213: 3152534587918256701
+    second: smr_bw_1_01_46
+  - first:
+      213: -4255663810961230438
+    second: smr_bw_1_01_47
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: smr_bw_1_01_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1289
+        width: 485
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6daa605343754f420800000000000000
+      internalID: 2662849161422351062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smr_bw_1_01_1
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 1664
+        width: 72
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 358bca67d0c128f00800000000000000
+      internalID: 1117486501692487763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smr_bw_1_01_2
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 1256
+        width: 20
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be20cc5b53b8e3500800000000000000
+      internalID: 377892481545274091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smr_bw_1_01_3
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 1535
+        width: 72
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd716f611a37f5a00800000000000000
+      internalID: 747443198878947291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smr_bw_1_01_4
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 1511
+        width: 59
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5fc1f3ee254dbe60800000000000000
+      internalID: 7979610182465474395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smr_bw_1_01_5
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 1269
+        width: 73
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86b1f4b0ebd854e60800000000000000
+      internalID: 7945912964938144616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smr_bw_1_01_6
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 1356
+        width: 52
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 626ade33e7c546640800000000000000
+      internalID: 5072280777432868390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smr_bw_1_01_7
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 1270
+        width: 56
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c2ae0f00fc4b5c20800000000000000
+      internalID: 3196232954477978304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smr_bw_1_01_8
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 1165
+        width: 20
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6dfd3487720a5fe0800000000000000
+      internalID: -1199643638397797011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smr_bw_1_01_9
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 1242
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ab8ca5afa5167520800000000000000
+      internalID: 2699368870798199712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smr_bw_1_01_10
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1141
+        width: 39
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b133291371fc6ca0800000000000000
+      internalID: -6022173125055925835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smr_bw_1_01_11
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 1054
+        width: 24
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea490834fc3158930800000000000000
+      internalID: 4144740812976067758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smr_bw_1_01_12
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 1003
+        width: 75
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce6b17916b6816e00800000000000000
+      internalID: 1036257505940977388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smr_bw_1_01_13
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 812
+        width: 28
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb70454e7100a1b20800000000000000
+      internalID: 3105794995640338367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smr_bw_1_01_14
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 737
+        width: 77
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 103aae4f12fef8440800000000000000
+      internalID: 4940430245370700545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smr_bw_1_01_15
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 737
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76a2bf13178552060800000000000000
+      internalID: 6928040844972468839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smr_bw_1_01_16
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 492
+        width: 88
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a5cc15bae8ed7580800000000000000
+      internalID: -8827643599817751133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smr_bw_1_01_17
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 471
+        width: 72
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8b4b56cd7bc1e9e0800000000000000
+      internalID: -1593769052053222515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smr_bw_1_01_18
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 471
+        width: 84
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8ef10930ff474870800000000000000
+      internalID: 8666983901064986252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smr_bw_1_01_19
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 425
+        width: 46
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62b228b3af18bf360800000000000000
+      internalID: 7204494940649433894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smr_bw_1_01_20
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 439
+        width: 55
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27ef1aeb284549790800000000000000
+      internalID: -7524296156908487054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smr_bw_1_01_21
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 394
+        width: 60
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7ccd1eecd29eef10800000000000000
+      internalID: 2300937937218292862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smr_bw_1_01_22
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 407
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e547d92abd8ec730800000000000000
+      internalID: 4021307347993839073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smr_bw_1_01_23
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 364
+        width: 53
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee8302035eec796c0800000000000000
+      internalID: -4136610248966260498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smr_bw_1_01_24
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 371
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8def75cbc08cea1c0800000000000000
+      internalID: -4490431821416759592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smr_bw_1_01_25
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 364
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 411d31c8623666e70800000000000000
+      internalID: 9108076313613422868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smr_bw_1_01_26
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 227
+        width: 102
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f4fd27852c44d420800000000000000
+      internalID: 2653829804493501689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smr_bw_1_01_27
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 322
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea42dd1cd4914a380800000000000000
+      internalID: -8961009536804772690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smr_bw_1_01_28
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 335
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 913a8589053ff7430800000000000000
+      internalID: 3783009739493384985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smr_bw_1_01_29
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 329
+        width: 35
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22e01d0997ee49fa0800000000000000
+      internalID: -5794744614630912478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smr_bw_1_01_30
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 205
+        width: 99
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d0bbfbef4eccd810800000000000000
+      internalID: 1791533594443493592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smr_bw_1_01_31
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 289
+        width: 42
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa69dd79f17107100800000000000000
+      internalID: 103608215888828079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smr_bw_1_01_32
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 24
+        width: 112
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23de5a5cabdee9ba0800000000000000
+      internalID: -6080161060467905230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smr_bw_1_01_33
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 24
+        width: 96
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a47176d753ba2ed0800000000000000
+      internalID: -2437939058426415966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smr_bw_1_01_34
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 69
+        width: 51
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35d0831ca86275b80800000000000000
+      internalID: -8406207802074722989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smr_bw_1_01_35
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 68
+        width: 55
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ace768d288e17e100800000000000000
+      internalID: 137111883886264010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smr_bw_1_01_36
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 135
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41e5512c8abbdbf30800000000000000
+      internalID: 4593033528472854036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smr_bw_1_01_37
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 146
+        width: 43
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efe0777c3f4278920800000000000000
+      internalID: 2992401106853105406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smr_bw_1_01_38
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 127
+        width: 42
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 348b25751d7670e70800000000000000
+      internalID: 9081341322426759235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smr_bw_1_01_39
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 141
+        width: 41
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99bc613239a9adf00800000000000000
+      internalID: 1142395412231408537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smr_bw_1_01_40
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 76
+        width: 67
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8378589563b4a64a0800000000000000
+      internalID: -6599379607155800264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smr_bw_1_01_41
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 95
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a679a9f5d44568e40800000000000000
+      internalID: 5658302673130788714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smr_bw_1_01_42
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 67
+        width: 44
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41846ee0732752080800000000000000
+      internalID: -9212831881917741036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smr_bw_1_01_43
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 76
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbf1649f922455860800000000000000
+      internalID: 7517987901008125883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smr_bw_1_01_44
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 22
+        width: 71
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f48e3e30ad3455e70800000000000000
+      internalID: 9103256825446525007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smr_bw_1_01_45
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 21
+        width: 71
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 550d2db6948a3cdf0800000000000000
+      internalID: -161100128360148907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smr_bw_1_01_46
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 25
+        width: 70
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3a000f318d00cb20800000000000000
+      internalID: 3152534587918256701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smr_bw_1_01_47
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 37
+        width: 97
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a95bb28bf48d0f4c0800000000000000
+      internalID: -4255663810961230438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      smr_bw_1_01_0: 2662849161422351062
+      smr_bw_1_01_1: 1117486501692487763
+      smr_bw_1_01_10: -6022173125055925835
+      smr_bw_1_01_11: 4144740812976067758
+      smr_bw_1_01_12: 1036257505940977388
+      smr_bw_1_01_13: 3105794995640338367
+      smr_bw_1_01_14: 4940430245370700545
+      smr_bw_1_01_15: 6928040844972468839
+      smr_bw_1_01_16: -8827643599817751133
+      smr_bw_1_01_17: -1593769052053222515
+      smr_bw_1_01_18: 8666983901064986252
+      smr_bw_1_01_19: 7204494940649433894
+      smr_bw_1_01_2: 377892481545274091
+      smr_bw_1_01_20: -7524296156908487054
+      smr_bw_1_01_21: 2300937937218292862
+      smr_bw_1_01_22: 4021307347993839073
+      smr_bw_1_01_23: -4136610248966260498
+      smr_bw_1_01_24: -4490431821416759592
+      smr_bw_1_01_25: 9108076313613422868
+      smr_bw_1_01_26: 2653829804493501689
+      smr_bw_1_01_27: -8961009536804772690
+      smr_bw_1_01_28: 3783009739493384985
+      smr_bw_1_01_29: -5794744614630912478
+      smr_bw_1_01_3: 747443198878947291
+      smr_bw_1_01_30: 1791533594443493592
+      smr_bw_1_01_31: 103608215888828079
+      smr_bw_1_01_32: -6080161060467905230
+      smr_bw_1_01_33: -2437939058426415966
+      smr_bw_1_01_34: -8406207802074722989
+      smr_bw_1_01_35: 137111883886264010
+      smr_bw_1_01_36: 4593033528472854036
+      smr_bw_1_01_37: 2992401106853105406
+      smr_bw_1_01_38: 9081341322426759235
+      smr_bw_1_01_39: 1142395412231408537
+      smr_bw_1_01_4: 7979610182465474395
+      smr_bw_1_01_40: -6599379607155800264
+      smr_bw_1_01_41: 5658302673130788714
+      smr_bw_1_01_42: -9212831881917741036
+      smr_bw_1_01_43: 7517987901008125883
+      smr_bw_1_01_44: 9103256825446525007
+      smr_bw_1_01_45: -161100128360148907
+      smr_bw_1_01_46: 3152534587918256701
+      smr_bw_1_01_47: -4255663810961230438
+      smr_bw_1_01_5: 7945912964938144616
+      smr_bw_1_01_6: 5072280777432868390
+      smr_bw_1_01_7: 3196232954477978304
+      smr_bw_1_01_8: -1199643638397797011
+      smr_bw_1_01_9: 2699368870798199712
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

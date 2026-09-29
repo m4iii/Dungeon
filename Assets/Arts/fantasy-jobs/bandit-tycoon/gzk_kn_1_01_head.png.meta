@@ -1,0 +1,351 @@
+fileFormatVersion: 2
+guid: a5084743ed8a58b448864b83c50db359
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 169580118706360038
+    second: gzk_kn_1_01_head_0
+  - first:
+      213: -6931923028061720133
+    second: gzk_kn_1_01_head_1
+  - first:
+      213: 24681853432813173
+    second: gzk_kn_1_01_head_2
+  - first:
+      213: 4575164187496659697
+    second: gzk_kn_1_01_head_3
+  - first:
+      213: 1037162499465077240
+    second: gzk_kn_1_01_head_4
+  - first:
+      213: 5355171573332396056
+    second: gzk_kn_1_01_head_5
+  - first:
+      213: -8494139386527441360
+    second: gzk_kn_1_01_head_6
+  - first:
+      213: -7134953831487151509
+    second: gzk_kn_1_01_head_7
+  - first:
+      213: -885573061910133554
+    second: gzk_kn_1_01_head_8
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gzk_kn_1_01_head_0
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 397
+        width: 94
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ee067038387a5200800000000000000
+      internalID: 169580118706360038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gzk_kn_1_01_head_1
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 396
+        width: 97
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb1f70e9bbcdccf90800000000000000
+      internalID: -6931923028061720133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gzk_kn_1_01_head_2
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 398
+        width: 94
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 576d242d300b75000800000000000000
+      internalID: 24681853432813173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gzk_kn_1_01_head_3
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 265
+        width: 96
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fab3d8969f3e7f30800000000000000
+      internalID: 4575164187496659697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gzk_kn_1_01_head_4
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 264
+        width: 100
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f1e8f25ccdb46e00800000000000000
+      internalID: 1037162499465077240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gzk_kn_1_01_head_5
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 266
+        width: 105
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8184fbb4c24615a40800000000000000
+      internalID: 5355171573332396056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gzk_kn_1_01_head_6
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 132
+        width: 97
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03e90695b31ce1a80800000000000000
+      internalID: -8494139386527441360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gzk_kn_1_01_head_7
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 132
+        width: 101
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b626569fa4d8bfc90800000000000000
+      internalID: -7134953831487151509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gzk_kn_1_01_head_8
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 134
+        width: 105
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec4013efdffc5b3f0800000000000000
+      internalID: -885573061910133554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      gzk_kn_1_01_head_0: 169580118706360038
+      gzk_kn_1_01_head_1: -6931923028061720133
+      gzk_kn_1_01_head_2: 24681853432813173
+      gzk_kn_1_01_head_3: 4575164187496659697
+      gzk_kn_1_01_head_4: 1037162499465077240
+      gzk_kn_1_01_head_5: 5355171573332396056
+      gzk_kn_1_01_head_6: -8494139386527441360
+      gzk_kn_1_01_head_7: -7134953831487151509
+      gzk_kn_1_01_head_8: -885573061910133554
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

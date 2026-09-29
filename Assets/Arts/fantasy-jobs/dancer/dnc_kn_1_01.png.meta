@@ -1,0 +1,2171 @@
+fileFormatVersion: 2
+guid: 40189c5c131d1b043992368172366f4f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6889888338318392761
+    second: dnc_kn_1_01_0
+  - first:
+      213: -2610740651766797650
+    second: dnc_kn_1_01_1
+  - first:
+      213: -5008198580078791425
+    second: dnc_kn_1_01_2
+  - first:
+      213: 4716626034065230031
+    second: dnc_kn_1_01_3
+  - first:
+      213: -1183839227440829833
+    second: dnc_kn_1_01_4
+  - first:
+      213: -2500100563064905613
+    second: dnc_kn_1_01_5
+  - first:
+      213: 2986516925649481148
+    second: dnc_kn_1_01_6
+  - first:
+      213: -1919879401276179091
+    second: dnc_kn_1_01_7
+  - first:
+      213: 780049021114698169
+    second: dnc_kn_1_01_8
+  - first:
+      213: 7109638257636410187
+    second: dnc_kn_1_01_9
+  - first:
+      213: -1722522838946463465
+    second: dnc_kn_1_01_10
+  - first:
+      213: -1508081656144457458
+    second: dnc_kn_1_01_11
+  - first:
+      213: -3087430684090325171
+    second: dnc_kn_1_01_12
+  - first:
+      213: -5441814522680047911
+    second: dnc_kn_1_01_13
+  - first:
+      213: -7945440345169859059
+    second: dnc_kn_1_01_14
+  - first:
+      213: -3586234158874202478
+    second: dnc_kn_1_01_15
+  - first:
+      213: -8002763097488176105
+    second: dnc_kn_1_01_16
+  - first:
+      213: -5650421786856809817
+    second: dnc_kn_1_01_17
+  - first:
+      213: -611539128714081418
+    second: dnc_kn_1_01_18
+  - first:
+      213: 264300245396460730
+    second: dnc_kn_1_01_19
+  - first:
+      213: 7829508223750407744
+    second: dnc_kn_1_01_20
+  - first:
+      213: -6688416541794214635
+    second: dnc_kn_1_01_21
+  - first:
+      213: -7312522760257516310
+    second: dnc_kn_1_01_22
+  - first:
+      213: -725209477703097349
+    second: dnc_kn_1_01_23
+  - first:
+      213: -3700135857552191594
+    second: dnc_kn_1_01_24
+  - first:
+      213: -9191179390881681520
+    second: dnc_kn_1_01_25
+  - first:
+      213: -8329390870158075539
+    second: dnc_kn_1_01_26
+  - first:
+      213: 171057911273090254
+    second: dnc_kn_1_01_27
+  - first:
+      213: 4259422527973759089
+    second: dnc_kn_1_01_28
+  - first:
+      213: -4359244455921579754
+    second: dnc_kn_1_01_29
+  - first:
+      213: 4513125656055145537
+    second: dnc_kn_1_01_30
+  - first:
+      213: 6339802878771516831
+    second: dnc_kn_1_01_31
+  - first:
+      213: 6869845906731353363
+    second: dnc_kn_1_01_32
+  - first:
+      213: -1442028875820441731
+    second: dnc_kn_1_01_33
+  - first:
+      213: 7733464013669253552
+    second: dnc_kn_1_01_34
+  - first:
+      213: -467586245637672936
+    second: dnc_kn_1_01_35
+  - first:
+      213: -2126315159404326904
+    second: dnc_kn_1_01_36
+  - first:
+      213: 4945731698834165728
+    second: dnc_kn_1_01_37
+  - first:
+      213: -8864089681022141652
+    second: dnc_kn_1_01_38
+  - first:
+      213: -5585123393240230432
+    second: dnc_kn_1_01_39
+  - first:
+      213: -7039398863911159648
+    second: dnc_kn_1_01_40
+  - first:
+      213: -7299952077348635763
+    second: dnc_kn_1_01_41
+  - first:
+      213: -5986833565627923072
+    second: dnc_kn_1_01_42
+  - first:
+      213: 5091929889300278044
+    second: dnc_kn_1_01_43
+  - first:
+      213: -5110604846555939706
+    second: dnc_kn_1_01_44
+  - first:
+      213: 4940143959851083184
+    second: dnc_kn_1_01_45
+  - first:
+      213: 9054277091192463128
+    second: dnc_kn_1_01_46
+  - first:
+      213: 2622861527040280579
+    second: dnc_kn_1_01_47
+  - first:
+      213: 883727901311777818
+    second: dnc_kn_1_01_48
+  - first:
+      213: -7628722230144572764
+    second: dnc_kn_1_01_49
+  - first:
+      213: 5772007521308136973
+    second: dnc_kn_1_01_50
+  - first:
+      213: -4723386334505439892
+    second: dnc_kn_1_01_51
+  - first:
+      213: 5259218568782867374
+    second: dnc_kn_1_01_52
+  - first:
+      213: 5578448663477688283
+    second: dnc_kn_1_01_53
+  - first:
+      213: 6082192811006210471
+    second: dnc_kn_1_01_54
+  - first:
+      213: 9151490429324671427
+    second: dnc_kn_1_01_55
+  - first:
+      213: 417706715957158646
+    second: dnc_kn_1_01_56
+  - first:
+      213: -1084788121961257535
+    second: dnc_kn_1_01_57
+  - first:
+      213: -2228819453374577625
+    second: dnc_kn_1_01_58
+  - first:
+      213: -5093534606799072373
+    second: dnc_kn_1_01_59
+  - first:
+      213: -2885629646576332653
+    second: dnc_kn_1_01_60
+  - first:
+      213: 6916229978106783347
+    second: dnc_kn_1_01_61
+  - first:
+      213: -8210922751031579834
+    second: dnc_kn_1_01_62
+  - first:
+      213: 3848447115389711001
+    second: dnc_kn_1_01_63
+  - first:
+      213: -9163048545632283973
+    second: dnc_kn_1_01_64
+  - first:
+      213: 8317484897559465334
+    second: dnc_kn_1_01_65
+  - first:
+      213: -3153643183009248297
+    second: dnc_kn_1_01_66
+  - first:
+      213: 6537532501970817283
+    second: dnc_kn_1_01_67
+  - first:
+      213: -7179015626363480290
+    second: dnc_kn_1_01_68
+  - first:
+      213: 4156757423915605838
+    second: dnc_kn_1_01_69
+  - first:
+      213: 5068835342108645401
+    second: dnc_kn_1_01_70
+  - first:
+      213: -8163420495704610369
+    second: dnc_kn_1_01_71
+  - first:
+      213: 5795287667060012248
+    second: dnc_kn_1_01_72
+  - first:
+      213: -6842786999816710775
+    second: dnc_kn_1_01_73
+  - first:
+      213: -5542624829915159222
+    second: dnc_kn_1_01_74
+  - first:
+      213: -1508567121289134139
+    second: dnc_kn_1_01_75
+  - first:
+      213: 7931515827293557813
+    second: dnc_kn_1_01_76
+  - first:
+      213: -8538235402279819357
+    second: dnc_kn_1_01_77
+  - first:
+      213: 3585344196213539132
+    second: dnc_kn_1_01_78
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dnc_kn_1_01_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1535
+        width: 484
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bdf29380fccd9f50800000000000000
+      internalID: 6889888338318392761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dnc_kn_1_01_1
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 1780
+        width: 102
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaaa4c2a539c4cbd0800000000000000
+      internalID: -2610740651766797650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dnc_kn_1_01_2
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 1844
+        width: 96
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff4b9cd0ded4f7ab0800000000000000
+      internalID: -5008198580078791425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dnc_kn_1_01_3
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 1511
+        width: 43
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc841d26362d47140800000000000000
+      internalID: 4716626034065230031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dnc_kn_1_01_4
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 1640
+        width: 112
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77a6731be78229fe0800000000000000
+      internalID: -1183839227440829833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dnc_kn_1_01_5
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 1542
+        width: 80
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37023c3b8cbdd4dd0800000000000000
+      internalID: -2500100563064905613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dnc_kn_1_01_6
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1503
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbd6705125d327920800000000000000
+      internalID: 2986516925649481148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dnc_kn_1_01_7
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 1513
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6df7534bd73b55e0800000000000000
+      internalID: -1919879401276179091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dnc_kn_1_01_8
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1459
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b9ceeaa37a43da00800000000000000
+      internalID: 780049021114698169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dnc_kn_1_01_9
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 1468
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4302fba3528aa260800000000000000
+      internalID: 7109638257636410187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dnc_kn_1_01_10
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1415
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7114913ba9e5818e0800000000000000
+      internalID: -1722522838946463465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dnc_kn_1_01_11
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 1268
+        width: 113
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e011a3159b7321be0800000000000000
+      internalID: -1508081656144457458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dnc_kn_1_01_12
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 1376
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d47a726962e3725d0800000000000000
+      internalID: -3087430684090325171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dnc_kn_1_01_13
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1244
+        width: 119
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d6081a068aca74b0800000000000000
+      internalID: -5441814522680047911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dnc_kn_1_01_14
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 1244
+        width: 43
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0ee7125a102cb190800000000000000
+      internalID: -7945440345169859059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dnc_kn_1_01_15
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 1337
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29e6eee78032b3ec0800000000000000
+      internalID: -3586234158874202478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dnc_kn_1_01_16
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 1303
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71ccc900d5970f090800000000000000
+      internalID: -8002763097488176105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dnc_kn_1_01_17
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 1000
+        width: 46
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aa9543725ba591b0800000000000000
+      internalID: -5650421786856809817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dnc_kn_1_01_18
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 977
+        width: 41
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67bceba07606387f0800000000000000
+      internalID: -611539128714081418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dnc_kn_1_01_19
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 977
+        width: 40
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab497e04cabfaa300800000000000000
+      internalID: 264300245396460730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dnc_kn_1_01_20
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 731
+        width: 45
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04684aa3f3008ac60800000000000000
+      internalID: 7829508223750407744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dnc_kn_1_01_21
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 707
+        width: 122
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51d528c8798fd23a0800000000000000
+      internalID: -6688416541794214635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dnc_kn_1_01_22
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 761
+        width: 22
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aec44eefa43b48a90800000000000000
+      internalID: -7312522760257516310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dnc_kn_1_01_23
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 519
+        width: 31
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf3a2c582d98fe5f0800000000000000
+      internalID: -725209477703097349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dnc_kn_1_01_24
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 468
+        width: 103
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69f8aedaa0a76acc0800000000000000
+      internalID: -3700135857552191594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dnc_kn_1_01_25
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 445
+        width: 226
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09f2b9b7a0f527080800000000000000
+      internalID: -9191179390881681520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dnc_kn_1_01_26
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 162
+        width: 20
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6998d4722f086c80800000000000000
+      internalID: -8329390870158075539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dnc_kn_1_01_27
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 341
+        width: 20
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecce3759348bf5200800000000000000
+      internalID: 171057911273090254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dnc_kn_1_01_28
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 378
+        width: 53
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1781c28c8328c1b30800000000000000
+      internalID: 4259422527973759089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dnc_kn_1_01_29
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 394
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61904bb734ad083c0800000000000000
+      internalID: -4359244455921579754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dnc_kn_1_01_30
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 405
+        width: 36
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1446ed36fd7d1ae30800000000000000
+      internalID: 4513125656055145537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dnc_kn_1_01_31
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 399
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f95dc27e0218bf750800000000000000
+      internalID: 6339802878771516831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dnc_kn_1_01_32
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 317
+        width: 43
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 315c4644478965f50800000000000000
+      internalID: 6869845906731353363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dnc_kn_1_01_33
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 322
+        width: 41
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7fdddca062ecfbe0800000000000000
+      internalID: -1442028875820441731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dnc_kn_1_01_34
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 358
+        width: 39
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b1c50afb88c25b60800000000000000
+      internalID: 7733464013669253552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dnc_kn_1_01_35
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 361
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81078e679ccc289f0800000000000000
+      internalID: -467586245637672936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dnc_kn_1_01_36
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 333
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8005d23d0afcd72e0800000000000000
+      internalID: -2126315159404326904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dnc_kn_1_01_37
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 326
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ef4667c6c4c2a440800000000000000
+      internalID: 4945731698834165728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dnc_kn_1_01_38
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 303
+        width: 22
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2b3879266d6cf480800000000000000
+      internalID: -8864089681022141652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dnc_kn_1_01_39
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 196
+        width: 46
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e511377dd7ad72b0800000000000000
+      internalID: -5585123393240230432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dnc_kn_1_01_40
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 291
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a8794497080f4e90800000000000000
+      internalID: -7039398863911159648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dnc_kn_1_01_41
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 263
+        width: 58
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8b7240334c51ba90800000000000000
+      internalID: -7299952077348635763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dnc_kn_1_01_42
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 265
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 085cc57779e7aeca0800000000000000
+      internalID: -5986833565627923072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dnc_kn_1_01_43
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 280
+        width: 36
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1befe0914b2aa640800000000000000
+      internalID: 5091929889300278044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dnc_kn_1_01_44
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 196
+        width: 83
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68cb4ad18fb7319b0800000000000000
+      internalID: -5110604846555939706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dnc_kn_1_01_45
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 221
+        width: 21
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b5273ae1caee8440800000000000000
+      internalID: 4940143959851083184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dnc_kn_1_01_46
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 214
+        width: 46
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81fdb76fa0147ad70800000000000000
+      internalID: 9054277091192463128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dnc_kn_1_01_47
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 217
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 308464e89a6466420800000000000000
+      internalID: 2622861527040280579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dnc_kn_1_01_48
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 236
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1c3ac318d1a34c00800000000000000
+      internalID: 883727901311777818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dnc_kn_1_01_49
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 242
+        width: 36
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a26b16ec85512690800000000000000
+      internalID: -7628722230144572764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dnc_kn_1_01_50
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 179
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d06547c524a4a1050800000000000000
+      internalID: 5772007521308136973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dnc_kn_1_01_51
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 165
+        width: 41
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6d6ed28729237eb0800000000000000
+      internalID: -4723386334505439892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dnc_kn_1_01_52
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 174
+        width: 44
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eabe07c7c6f7cf840800000000000000
+      internalID: 5259218568782867374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dnc_kn_1_01_53
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 185
+        width: 20
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd71758e081aa6d40800000000000000
+      internalID: 5578448663477688283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dnc_kn_1_01_54
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 194
+        width: 25
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a1b573032a486450800000000000000
+      internalID: 6082192811006210471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dnc_kn_1_01_55
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 58
+        width: 72
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c9b84d0f00a00f70800000000000000
+      internalID: 9151490429324671427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dnc_kn_1_01_56
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 43
+        width: 59
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f2ebe88b0efbc500800000000000000
+      internalID: 417706715957158646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dnc_kn_1_01_57
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 42
+        width: 52
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c5afe553fe02f0f0800000000000000
+      internalID: -1084788121961257535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dnc_kn_1_01_58
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 167
+        width: 41
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 724c0251484a111e0800000000000000
+      internalID: -2228819453374577625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dnc_kn_1_01_59
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 34
+        width: 55
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b83159603412059b0800000000000000
+      internalID: -5093534606799072373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dnc_kn_1_01_60
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 35
+        width: 51
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3905b7a002f24f7d0800000000000000
+      internalID: -2885629646576332653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dnc_kn_1_01_61
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 101
+        width: 104
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37666f575826bff50800000000000000
+      internalID: 6916229978106783347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dnc_kn_1_01_62
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 105
+        width: 85
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64be692e241fc0e80800000000000000
+      internalID: -8210922751031579834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dnc_kn_1_01_63
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 114
+        width: 36
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9923ea1f24e686530800000000000000
+      internalID: 3848447115389711001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dnc_kn_1_01_64
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 138
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb29de945ef46d080800000000000000
+      internalID: -9163048545632283973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dnc_kn_1_01_65
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 87
+        width: 52
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67d45b74274ad6370800000000000000
+      internalID: 8317484897559465334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dnc_kn_1_01_66
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 117
+        width: 71
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dbc668db320c34d0800000000000000
+      internalID: -3153643183009248297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dnc_kn_1_01_67
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 14
+        width: 56
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3019a875c2bf9ba50800000000000000
+      internalID: 6537532501970817283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dnc_kn_1_01_68
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 45
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1750a9e2530f5c90800000000000000
+      internalID: -7179015626363480290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dnc_kn_1_01_69
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 37
+        width: 81
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4f15f58ad4cfa930800000000000000
+      internalID: 4156757423915605838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dnc_kn_1_01_70
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 32
+        width: 67
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 918d45743ee185640800000000000000
+      internalID: 5068835342108645401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dnc_kn_1_01_71
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 40
+        width: 71
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb922619f44b5be80800000000000000
+      internalID: -8163420495704610369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dnc_kn_1_01_72
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 64
+        width: 22
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d4705ead6ffc6050800000000000000
+      internalID: 5795287667060012248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dnc_kn_1_01_73
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 64
+        width: 22
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98593427a798901a0800000000000000
+      internalID: -6842786999816710775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dnc_kn_1_01_74
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 11
+        width: 44
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a45a5a15514a413b0800000000000000
+      internalID: -5542624829915159222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dnc_kn_1_01_75
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 11
+        width: 42
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cf3ab7223e701be0800000000000000
+      internalID: -1508567121289134139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dnc_kn_1_01_76
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 11
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53498383f97621e60800000000000000
+      internalID: 7931515827293557813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dnc_kn_1_01_77
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 27
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a7627e9328128980800000000000000
+      internalID: -8538235402279819357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dnc_kn_1_01_78
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 27
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3101dcec83b1c130800000000000000
+      internalID: 3585344196213539132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      dnc_kn_1_01_0: 6889888338318392761
+      dnc_kn_1_01_1: -2610740651766797650
+      dnc_kn_1_01_10: -1722522838946463465
+      dnc_kn_1_01_11: -1508081656144457458
+      dnc_kn_1_01_12: -3087430684090325171
+      dnc_kn_1_01_13: -5441814522680047911
+      dnc_kn_1_01_14: -7945440345169859059
+      dnc_kn_1_01_15: -3586234158874202478
+      dnc_kn_1_01_16: -8002763097488176105
+      dnc_kn_1_01_17: -5650421786856809817
+      dnc_kn_1_01_18: -611539128714081418
+      dnc_kn_1_01_19: 264300245396460730
+      dnc_kn_1_01_2: -5008198580078791425
+      dnc_kn_1_01_20: 7829508223750407744
+      dnc_kn_1_01_21: -6688416541794214635
+      dnc_kn_1_01_22: -7312522760257516310
+      dnc_kn_1_01_23: -725209477703097349
+      dnc_kn_1_01_24: -3700135857552191594
+      dnc_kn_1_01_25: -9191179390881681520
+      dnc_kn_1_01_26: -8329390870158075539
+      dnc_kn_1_01_27: 171057911273090254
+      dnc_kn_1_01_28: 4259422527973759089
+      dnc_kn_1_01_29: -4359244455921579754
+      dnc_kn_1_01_3: 4716626034065230031
+      dnc_kn_1_01_30: 4513125656055145537
+      dnc_kn_1_01_31: 6339802878771516831
+      dnc_kn_1_01_32: 6869845906731353363
+      dnc_kn_1_01_33: -1442028875820441731
+      dnc_kn_1_01_34: 7733464013669253552
+      dnc_kn_1_01_35: -467586245637672936
+      dnc_kn_1_01_36: -2126315159404326904
+      dnc_kn_1_01_37: 4945731698834165728
+      dnc_kn_1_01_38: -8864089681022141652
+      dnc_kn_1_01_39: -5585123393240230432
+      dnc_kn_1_01_4: -1183839227440829833
+      dnc_kn_1_01_40: -7039398863911159648
+      dnc_kn_1_01_41: -7299952077348635763
+      dnc_kn_1_01_42: -5986833565627923072
+      dnc_kn_1_01_43: 5091929889300278044
+      dnc_kn_1_01_44: -5110604846555939706
+      dnc_kn_1_01_45: 4940143959851083184
+      dnc_kn_1_01_46: 9054277091192463128
+      dnc_kn_1_01_47: 2622861527040280579
+      dnc_kn_1_01_48: 883727901311777818
+      dnc_kn_1_01_49: -7628722230144572764
+      dnc_kn_1_01_5: -2500100563064905613
+      dnc_kn_1_01_50: 5772007521308136973
+      dnc_kn_1_01_51: -4723386334505439892
+      dnc_kn_1_01_52: 5259218568782867374
+      dnc_kn_1_01_53: 5578448663477688283
+      dnc_kn_1_01_54: 6082192811006210471
+      dnc_kn_1_01_55: 9151490429324671427
+      dnc_kn_1_01_56: 417706715957158646
+      dnc_kn_1_01_57: -1084788121961257535
+      dnc_kn_1_01_58: -2228819453374577625
+      dnc_kn_1_01_59: -5093534606799072373
+      dnc_kn_1_01_6: 2986516925649481148
+      dnc_kn_1_01_60: -2885629646576332653
+      dnc_kn_1_01_61: 6916229978106783347
+      dnc_kn_1_01_62: -8210922751031579834
+      dnc_kn_1_01_63: 3848447115389711001
+      dnc_kn_1_01_64: -9163048545632283973
+      dnc_kn_1_01_65: 8317484897559465334
+      dnc_kn_1_01_66: -3153643183009248297
+      dnc_kn_1_01_67: 6537532501970817283
+      dnc_kn_1_01_68: -7179015626363480290
+      dnc_kn_1_01_69: 4156757423915605838
+      dnc_kn_1_01_7: -1919879401276179091
+      dnc_kn_1_01_70: 5068835342108645401
+      dnc_kn_1_01_71: -8163420495704610369
+      dnc_kn_1_01_72: 5795287667060012248
+      dnc_kn_1_01_73: -6842786999816710775
+      dnc_kn_1_01_74: -5542624829915159222
+      dnc_kn_1_01_75: -1508567121289134139
+      dnc_kn_1_01_76: 7931515827293557813
+      dnc_kn_1_01_77: -8538235402279819357
+      dnc_kn_1_01_78: 3585344196213539132
+      dnc_kn_1_01_8: 780049021114698169
+      dnc_kn_1_01_9: 7109638257636410187
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

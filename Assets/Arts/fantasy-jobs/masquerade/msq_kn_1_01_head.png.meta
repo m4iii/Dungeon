@@ -1,0 +1,585 @@
+fileFormatVersion: 2
+guid: 134ec4492461c7a49b64c6c5d124725c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2341012636420630396
+    second: msq_kn_1_01_head_0
+  - first:
+      213: 37109411462670383
+    second: msq_kn_1_01_head_1
+  - first:
+      213: -9047513703243672506
+    second: msq_kn_1_01_head_2
+  - first:
+      213: 1317625602523812611
+    second: msq_kn_1_01_head_3
+  - first:
+      213: 893306566449597268
+    second: msq_kn_1_01_head_4
+  - first:
+      213: 8509410937613745547
+    second: msq_kn_1_01_head_5
+  - first:
+      213: 2287598367104725273
+    second: msq_kn_1_01_head_6
+  - first:
+      213: 6497172435314564744
+    second: msq_kn_1_01_head_7
+  - first:
+      213: 7105428531437746372
+    second: msq_kn_1_01_head_8
+  - first:
+      213: -3841158587610922863
+    second: msq_kn_1_01_head_9
+  - first:
+      213: 8599151058647972760
+    second: msq_kn_1_01_head_10
+  - first:
+      213: 8405450989338010888
+    second: msq_kn_1_01_head_11
+  - first:
+      213: -5074194422327666105
+    second: msq_kn_1_01_head_12
+  - first:
+      213: -6271802413075389757
+    second: msq_kn_1_01_head_13
+  - first:
+      213: -1669896395150555817
+    second: msq_kn_1_01_head_14
+  - first:
+      213: 5638576187454557486
+    second: msq_kn_1_01_head_15
+  - first:
+      213: -3379455601817556283
+    second: msq_kn_1_01_head_16
+  - first:
+      213: -2685678246951550108
+    second: msq_kn_1_01_head_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: msq_kn_1_01_head_0
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 873
+        width: 84
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 488927f096d038fd0800000000000000
+      internalID: -2341012636420630396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: msq_kn_1_01_head_1
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 934
+        width: 84
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f286e0820d6d38000800000000000000
+      internalID: 37109411462670383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: msq_kn_1_01_head_2
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 931
+        width: 84
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6449ea10936c07280800000000000000
+      internalID: -9047513703243672506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: msq_kn_1_01_head_3
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 838
+        width: 82
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30354612185294210800000000000000
+      internalID: 1317625602523812611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: msq_kn_1_01_head_4
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 843
+        width: 83
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45b80c8d699a56c00800000000000000
+      internalID: 893306566449597268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: msq_kn_1_01_head_5
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 778
+        width: 59
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8d7a48b920871670800000000000000
+      internalID: 8509410937613745547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: msq_kn_1_01_head_6
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 756
+        width: 84
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9117a0c389e2fbf10800000000000000
+      internalID: 2287598367104725273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: msq_kn_1_01_head_7
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 609
+        width: 84
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88e526b08e79a2a50800000000000000
+      internalID: 6497172435314564744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: msq_kn_1_01_head_8
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 667
+        width: 83
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c8b5496a9d8b9260800000000000000
+      internalID: 7105428531437746372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: msq_kn_1_01_head_9
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 669
+        width: 85
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 190828bad9671bac0800000000000000
+      internalID: -3841158587610922863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: msq_kn_1_01_head_10
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 579
+        width: 80
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89bf2acd352565770800000000000000
+      internalID: 8599151058647972760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: msq_kn_1_01_head_11
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 580
+        width: 82
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 805a27c042926a470800000000000000
+      internalID: 8405450989338010888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: msq_kn_1_01_head_12
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 609
+        width: 56
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74a14ef9e07d499b0800000000000000
+      internalID: -5074194422327666105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: msq_kn_1_01_head_13
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 489
+        width: 76
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c2243b4fe416f8a0800000000000000
+      internalID: -6271802413075389757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: msq_kn_1_01_head_14
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 526
+        width: 66
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 755885b731653d8e0800000000000000
+      internalID: -1669896395150555817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: msq_kn_1_01_head_15
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 550
+        width: 57
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2d84340b2f304e40800000000000000
+      internalID: 5638576187454557486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: msq_kn_1_01_head_16
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 473
+        width: 65
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cae5770903c911d0800000000000000
+      internalID: -3379455601817556283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: msq_kn_1_01_head_17
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 490
+        width: 57
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 463857d1ddd8abad0800000000000000
+      internalID: -2685678246951550108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      msq_kn_1_01_head_0: -2341012636420630396
+      msq_kn_1_01_head_1: 37109411462670383
+      msq_kn_1_01_head_10: 8599151058647972760
+      msq_kn_1_01_head_11: 8405450989338010888
+      msq_kn_1_01_head_12: -5074194422327666105
+      msq_kn_1_01_head_13: -6271802413075389757
+      msq_kn_1_01_head_14: -1669896395150555817
+      msq_kn_1_01_head_15: 5638576187454557486
+      msq_kn_1_01_head_16: -3379455601817556283
+      msq_kn_1_01_head_17: -2685678246951550108
+      msq_kn_1_01_head_2: -9047513703243672506
+      msq_kn_1_01_head_3: 1317625602523812611
+      msq_kn_1_01_head_4: 893306566449597268
+      msq_kn_1_01_head_5: 8509410937613745547
+      msq_kn_1_01_head_6: 2287598367104725273
+      msq_kn_1_01_head_7: 6497172435314564744
+      msq_kn_1_01_head_8: 7105428531437746372
+      msq_kn_1_01_head_9: -3841158587610922863
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
